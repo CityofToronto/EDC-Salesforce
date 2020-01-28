@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+                <label>Not Started</label>
+            </value>
+            <value>
+                <fullName>In progress - CMO</fullName>
+                <default>false</default>
+                <label>In progress - CMO</label>
+            </value>
+            <value>
+                <fullName>In progress - DCM</fullName>
+                <default>false</default>
+                <label>In progress - DCM</label>
+            </value>
+            <value>
+                <fullName>In progress  - GM</fullName>
+                <default>false</default>
+                <label>In progress  - GM</label>
+            </value>
+            <value>
+                <fullName>In progress - Letter Mailed</fullName>
+                <default>false</default>
+                <label>In progress - Letter Mailed</label>
+            </value>
+            <value>
+                <fullName>In progress - Letter Sent</fullName>
+                <default>false</default>
+                <label>In progress - Letter Sent</label>
+            </value>
+            <value>
+                <fullName>In Progress - Mayor’s office</fullName>
+                <default>false</default>
+                <label>In Progress - Mayor’s office</label>
+            </value>
+            <value>
+                <fullName>In Progress - Protocol</fullName>
+                <default>false</default>
+                <label>In Progress - Protocol</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

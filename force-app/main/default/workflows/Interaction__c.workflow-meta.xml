@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Business_Intelligence_Follow_Up_Survey_Email_1_Day</fullName>
+        <description>Business Intelligence Follow-Up Survey Email - 1 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Business_Intelligence_Follow_Up_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Meeting_Cancel_Notification_Advisor</fullName>
+        <description>Consultation Meeting Cancel Notification – Advisor</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Advisor_Lookup__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Interaction_Management_Templates/Consultation_Meeting_Cancel_Notification_Advisor</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Meeting_Cancel_Notification_Client</fullName>
+        <description>Consultation Meeting Cancel Notification – Client</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Consultation_Meeting_Cancel_Notification_Client</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Meeting_Confirmation_Client</fullName>
+        <description>Consultation Meeting Confirmation - Client</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Advisor_Lookup__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Consultation_Meeting_Confirmation_Client</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Meeting_Reject_Notification_Client</fullName>
+        <description>Consultation Meeting Reject Notification – Client</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Advisor_Lookup__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Consultation_Meeting_Reject_Notification_Client</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Meeting_Request_Notification_Advisor</fullName>
+        <description>Consultation Meeting Request Notification – Advisor</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Advisor_Lookup__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Interaction_Management_Templates/Consultation_Meeting_Request_Notification_Advisor</template>
+    </alerts>
+    <alerts>
+        <fullName>Interaction_Feedback_Follow_Up_Notification</fullName>
+        <description>Interaction Feedback Follow Up Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Interaction_Feedback_Notification_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>User_to_Notify__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Interaction_Management_Templates/Interaction_Feedback_Follow_Up_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Interaction_Feedback_Notification</fullName>
+        <description>Interaction Feedback Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Interaction_Feedback_Notification_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Interaction_Feedback_Notification_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Small_Business_Consultation_Follow_Up_Survey_Email_1_Day</fullName>
+        <description>Small Business Consultation Follow-Up Survey Email - 1 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Small_Business_Consultation_Follow_Up_Email</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Client_Satisfaction_Survey_Unresponsive</fullName>
+        <description>This field update will change Client Satisfaction survey status on Interaction to unrepsonsive</description>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Unresponsive</literalValue>
+        <name>Client Satisfaction Survey Unresponsive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OnlineInteractionMeetingStatusUpdate</fullName>
+        <description>This Field updated will update Meeting Status to Complete on actual Meeting Date</description>
+        <field>Meeting_Status__c</field>
+        <literalValue>Completed</literalValue>
+        <name>OnlineInteractionMeetingStatusUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Client_Sat_Survey_Status_1_Day</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>Update Client Sat Survey Status 1 Day</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Client_Sat_Survey_Status_Imm</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>Update Client Sat Survey Status Imm</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Client_Satisfaction_Status_1_Day</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>Update Client Satisfaction Status 1 Day</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Client_Satisfaction_Status_Imm</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>Update Client Satisfaction Status Imm</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Business Intelligence Follow-Up -  Interaction</fullName>
+        <actions>
+            <name>Update_Client_Satisfaction_Status_Imm</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Date_of_Contact__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Company Intelligence,Company Intelligence Person Account</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Client_Satisfaction_Survey_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Sent,Responded</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Related_Contact_Email_Opt_Out__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Sends Small Business Intelligence Follow-Up survey 1 day after record is created.</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Business_Intelligence_Follow_Up_Survey_Email_1_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Update_Client_Satisfaction_Status_1_Day</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Interaction__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Consultation Meeting Cancelled Notification to Advisor</fullName>
+        <actions>
+            <name>Consultation_Meeting_Cancel_Notification_Advisor</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Meeting_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled by Client</value>
+        </criteriaItems>
+        <description>Meeting Cancellation Notification to Advisor when Client Cancelled Online Consultation confirmed request</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Consultation Meeting Cancelled Notification to Client</fullName>
+        <actions>
+            <name>Consultation_Meeting_Cancel_Notification_Client</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Meeting_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled by Advisor</value>
+        </criteriaItems>
+        <description>Meeting Cancellation Notification to Advisor when Client Cancelled Online Consultation confirmed request</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Consultation Meeting Confirmation Notification to Client</fullName>
+        <actions>
+            <name>Consultation_Meeting_Confirmation_Client</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Meeting_Status__c</field>
+            <operation>equals</operation>
+            <value>Confirmed</value>
+        </criteriaItems>
+        <description>Meeting Confirmed Notification to Client when Advisor Accepts Online Consultation request</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Consultation Meeting Reject Notification to Client</fullName>
+        <actions>
+            <name>Consultation_Meeting_Reject_Notification_Client</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Meeting_Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </criteriaItems>
+        <description>Meeting Reject Notification to Client when Advisor Reject Online Consultation request</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Consultation Meeting Request Notification to Advisor</fullName>
+        <actions>
+            <name>Consultation_Meeting_Request_Notification_Advisor</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Meeting_Status__c</field>
+            <operation>equals</operation>
+            <value>Requested</value>
+        </criteriaItems>
+        <description>Meeting Request Notification to Advisor when client request for meeting through Online Consultation</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Notification to Advisor%2FOwner based on CSS</fullName>
+        <actions>
+            <name>Interaction_Feedback_Follow_Up_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Describe_Request__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Client_Satisfaction_Survey_Status__c</field>
+            <operation>equals</operation>
+            <value>Responded</value>
+        </criteriaItems>
+        <description>This email alert will send an email to Advisor/Owner based on client satisfaction survey response.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Interaction Client Satisfaction Survey - Unresponsive</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.Client_Satisfaction_Survey_Status__c</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Related_Contact_Email_Opt_Out__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will update the Client Satisfaction survey Status field to Unresponsive if no feedback received 30 days after due date.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Client_Satisfaction_Survey_Unresponsive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Interaction__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>31</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Notify User Group for Poor Interaction Rating</fullName>
+        <actions>
+            <name>Interaction_Feedback_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This rule is to notify a specific public global if poor service rating are received for any interaction.</description>
+        <formula>OR(TEXT(Service_Rating__c)=&#39;Poor&#39;, TEXT(Service_Rating__c)= &#39;Ineffective&#39;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Online Consultation Interaction Completion Status Update</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Interaction__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consultation,Consultation Person Account</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Follow_Up_Consultation_Type__c</field>
+            <operation>equals</operation>
+            <value>Follow-Up for Online clients</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Meeting_Status__c</field>
+            <operation>equals</operation>
+            <value>Confirmed</value>
+        </criteriaItems>
+        <description>This workflow rule will update the Meeting status for Online Interaction to complete based on actual  meeting date</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>OnlineInteractionMeetingStatusUpdate</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Interaction__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Small Business Consultation Follow-Up -  Interaction</fullName>
+        <actions>
+            <name>Update_Client_Sat_Survey_Status_Imm</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3 AND 5 AND 6) OR (1 AND 4 AND 5 AND 6)</booleanFilter>
+        <criteriaItems>
+            <field>Interaction__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Consultation,Consultation Person Account</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Meeting_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Follow_Up_Consultation_Type__c</field>
+            <operation>equals</operation>
+            <value>Follow-Up for Online clients</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Follow_Up_Consultation_Type__c</field>
+            <operation>notEqual</operation>
+            <value>Follow-Up for Online clients</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Interaction__c.Related_Contact_Email_Opt_Out__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Sends Small Business Consultation Follow-Up survey 1 day after record is created.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Small_Business_Consultation_Follow_Up_Survey_Email_1_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Update_Client_Sat_Survey_Status_1_Day</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Interaction__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

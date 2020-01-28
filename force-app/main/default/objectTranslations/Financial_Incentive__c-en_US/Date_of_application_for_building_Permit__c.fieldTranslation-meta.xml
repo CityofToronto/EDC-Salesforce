@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When application for main above ground building permit was filed or is anticipated to be filed --></help>
+    <label><!-- Date of application for building Permit --></label>
+    <name>Date_of_application_for_building_Permit__c</name>
+</CustomFieldTranslation>

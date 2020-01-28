@@ -1,0 +1,13 @@
+Dear {!Issue__c.Assigned_To__c},
+
+The following client has indicated they would like further assistance for a recent Issue resolution:
+
+Issue Name - {!Issue__c.Name}
+Account - {!Issue__c.Account__c}
+Contact - {!Issue__c.Contact__c}
+Client Request - {!Issue__c.Describe_Request__c}
+
+
+Click on the link to access the Issue directly: {!Issue__c.Link}
+
+Thanks

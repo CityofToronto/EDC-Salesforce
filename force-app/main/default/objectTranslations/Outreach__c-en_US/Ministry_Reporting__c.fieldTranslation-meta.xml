@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BPQ-Ministry Reporting --></label>
+    <name>Ministry_Reporting__c</name>
+    <picklistValues>
+        <masterLabel>Business Planning</masterLabel>
+        <translation><!-- Business Planning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starting A Small Business</masterLabel>
+        <translation><!-- Starting A Small Business --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

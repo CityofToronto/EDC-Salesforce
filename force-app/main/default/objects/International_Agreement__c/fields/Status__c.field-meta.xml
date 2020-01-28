@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Aborted can be used if the interest to complete an agreement has ended or if both party signatures are not received, or, agreement terminated prior term by either of the parties</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Aborted can be used if the interest to complete an agreement has ended or if both party signatures are not received, or, agreement terminated prior term by either of the parties</inlineHelpText>
+    <label>Status</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre Agreement</fullName>
+                <default>false</default>
+                <label>Pre Agreement</label>
+            </value>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>External Review</fullName>
+                <default>false</default>
+                <label>External Review</label>
+            </value>
+            <value>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+                <label>Internal Review</label>
+            </value>
+            <value>
+                <fullName>Final Review</fullName>
+                <default>false</default>
+                <label>Final Review</label>
+            </value>
+            <value>
+                <fullName>External Approval</fullName>
+                <default>false</default>
+                <label>External Approval</label>
+            </value>
+            <value>
+                <fullName>Internal Approval</fullName>
+                <default>false</default>
+                <label>Internal Approval</label>
+            </value>
+            <value>
+                <fullName>External Signature Received</fullName>
+                <default>false</default>
+                <label>External Signature Received</label>
+            </value>
+            <value>
+                <fullName>Internal Signature Received</fullName>
+                <default>false</default>
+                <label>Internal Signature Received</label>
+            </value>
+            <value>
+                <fullName>Aborted</fullName>
+                <default>false</default>
+                <label>Aborted</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <description>Any number/type of descriptors can go here, for example: &#39;The agreement hard copy was sent (date) FeDex (tracking # xxxxx) to Mexico for signature&#39;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Any number/type of descriptors can go here, for example: &#39;The agreement hard copy was sent (date) FeDex (tracking # xxxxx) to Mexico for signature&#39;</inlineHelpText>
+    <label>Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

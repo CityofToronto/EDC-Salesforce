@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite for DMS connectivity session.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ES-DMS-Feb13thInvite</name>
+    <style>none</style>
+    <subject>Invite: Feb 13th - Digital Main Street - The Value of Neighbourhood Connectivity</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

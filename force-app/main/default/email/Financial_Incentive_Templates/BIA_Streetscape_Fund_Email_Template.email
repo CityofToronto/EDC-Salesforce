@@ -1,0 +1,119 @@
+<messaging:emailTemplate recipientType="Contact" relatedToType="Financial_Incentive__c"  subject="{!RelatedTo.RecordType.Name} Grant application approved for {!RelatedTo.Account__r.Name}" replyTo="biaoffice@toronto.ca">
+    <messaging:htmlEmailBody >
+    Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},
+    <br /><br />
+    Your {!RelatedTo.RecordType.Name} Grant Approval Request for {!RelatedTo.Account__r.Name} has been Approved. 
+    <br /><br />
+    Please sign the attached Letter of Understanding and return to {!RelatedTo.Record_Submitter_Email__c}
+    <br /><br />
+    {!RelatedTo.Record_Submitter_Manager__c} 
+    <br />
+    Manager, BIA Office
+    </messaging:htmlEmailBody>
+    <messaging:attachment renderAs="PDF" filename="Letter of Understanding {!RelatedTo.Financial_Incentive_Name__c}.pdf">
+    <html>
+        <body>
+            <img src="https://cityoftoronto--c.na78.content.force.com/servlet/servlet.ImageServer?id=0151N000003Zcjl&oid=00Do0000000bTwm&lastMod=1554573483000" width="630" height="140"/> <br/><br/>
+            <p>{!case(month(today()),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(TODAY())}, {!YEAR(TODAY())}<br />{!RelatedTo.Account__r.BillingStreet}<br /><br />Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},</p>
+            <p>Re:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BIA Streetscape Master Plan Funding Program<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{!RelatedTo.Account__r.Name}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;File No.:{!RelatedTo.Financial_Incentive_Name__c}</p>
+            <p>Your application for funding under the City of Toronto&rsquo;s BIA Streetscape Master Plan Funding&nbsp; Program has been approved in the amount of {!relatedTo.Amount_Approved_Formula__c}.&nbsp; This represents the total amount of the funding including any applicable taxes and disbursements.</p>
+            <p>The funds must be used only for the purposes of developing a Streetscape Master Plan for the {!RelatedTo.Account__r.Name} BIA in accordance with the Program Guidelines contained in the Application Form and Terms and Conditions of Funding attached as Appendix 1 to this letter.</p>
+            <p>The funds will be payable in one installment upon completion of the Streetscape Master Plan and submission of required documentation as outlined in Section 4.0 of Appendix 1.&nbsp; The required documentation must be submitted no later than {!case(month(relatedTo.Application_Expiry_Date__c),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November',12,'December','')} {!Day(relatedTo.Application_Expiry_Date__c)}, {!YEAR(relatedTo.Application_Expiry_Date__c)}.</p>
+            <p>Any proposed material changes to the activities for which the funds have been approved must receive the prior written consent of the City&rsquo;s Manager, BIA Office.&nbsp; Any unused portion of the funds remains the property of the City of Toronto and must be returned to the City.</p>
+            <p>If you breach any of the terms and conditions of the funding as set out in Appendix 1; if you cease operating, wind up, dissolve, merge or amalgamate with any other party; commence or have commenced against you any proceedings in bankruptcy, or are adjudged a bankrupt; knowingly provide false information in the grant application; use grant funds for purposes not approved; or breach any of the provisions of the Ontario Human Rights Code in your operation, the funds must, at the request of the City be repaid in whole or in part.</p>
+            <p>Please sign and return this Letter of Understanding to:</p>
+            <p>Mike Kari<br />Capital Projects Coordinator &amp; Streetscape Designer<br />Toronto BIA Office<br />77 Elizabeth Street, 2nd Floor<br />Toronto, Ontario M5G 1P4</p>
+            <p>Please make a photocopy of this Letter of Understanding and retain it for your files.&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Yours truly,</p>
+            <p>Mike Major<br />Manager, BIA Office<br />Business Growth Services<br />Economic Development &amp; Culture Division<br />City of Toronto</p>
+            <br/>
+            <p>I/We have read, understand and agree to comply with the terms and conditions in this Letter of Understanding and in the attached Appendix 1:</p>
+            <p>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Signature:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Date:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Signature:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Date:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <br/>
+            <p>&nbsp;I/We have the authority to bind the Corporation</p>
+            <p>&nbsp;______________________________________</p>
+            <p><strong><br /> </strong></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Appendix 1</strong></p>
+            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>BIA Streetscape Master Plan Funding Program</strong></p>
+            <p><em>&nbsp;</em><em>Terms and Conditions of Funding:</em></p>
+            <p>&nbsp;By signing and submitting the BIA Streetscape Master Plan Funding Program application, the applicant acknowledges and agrees to the following terms and conditions:</p>
+            <p><strong>1.0&nbsp; &nbsp;Use and Purpose of Funding</strong></p>
+            <ul>
+            <li>This funding must be used only for the purposes of developing a Streetscape Master Plan for the BIA in accordance with the Program Guidelines.</li>
+            <li>The recipient (&ldquo;Recipient&rdquo;) must notify their Economic Partnership Advisor, Business Growth Services - BIA Office, Economic Development and Culture Division of any proposed material changes to the scope of the project from what is contained in the BIAs request for proposals. The funds can be used for such changes only with the prior written consent of the Director of Business Growth Services.</li>
+            <li>The Recipient must not transfer or assign the funding or any part of it to another individual or corporation, without the prior written consent of the Director.</li>
+            </ul>
+            <p><strong>2.0&nbsp; &nbsp;Municipal Freedom of Information and Protection of Privacy Act</strong></p>
+            <p style="padding-left: 30px;">The information contained in the BIA Streetscape Master Plan Funding Program application is subject to the <em>Municipal Freedom of Information and Protection of Privacy Act.</em>&nbsp; All funding decisions are publicly available.</p>
+            <p><strong>3.0&nbsp; &nbsp;Anti-Racism, Access and Equity Guidelines</strong></p>
+            <p style="padding-left: 30px;">The Recipient must complete and file a Declaration of a Non-Discrimination Policy that indicates that the funding recipient has adopted and upholds a policy of access and non-discrimination based on the City&rsquo;s Human Rights Policy.&nbsp; The Recipient will work actively to integrate anti-racism, access and equity, throughout their operations, in accordance with the City&rsquo;s approved Anti-Racism, Access and Equity Policy as it relates to all funding recipients.</p>
+            <p><strong>4.0&nbsp; &nbsp;Payments</strong>&nbsp;</p>
+            <p style="padding-left: 30px;">If funding is approved, the Recipient will be advised in writing of the amount of the funding.&nbsp; The funding will be disbursed by cheque or direct deposit following receipt of:<strong>&nbsp;</strong></p>
+            <ul>
+            <li>A copy of the final Request for Proposals;&nbsp;</li>
+            <li>Copies of all fee proposals received, including proposal from the chosen consultant;&nbsp;</li>
+            <li>A copy of the consulting contract with the chosen consultant;</li>
+            <li>Three (3) print copies of the final Streetscape Master Plan in PDF format;&nbsp;</li>
+            <li>Minutes of the Board meeting receiving the final Streetscape Master Plan;</li>
+            <li>Copies of paid invoices from the consultant;</li>
+            </ul>
+            <p><strong>5.0&nbsp; &nbsp;Acknowledgement of Funding</strong></p>
+            <p style="padding-left: 30px;">The Recipient will acknowledge the support of the City of Toronto on any materials, reports, events, publicity or signage which are paid for in whole or in part with the funding.</p>
+            <p>&nbsp;</p>
+            <p><strong>6.0&nbsp; &nbsp;Accounting</strong></p>
+            <ul>
+            <li>The Recipient must keep and maintain all records, invoices and other documents relating to the funding in a manner consistent with generally accepted accounting principles and clerical practices, and must maintain such records for a period of three (3) years from the date of receipt of the funding.</li>
+            <li>The Recipient authorizes the City and its agents at all reasonable times to inspect and copy any and all records, invoices and documents in the custody or control of the Recipient which relate to the funding.&nbsp; The right of inspection includes the right to perform a full or partial audit of the aforementioned records, as considered appropriate by the City.&nbsp;</li>
+            </ul>
+            <p><strong>7.0&nbsp; &nbsp;Project Completion Time</strong></p>
+            <ol>
+            <li>The consulting services funded through the Program must be completed no later than (date) unless the Director of Business Growth Services has provided prior written approval of an extension.</li>
+            <li>In the event that the consulting services funded through the program are incomplete, as determined by the City, on the Final Completion Date, or the extension thereof in accordance with section 7.1, no funding shall be paid and the BIA shall be responsible for the full cost of the consulting services.</li>
+            </ol>
+            <p><strong>8.0&nbsp; &nbsp;Limitation of Liability and Indemnification</strong></p>
+            <ul>
+            <li>The City will not be liable for any damages, injury or any loss of use or profit of the Recipient arising out of, or in any way related to the funding or to the Recipient&rsquo;s operations.</li>
+            <li>The Recipient shall indemnify the City, its officers, employees and agents, against all costs, damages and expenses incurred as a result of a claim or proceeding related to the funding or to the Recipient&rsquo;s operations, unless such costs, damages or expenses arise from the negligence or willful act of an officer, employee or agent of the City.</li>
+            </ul>
+            <p><strong>9.0&nbsp; &nbsp;Grant Repayment</strong></p>
+            <ul>
+            <li>At the request of the Director of Business Growth Services, the Recipient shall repay to the City the whole or any portion of the funding, as determined by the City, if the Recipient:
+            <ul>
+            <li>has knowingly provided false information in its grant application;</li>
+            <li>uses grant funds for purposes not approved;</li>
+            <li>breaches any of the terms or conditions of the grant; or</li>
+            <li>breaches any of the provisions of the Ontario Human Rights Code in its operations.</li>
+            </ul>
+            </li>
+            <li>The Recipient must immediately notify the Director in writing of the occurrence of any of the events described in section 10.0.</li>
+            <li>The City may, in its sole discretion, require the Recipient to pay interest on any amount required to be repaid pursuant to this section, section 7.0 or section 11.0 at the prime rate of the Bank of Canada from the date for the request for repayment to the date of repayment.</li>
+            </ul>
+            <p><strong>10.0&nbsp; Unused Funds</strong></p>
+            <p style="padding-left: 30px;">Any unused portion of the funding remains the property of the City.&nbsp; If an unused portion of the grant has already been paid by the City to the Recipient, it must be repaid by the Recipient to the City.</p>
+            <p><strong>11.0&nbsp; Further Conditions</strong></p>
+            <p style="padding-left: 30px;">The City shall be entitled, at any time, to impose such additional terms and conditions on the use of the funding which, in its sole discretion, it deems appropriate.</p>
+            <p>&nbsp;</p>
+            <p><strong>12.0&nbsp; Letter of Understanding</strong></p>
+            <p style="padding-left: 30px;">The Recipient must execute this Letter of Understanding and return it to the following address prior to commencement of the work.</p>
+            <p style="padding-left: 30px;">City of Toronto<br />Toronto BIA Office<br />77 Elizabeth Street, 2nd Floor<br />Toronto, Ontario<br />M5G 1P4</p>
+            <p style="padding-left: 30px;">Attention: Mike Kari</p>
+        </body>
+    </html>
+    </messaging:attachment>
+</messaging:emailTemplate>

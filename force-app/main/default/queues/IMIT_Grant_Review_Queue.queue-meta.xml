@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>IMIT Grant Review Queue</name>
+    <queueMembers>
+        <users>
+            <user>candice.valente@toronto.ca</user>
+            <user>rebecca.condon@toronto.ca</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Financial_Incentive__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>City_Toronto_of_Ward_f__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&#39;http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=2394fe17e5648410VgnVCM10000071d60f89RCRD&#39;, &#39;Ward Address&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>City Toronto of Ward</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

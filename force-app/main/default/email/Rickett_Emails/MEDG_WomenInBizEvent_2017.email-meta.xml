@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to women entrepreneurs about MEDG event.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MEDG-WomenInBizEvent(2017)</name>
+    <style>none</style>
+    <subject>Invitation: Women in Business Networking Event</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

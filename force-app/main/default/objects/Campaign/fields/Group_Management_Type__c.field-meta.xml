@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Management_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Advisory Group - Groups providing input in Toronto programming and policy making.
+Stakeholder Group - Used to manage a list of stakeholders – such as a list of manufacturers that can be consulted on projects.</inlineHelpText>
+    <label>Group Management Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advisory Group (Formal)</fullName>
+                <default>false</default>
+                <label>Advisory Group (Formal)</label>
+            </value>
+            <value>
+                <fullName>Distribution List (Informal)</fullName>
+                <default>false</default>
+                <label>Distribution List (Informal)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to participants of SC with info and links to partner products</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>StarterCompany_PartnerProductsEmail</name>
+    <style>none</style>
+    <subject>Digital Main Street - Additional Starter Company Resources</subject>
+    <textOnly>Good afternoon {!Contact.FirstName},
+
+Congratulations on finishing the DMS Starter Company Plus program. As you begin working on / finishing your Digital Transformation Plan, I wanted to provide you with some additional resources as well as links to all of our partner offers and services.
+
+https://www.dropbox.com/s/3scr9pn5jpjmu4v/DMS%20Starter%20Company%20Additional%20Resources_%286Nov17%29.pdf?dl=0
+
+If you have any questions about any of the partners products or offers, please contact me directly and I will be happy to help you out!
+
+Best of luck with your digital transformation.
+
+-Darryl</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+Dear {!Outreach__c.RPI_Staff_member_attending_user1__c},
+
+Thanks for agreeing to attend the following outreach session.  The details are as follows:
+
+Organization Name: {!Outreach__c.Account__c}
+
+Name of Event: {!Outreach__c.Name_of_Event__c}
+
+**Organization's Staff Contact Information**
+
+Contact Person: {!Outreach__c.BPQ_First_Name__c} {!Outreach__c.BPQ_Last_Name__c}
+Email: {!Outreach__c.Email__c}
+Phone Number: {!Outreach__c.BPQ_Phone_Number__c}
+
+**Emergency Staff Member Contact Information**
+
+Contact Person: {!Outreach__c.BPQ_EI_First_Name__c} {!Outreach__c.BPQ_EI_Last_Name__c}
+Email: {!Outreach__c.BPQ_EI_Email__c}
+Phone Number: {!Outreach__c.BPQ_EI_Phone_Number__c}
+
+Address: {!Outreach__c.BPQ_Address__c} 
+Event Date: {!Outreach__c.Date_of_Event__c}
+Event Time: {!Outreach__c.BPQ_Time_of_Event__c}
+Description of Event: {!Outreach__c.Description_of_the_Event__c}
+
+
+Thanks,
+
+Karen

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Manage all the technical requirement and progress status related to project development/enhancement.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Requirement Management</label>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>Consultation_Follow_up__c</tabs>
+    <tabs>Online_Registration__c</tabs>
+    <tabs>Event_Client_Follow_Up__c</tabs>
+    <tabs>Client_Follow_up__c</tabs>
+    <tabs>Digital_Main_Street__c</tabs>
+    <tabs>All_Tasks_Activities</tabs>
+</CustomApplication>

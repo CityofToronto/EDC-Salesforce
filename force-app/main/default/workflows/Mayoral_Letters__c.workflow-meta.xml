@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Reset_Completed_Date</fullName>
+        <description>This field updated will reset completed date to blank if status changed from Complete to something else</description>
+        <field>Completed_Date__c</field>
+        <name>Reset Completed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Completed_Date</fullName>
+        <description>This field updated is to set date value based on completed status.</description>
+        <field>Completed_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Completed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Mayoral Letter Completed Date Reset</fullName>
+        <actions>
+            <name>Reset_Completed_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow will reset Completed Data on Mayoral Letter Object based on status changes from completed to something else</description>
+        <formula>AND(TEXT(Status__c)&lt;&gt;&#39;Completed&#39;,NOT(ISBLANK(Completed_Date__c)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mayoral Letter Completed Date Update</fullName>
+        <actions>
+            <name>Update_Completed_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Mayoral_Letters__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <description>This workflow will populate Completed Data on Mayoral Letter Object based on completed status</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

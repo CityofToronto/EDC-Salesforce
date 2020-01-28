@@ -1,0 +1,20 @@
+Dear {!CampaignMember.Contact},
+ 
+A couple of months ago you visited our Enterprise Toronto office to get assistance with your business. 
+
+We would like to know how things are going with your business and would appreciate if you could please provide us an update via this 1 minute survey - 
+
+https://cityoftoronto.tfaforms.net/355959?tfa_74={!{!CampaignMember.Id} 
+
+Thanks and feel free to contact us anytime. 
+
+If you would like to unsubscribe from future email communications then please follow this link: 
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!CampaignMember.ContactId} 
+
+Regards, 
+
+Paul Pirri, 
+Acting Manager, Entrepreneurship Services
+City of Toronto
+
+Visit Enterprise Toronto @ www.toronto.ca/enterprisetoronto

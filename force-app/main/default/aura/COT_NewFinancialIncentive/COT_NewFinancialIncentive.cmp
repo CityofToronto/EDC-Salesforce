@@ -1,0 +1,19 @@
+<!--
+    New Financial Incentive Action on IMIT Intiative Page
+    This button will be used to create New Financial Incentive record of IMIT Record Type from Initiative of Investment Activity Type
+-->
+
+<aura:component extends="c:COT_NewRecordAction">
+
+    <aura:set attribute="objcetApiName" value="Financial_Incentive__c"/>
+    <aura:set attribute="recordTypeName" value="IMIT"/>
+    <aura:set attribute="queryFields" value="['Id','Account__c']"/>
+    <aura:set attribute="displayPageLayout" value="false"/>
+    <aura:set attribute="title" value="New Financial Incentive"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.loadRecordType}"/>
+
+    <aura:handler name="change" value="{!v.loadedRecord}" action="{!c.createRecord}"/>
+    
+
+</aura:component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The increase or decrease. (Tied to Empl. Incr. or Decr. Next 12 Months) corresponds to most recent Interaction. --></help>
+    <label><!-- Employment Change In Next 12 Months --></label>
+    <name>Employment_Change_In_Next_12_Months__c</name>
+</CustomFieldTranslation>

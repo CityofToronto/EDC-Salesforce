@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This URL points to signed response submitted by client. --></help>
+    <label><!-- E-Signature Record Link --></label>
+    <name>E_Signature_Record_Link__c</name>
+</CustomFieldTranslation>

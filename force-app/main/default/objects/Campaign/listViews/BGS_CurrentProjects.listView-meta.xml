@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BGS_CurrentProjects</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.RECORDTYPE</columns>
+    <columns>Business_Group__c</columns>
+    <columns>Project_Type__c</columns>
+    <columns>General_Project_Type__c</columns>
+    <columns>Group_Management_Type__c</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Campaign.Projects,Campaign.Group_Management</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Completed,Aborted</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.END_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <filters>
+        <field>Group_Management_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Distribution List (Informal)</value>
+    </filters>
+    <label>BGS - Current Projects</label>
+    <sharedTo>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_ET</roleAndSubordinates>
+    </sharedTo>
+</ListView>

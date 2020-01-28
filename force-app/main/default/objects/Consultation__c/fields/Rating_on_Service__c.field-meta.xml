@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating_on_Service__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>How would you rate the service you received from Enterprise Toronto?</inlineHelpText>
+    <label>Rating on Service</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Highly Effective</fullName>
+                <default>false</default>
+                <label>Highly Effective</label>
+            </value>
+            <value>
+                <fullName>Good</fullName>
+                <default>false</default>
+                <label>Good</label>
+            </value>
+            <value>
+                <fullName>Manageable</fullName>
+                <default>false</default>
+                <label>Manageable</label>
+            </value>
+            <value>
+                <fullName>Poor</fullName>
+                <default>false</default>
+                <label>Poor</label>
+            </value>
+            <value>
+                <fullName>Ineffective</fullName>
+                <default>false</default>
+                <label>Ineffective</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

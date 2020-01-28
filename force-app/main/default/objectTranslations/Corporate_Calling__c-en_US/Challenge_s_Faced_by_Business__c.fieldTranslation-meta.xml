@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Challenge(s) Faced by Business --></label>
+    <name>Challenge_s_Faced_by_Business__c</name>
+    <picklistValues>
+        <masterLabel>Border Crossing</masterLabel>
+        <translation><!-- Border Crossing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Building Permit</masterLabel>
+        <translation><!-- Building Permit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declining Market</masterLabel>
+        <translation><!-- Declining Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delays</masterLabel>
+        <translation><!-- Delays --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Federal Regulations</masterLabel>
+        <translation><!-- Federal Regulations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financing</masterLabel>
+        <translation><!-- Financing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Competition</masterLabel>
+        <translation><!-- Foreign Competition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Regulations</masterLabel>
+        <translation><!-- Foreign Regulations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hydro Reliability</masterLabel>
+        <translation><!-- Hydro Reliability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Increasing Input Costs</masterLabel>
+        <translation><!-- Increasing Input Costs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of Government Assistance Programs</masterLabel>
+        <translation><!-- Lack of Government Assistance Programs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Municipal Regulations</masterLabel>
+        <translation><!-- Municipal Regulations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planning</masterLabel>
+        <translation><!-- Planning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provincial Regulations</masterLabel>
+        <translation><!-- Provincial Regulations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skilled Labour Regulations</masterLabel>
+        <translation><!-- Skilled Labour Regulations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skilled Labour Supply</masterLabel>
+        <translation><!-- Skilled Labour Supply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suppliers</masterLabel>
+        <translation><!-- Suppliers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taxation Problems</masterLabel>
+        <translation><!-- Taxation Problems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technology Changes</masterLabel>
+        <translation><!-- Technology Changes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation Delays</masterLabel>
+        <translation><!-- Transportation Delays --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Values of Canadian Dollar</masterLabel>
+        <translation><!-- Values of Canadian Dollar --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

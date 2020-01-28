@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Details_of_Removed_Demolished_Property__c</fullName>
+    <description>Describe existing buildings or property being removed or demolished in connection with new construction</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describe existing buildings or property being removed or demolished in connection with new construction</inlineHelpText>
+    <label>Details of Removed/Demolished Property</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

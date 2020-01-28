@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Monthly_Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Monthly_Reports</value>
+    </caseValues>
+    <layouts>
+        <layout>ET Office Monthly Report Layout</layout>
+        <sections>
+            <label><!-- Client Inquiries --></label>
+            <section>Client Inquiries</section>
+        </sections>
+        <sections>
+            <label><!-- Client Interactions --></label>
+            <section>Client Interactions</section>
+        </sections>
+        <sections>
+            <label><!-- Web Engagement --></label>
+            <section>Web Engagement</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

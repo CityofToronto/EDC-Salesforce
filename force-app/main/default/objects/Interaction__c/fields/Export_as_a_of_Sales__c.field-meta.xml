@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Export_as_a_of_Sales__c</fullName>
+    <description>The total number of goods or services exported divided by the total number of sales expressed as a percentage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If 0% skip the next question</inlineHelpText>
+    <label>Export as a % of Sales</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Do_You_Export__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0% (i.e. domestic sales only)</fullName>
+                <default>false</default>
+                <label>0% (i.e. domestic sales only)</label>
+            </value>
+            <value>
+                <fullName>1-20%</fullName>
+                <default>false</default>
+                <label>1-20%</label>
+            </value>
+            <value>
+                <fullName>21-40%</fullName>
+                <default>false</default>
+                <label>21-40%</label>
+            </value>
+            <value>
+                <fullName>41-60%</fullName>
+                <default>false</default>
+                <label>41-60%</label>
+            </value>
+            <value>
+                <fullName>61-80%</fullName>
+                <default>false</default>
+                <label>61-80%</label>
+            </value>
+            <value>
+                <fullName>81-100%</fullName>
+                <default>false</default>
+                <label>81-100%</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>0% (i.e. domestic sales only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>1-20%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>21-40%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>41-60%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>61-80%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>81-100%</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

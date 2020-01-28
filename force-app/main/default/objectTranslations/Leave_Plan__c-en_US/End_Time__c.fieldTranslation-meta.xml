@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- End Time --></label>
+    <name>End_Time__c</name>
+    <picklistValues>
+        <masterLabel>01 PM</masterLabel>
+        <translation><!-- 01 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02 PM</masterLabel>
+        <translation><!-- 02 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03 PM</masterLabel>
+        <translation><!-- 03 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04 PM</masterLabel>
+        <translation><!-- 04 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>05 PM</masterLabel>
+        <translation><!-- 05 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>06 PM</masterLabel>
+        <translation><!-- 06 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08 AM</masterLabel>
+        <translation><!-- 08 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>09 AM</masterLabel>
+        <translation><!-- 09 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 AM</masterLabel>
+        <translation><!-- 10 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 AM</masterLabel>
+        <translation><!-- 11 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 PM</masterLabel>
+        <translation><!-- 12 PM --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

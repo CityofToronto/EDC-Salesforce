@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Points_Assets_required__c</fullName>
+    <description>Points_Awarded_Assets_requiredPoints_Awarded_Assets_required</description>
+    <externalId>false</externalId>
+    <label>Points Awarded-Assets Required</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Related Interaction Contact</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Related Interaction Contacts</value>
+    </caseValues>
+    <layouts>
+        <layout>Related Interaction Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Relationship --></label>
+        <name>Add_Relationship</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Interaction --></label>
+        <name>New_Interaction</name>
+    </webLinks>
+</CustomObjectTranslation>

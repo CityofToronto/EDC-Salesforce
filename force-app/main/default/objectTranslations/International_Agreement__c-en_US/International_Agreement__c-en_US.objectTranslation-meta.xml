@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>International Agreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>International Agreements</value>
+    </caseValues>
+    <layouts>
+        <layout>Agreement Layout</layout>
+        <sections>
+            <label><!-- Agreement Priorities and Interests Information --></label>
+            <section>Agreement Priorities and Interests Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- FED/PROV Trade Representation Information --></label>
+            <section>FED/PROV Trade Representation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Signature Information --></label>
+            <section>Signature Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Agreement Signed Date must be provided --></errorMessage>
+        <name>Agreement_Signed_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At Least One Signature details must be provided for External/Internal Signature Received Status --></errorMessage>
+        <name>Atleast_One_Signature_Details_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At Least two Signature details must be provided for External Signature Received Status --></errorMessage>
+        <name>Atleast_Two_Signature_Details_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- URL value can not be modified --></errorMessage>
+        <name>SPER_Priority_Classification_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expired Status can not be assigned manually --></errorMessage>
+        <name>Validation_for_Status_Change_Manually</name>
+    </validationRules>
+</CustomObjectTranslation>

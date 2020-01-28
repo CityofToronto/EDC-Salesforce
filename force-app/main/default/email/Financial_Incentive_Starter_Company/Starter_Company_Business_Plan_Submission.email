@@ -1,0 +1,14 @@
+Dear {!Financial_Incentive__c.Contact__c}, 
+
+You have now completed the required {!Financial_Incentive__c.Application_Stream__c} training as part of the Starter Company - {!Financial_Incentive__c.Application_Stream__c}. 
+
+Please submit your business plan using the link provided within 5 business days to be assessed Micro-Financing Grant Committee. 
+
+https://cityoftoronto.tfaforms.net/356033?SCID={!Financial_Incentive__c.Id}
+ 
+
+Regards, 
+Vikas Jain.
+Small Business Advisor/ Lead Co-ordinator Starter Company.
+City of Toronto, Business Growth Services, Entrepreneurship Services.
+Enterprise Toronto Small Business Centre, Scarborough Civic Centre, 150 Borough Dr., Ground Floor

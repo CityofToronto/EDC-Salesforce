@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Training Group --></label>
+    <name>Training_Group__c</name>
+    <picklistValues>
+        <masterLabel>Training 1</masterLabel>
+        <translation><!-- Training 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training 2</masterLabel>
+        <translation><!-- Training 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training 3</masterLabel>
+        <translation><!-- Training 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training 4</masterLabel>
+        <translation><!-- Training 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training 5</masterLabel>
+        <translation><!-- Training 5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training 6</masterLabel>
+        <translation><!-- Training 6 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email notification will be sent a set of User whenever a new Grant application request will be submitted online</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Grant Application Review Email Notification</name>
+    <style>none</style>
+    <subject>Grant Request Submitted for Review - {!Financial_Incentive__c.Account__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

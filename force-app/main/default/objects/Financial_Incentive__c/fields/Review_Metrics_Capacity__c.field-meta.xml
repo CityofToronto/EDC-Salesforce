@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Metrics_Capacity__c</fullName>
+    <description>Organization has the ability to measure and report to the City on the impact that will be made (including:  number of clients served, number of businesses formed, number of jobs created).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Organization has the ability to measure and report to the City on the impact that will be made (including:  number of clients served, number of businesses formed, number of jobs created).</inlineHelpText>
+    <label>Review-Metrics &amp; Capacity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

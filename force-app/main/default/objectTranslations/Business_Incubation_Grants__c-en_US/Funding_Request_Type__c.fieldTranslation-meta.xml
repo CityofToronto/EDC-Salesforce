@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Funding Request Type --></label>
+    <name>Funding_Request_Type__c</name>
+    <picklistValues>
+        <masterLabel>Next Stage Funds</masterLabel>
+        <translation><!-- Next Stage Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operating Funds</masterLabel>
+        <translation><!-- Operating Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Program Funds</masterLabel>
+        <translation><!-- Program Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seed Funds</masterLabel>
+        <translation><!-- Seed Funds --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

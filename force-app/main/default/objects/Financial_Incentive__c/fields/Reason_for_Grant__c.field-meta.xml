@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Grant__c</fullName>
+    <description>Select the applicable for sector grant</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the applicable for sector grant</inlineHelpText>
+    <label>Reason for Grant</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Help to overcome barriers to business growth</fullName>
+                <default>false</default>
+                <label>Help to overcome barriers to business growth</label>
+            </value>
+            <value>
+                <fullName>Increase profitability or productivity, or stimulates domestic or foreign investment</fullName>
+                <default>false</default>
+                <label>Increase profitability or productivity, or stimulates domestic or foreign investment</label>
+            </value>
+            <value>
+                <fullName>Improves diversity, equity and inclusion, in the sector or in service delivery</fullName>
+                <default>false</default>
+                <label>Improves diversity, equity and inclusion, in the sector or in service delivery</label>
+            </value>
+            <value>
+                <fullName>Improves availability of, access to or geographic diversity in physical space</fullName>
+                <default>false</default>
+                <label>Improves availability of, access to or geographic diversity in physical space</label>
+            </value>
+            <value>
+                <fullName>Increase domestic sales or supports engagement with domestic organizations</fullName>
+                <default>false</default>
+                <label>Increase domestic sales or supports engagement with domestic organizations</label>
+            </value>
+            <value>
+                <fullName>Increase exports, improves international reputation or supports the development of international collaborations</fullName>
+                <default>false</default>
+                <label>Increase exports, improves international reputation or supports the development of international collaborations</label>
+            </value>
+            <value>
+                <fullName>Promote the sector, within the Toronto Region or externally</fullName>
+                <default>false</default>
+                <label>Promote the sector, within the Toronto Region or externally</label>
+            </value>
+            <value>
+                <fullName>Strengthens internal network and collaboration within the sector</fullName>
+                <default>false</default>
+                <label>Strengthens internal network and collaboration within the sector</label>
+            </value>
+            <value>
+                <fullName>Supports innovation within or technology transfer to the sector</fullName>
+                <default>false</default>
+                <label>Supports innovation within or technology transfer to the sector</label>
+            </value>
+            <value>
+                <fullName>Supports workforce development</fullName>
+                <default>false</default>
+                <label>Supports workforce development</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

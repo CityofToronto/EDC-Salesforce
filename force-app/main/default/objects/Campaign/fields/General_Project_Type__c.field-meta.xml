@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Project_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>General Project Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Project_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sector Development</fullName>
+                <default>false</default>
+                <label>Sector Development</label>
+            </value>
+            <value>
+                <fullName>Community Development</fullName>
+                <default>false</default>
+                <label>Community Development</label>
+            </value>
+            <value>
+                <fullName>Policy</fullName>
+                <default>false</default>
+                <label>Policy</label>
+            </value>
+            <value>
+                <fullName>Regulatory</fullName>
+                <default>false</default>
+                <label>Regulatory</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Investment Attraction</fullName>
+                <default>false</default>
+                <label>Investment Attraction</label>
+            </value>
+            <value>
+                <fullName>Workforce Development</fullName>
+                <default>false</default>
+                <label>Workforce Development</label>
+            </value>
+            <value>
+                <fullName>Market Development</fullName>
+                <default>false</default>
+                <label>Market Development</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Sector Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Community Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Regulatory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Investment Attraction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Workforce Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Market Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Projects</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

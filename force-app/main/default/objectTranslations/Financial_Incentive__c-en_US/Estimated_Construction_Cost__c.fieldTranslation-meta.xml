@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total cost of construction including &apos;hard&apos; construction costs and &apos;soft&apos; costs including financing, consultants, etc --></help>
+    <label><!-- Estimated Construction Cost $ --></label>
+    <name>Estimated_Construction_Cost__c</name>
+</CustomFieldTranslation>

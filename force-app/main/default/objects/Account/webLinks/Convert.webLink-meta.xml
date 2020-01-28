@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convert</fullName>
+    <availability>online</availability>
+    <description>Click to Convert Person Account to Business Account</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Convert</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/13.0/connection.js&quot;)}
+{
+var AccountObj = new sforce.SObject(&quot;Account&quot;);
+AccountObj.Id = &#39;{!Account.Id}&#39;;
+AccountObj.RecordTypeId = &#39;012o0000000Gb8KAAS&#39;;
+sforce.connection.update([AccountObj]);
+location.reload(true);
+}</url>
+</WebLink>

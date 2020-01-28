@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Survey_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is to indicated whether initial survey sent out after 6 months has been completed or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is to indicated whether initial survey sent out after 6 months has been completed or not.</inlineHelpText>
+    <label>Initial Survey Completed</label>
+    <type>Checkbox</type>
+</CustomField>

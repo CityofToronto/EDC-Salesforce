@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BPQ-Organization Type --></label>
+    <name>Organization_Type__c</name>
+    <picklistValues>
+        <masterLabel>Not-For-Profit – Business Support Organization</masterLabel>
+        <translation><!-- Not-For-Profit – Business Support Organization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not-For-Profit – Community Organization</masterLabel>
+        <translation><!-- Not-For-Profit – Community Organization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other (please specify)</masterLabel>
+        <translation><!-- Other (please specify) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

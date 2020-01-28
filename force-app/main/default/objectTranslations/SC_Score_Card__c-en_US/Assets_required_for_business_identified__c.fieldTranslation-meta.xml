@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- All assets required for operating the business have been identified --></help>
+    <label><!-- Assets required for business identified? --></label>
+    <name>Assets_required_for_business_identified__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (2 pt)</masterLabel>
+        <translation><!-- Yes (2 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

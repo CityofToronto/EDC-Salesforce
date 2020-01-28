@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_to_Check_Extension_date</fullName>
+    <active>true</active>
+    <description>This validation rule will make sure Extension should not be later than one year after Expiry Date</description>
+    <errorConditionFormula>AND(OR(RecordType.DeveloperName=&#39;BIA_Commercial_Industrial_Facade_and_Property_Improvement&#39;,RecordType.DeveloperName=&#39;BIA_Innovation_Fund&#39;,RecordType.DeveloperName=&#39;BIA_Leadership_Fund&#39;,RecordType.DeveloperName=&#39;BIA_Outside_Mural_and_Street_Art_Grant&#39;,RecordType.DeveloperName=&#39;BIA_Streetscape_Master_Plan_Funding&#39;),NOT(ISBLANK(Application_Expiry_Date__c)),NOT(ISBLANK(Application_Extension_Date__c)),OR(Application_Extension_Date__c &gt;  ADDMONTHS(Application_Expiry_Date__c,12), Application_Extension_Date__c &lt; Application_Expiry_Date__c, Application_Extension_Date__c = Application_Expiry_Date__c))</errorConditionFormula>
+    <errorDisplayField>Application_Extension_Date__c</errorDisplayField>
+    <errorMessage>Grant Extension Date should be greater than and within one year after Expiry Date</errorMessage>
+</ValidationRule>

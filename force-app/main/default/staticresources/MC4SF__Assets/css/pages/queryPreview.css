@@ -1,0 +1,28 @@
+.removePadding {
+	padding: 0 0 0.5rem 0 !important;
+}
+
+th {
+	text-transform: uppercase;
+}
+
+th div span a {
+	text-decoration: none !important;
+}
+
+.pbSubheader {
+	display: none;
+}
+
+body .pbBody table.list tr.headerRow td, body .pbBody table.list tr.headerRow th {
+	background-color: #fff;
+}
+
+.apexp .detailList .list td, .apexp .detailList .list th, .apexp .editPage .bPageBlock .detailList .list tr td,
+.apexp .editPage .bPageBlock .detailList .list tr th, body .bRelatedList .pbBody table.list, body .apexp .pbBody table.list {
+	border: none;
+}
+
+.removeRowStyling:hover td, .removeRowStyling:hover, .removeRowStyling td:hover {
+	background-color: #fff;
+}

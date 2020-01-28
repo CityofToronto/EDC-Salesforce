@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The reason for the Interaction.
+** Business Outcome Survey applicable for these Purpose of Interactions --></help>
+    <label><!-- Purpose of the Interaction --></label>
+    <name>Purpose_of_the_Interaction__c</name>
+    <picklistValues>
+        <masterLabel>Attraction - Investment Attraction (Foreign)**</masterLabel>
+        <translation><!-- Attraction - Investment Attraction (Foreign)** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attraction - Investment Attraction (Local &amp; National)**</masterLabel>
+        <translation><!-- Attraction - Investment Attraction (Local &amp; National)** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Business Introduction</masterLabel>
+        <translation><!-- Business Development - Business Introduction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Cluster Development</masterLabel>
+        <translation><!-- Business Development - Cluster Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Delegation Assistance</masterLabel>
+        <translation><!-- Business Development - Delegation Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Event Assistance</masterLabel>
+        <translation><!-- Business Development - Event Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Expansion Assistance**</masterLabel>
+        <translation><!-- Business Development - Expansion Assistance** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Export Assistance**</masterLabel>
+        <translation><!-- Business Development - Export Assistance** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Import Assistance**</masterLabel>
+        <translation><!-- Business Development - Import Assistance** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Intelligence Gathering</masterLabel>
+        <translation><!-- Business Development - Intelligence Gathering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Location Assistance**</masterLabel>
+        <translation><!-- Business Development - Location Assistance** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Market Development**</masterLabel>
+        <translation><!-- Business Development - Market Development** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - PR &amp; Marketing</masterLabel>
+        <translation><!-- Business Development - PR &amp; Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Partnership Development</masterLabel>
+        <translation><!-- Business Development - Partnership Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Startup Assistance**</masterLabel>
+        <translation><!-- Business Development - Startup Assistance** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Workforce Development**</masterLabel>
+        <translation><!-- Business Development - Workforce Development** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Building Permit**</masterLabel>
+        <translation><!-- City - Building Permit** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - IMIT</masterLabel>
+        <translation><!-- City - IMIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Planning Issue (OP &amp; ZBL)**</masterLabel>
+        <translation><!-- City - Planning Issue (OP &amp; ZBL)** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Preliminary Project Review**</masterLabel>
+        <translation><!-- City - Preliminary Project Review** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Property Standards**</masterLabel>
+        <translation><!-- City - Property Standards** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Property Taxes**</masterLabel>
+        <translation><!-- City - Property Taxes** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Regulatory**</masterLabel>
+        <translation><!-- City - Regulatory** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory - Federal**</masterLabel>
+        <translation><!-- Regulatory - Federal** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory - Provincial**</masterLabel>
+        <translation><!-- Regulatory - Provincial** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities – Broadband</masterLabel>
+        <translation><!-- Utilities – Broadband --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utility - Electric**</masterLabel>
+        <translation><!-- Utility - Electric** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utility - Gas**</masterLabel>
+        <translation><!-- Utility - Gas** --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utility - Water**</masterLabel>
+        <translation><!-- Utility - Water** --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

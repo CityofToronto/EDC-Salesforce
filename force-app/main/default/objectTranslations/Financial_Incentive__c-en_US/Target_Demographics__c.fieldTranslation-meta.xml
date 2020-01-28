@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Target Demographics --></label>
+    <name>Target_Demographics__c</name>
+    <picklistValues>
+        <masterLabel>New Canadians (all ages)</masterLabel>
+        <translation><!-- New Canadians (all ages) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Students</masterLabel>
+        <translation><!-- Students --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Women (all ages)</masterLabel>
+        <translation><!-- Women (all ages) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth – 18 to 29 (out of school)</masterLabel>
+        <translation><!-- Youth – 18 to 29 (out of school) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

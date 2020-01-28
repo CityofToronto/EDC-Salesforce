@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Go to this Link to see the SPER Priority Level Classification --></help>
+    <label><!-- SPER Priority Level Classification --></label>
+    <name>SPER_Priority_Level_Classification__c</name>
+</CustomFieldTranslation>

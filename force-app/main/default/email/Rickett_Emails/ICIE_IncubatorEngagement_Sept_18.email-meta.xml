@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to incubators to let them know about the launch of our ICIE consultation.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ICIE-IncubatorEngagement(Sept_18)</name>
+    <style>none</style>
+    <subject>Please Share: Launch of Consultation to Develop Indigenous Business Incubator</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

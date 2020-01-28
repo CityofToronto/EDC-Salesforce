@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brief_Description_of_Project__c</fullName>
+    <description>Brief description of Proposed Innoivation Fund Project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Brief description of Proposed Innovation Fund Project</inlineHelpText>
+    <label>Brief Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

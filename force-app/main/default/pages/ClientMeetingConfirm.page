@@ -1,0 +1,154 @@
+<apex:page controller="ClientMeetingConfirmCtrl" id="pgid" showHeader="false" sidebar="false" >
+    <html>
+        <head>
+            <Title> Confirm Rescheduled Meeting </Title>
+            <style>
+                .zui-table {
+                    border: solid 1px #DDEEEE;
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                    font: normal 12px Arial, sans-serif;
+                }
+                .zui-table thead th {
+                    background-color: #DDEFEF;
+                    border: solid 1px #DDEEEE;
+                    color: #336B6B;
+                    padding: 10px;
+                    text-align: center;
+                    text-shadow: 1px 1px 1px #fff;
+                }
+                .zui-table tbody td {
+                    border: solid 1px #DDEEEE;
+                    color: #333;
+                    padding: 10px;
+                    text-shadow: 1px 1px 1px #fff;
+                }
+                .zui-table-rounded {
+                    border: none;
+                }
+                .zui-table-rounded thead th {
+                    background-color: #CFAD70;
+                    border: none;
+                    text-shadow: 1px 1px 1px #ccc;
+                    color: #333;
+                }
+                .zui-table-rounded thead th:first-child {
+                    border-radius: 10px 0 0 0;
+                }
+                .zui-table-rounded thead th:last-child {
+                    border-radius: 0 10px 0 0;
+                }
+                .zui-table-rounded tbody td {
+                    border: none;
+                    border-top: solid 1px #957030;
+                    background-color: #EED592;
+                }
+                .zui-table-rounded tbody tr:last-child td:first-child {
+                    border-radius: 0 0 0 10px;
+                }
+                .zui-table-rounded tbody tr:last-child td:last-child {
+                    border-radius: 0 0 10px 0;
+                }
+            </style>
+            
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+            <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+            <apex:stylesheet value="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css"/>
+            
+            <apex:stylesheet value="{!URLFOR($Resource.CSSCityofToronto, 'css/styles.css')}"/>
+            
+            <apex:includeScript value="{!URLFOR($Resource.JQueryCityofToronto, 'JQueryCityofToronto/jquery-1.3.2.min.js')}"/>
+            <apex:includeScript value="{!URLFOR($Resource.JQueryCityofToronto, 'JQueryCityofToronto/jquery.maskedinput.js')}"/>
+            
+            <script type="text/javascript" src="http://digitalbush.com/wp-content/uploads/2013/01/jquery.maskedinput-1.3.1.min_.js"></script>
+            
+            <style>
+                .ui-widget-header {
+                    background: #009BBB;
+                } 
+            </style>
+        </head>
+        <div style="background: url({!$Label.BackgroundIMG}) repeat; height:8px;"/>
+        <body style="background: url({!$Label.BackgroundIMG}) repeat;">
+            <div align="center">
+                <apex:form style="background-color: #FAFAFA; width:770px; height:760px;">
+                    <div style="background-color: #FAFAFA; width:770px; height:18px;"/>
+                    <div align="center">
+                        <div style="background: url({!$Label.FormTitleIMG}) no-repeat; width:744px; height:60px;"> 
+                            <br/> 
+                            <div align="left" style="color:white; font-size: 16px; font-weight: bold;"> 
+                                &nbsp; Meeting Confirmation or Reschedule with Advisor
+                            </div>
+                        </div>
+                        <br/><br/><br/>
+                        <div style="width:750px;">
+                            <fieldset style="border: 2px black solid; font-size: 15px;">
+                                <legend style="margin-left: 1em; padding: 0.2em 0.5em; background-color:none; color:black;">Meeting Information</legend>
+                                <div style="height:600px">
+                                    <apex:outputpanel id="FullPageId" >
+                                        <apex:pagemessages rendered="{!ShowErrorMsg}" id="ShowErroMsgId"/>
+                                        <apex:outputpanel id="ConfirmMsgPnlId" rendered="{!ShowMeetingConfirmMsg}">
+                                            <br/> <br/> <br/>
+                                            <div style="align:center; height:18px; font-weight: bold; color:green;">
+                                                Your meeting has been confirm with advisor. Please be available on time.
+                                            </div>
+                                        </apex:outputpanel>
+                                       
+                                        <apex:outputpanel id="ConfirmReschMsgPnlId" rendered="{!ShowRegisMeetingConfirmMsg}">
+                                            <br/><br/> <br/>
+                                            <div style="text-align:center; height:18px; font-weight: bold; color:green;">
+                                                Your meeting request has been submitted to your advisor. <br/> <br/> He/She will review and confirm it and your will receive an email for the same.
+                                            </div>
+                                        </apex:outputpanel>
+                                       
+                                        <apex:outputpanel id="RescheduledPnlId" rendered="{!ShowFollowUpRecord}">
+                                            <br/> <br/>
+                                            <div style="align:center;">
+                                                <table class="zui-table zui-table-rounded">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Meeting Date</th>
+                                                            <th style="border:solid 1px #957030; border-top:none;">Meeting Time</th>
+                                                            <th style="border:solid 1px #957030; border-top:none;">Location</th>
+                                                            <th style="border:solid 1px #957030; border-top:none;">Advisor</th>
+                                                            <th style="border:solid 1px #957030; border-top:none;">Status</th>
+                                                            <th >Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <apex:outputText value="{0,date,MM'/'dd'/'yyyy}">
+                                                                   <apex:param value="{!FollowUp.Meeting_Date__c}" />
+                                                               </apex:outputText>
+                                                            </td>
+                                                            <td style="border:solid 1px #957030; border-bottom:none;"><apex:outputText value="{!FollowUp.MeetingTime__c}"/></td>
+                                                            <td style="border:solid 1px #957030; border-bottom:none;"><apex:outputText value="{!FollowUp.Location__c}"/></td>
+                                                            <td style="border:solid 1px #957030; border-bottom:none;"><apex:outputText value="{!FollowUp.Advisor__c}"/></td>
+                                                            <td style="border:solid 1px #957030; border-bottom:none;"><apex:outputText value="{!FollowUp.Status__c}"/></td>
+                                                            <td>
+                                                                <apex:commandbutton value="Confirm" action="{!MeetingConfirmed}" rendered="{!if((FollowUp.Status__c == 'Rescheduled by Advisor') , true, false)}"/> <!-- rerender="FullPageId" / -->
+                                                                &nbsp;&nbsp;
+                                                                <apex:commandbutton value="Reschedule" action="{!MeetingReschuled}" rendered="{!if((FollowUp.Status__c == 'Rescheduled by Advisor') , true, false)}"/> <!-- rerender="FullPageId" / -->
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </apex:outputpanel>
+                                        <br/><br/>
+                                        <apex:outputpanel id="ShowCalPnlId" rendered="{!ShowCalendar}">
+                                        
+                                            <c:ScheduleMeetingComp FId="{!$CurrentPage.parameters.Id}"/>
+                                                
+                                        </apex:outputpanel>
+                                    </apex:outputpanel>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </apex:form>
+            </div>
+        </body>
+    </html>
+</apex:page>

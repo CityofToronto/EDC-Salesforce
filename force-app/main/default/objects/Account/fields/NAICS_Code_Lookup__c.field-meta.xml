@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAICS_Code_Lookup__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The North American Industry Classification System (Canada version).  This is a 7-digit number with more precise definitions of what a company does with longer numbers.  i.e. 21 is general while 211135 is very detailed.</description>
+    <externalId>false</externalId>
+    <label>NAICS Code Lookup</label>
+    <referenceTo>NAICS_Code_Mapping__c</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

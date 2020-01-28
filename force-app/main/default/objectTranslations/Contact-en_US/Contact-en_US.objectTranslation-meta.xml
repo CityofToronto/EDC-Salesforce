@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Contact Filter Fields --></label>
+        <name>MC4SF__Contact_Filter_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Engagement --></label>
+            <section>Email Engagement</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Relationship --></label>
+        <name>Add_Relationship</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Interaction --></label>
+        <name>New_Interaction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Issue --></label>
+        <name>New_Issue</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Account Name is required for Contact --></errorMessage>
+        <name>Account_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email can not be null for any Contact. --></errorMessage>
+        <name>Contact_Email_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Physical Postal Code --></errorMessage>
+        <name>Contact_Mailing_Postal_Code_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact First or Last Name can not start with any special character. --></errorMessage>
+        <name>Contact_Name_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Mailing Postal Code --></errorMessage>
+        <name>Contact_Other_Postal_Code_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact record can not be created for Inactive Account. --></errorMessage>
+        <name>Inactive_Related_Account_Validation_Rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_detail --></label>
+        <name>MC4SF__MailChimp_Subscriptions_detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_list --></label>
+        <name>MC4SF__MailChimp_Subscriptions_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Email --></label>
+        <name>MSTMassEmail__Mass_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How would you rate the training program for Starter Company? --></help>
+    <label><!-- FU - Please rate the training program --></label>
+    <name>FU_Please_rate_the_training_program__c</name>
+    <picklistValues>
+        <masterLabel>Fairly helpful</masterLabel>
+        <translation><!-- Fairly helpful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Helpful</masterLabel>
+        <translation><!-- Helpful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not at all helpful</masterLabel>
+        <translation><!-- Not at all helpful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slightly helpful</masterLabel>
+        <translation><!-- Slightly helpful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Very helpful</masterLabel>
+        <translation><!-- Very helpful --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

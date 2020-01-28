@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <submitter>BIA_Admin</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>BIA_Coordinator</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Account__c</field>
+        <field>Contact__c</field>
+        <field>RecordType</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>BIA_Grant_Application_Status_Approved</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <type>userHierarchyField</type>
+            </approver>
+        </assignedApprover>
+        <description>This step is applicable to initial approval step based on all required criteria has been met.</description>
+        <label>Initial BIA Office Manager Approval</label>
+        <name>Initial_BIA_Office_Manager_Approval</name>
+        <rejectionActions>
+            <action>
+                <name>BIA_Grant_Application_Status_Declined</name>
+                <type>FieldUpdate</type>
+            </action>
+        </rejectionActions>
+    </approvalStep>
+    <description>This Approval Process is only Applicable to BIA Accounts and its related Grant Applications</description>
+    <emailTemplate>Financial_Incentive_Templates/BIA_Application_Approval_Email_Notification</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>(1 AND 2 AND 5) OR (1 AND 3 AND 4 AND 5)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordType</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Innovation Fund,BIA Leadership Fund,BIA Streetscape Master Plan Funding,BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Draft,In Review</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>More Information Required</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Amount_Approved__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Status_Update_Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>BIA Grant Approval Process</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <recallActions>
+        <action>
+            <name>Status_Update_Withdrawn</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

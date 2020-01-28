@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Outstanding_Property_Taxes__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Annual compliance check by Revenue Services to confirm there are no outstanding taxes, water rates, or other sums owed to the City with respect to the property.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Annual compliance check by Revenue Services to confirm there are no outstanding taxes, water rates, or other sums owed to the City with respect to the property.(attach Tax/Utility Certificates)</inlineHelpText>
+    <label>No Outstanding Property Taxes</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

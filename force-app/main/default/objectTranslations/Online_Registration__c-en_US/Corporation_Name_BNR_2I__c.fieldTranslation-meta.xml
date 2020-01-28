@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Corporation Name (BNR 2I+) --></label>
+    <name>Corporation_Name_BNR_2I__c</name>
+</CustomFieldTranslation>

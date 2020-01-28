@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Starter_Company_CurrentGrants</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Application_Stream__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Date_of_Grant_Approval__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Phase_2_GrantApproved__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Program_Completed__c</field>
+        <operation>notEqual</operation>
+        <value>Yes,No,Default</value>
+    </filters>
+    <label>SC - Current Grants</label>
+    <sharedTo>
+        <role>EDC_Admin</role>
+        <role>ES_Admin</role>
+        <role>ES_ET</role>
+    </sharedTo>
+</ListView>

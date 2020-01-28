@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Account Filter Fields --></label>
+        <name>MC4SF__Account_Filter_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Company Contact Information --></label>
+            <section>Company Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Employment Information --></label>
+            <section>Employment Information</section>
+        </sections>
+        <sections>
+            <label><!-- NAICS Information --></label>
+            <section>NAICS Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Sector Information --></label>
+            <section>Sector Information</section>
+        </sections>
+        <sections>
+            <label><!-- Social Media Information --></label>
+            <section>Social Media Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BIA Account Page Layout</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Board Information --></label>
+            <section>Board Information</section>
+        </sections>
+        <sections>
+            <label><!-- Company Contact Information --></label>
+            <section>Company Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Social Media Information --></label>
+            <section>Social Media Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Engagement Information --></label>
+            <section>Email Engagement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Social Media Information --></label>
+            <section>Social Media Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Convert --></label>
+        <name>Convert</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Interaction --></label>
+        <name>New_Interaction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Investment Activity --></label>
+        <name>New_Investment_Activity</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Organization accounts with multiple contacts. --></description>
+        <label><!-- Business Account --></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Physical Postal Code --></errorMessage>
+        <name>Account_Billing_Postal_Code_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account Name can not start with any special character. --></errorMessage>
+        <name>Account_Business_Name_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Mailing Postal Code --></errorMessage>
+        <name>Account_Shipping_Postal_Code_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account Type can not be blank for Business Account --></errorMessage>
+        <name>Account_Type_Validation_for_Business_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Board size should be sum of Vacancies and Standing Members. --></errorMessage>
+        <name>BIA_Board_Size_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account Type can not be changed to Prospect as it has related child records. --></errorMessage>
+        <name>Client_to_Prospect_Conversion_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Person Account Email can not be blank. --></errorMessage>
+        <name>Person_Account_Email_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Person Account First or Last Name can not start with any special character. --></errorMessage>
+        <name>Person_Account_Name_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Standing Members can not exceed Board Size --></errorMessage>
+        <name>Validation_check_Board_Size_Standing</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert --></label>
+        <name>Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions --></label>
+        <name>MC4SF__MailChimp_Subscriptions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

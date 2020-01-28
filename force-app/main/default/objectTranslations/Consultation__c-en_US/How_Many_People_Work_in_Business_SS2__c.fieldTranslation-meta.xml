@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sub-Section 2 - New Business:  Including yourself, how many people work in your business? --></help>
+    <label><!-- How Many People Work in your Business? --></label>
+    <name>How_Many_People_Work_in_Business_SS2__c</name>
+</CustomFieldTranslation>

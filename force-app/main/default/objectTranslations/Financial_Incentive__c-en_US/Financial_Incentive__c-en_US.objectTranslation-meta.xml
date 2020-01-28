@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Financial Incentive</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Financial Incentives</value>
+    </caseValues>
+    <layouts>
+        <layout>Financial Incentive BIA-CFI Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Estimated Cost of Proposed Facade Improvements --></label>
+            <section>Estimated Cost of Proposed Facade Improvements</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Property Information --></label>
+            <section>Property Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-CFI Grant Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Estimated Cost of Proposed Facade Improvements --></label>
+            <section>Estimated Cost of Proposed Facade Improvements</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Property Information --></label>
+            <section>Property Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Innovation Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Budget Details --></label>
+            <section>Budget Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Proposal Information --></label>
+            <section>Proposal Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Innovation Grant Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Budget Details --></label>
+            <section>Budget Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Proposal Information --></label>
+            <section>Proposal Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Leadership Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- BIA Relationship (Business Improvement Area Information) --></label>
+            <section>BIA Relationship (Business Improvement Area Information)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Education Details --></label>
+            <section>Education Details</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Details --></label>
+            <section>Reference Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Leadership Grant Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- BIA Relationship (Business Improvement Area Information) --></label>
+            <section>BIA Relationship (Business Improvement Area Information)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Education Details --></label>
+            <section>Education Details</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Details --></label>
+            <section>Reference Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Outside Mural and Street Art Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Outside Mural and Street Art Grant Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Streetscape Master Plan Grant  Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive BIA-Streetscape Master Plan Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive Business Incubation Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points --></label>
+            <section>General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points</section>
+        </sections>
+        <sections>
+            <label><!-- Incubator Operating Grant Request --></label>
+            <section>Incubator Operating Grant Request</section>
+        </sections>
+        <sections>
+            <label><!-- Organizational Information --></label>
+            <section>Organizational Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Address Information --></label>
+            <section>Payment Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Program Sponsorship Report --></label>
+            <section>Program Sponsorship Report</section>
+        </sections>
+        <sections>
+            <label><!-- Programming Review - Must Answer &quot;Yes&quot; For Every Question --></label>
+            <section>Programming Review - Must Answer &quot;Yes&quot; For Every Question</section>
+        </sections>
+        <sections>
+            <label><!-- Programming Review - Must Have At Least 1 &quot;Yes&quot; --></label>
+            <section>Programming Review - Must Have At Least 1 &quot;Yes&quot;</section>
+        </sections>
+        <sections>
+            <label><!-- System Details --></label>
+            <section>System Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive Business Incubation Grant Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points --></label>
+            <section>General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points</section>
+        </sections>
+        <sections>
+            <label><!-- Incubator Operating Grant Request --></label>
+            <section>Incubator Operating Grant Request</section>
+        </sections>
+        <sections>
+            <label><!-- Organizational Information --></label>
+            <section>Organizational Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Address Information --></label>
+            <section>Payment Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Program Sponsorship Report --></label>
+            <section>Program Sponsorship Report</section>
+        </sections>
+        <sections>
+            <label><!-- Programming Review - Must Answer &quot;Yes&quot; For Every Question --></label>
+            <section>Programming Review - Must Answer &quot;Yes&quot; For Every Question</section>
+        </sections>
+        <sections>
+            <label><!-- Programming Review - Must Have At Least 1 &quot;Yes&quot; --></label>
+            <section>Programming Review - Must Have At Least 1 &quot;Yes&quot;</section>
+        </sections>
+        <sections>
+            <label><!-- System Details --></label>
+            <section>System Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive Event Sponsorship Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Event Details --></label>
+            <section>Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Event Sponsorship Report --></label>
+            <section>Event Sponsorship Report</section>
+        </sections>
+        <sections>
+            <label><!-- Event Sponsorship Review - Must Answer &quot;Yes&quot; For Every Question --></label>
+            <section>Event Sponsorship Review - Must Answer &quot;Yes&quot; For Every Question</section>
+        </sections>
+        <sections>
+            <label><!-- General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points --></label>
+            <section>General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points</section>
+        </sections>
+        <sections>
+            <label><!-- Organizational Information --></label>
+            <section>Organizational Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Address Information --></label>
+            <section>Payment Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive Event Sponsorship Grant Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Event Details --></label>
+            <section>Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Event Sponsorship Report --></label>
+            <section>Event Sponsorship Report</section>
+        </sections>
+        <sections>
+            <label><!-- Event Sponsorship Review - Must Answer &quot;Yes&quot; For Every Question --></label>
+            <section>Event Sponsorship Review - Must Answer &quot;Yes&quot; For Every Question</section>
+        </sections>
+        <sections>
+            <label><!-- General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points --></label>
+            <section>General Criteria - Must Be &quot;Yes&quot; To Every Question &amp; 80% of Potential Points</section>
+        </sections>
+        <sections>
+            <label><!-- Organizational Information --></label>
+            <section>Organizational Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Address Information --></label>
+            <section>Payment Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive IMIT Page Layout</layout>
+        <sections>
+            <label><!-- Agreement Information --></label>
+            <section>Agreement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Applicant Information --></label>
+            <section>Applicant Information</section>
+        </sections>
+        <sections>
+            <label><!-- Brownfield Information --></label>
+            <section>Brownfield Information</section>
+        </sections>
+        <sections>
+            <label><!-- Conflict of Interest --></label>
+            <section>Conflict of Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Eligibility Criteria Details --></label>
+            <section>Eligibility Criteria Details</section>
+        </sections>
+        <sections>
+            <label><!-- IMIT Overview --></label>
+            <section>IMIT Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Address Information --></label>
+            <section>Payment Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist Information --></label>
+            <section>Payment Checklist Information</section>
+        </sections>
+        <sections>
+            <label><!-- Property Information --></label>
+            <section>Property Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive IMIT Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Agreement Information --></label>
+            <section>Agreement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Applicant Information --></label>
+            <section>Applicant Information</section>
+        </sections>
+        <sections>
+            <label><!-- Brownfield Information --></label>
+            <section>Brownfield Information</section>
+        </sections>
+        <sections>
+            <label><!-- Conflict of Interest --></label>
+            <section>Conflict of Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Eligibility Criteria Details --></label>
+            <section>Eligibility Criteria Details</section>
+        </sections>
+        <sections>
+            <label><!-- IMIT Overview --></label>
+            <section>IMIT Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Address Information --></label>
+            <section>Payment Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist Information --></label>
+            <section>Payment Checklist Information</section>
+        </sections>
+        <sections>
+            <label><!-- Property Information --></label>
+            <section>Property Information</section>
+        </sections>
+        <sections>
+            <label><!-- User Consent Details --></label>
+            <section>User Consent Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive Sector Event Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Reason for Grant --></label>
+            <section>Reason for Grant</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sector Application Overview --></label>
+            <section>Sector Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive Sector Event Read Only Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Reason for Grant --></label>
+            <section>Reason for Grant</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sector Application Overview --></label>
+            <section>Sector Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financial Incentive Starter Company Grant Page Layout</layout>
+        <sections>
+            <label><!-- Application Business Information --></label>
+            <section>Application Business Information</section>
+        </sections>
+        <sections>
+            <label><!-- Application Business Overview --></label>
+            <section>Application Business Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Application Contact Information --></label>
+            <section>Application Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Application Eligibility Criteria --></label>
+            <section>Application Eligibility Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Application Financials --></label>
+            <section>Application Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Application Overview --></label>
+            <section>Application Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Client Follow-up Survey --></label>
+            <section>Client Follow-up Survey</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Grant Committee Application Review --></label>
+            <section>Grant Committee Application Review</section>
+        </sections>
+        <sections>
+            <label><!-- Information for Training Approval or Decline --></label>
+            <section>Information for Training Approval or Decline</section>
+        </sections>
+        <sections>
+            <label><!-- Score Card Details --></label>
+            <section>Score Card Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Training Stage --></label>
+            <section>Training Stage</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Issue --></label>
+        <name>New_Issue</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Commercial - Industrial Facade and Property Improvement for BIA Accounts --></description>
+        <label><!-- BIA Commercial - Industrial Facade and Property Improvement --></label>
+        <name>BIA_Commercial_Industrial_Facade_and_Property_Improvement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Commercial - Industrial Facade and Property Improvement for BIA Accounts - In  Read Only State --></description>
+        <label><!-- BIA Commercial - Industrial Facade and Property Improvement Read Only --></label>
+        <name>BIA_Commercial_Industrial_Facade_and_Property_Improvement_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Innovation Fund and Property Improvement for BIA Accounts --></description>
+        <label><!-- BIA Innovation Fund --></label>
+        <name>BIA_Innovation_Fund</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Innovation Fund and Property Improvement for BIA Accounts Read Only Records --></description>
+        <label><!-- BIA Innovation Fund Read Only --></label>
+        <name>BIA_Innovation_Fund_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Leadership Fund and Property Improvement for BIA Accounts --></description>
+        <label><!-- BIA Leadership Fund --></label>
+        <name>BIA_Leadership_Fund</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Leadership Fund and Property Improvement for BIA Accounts Read Only Records --></description>
+        <label><!-- BIA Leadership Fund Read Only --></label>
+        <name>BIA_Leadership_Fund_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Outside Mural and Street Art Grant and Property Improvement for BIA Accounts --></description>
+        <label><!-- BIA Outside Mural and Street Art --></label>
+        <name>BIA_Outside_Mural_and_Street_Art_Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Outside Mural and Street Art Grant and Property Improvement for BIA Accounts Read Only Records --></description>
+        <label><!-- BIA Outside Mural and Street Art Read Only --></label>
+        <name>BIA_Outside_Mural_and_Street_Art_Grant_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Streetscape Master Plan Funding and Property Improvement for BIA Accounts --></description>
+        <label><!-- BIA Streetscape Master Plan Funding --></label>
+        <name>BIA_Streetscape_Master_Plan_Funding</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is specifically applicable to BIA Streetscape Master Plan Funding and Property Improvement for BIA Accounts Read Only Records --></description>
+        <label><!-- BIA Streetscape Master Plan Funding Read Only --></label>
+        <name>BIA_Streetscape_Master_Plan_Funding_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is used for creating Grant records applicable only for Business Incubation i.e. a grant to a business incubator. --></description>
+        <label><!-- Business Incubation Grant --></label>
+        <name>Business_Incubation_Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is used for creating Grant records applicable only for Business Incubation i.e. a grant to a business incubator Read Only Records --></description>
+        <label><!-- Business Incubation Grant Read Only --></label>
+        <name>Business_Incubation_Grant_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is used for creating Grant records applicable only for Event Sponsorship for an external event focused on the business community --></description>
+        <label><!-- Event Sponsorship Grant --></label>
+        <name>Event_Sponsorship_Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This type is used for creating Grant records applicable only for Event Sponsorship for an external event focused on the business community Read Only Records --></description>
+        <label><!-- Event Sponsorship Grant Read Only --></label>
+        <name>Event_Sponsorship_Grant_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is used for creating Financial Incentive of IMIT Type --></description>
+        <label><!-- IMIT --></label>
+        <name>IMIT</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is used for creating Financial Incentive of IMIT Type Read Only Records --></description>
+        <label><!-- IMIT Read Only --></label>
+        <name>IMIT_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record type is only applicable to various Grant related to sector like Event. Project and Membership --></description>
+        <label><!-- Sector Grant --></label>
+        <name>Sector_Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record type is only applicable to various Grant related to sector like Event. Project and Membership	Read Only Records --></description>
+        <label><!-- Sector Grant Read Only --></label>
+        <name>Sector_Grant_Read_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Applicable to Starter Company Program --></description>
+        <label><!-- Starter Company Grant --></label>
+        <name>Starter_Company_Grant</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Amount Approved  and 1st Payment details should be provided in Payment section --></errorMessage>
+        <name>Validation_1st_Payment_Innov_OMS_Grants</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Amount Approved, Final Invoice Received Date and 2nd Payment details should be provided in Payment section --></errorMessage>
+        <name>Validation_2nd_Payment_Innov_OMS_Grants</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Validation_Additional_Information_Sector</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Amount Approved can&apos;t be less than sum of 1st and 2nd Actual Paid Amount --></errorMessage>
+        <name>Validation_Amount_Approved_Innov_OMS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Status &apos;In Review&apos;  response to questions in all 3 Programming Review Sections is required --></errorMessage>
+        <name>Validation_For_BIC_Grant_Review_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Status &apos;In Review&apos;  response to all questions in General Criteria and Event Sponsorship Review Sections is required. --></errorMessage>
+        <name>Validation_For_Event_Grant_Review_Detail</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Field --></errorMessage>
+        <name>Validation_For_Other_Financial_Assistanc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason should be provided for Inactive and Withdrawn Status --></errorMessage>
+        <name>Validation_For_Reason_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- IMIT Account and Initiative Account are not same --></errorMessage>
+        <name>Validation_Initative_IMIT_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Field for Internal User --></errorMessage>
+        <name>Validation_Rule_For_Has_App_Submitted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status can not be moved back once Approved --></errorMessage>
+        <name>Validation_Rule_for_Approved_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For training approved status, please specify Training Location, Date, Time, Group, and Module Details. --></errorMessage>
+        <name>Validation_Training_Approved_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify Total Number of Training hours and Completed hours. --></errorMessage>
+        <name>Validation_Training_Completed_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Report can be triggered manually only if  Report Outcome Survey has not been responded yet. --></errorMessage>
+        <name>Validation_before_Trigger_BIC_Report_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Report can be triggered manually only if  Event Outcome Survey has not been responded yet. --></errorMessage>
+        <name>Validation_before_Trigger_Event_Report</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Documents are required before submitting Grant for Approval --></errorMessage>
+        <name>Validation_for_Has_Document_Uploaded</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status should be Draft for new record --></errorMessage>
+        <name>Validation_for_New_Record_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Validation_for_No_Conflict_IMIT_Grant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- All details should be provided in Payment Detail section for Payment Status --></errorMessage>
+        <name>Validation_for_Payment_Detail_BIA_Grants</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Status value can only be assigned through Approval Process automatically --></errorMessage>
+        <name>Validation_for_Status_Change_Manually</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- All check-boxes should be checked in User Consent Section --></errorMessage>
+        <name>Validation_for_User_Consent_BIA_Grants</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Grant Extension Date should be greater than and within one year after Expiry Date --></errorMessage>
+        <name>Validation_to_Check_Extension_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The value can only be specified once Status has been Approved --></errorMessage>
+        <name>Validation_to_Check_Grant_Amount_Paid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Financial Incentive record can not be associated with Inactive Account --></errorMessage>
+        <name>Validation_to_Check_Inactive_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The number of IMIT Payment records can&apos;t be more than Number of Payment specified on IMIT Application --></errorMessage>
+        <name>Validation_to_Limit_Total_Payment_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once Application has been Approved  &apos;Amount Approved&apos; can not be changed --></errorMessage>
+        <name>Validation_to_Lock_Amount_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field Value for Account, Contact or any field in Application Contact Information, Business Information, Eligibility Criteria, Eligibility Criteria and Financials can not be changed for application submitted through Online Form. --></errorMessage>
+        <name>Validation_to_Lock_Starter_Company_Grant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field Value in Account, Contact or Amount Approved can not be changed once grant Status is Application Approved/Declined --></errorMessage>
+        <name>Validation_to_Partially_Lock_BIA_Grant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field Value in Account, Contact or Amount Approved can not be changed once grant Status is Approved/Declined --></errorMessage>
+        <name>Validation_to_Partially_Lock_ES_Grant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field Value in Account, Contact, Initiative or Rejection Reason can not be changed once grant has been Approved by GM/City Council or Declined. --></errorMessage>
+        <name>Validation_to_Partially_Lock_IMIT_Grant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field Value in Account, Contact or Amount Approved can not be changed once grant Status is Approved/Declined --></errorMessage>
+        <name>Validation_to_Partially_Lock_SectorGrant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status can not be moved back to previous value. --></errorMessage>
+        <name>Validation_to_Restrict_Status_Change_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status can not be moved back to previous value. --></errorMessage>
+        <name>Validation_to_Restrict_Status_Change_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status can not be moved back to previous value. --></errorMessage>
+        <name>Validation_to_Restrict_Status_Change_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status can not be moved back to previous value. --></errorMessage>
+        <name>Validation_to_Restrict_Status_Change_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status can not be moved back to previous value. --></errorMessage>
+        <name>Validation_to_Restrict_Status_Change_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status can not be moved back to previous value. --></errorMessage>
+        <name>Validation_to_Restrict_Status_Change_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The value in Total Grant Amount should not be less than payment made for all IMIT Payment records. --></errorMessage>
+        <name>Validation_to_compare_Total_Grant_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Grant Extension Date should be provided for Extension Request --></errorMessage>
+        <name>Validation_to_provide_Extension_date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Financial_Incentive --></label>
+        <name>New_Financial_Incentive</name>
+    </webLinks>
+</CustomObjectTranslation>

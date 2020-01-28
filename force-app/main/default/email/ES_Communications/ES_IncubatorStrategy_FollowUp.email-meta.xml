@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Update on the incubator strategy to stakeholders.  Post council approval May 2015.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ES-IncubatorStrategy-FollowUp</name>
+    <style>none</style>
+    <subject>City of Toronto - Startup Eco-System Strategy Update</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

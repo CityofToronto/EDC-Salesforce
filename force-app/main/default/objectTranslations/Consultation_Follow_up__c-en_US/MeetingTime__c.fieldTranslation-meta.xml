@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- MeetingTime --></label>
+    <name>MeetingTime__c</name>
+    <picklistValues>
+        <masterLabel>01 PM - 02 PM</masterLabel>
+        <translation><!-- 01 PM - 02 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02 PM - 03 PM</masterLabel>
+        <translation><!-- 02 PM - 03 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03 PM - 04 PM</masterLabel>
+        <translation><!-- 03 PM - 04 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04 PM - 05 PM</masterLabel>
+        <translation><!-- 04 PM - 05 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>05 PM - 06 PM</masterLabel>
+        <translation><!-- 05 PM - 06 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08 AM - 09 AM</masterLabel>
+        <translation><!-- 08 AM - 09 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>09 AM - 10 AM</masterLabel>
+        <translation><!-- 09 AM - 10 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 AM - 11 AM</masterLabel>
+        <translation><!-- 10 AM - 11 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 AM - 12 PM</masterLabel>
+        <translation><!-- 11 AM - 12 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 PM - 01 PM</masterLabel>
+        <translation><!-- 12 PM - 01 PM --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

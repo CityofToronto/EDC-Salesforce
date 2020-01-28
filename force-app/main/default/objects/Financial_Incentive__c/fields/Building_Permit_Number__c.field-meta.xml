@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Permit_Number__c</fullName>
+    <description>Permit number associated with above ground building permit</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Permit number associated with above ground building permit</inlineHelpText>
+    <label>Building Permit Number</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

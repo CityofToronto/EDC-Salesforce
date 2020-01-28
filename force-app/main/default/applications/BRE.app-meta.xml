@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>BRE</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Interaction__c</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>Financial_Incentive__c</tabs>
+    <tabs>Issue__c</tabs>
+    <tabs>International_Agreement__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>eContacts__eContacts_Queue</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>BRE_UtilityBar</utilityBar>
+</CustomApplication>

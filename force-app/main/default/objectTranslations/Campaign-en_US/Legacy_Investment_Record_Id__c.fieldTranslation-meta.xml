@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is Unique Record Id from Investment Activity Old Database --></help>
+    <label><!-- Legacy Investment Record Id --></label>
+    <name>Legacy_Investment_Record_Id__c</name>
+</CustomFieldTranslation>

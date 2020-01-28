@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SC Score Card</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SC Score Cards</value>
+    </caseValues>
+    <layouts>
+        <layout>Financial Incentive Score Card Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Retention and Experience --></label>
+            <section>Customer Retention and Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Entrepreneur Profile --></label>
+            <section>Entrepreneur Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Management --></label>
+            <section>Financial Management</section>
+        </sections>
+        <sections>
+            <label><!-- Inventory Management and Supply Chain --></label>
+            <section>Inventory Management and Supply Chain</section>
+        </sections>
+        <sections>
+            <label><!-- Managing Staff --></label>
+            <section>Managing Staff</section>
+        </sections>
+        <sections>
+            <label><!-- Market Research --></label>
+            <section>Market Research</section>
+        </sections>
+        <sections>
+            <label><!-- Store Design Merchandising --></label>
+            <section>Store Design Merchandising</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SC Score Card Layout</layout>
+        <sections>
+            <label><!-- 1) Entrepreneur Profile --></label>
+            <section>1) Entrepreneur Profile</section>
+        </sections>
+        <sections>
+            <label><!-- 2) Company Profile --></label>
+            <section>2) Company Profile</section>
+        </sections>
+        <sections>
+            <label><!-- 3) Operating Plan --></label>
+            <section>3) Operating Plan</section>
+        </sections>
+        <sections>
+            <label><!-- 4) Marketing &amp; Sales Plan --></label>
+            <section>4) Marketing &amp; Sales Plan</section>
+        </sections>
+        <sections>
+            <label><!-- 5) Financial Assumptions --></label>
+            <section>5) Financial Assumptions</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Female Founders Program --></label>
+        <name>Female_Founders_Program</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Retail Program --></label>
+        <name>Retail_Program</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

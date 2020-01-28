@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This Email template will be used to notify the Account Owner on conversion of Account Type to Business Client</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Email Notification For Account Type Change</name>
+    <style>none</style>
+    <subject>Account Conversion from Prospect to Client : {!Account.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assumptions_are_clearly_identified__c</fullName>
+    <description>Assumptions are clearly identified based on information provided in the company outline, operating plan, and marketing plan</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Assumptions are clearly identified based on information provided in the company outline, operating plan, and marketing plan</inlineHelpText>
+    <label>Assumptions are clearly identified?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes (2 pt)</fullName>
+                <default>false</default>
+                <label>Yes (2 pt)</label>
+            </value>
+            <value>
+                <fullName>No (0 pt)</fullName>
+                <default>false</default>
+                <label>No (0 pt)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

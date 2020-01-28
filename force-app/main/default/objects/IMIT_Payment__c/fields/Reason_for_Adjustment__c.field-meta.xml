@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Adjustment__c</fullName>
+    <description>Reasons may include: Rebates, prior year over payment or reduction in eligible Gross Floor Area</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reasons may include: Rebates, prior year over payment or reduction in eligible Gross Floor Area</inlineHelpText>
+    <label>Reason for Adjustment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vacancy</fullName>
+                <default>false</default>
+                <label>Vacancy</label>
+            </value>
+            <value>
+                <fullName>Rebate</fullName>
+                <default>false</default>
+                <label>Rebate</label>
+            </value>
+            <value>
+                <fullName>Change in eligible GFA</fullName>
+                <default>false</default>
+                <label>Change in eligible GFA</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

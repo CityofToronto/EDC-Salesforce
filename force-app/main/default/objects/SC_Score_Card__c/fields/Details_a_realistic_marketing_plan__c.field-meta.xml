@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Details_a_realistic_marketing_plan__c</fullName>
+    <description>Details a realistic marketing plan that aggressively introduces the product/service to the target market (based on sound market research)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Details a realistic marketing plan that aggressively introduces the product/service to the target market (based on sound market research)</inlineHelpText>
+    <label>Details a realistic marketing plan?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes (5 pt)</fullName>
+                <default>false</default>
+                <label>Yes (5 pt)</label>
+            </value>
+            <value>
+                <fullName>No (0 pt)</fullName>
+                <default>false</default>
+                <label>No (0 pt)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

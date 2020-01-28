@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Customers__c</fullName>
+    <description>The customers of the organization to identify if they fit into a cluster.  For example a manufacturer of stainless steel bolts that just sells their products to the aerospace sector would be considered part of the sector (or a cluster).  They would just be considered metal manufacturing in traditional sector classifications.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The customers of the organization to identify if they fit into a cluster.  For example a manufacturer of stainless steel bolts that just sells their products to the aerospace sector would be considered part of the sector (or a cluster).</inlineHelpText>
+    <label>Primary Customers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academic Institutions</fullName>
+                <default>false</default>
+                <label>Academic Institutions</label>
+            </value>
+            <value>
+                <fullName>Business (General) - large enterprises</fullName>
+                <default>false</default>
+                <label>Business (General) - large enterprises</label>
+            </value>
+            <value>
+                <fullName>Business (General) - small enterprises</fullName>
+                <default>false</default>
+                <label>Business (General) - small enterprises</label>
+            </value>
+            <value>
+                <fullName>Business (General)- medium enterprises</fullName>
+                <default>false</default>
+                <label>Business (General)- medium enterprises</label>
+            </value>
+            <value>
+                <fullName>Business (Distributors)</fullName>
+                <default>false</default>
+                <label>Business (Distributors)</label>
+            </value>
+            <value>
+                <fullName>Business (Suppliers)</fullName>
+                <default>false</default>
+                <label>Business (Suppliers)</label>
+            </value>
+            <value>
+                <fullName>Clinical - general &amp; specialist Practitioner</fullName>
+                <default>false</default>
+                <label>Clinical - general &amp; specialist Practitioner</label>
+            </value>
+            <value>
+                <fullName>Clinical - home healthcare and nursing</fullName>
+                <default>false</default>
+                <label>Clinical - home healthcare and nursing</label>
+            </value>
+            <value>
+                <fullName>Clinical - hospital</fullName>
+                <default>false</default>
+                <label>Clinical - hospital</label>
+            </value>
+            <value>
+                <fullName>Clinical - laboratory</fullName>
+                <default>false</default>
+                <label>Clinical - laboratory</label>
+            </value>
+            <value>
+                <fullName>Consumer (General)</fullName>
+                <default>false</default>
+                <label>Consumer (General)</label>
+            </value>
+            <value>
+                <fullName>Consumer (Patient)</fullName>
+                <default>false</default>
+                <label>Consumer (Patient)</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Researchers</fullName>
+                <default>false</default>
+                <label>Researchers</label>
+            </value>
+            <value>
+                <fullName>Restaurants</fullName>
+                <default>false</default>
+                <label>Restaurants</label>
+            </value>
+            <value>
+                <fullName>Retail (General)</fullName>
+                <default>false</default>
+                <label>Retail (General)</label>
+            </value>
+            <value>
+                <fullName>Retail (Grocery)</fullName>
+                <default>false</default>
+                <label>Retail (Grocery)</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

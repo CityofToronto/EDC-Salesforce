@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Rule_to_Check_Date_Closed</fullName>
+    <active>true</active>
+    <description>This validation rule will make sure Date Closed should not be less than today for any issue</description>
+    <errorConditionFormula>Date_Closed__c &gt; TODAY()</errorConditionFormula>
+    <errorDisplayField>Date_Closed__c</errorDisplayField>
+    <errorMessage>Date Closed can not be in future</errorMessage>
+</ValidationRule>

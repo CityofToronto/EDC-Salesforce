@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Challenge_s_Faced_by_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>Challenge(s) Faced by Business</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Border Crossing</fullName>
+                <default>false</default>
+                <label>Border Crossing</label>
+            </value>
+            <value>
+                <fullName>Building Permit</fullName>
+                <default>false</default>
+                <label>Building Permit</label>
+            </value>
+            <value>
+                <fullName>Declining Market</fullName>
+                <default>false</default>
+                <label>Declining Market</label>
+            </value>
+            <value>
+                <fullName>Delays</fullName>
+                <default>false</default>
+                <label>Delays</label>
+            </value>
+            <value>
+                <fullName>Federal Regulations</fullName>
+                <default>false</default>
+                <label>Federal Regulations</label>
+            </value>
+            <value>
+                <fullName>Financing</fullName>
+                <default>false</default>
+                <label>Financing</label>
+            </value>
+            <value>
+                <fullName>Foreign Competition</fullName>
+                <default>false</default>
+                <label>Foreign Competition</label>
+            </value>
+            <value>
+                <fullName>Foreign Regulations</fullName>
+                <default>false</default>
+                <label>Foreign Regulations</label>
+            </value>
+            <value>
+                <fullName>Hydro Reliability</fullName>
+                <default>false</default>
+                <label>Hydro Reliability</label>
+            </value>
+            <value>
+                <fullName>Increasing Input Costs</fullName>
+                <default>false</default>
+                <label>Increasing Input Costs</label>
+            </value>
+            <value>
+                <fullName>Lack of Government Assistance Programs</fullName>
+                <default>false</default>
+                <label>Lack of Government Assistance Programs</label>
+            </value>
+            <value>
+                <fullName>Municipal Regulations</fullName>
+                <default>false</default>
+                <label>Municipal Regulations</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Planning</fullName>
+                <default>false</default>
+                <label>Planning</label>
+            </value>
+            <value>
+                <fullName>Provincial Regulations</fullName>
+                <default>false</default>
+                <label>Provincial Regulations</label>
+            </value>
+            <value>
+                <fullName>Skilled Labour Regulations</fullName>
+                <default>false</default>
+                <label>Skilled Labour Regulations</label>
+            </value>
+            <value>
+                <fullName>Skilled Labour Supply</fullName>
+                <default>false</default>
+                <label>Skilled Labour Supply</label>
+            </value>
+            <value>
+                <fullName>Suppliers</fullName>
+                <default>false</default>
+                <label>Suppliers</label>
+            </value>
+            <value>
+                <fullName>Taxation Problems</fullName>
+                <default>false</default>
+                <label>Taxation Problems</label>
+            </value>
+            <value>
+                <fullName>Technology Changes</fullName>
+                <default>false</default>
+                <label>Technology Changes</label>
+            </value>
+            <value>
+                <fullName>Transportation Delays</fullName>
+                <default>false</default>
+                <label>Transportation Delays</label>
+            </value>
+            <value>
+                <fullName>Values of Canadian Dollar</fullName>
+                <default>false</default>
+                <label>Values of Canadian Dollar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

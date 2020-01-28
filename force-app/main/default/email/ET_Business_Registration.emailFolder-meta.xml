@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>ET-Business Registration</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_BIC</roleAndSubordinates>
+        <roleAndSubordinates>ES_ET</roleAndSubordinates>
+    </sharedTo>
+</EmailFolder>

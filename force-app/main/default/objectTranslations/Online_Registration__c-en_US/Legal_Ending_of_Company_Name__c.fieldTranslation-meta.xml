@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Legal_Ending_of_Company_Name --></label>
+    <name>Legal_Ending_of_Company_Name__c</name>
+    <picklistValues>
+        <masterLabel>Corp</masterLabel>
+        <translation><!-- Corp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporation</masterLabel>
+        <translation><!-- Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inc</masterLabel>
+        <translation><!-- Inc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incorporated</masterLabel>
+        <translation><!-- Incorporated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incorporee</masterLabel>
+        <translation><!-- Incorporee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limited</masterLabel>
+        <translation><!-- Limited --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limitee</masterLabel>
+        <translation><!-- Limitee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ltd</masterLabel>
+        <translation><!-- Ltd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ltee</masterLabel>
+        <translation><!-- Ltee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The customers of the organization to identify if they fit into a cluster.  For example a manufacturer of stainless steel bolts that just sells their products to the aerospace sector would be considered part of the sector (or a cluster). --></help>
+    <label><!-- Primary Customers --></label>
+    <name>Primary_Customers__c</name>
+    <picklistValues>
+        <masterLabel>Academic Institutions</masterLabel>
+        <translation><!-- Academic Institutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business (Distributors)</masterLabel>
+        <translation><!-- Business (Distributors) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business (General) - large enterprises</masterLabel>
+        <translation><!-- Business (General) - large enterprises --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business (General) - small enterprises</masterLabel>
+        <translation><!-- Business (General) - small enterprises --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business (General)- medium enterprises</masterLabel>
+        <translation><!-- Business (General)- medium enterprises --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business (Suppliers)</masterLabel>
+        <translation><!-- Business (Suppliers) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical - general &amp; specialist Practitioner</masterLabel>
+        <translation><!-- Clinical - general &amp; specialist Practitioner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical - home healthcare and nursing</masterLabel>
+        <translation><!-- Clinical - home healthcare and nursing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical - hospital</masterLabel>
+        <translation><!-- Clinical - hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical - laboratory</masterLabel>
+        <translation><!-- Clinical - laboratory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumer (General)</masterLabel>
+        <translation><!-- Consumer (General) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumer (Patient)</masterLabel>
+        <translation><!-- Consumer (Patient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government</masterLabel>
+        <translation><!-- Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Researchers</masterLabel>
+        <translation><!-- Researchers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restaurants</masterLabel>
+        <translation><!-- Restaurants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail (General)</masterLabel>
+        <translation><!-- Retail (General) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail (Grocery)</masterLabel>
+        <translation><!-- Retail (Grocery) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities</masterLabel>
+        <translation><!-- Utilities --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

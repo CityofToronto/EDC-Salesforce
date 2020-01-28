@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Where is business located? --></label>
+    <name>Where_is_business_located__c</name>
+    <picklistValues>
+        <masterLabel>Above Ground</masterLabel>
+        <translation><!-- Above Ground --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Below Ground</masterLabel>
+        <translation><!-- Below Ground --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ground Floor</masterLabel>
+        <translation><!-- Ground Floor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

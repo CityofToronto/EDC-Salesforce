@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The company can consistently acquire goods to supply the product/service at an acceptable price and quality --></help>
+    <label><!-- Company has goods to supply product? --></label>
+    <name>Company_has_goods_to_supply_product__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>yes (2 pt)</masterLabel>
+        <translation><!-- yes (2 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

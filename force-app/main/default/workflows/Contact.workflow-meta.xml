@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>FirstNameUpdate</fullName>
+        <description>Capitalizes first name.</description>
+        <field>FirstName</field>
+        <formula>UPPER(LEFT( FirstName , 1)) + LOWER(MID(FirstName, 2,80))</formula>
+        <name>FirstNameUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>LastNameUpdate</fullName>
+        <description>Capitalizes last name.</description>
+        <field>LastName</field>
+        <formula>UPPER(LEFT( LastName , 1)) + LOWER(MID(LastName, 2,80))</formula>
+        <name>LastNameUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Admin_Contact First Name Fix %28Capital%29</fullName>
+        <actions>
+            <name>FirstNameUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Capitalizes letter of first name.</description>
+        <formula>NOT(ISBLANK( FirstName))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Admin_Contact Last Name Fix %28Capital%29</fullName>
+        <actions>
+            <name>LastNameUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Capitalizes last name first letter.</description>
+        <formula>NOT(ISBLANK( LastName))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

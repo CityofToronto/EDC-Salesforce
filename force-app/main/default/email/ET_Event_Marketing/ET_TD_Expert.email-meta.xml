@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite to clients to meet with TD during one-on-one session.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-TD-Expert</name>
+    <style>none</style>
+    <subject>Invite: Ask-the-Expert: Business Banking with TD</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

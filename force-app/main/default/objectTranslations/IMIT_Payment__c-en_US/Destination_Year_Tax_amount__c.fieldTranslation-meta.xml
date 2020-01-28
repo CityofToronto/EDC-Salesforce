@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Amount calculated by multiplying the CVA&apos;s directly attributable to the Eligible Development as reflected in the returned assessment roll applicable to the first full taxation year following the completion and reassessment of the Eligible Development --></help>
+    <label><!-- Destination Year Tax amount --></label>
+    <name>Destination_Year_Tax_amount__c</name>
+</CustomFieldTranslation>

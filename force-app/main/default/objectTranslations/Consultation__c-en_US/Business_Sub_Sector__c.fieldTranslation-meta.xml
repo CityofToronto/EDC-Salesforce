@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Sub-Sector --></label>
+    <name>Business_Sub_Sector__c</name>
+    <picklistValues>
+        <masterLabel>111 - Crop production</masterLabel>
+        <translation><!-- 111 - Crop production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>112 - Animal production and aquaculture</masterLabel>
+        <translation><!-- 112 - Animal production and aquaculture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>113 - Forestry and logging</masterLabel>
+        <translation><!-- 113 - Forestry and logging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>114 - Fishing, hunting and trapping</masterLabel>
+        <translation><!-- 114 - Fishing, hunting and trapping --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>115 - Support activities for agriculture and forestry</masterLabel>
+        <translation><!-- 115 - Support activities for agriculture and forestry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>211 - Oil and gas extraction</masterLabel>
+        <translation><!-- 211 - Oil and gas extraction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>212 - Mining and quarrying (except oil and gas)</masterLabel>
+        <translation><!-- 212 - Mining and quarrying (except oil and gas) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>213 - Support activities for mining, and oil and gas extraction</masterLabel>
+        <translation><!-- 213 - Support activities for mining, and oil and gas extraction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2211 - Electric power generation, transmission and distribution</masterLabel>
+        <translation><!-- 2211 - Electric power generation, transmission and distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2212 - Natural gas distribution</masterLabel>
+        <translation><!-- 2212 - Natural gas distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2213 - Water, sewage and other systems</masterLabel>
+        <translation><!-- 2213 - Water, sewage and other systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>236 - Construction of buildings</masterLabel>
+        <translation><!-- 236 - Construction of buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>237 - Heavy and civil engineering construction</masterLabel>
+        <translation><!-- 237 - Heavy and civil engineering construction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>238 - Specialty trade contractors</masterLabel>
+        <translation><!-- 238 - Specialty trade contractors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>311 - Food manufacturing</masterLabel>
+        <translation><!-- 311 - Food manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>312 - Beverage and tobacco product manufacturing</masterLabel>
+        <translation><!-- 312 - Beverage and tobacco product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>313 - Textile mills</masterLabel>
+        <translation><!-- 313 - Textile mills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>314 - Textile product mills</masterLabel>
+        <translation><!-- 314 - Textile product mills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>315 - Clothing manufacturing</masterLabel>
+        <translation><!-- 315 - Clothing manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>316 - Leather and allied product manufacturing</masterLabel>
+        <translation><!-- 316 - Leather and allied product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>321 - Wood product manufacturing</masterLabel>
+        <translation><!-- 321 - Wood product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>322 - Paper manufacturing</masterLabel>
+        <translation><!-- 322 - Paper manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>323 - Printing and related support activities</masterLabel>
+        <translation><!-- 323 - Printing and related support activities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>324 - Petroleum and coal product manufacturing</masterLabel>
+        <translation><!-- 324 - Petroleum and coal product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>325 - Chemical manufacturing</masterLabel>
+        <translation><!-- 325 - Chemical manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>326 - Plastics and rubber products manufacturing</masterLabel>
+        <translation><!-- 326 - Plastics and rubber products manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>327 - Non-metallic mineral product manufacturing</masterLabel>
+        <translation><!-- 327 - Non-metallic mineral product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>331 - Primary metal manufacturing</masterLabel>
+        <translation><!-- 331 - Primary metal manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>332 - Fabricated metal product manufacturing</masterLabel>
+        <translation><!-- 332 - Fabricated metal product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>333 - Machinery manufacturing</masterLabel>
+        <translation><!-- 333 - Machinery manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>334 - Computer and electronic product manufacturing</masterLabel>
+        <translation><!-- 334 - Computer and electronic product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>335 - Electrical equipment, appliance and component manufacturing</masterLabel>
+        <translation><!-- 335 - Electrical equipment, appliance and component manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>336 - Transportation equipment manufacturing</masterLabel>
+        <translation><!-- 336 - Transportation equipment manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>337 - Furniture and related product manufacturing</masterLabel>
+        <translation><!-- 337 - Furniture and related product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>339 - Miscellaneous manufacturing</masterLabel>
+        <translation><!-- 339 - Miscellaneous manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>411 - Farm product merchant wholesalers</masterLabel>
+        <translation><!-- 411 - Farm product merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>412 - Petroleum and petroleum products merchant wholesalers</masterLabel>
+        <translation><!-- 412 - Petroleum and petroleum products merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>413 - Food, beverage and tobacco merchant wholesalers</masterLabel>
+        <translation><!-- 413 - Food, beverage and tobacco merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>414 - Personal and household goods merchant wholesalers</masterLabel>
+        <translation><!-- 414 - Personal and household goods merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>415 - Motor vehicle and motor vehicle parts and accessories merchant wholesalers</masterLabel>
+        <translation><!-- 415 - Motor vehicle and motor vehicle parts and accessories merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>416 - Building material and supplies merchant wholesalers</masterLabel>
+        <translation><!-- 416 - Building material and supplies merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>417 - Machinery, equipment and supplies merchant wholesalers</masterLabel>
+        <translation><!-- 417 - Machinery, equipment and supplies merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>418 - Miscellaneous merchant wholesalers</masterLabel>
+        <translation><!-- 418 - Miscellaneous merchant wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>419 - Business-to-business electronic markets, and agents and brokers</masterLabel>
+        <translation><!-- 419 - Business-to-business electronic markets, and agents and brokers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>441 - Motor vehicle and parts dealers</masterLabel>
+        <translation><!-- 441 - Motor vehicle and parts dealers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>442 - Furniture and home furnishings stores</masterLabel>
+        <translation><!-- 442 - Furniture and home furnishings stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>443 - Electronics and appliance stores</masterLabel>
+        <translation><!-- 443 - Electronics and appliance stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>444 - Building material and garden equipment and supplies dealers</masterLabel>
+        <translation><!-- 444 - Building material and garden equipment and supplies dealers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>445 - Food and beverage stores</masterLabel>
+        <translation><!-- 445 - Food and beverage stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>446 - Health and personal care stores</masterLabel>
+        <translation><!-- 446 - Health and personal care stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>447 - Gasoline stations</masterLabel>
+        <translation><!-- 447 - Gasoline stations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>448 - Clothing and clothing accessories stores</masterLabel>
+        <translation><!-- 448 - Clothing and clothing accessories stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>451 - Sporting goods, hobby, book and music stores</masterLabel>
+        <translation><!-- 451 - Sporting goods, hobby, book and music stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>452 - General merchandise stores</masterLabel>
+        <translation><!-- 452 - General merchandise stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>453 - Miscellaneous store retailers</masterLabel>
+        <translation><!-- 453 - Miscellaneous store retailers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>454 - Non-store retailers</masterLabel>
+        <translation><!-- 454 - Non-store retailers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>481 - Air transportation</masterLabel>
+        <translation><!-- 481 - Air transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>482 - Rail transportation</masterLabel>
+        <translation><!-- 482 - Rail transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>483 - Water transportation</masterLabel>
+        <translation><!-- 483 - Water transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>484 - Truck transportation</masterLabel>
+        <translation><!-- 484 - Truck transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>485 - Transit and ground passenger transportation</masterLabel>
+        <translation><!-- 485 - Transit and ground passenger transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>486 - Pipeline transportation</masterLabel>
+        <translation><!-- 486 - Pipeline transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>487 - Scenic and sightseeing transportation</masterLabel>
+        <translation><!-- 487 - Scenic and sightseeing transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>488 - Support activities for transportation</masterLabel>
+        <translation><!-- 488 - Support activities for transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>491 - Postal service</masterLabel>
+        <translation><!-- 491 - Postal service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>492 - Couriers and messengers</masterLabel>
+        <translation><!-- 492 - Couriers and messengers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>493 - Warehousing and storage</masterLabel>
+        <translation><!-- 493 - Warehousing and storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>511 - Publishing industries (except internet)</masterLabel>
+        <translation><!-- 511 - Publishing industries (except internet) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>512 - Motion picture and sound recording industries</masterLabel>
+        <translation><!-- 512 - Motion picture and sound recording industries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>515 - Broadcasting (except internet)</masterLabel>
+        <translation><!-- 515 - Broadcasting (except internet) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>517 - Telecommunications</masterLabel>
+        <translation><!-- 517 - Telecommunications --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>518 - Data processing, hosting, and related services</masterLabel>
+        <translation><!-- 518 - Data processing, hosting, and related services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>519 - Other information services</masterLabel>
+        <translation><!-- 519 - Other information services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>521 - Monetary authorities - central bank</masterLabel>
+        <translation><!-- 521 - Monetary authorities - central bank --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>522 - Credit intermediation and related activities</masterLabel>
+        <translation><!-- 522 - Credit intermediation and related activities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>523 - Securities, commodity contracts, and other financial investment and related activities</masterLabel>
+        <translation><!-- 523 - Securities, commodity contracts, and other financial investment and related activities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>524 - Insurance carriers and related activities</masterLabel>
+        <translation><!-- 524 - Insurance carriers and related activities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>526 - Funds and other financial vehicles</masterLabel>
+        <translation><!-- 526 - Funds and other financial vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>531 - Real estate</masterLabel>
+        <translation><!-- 531 - Real estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>532 - Rental and leasing services</masterLabel>
+        <translation><!-- 532 - Rental and leasing services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>533 - Lessors of non-financial intangible assets (except copyrighted works)</masterLabel>
+        <translation><!-- 533 - Lessors of non-financial intangible assets (except copyrighted works) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5411 - Legal services</masterLabel>
+        <translation><!-- 5411 - Legal services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5412 - Accounting, tax preparation, bookkeeping and payroll services</masterLabel>
+        <translation><!-- 5412 - Accounting, tax preparation, bookkeeping and payroll services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5413 - Architectural, engineering and related services</masterLabel>
+        <translation><!-- 5413 - Architectural, engineering and related services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5414 - Specialized design services</masterLabel>
+        <translation><!-- 5414 - Specialized design services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5415 - Computer systems design and related services</masterLabel>
+        <translation><!-- 5415 - Computer systems design and related services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5416 - Management, scientific and technical consulting services</masterLabel>
+        <translation><!-- 5416 - Management, scientific and technical consulting services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5417 - Scientific research and development services</masterLabel>
+        <translation><!-- 5417 - Scientific research and development services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5418 - Advertising, public relations, and related services</masterLabel>
+        <translation><!-- 5418 - Advertising, public relations, and related services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5419 - Other professional, scientific and technical services</masterLabel>
+        <translation><!-- 5419 - Other professional, scientific and technical services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5511 - Management of companies and enterprises</masterLabel>
+        <translation><!-- 5511 - Management of companies and enterprises --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5611 - Office administrative services</masterLabel>
+        <translation><!-- 5611 - Office administrative services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5612 - Facilities support services</masterLabel>
+        <translation><!-- 5612 - Facilities support services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5613 - Employment services</masterLabel>
+        <translation><!-- 5613 - Employment services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5614 - Business support services</masterLabel>
+        <translation><!-- 5614 - Business support services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5615 - Travel arrangement and reservation services</masterLabel>
+        <translation><!-- 5615 - Travel arrangement and reservation services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5616 - Investigation and security services</masterLabel>
+        <translation><!-- 5616 - Investigation and security services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5617 - Services to buildings and dwellings</masterLabel>
+        <translation><!-- 5617 - Services to buildings and dwellings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5619 - Other support services</masterLabel>
+        <translation><!-- 5619 - Other support services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5621 - Waste collectionUS</masterLabel>
+        <translation><!-- 5621 - Waste collectionUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5622 - Waste treatment and disposalUS</masterLabel>
+        <translation><!-- 5622 - Waste treatment and disposalUS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5629 - Remediation and other waste management services</masterLabel>
+        <translation><!-- 5629 - Remediation and other waste management services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6111 - Elementary and secondary schools</masterLabel>
+        <translation><!-- 6111 - Elementary and secondary schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6112 - Community colleges and C.E.G.E.P.s</masterLabel>
+        <translation><!-- 6112 - Community colleges and C.E.G.E.P.s --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6113 - Universities</masterLabel>
+        <translation><!-- 6113 - Universities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6114 - Business schools and computer and management training</masterLabel>
+        <translation><!-- 6114 - Business schools and computer and management training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6115 - Technical and trade schools</masterLabel>
+        <translation><!-- 6115 - Technical and trade schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6116 - Other schools and instruction</masterLabel>
+        <translation><!-- 6116 - Other schools and instruction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6117 - Educational support services</masterLabel>
+        <translation><!-- 6117 - Educational support services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>621 - Ambulatory health care services</masterLabel>
+        <translation><!-- 621 - Ambulatory health care services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>622 - Hospitals</masterLabel>
+        <translation><!-- 622 - Hospitals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>623 - Nursing and residential care facilities</masterLabel>
+        <translation><!-- 623 - Nursing and residential care facilities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>624 - Social assistance</masterLabel>
+        <translation><!-- 624 - Social assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>711 - Performing arts, spectator sports and related industries</masterLabel>
+        <translation><!-- 711 - Performing arts, spectator sports and related industries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>712 - Heritage institutions</masterLabel>
+        <translation><!-- 712 - Heritage institutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>713 - Amusement, gambling and recreation industries</masterLabel>
+        <translation><!-- 713 - Amusement, gambling and recreation industries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7223 - Special food services</masterLabel>
+        <translation><!-- 7223 - Special food services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7224 - Drinking places (alcoholic beverages)</masterLabel>
+        <translation><!-- 7224 - Drinking places (alcoholic beverages) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7225 - Full-service restaurants and limited-service eating places</masterLabel>
+        <translation><!-- 7225 - Full-service restaurants and limited-service eating places --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8111 - Automotive repair and maintenance</masterLabel>
+        <translation><!-- 8111 - Automotive repair and maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8112 - Electronic and precision equipment repair and maintenance</masterLabel>
+        <translation><!-- 8112 - Electronic and precision equipment repair and maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8113 - Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance</masterLabel>
+        <translation><!-- 8113 - Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8114 - Personal and household goods repair and maintenance</masterLabel>
+        <translation><!-- 8114 - Personal and household goods repair and maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8121 - Personal care services</masterLabel>
+        <translation><!-- 8121 - Personal care services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8122 - Funeral services</masterLabel>
+        <translation><!-- 8122 - Funeral services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8123 - Dry cleaning and laundry services</masterLabel>
+        <translation><!-- 8123 - Dry cleaning and laundry services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8129 - Other personal services</masterLabel>
+        <translation><!-- 8129 - Other personal services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8131 - Religious organizations</masterLabel>
+        <translation><!-- 8131 - Religious organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8132 - Grant-making and giving services</masterLabel>
+        <translation><!-- 8132 - Grant-making and giving services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8133 - Social advocacy organizations</masterLabel>
+        <translation><!-- 8133 - Social advocacy organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8134 - Civic and social organizations</masterLabel>
+        <translation><!-- 8134 - Civic and social organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8139 - Business, professional, labour and other membership organizations</masterLabel>
+        <translation><!-- 8139 - Business, professional, labour and other membership organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8141 - Private households</masterLabel>
+        <translation><!-- 8141 - Private households --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

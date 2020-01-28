@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entrepreneurship_Services_Projects</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>Project_Focus__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>BGS-ES</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>equals</operation>
+        <value>Project - ES</value>
+    </filters>
+    <label>Entrepreneurship Services - Projects</label>
+    <sharedTo>
+        <role>ES_Admin</role>
+        <role>ES_BIC</role>
+        <role>ES_DMS</role>
+        <role>ES_ET</role>
+    </sharedTo>
+</ListView>

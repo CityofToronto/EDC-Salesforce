@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assistance_Received__c</fullName>
+    <externalId>false</externalId>
+    <label>Assistance Received</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Planning</fullName>
+                <default>false</default>
+                <label>Business Planning</label>
+            </value>
+            <value>
+                <fullName>Business Registration</fullName>
+                <default>false</default>
+                <label>Business Registration</label>
+            </value>
+            <value>
+                <fullName>Financing</fullName>
+                <default>false</default>
+                <label>Financing</label>
+            </value>
+            <value>
+                <fullName>Financials/Accounting</fullName>
+                <default>false</default>
+                <label>Financials/Accounting</label>
+            </value>
+            <value>
+                <fullName>Government Information</fullName>
+                <default>false</default>
+                <label>Government Information</label>
+            </value>
+            <value>
+                <fullName>Import / Export</fullName>
+                <default>false</default>
+                <label>Import / Export</label>
+            </value>
+            <value>
+                <fullName>Intellectual Property</fullName>
+                <default>false</default>
+                <label>Intellectual Property</label>
+            </value>
+            <value>
+                <fullName>Market Research</fullName>
+                <default>false</default>
+                <label>Market Research</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Mentoring</fullName>
+                <default>false</default>
+                <label>Mentoring</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Startup - General Info</fullName>
+                <default>false</default>
+                <label>Startup - General Info</label>
+            </value>
+            <value>
+                <fullName>Legal - General</fullName>
+                <default>false</default>
+                <label>Legal - General</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

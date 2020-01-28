@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite to the Elevate delegation reception.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SXSW-Tory&amp;ElevateInvite(2019)</name>
+    <style>none</style>
+    <subject>Invite: Elevate Creators Reception at SXSW with Special Guest John Tory</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

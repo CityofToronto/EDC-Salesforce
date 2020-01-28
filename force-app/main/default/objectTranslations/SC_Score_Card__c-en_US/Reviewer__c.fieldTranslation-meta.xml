@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reviewer --></label>
+    <name>Reviewer__c</name>
+    <picklistValues>
+        <masterLabel>Grant Reviewer1</masterLabel>
+        <translation><!-- Grant Reviewer1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grant Reviewer2</masterLabel>
+        <translation><!-- Grant Reviewer2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff</masterLabel>
+        <translation><!-- Staff --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

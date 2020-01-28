@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Customers_and_Proposed_Pricing__c</fullName>
+    <description>Describe your ideal customer. Please indicate the proposed price of your product or service.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describe your ideal customer. Please indicate the proposed price of your product or service.</inlineHelpText>
+    <label>Target Customers and Proposed Pricing</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

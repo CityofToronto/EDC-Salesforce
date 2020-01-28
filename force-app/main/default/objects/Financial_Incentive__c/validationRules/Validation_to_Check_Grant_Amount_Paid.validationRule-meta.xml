@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_to_Check_Grant_Amount_Paid</fullName>
+    <active>true</active>
+    <description>This validation will restrict user from changing has grant amount been paid before approved status</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;,RecordType.DeveloperName=&#39;Sector_Grant&#39;,
+	OR(AND(ISNEW(),NOT(ISBLANK(TEXT(Has_Grant_Amount_been_Paid__c)))),AND(OR(TEXT(Has_Grant_Amount_been_Paid__c)=&#39;Yes&#39;,TEXT(Has_Grant_Amount_been_Paid__c)=&#39;No&#39;),TEXT(Status__c)&lt;&gt;&#39;Approved&#39;)))</errorConditionFormula>
+    <errorDisplayField>Has_Grant_Amount_been_Paid__c</errorDisplayField>
+    <errorMessage>The value can only be specified once Status has been Approved</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Explain the reason for default, circumstances and how default is being processed --></help>
+    <label><!-- Default Reason --></label>
+    <name>Default_Reason__c</name>
+</CustomFieldTranslation>

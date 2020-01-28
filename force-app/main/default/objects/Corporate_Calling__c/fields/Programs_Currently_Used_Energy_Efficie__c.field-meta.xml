@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programs_Currently_Used_Energy_Efficie__c</fullName>
+    <externalId>false</externalId>
+    <label>Programs Current. Used Energy Efficiency</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Better Building Partnership</fullName>
+                <default>false</default>
+                <label>Better Building Partnership</label>
+            </value>
+            <value>
+                <fullName>Eco-Roof Incentive</fullName>
+                <default>false</default>
+                <label>Eco-Roof Incentive</label>
+            </value>
+            <value>
+                <fullName>Enbridge</fullName>
+                <default>false</default>
+                <label>Enbridge</label>
+            </value>
+            <value>
+                <fullName>NRCan</fullName>
+                <default>false</default>
+                <label>NRCan</label>
+            </value>
+            <value>
+                <fullName>OPA FIT</fullName>
+                <default>false</default>
+                <label>OPA FIT</label>
+            </value>
+            <value>
+                <fullName>Partners In Project Green</fullName>
+                <default>false</default>
+                <label>Partners In Project Green</label>
+            </value>
+            <value>
+                <fullName>Toronto Hydro</fullName>
+                <default>false</default>
+                <label>Toronto Hydro</label>
+            </value>
+            <value>
+                <fullName>Toronto Water</fullName>
+                <default>false</default>
+                <label>Toronto Water</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

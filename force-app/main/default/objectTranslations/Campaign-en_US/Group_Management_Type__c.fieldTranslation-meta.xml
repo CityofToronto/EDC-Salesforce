@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Advisory Group - Groups providing input in Toronto programming and policy making.
+Stakeholder Group - Used to manage a list of stakeholders – such as a list of manufacturers that can be consulted on projects. --></help>
+    <label><!-- Group Management Type --></label>
+    <name>Group_Management_Type__c</name>
+    <picklistValues>
+        <masterLabel>Advisory Group (Formal)</masterLabel>
+        <translation><!-- Advisory Group (Formal) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distribution List (Informal)</masterLabel>
+        <translation><!-- Distribution List (Informal) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Content Management System (CMS)
+A website CMS enables you to change the text and images on your website easily, with much of the site information stored in a database, as opposed to static, unchanging files. --></help>
+    <label><!-- Site has Content Management System(CMS)? --></label>
+    <name>Site_has_Content_Management_System_CMS__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Sure</masterLabel>
+        <translation><!-- Not Sure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation><!-- Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

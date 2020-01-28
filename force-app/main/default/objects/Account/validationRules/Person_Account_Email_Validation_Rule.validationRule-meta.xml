@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Person_Account_Email_Validation_Rule</fullName>
+    <active>true</active>
+    <description>This rule will avoid creating Person Account records without Email</description>
+    <errorConditionFormula>AND(IsPersonAccount,ISBLANK(PersonEmail))</errorConditionFormula>
+    <errorDisplayField>PersonEmail</errorDisplayField>
+    <errorMessage>Person Account Email can not be blank.</errorMessage>
+</ValidationRule>

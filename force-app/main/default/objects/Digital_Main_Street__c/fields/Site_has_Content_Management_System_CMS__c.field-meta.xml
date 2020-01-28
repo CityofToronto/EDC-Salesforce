@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_has_Content_Management_System_CMS__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Content Management System (CMS)
+A website CMS enables you to change the text and images on your website easily, with much of the site information stored in a database, as opposed to static, unchanging files.</inlineHelpText>
+    <label>Site has Content Management System(CMS)?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+                <label>Not Sure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

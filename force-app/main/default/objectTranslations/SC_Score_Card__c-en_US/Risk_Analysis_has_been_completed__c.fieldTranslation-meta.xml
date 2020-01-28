@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Risk Analysis has been completed: market, financial and operational --></help>
+    <label><!-- Risk Analysis has been completed? --></label>
+    <name>Risk_Analysis_has_been_completed__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (2 pt)</masterLabel>
+        <translation><!-- Yes (2 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

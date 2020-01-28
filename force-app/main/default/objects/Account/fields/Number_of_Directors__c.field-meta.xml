@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Directors__c</fullName>
+    <externalId>false</externalId>
+    <label>Number of Directors</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Minimum / Maximum</fullName>
+                <default>false</default>
+                <label>Minimum / Maximum</label>
+            </value>
+            <value>
+                <fullName>Fixed Number</fullName>
+                <default>false</default>
+                <label>Fixed Number</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

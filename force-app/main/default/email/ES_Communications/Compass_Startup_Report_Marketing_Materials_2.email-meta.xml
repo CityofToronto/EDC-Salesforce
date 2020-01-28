@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sharing communication materials with incubators to get them to promote the Compass Startup Ecosystem report survey.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Compass Startup Report - Marketing Materials 2</name>
+    <style>none</style>
+    <subject>Urgent Request: Your Response to Compass Startup Eco-System Report Survey</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

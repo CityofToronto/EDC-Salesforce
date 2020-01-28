@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ET Staff Member --></label>
+    <name>ET_Staff_Member__c</name>
+    <picklistValues>
+        <masterLabel>Angie Bellanza</masterLabel>
+        <translation><!-- Angie Bellanza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brent Poulton</masterLabel>
+        <translation><!-- Brent Poulton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Felicity Scherk</masterLabel>
+        <translation><!-- Felicity Scherk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gracie Worrall</masterLabel>
+        <translation><!-- Gracie Worrall --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jason Li</masterLabel>
+        <translation><!-- Jason Li --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Karen Keskull</masterLabel>
+        <translation><!-- Karen Keskull --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Margie Galarneau</masterLabel>
+        <translation><!-- Margie Galarneau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vikas Jain</masterLabel>
+        <translation><!-- Vikas Jain --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

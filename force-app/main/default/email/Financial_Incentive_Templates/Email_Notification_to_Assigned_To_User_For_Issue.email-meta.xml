@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email notification will be sent to Assigned User once a new Issue has been created</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Email Notification to Assigned To User For Issue</name>
+    <style>none</style>
+    <subject>New Issue {!Issue__c.Name} has been Assigned</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

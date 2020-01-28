@@ -1,0 +1,51 @@
+.icon-close {
+  height: 10px !important;
+}
+
+.slds-checkbox {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  border: 1px solid #d8dde6;
+  border-radius: 0.125rem;
+  background: white;
+  transition: border 0.1s linear, background-color 0.1s linear;
+}
+
+.slds-checkbox:checked + label:before {
+  background: #fff !important;
+  color: #fff;
+}
+
+[title~=Lookup] {
+  text-decoration: none !important;
+}
+
+[title~=Lookup] img {
+  display: none;
+}
+
+[title~=Lookup]:after {
+    font-family: 'FontAwesome';
+    position: relative;
+    left: -20px;
+    top: 1px;
+    font-size: 12px;
+    content: "\f002";
+}
+
+
+.slds-checkbox:checked:after {
+  display: block;
+  content: '';
+  height: 0.25rem;
+  width: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+  border-bottom: 2px solid #1589ee;
+  border-left: 2px solid #1589ee;
+}

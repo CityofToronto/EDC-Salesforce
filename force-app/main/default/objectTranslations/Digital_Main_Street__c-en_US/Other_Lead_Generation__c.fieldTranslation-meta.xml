@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Other(Lead Generation) --></label>
+    <name>Other_Lead_Generation__c</name>
+</CustomFieldTranslation>

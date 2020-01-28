@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total of Building A,B and C Square Footage --></help>
+    <label><!-- Total Square footage --></label>
+    <name>Total_Square_footage__c</name>
+</CustomFieldTranslation>

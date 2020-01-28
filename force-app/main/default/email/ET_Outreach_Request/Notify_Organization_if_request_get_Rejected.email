@@ -1,0 +1,13 @@
+Dear {!Outreach__c.Contact__c},
+
+Unfortunately our team cannot assist you with your event.  We appreciate your interest, but at this time our team will not be available for the following event:
+
+Event Date: {!Outreach__c.Date_of_Event__c}
+Event Time: {!Outreach__c.BPQ_Time_of_Event__c}
+Description of Event: {!Outreach__c.Description_of_the_Event__c}
+
+If you have any questions, please let me know.
+
+Thanks,
+
+{!Outreach__c.CreatedBy}

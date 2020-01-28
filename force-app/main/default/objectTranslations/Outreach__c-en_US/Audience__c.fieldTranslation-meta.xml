@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BPQ-Audience --></label>
+    <name>Audience__c</name>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation><!-- General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Canadians</masterLabel>
+        <translation><!-- New Canadians --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unemployed / In-Search of Work</masterLabel>
+        <translation><!-- Unemployed / In-Search of Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth &amp; Students (16 to 29)</masterLabel>
+        <translation><!-- Youth &amp; Students (16 to 29) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

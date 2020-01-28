@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Any local/global issues, activities, etc., the Culture section of ED&amp;C has identified as of interest to them.  This info is solicited directly from Culture --></help>
+    <label><!-- Culture Priorities --></label>
+    <name>Culture_Priorities__c</name>
+</CustomFieldTranslation>

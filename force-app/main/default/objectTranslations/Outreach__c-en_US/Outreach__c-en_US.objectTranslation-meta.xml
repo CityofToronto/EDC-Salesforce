@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Outreach</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Outreach Activities</value>
+    </caseValues>
+    <layouts>
+        <layout>Outreach Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Event Follow-Up - External --></label>
+            <section>Event Follow-Up - External</section>
+        </sections>
+        <sections>
+            <label><!-- Event Information --></label>
+            <section>Event Information</section>
+        </sections>
+        <sections>
+            <label><!-- Follow-Up - Internal --></label>
+            <section>Follow-Up - Internal</section>
+        </sections>
+        <sections>
+            <label><!-- Outreach Request Form --></label>
+            <section>Outreach Request Form</section>
+        </sections>
+        <sections>
+            <label><!-- Request Review --></label>
+            <section>Request Review</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- RPI-If No, the reason is: field required if it is RPI-ET to Attend Event field is No. --></errorMessage>
+        <name>RPI_If_No_then_reason_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RPI-Reviewed By is required if it is reviewed. --></errorMessage>
+        <name>RPI_Reviewer_is_required_if_Reviewed</name>
+    </validationRules>
+</CustomObjectTranslation>

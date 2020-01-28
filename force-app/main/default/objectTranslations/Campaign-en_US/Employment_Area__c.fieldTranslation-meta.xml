@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Employment Area --></label>
+    <name>Employment_Area__c</name>
+    <picklistValues>
+        <masterLabel>Airport Corporate Centre (Centennial)</masterLabel>
+        <translation><!-- Airport Corporate Centre (Centennial) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Don Valley Parkway Corridor (Bermondsey)</masterLabel>
+        <translation><!-- Don Valley Parkway Corridor (Bermondsey) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Don Valley Parkway Corridor (Consumers)</masterLabel>
+        <translation><!-- Don Valley Parkway Corridor (Consumers) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Don Valley Parkway Corridor (Don Mills)</masterLabel>
+        <translation><!-- Don Valley Parkway Corridor (Don Mills) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Don Valley Parkway Corridor (Leaside)</masterLabel>
+        <translation><!-- Don Valley Parkway Corridor (Leaside) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Don Valley Parkway Corridor (Steeles Tech)</masterLabel>
+        <translation><!-- Don Valley Parkway Corridor (Steeles Tech) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Don Valley Parkway Corridor (York Mills-Leslie)</masterLabel>
+        <translation><!-- Don Valley Parkway Corridor (York Mills-Leslie) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Downtown</masterLabel>
+        <translation><!-- Downtown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dufferin Keele North (Dufferin-Finch)</masterLabel>
+        <translation><!-- Dufferin Keele North (Dufferin-Finch) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dufferin Keele South (Downsview)</masterLabel>
+        <translation><!-- Dufferin Keele South (Downsview) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dufferin Keele South (Lawrence-Keele)</masterLabel>
+        <translation><!-- Dufferin Keele South (Lawrence-Keele) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dufferin Keele South (Orfus)</masterLabel>
+        <translation><!-- Dufferin Keele South (Orfus) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Etobicoke Centre*</masterLabel>
+        <translation><!-- Etobicoke Centre* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Highway 400 Corridor (400-401)</masterLabel>
+        <translation><!-- Highway 400 Corridor (400-401) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Highway 400 Corridor (400-Finch)</masterLabel>
+        <translation><!-- Highway 400 Corridor (400-Finch) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liberty</masterLabel>
+        <translation><!-- Liberty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Milliken</masterLabel>
+        <translation><!-- Milliken --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North West Etobicoke (Claireville)</masterLabel>
+        <translation><!-- North West Etobicoke (Claireville) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North York Centre*</masterLabel>
+        <translation><!-- North York Centre* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rexdale</masterLabel>
+        <translation><!-- Rexdale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scarborough Centre*</masterLabel>
+        <translation><!-- Scarborough Centre* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scarborough Highway 401 Corridor (Milner)</masterLabel>
+        <translation><!-- Scarborough Highway 401 Corridor (Milner) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scarborough Highway 401 Corridor (Progress)</masterLabel>
+        <translation><!-- Scarborough Highway 401 Corridor (Progress) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South East Scarborough (Coronation)</masterLabel>
+        <translation><!-- South East Scarborough (Coronation) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Etobicoke (Central Etobicoke)</masterLabel>
+        <translation><!-- South Etobicoke (Central Etobicoke) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Etobicoke (Lake Shore)</masterLabel>
+        <translation><!-- South Etobicoke (Lake Shore) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Etobicoke (Park Lawn)</masterLabel>
+        <translation><!-- South Etobicoke (Park Lawn) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South West Scarborough (Golden Mile)</masterLabel>
+        <translation><!-- South West Scarborough (Golden Mile) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South West Scarborough (Wexford)</masterLabel>
+        <translation><!-- South West Scarborough (Wexford) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tapscott</masterLabel>
+        <translation><!-- Tapscott --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Central Scarborough (Dorset)</masterLabel>
+        <translation><!-- West Central Scarborough (Dorset) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weston Road/Junction (Weston)</masterLabel>
+        <translation><!-- Weston Road/Junction (Weston) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yonge-Eglinton</masterLabel>
+        <translation><!-- Yonge-Eglinton --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

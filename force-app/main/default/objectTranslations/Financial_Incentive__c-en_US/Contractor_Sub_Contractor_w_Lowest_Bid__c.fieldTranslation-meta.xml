@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of Contractor/Sub Contractor with lowest bid --></help>
+    <label><!-- Contractor/Sub Contractor w/ Lowest Bid --></label>
+    <name>Contractor_Sub_Contractor_w_Lowest_Bid__c</name>
+</CustomFieldTranslation>

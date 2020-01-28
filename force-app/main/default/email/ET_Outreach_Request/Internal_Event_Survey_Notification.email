@@ -1,0 +1,10 @@
+Dear {!Outreach__c.RPI_Staff_member_attending_user1__c},
+
+Please provide feedback on the following outreach activity you completed:
+
+{!Outreach__c.Name_of_Event__c} on {!Outreach__c.Date_of_Event__c}
+
+Please use the following survey - https://cityoftoronto.tfaforms.net/355772?ID={!Outreach__c.Id}
+
+Thanks,
+{!Outreach__c.CreatedBy}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ET client satisfaction survey. Sent once DMS Record Created</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>DMS- Client Satisfaction Survey</name>
+    <style>none</style>
+    <subject>Digital Main Street - Thanks for Having Us</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

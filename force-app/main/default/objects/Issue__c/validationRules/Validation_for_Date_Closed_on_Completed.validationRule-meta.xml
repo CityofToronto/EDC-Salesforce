@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Date_Closed_on_Completed</fullName>
+    <active>true</active>
+    <description>This rule will ensure user must specify Date Closed for status completed.</description>
+    <errorConditionFormula>AND(TEXT(Status__c)=&#39;Completed&#39;,ISBLANK(Date_Closed__c))</errorConditionFormula>
+    <errorDisplayField>Date_Closed__c</errorDisplayField>
+    <errorMessage>Date Closed required for Completed Status</errorMessage>
+</ValidationRule>

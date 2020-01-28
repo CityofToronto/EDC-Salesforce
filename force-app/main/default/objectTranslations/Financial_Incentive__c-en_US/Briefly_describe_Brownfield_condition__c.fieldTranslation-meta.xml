@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Briefly describe Brownfield condition (location,type of contamination,previous industrial history etc) --></help>
+    <label><!-- Briefly describe Brownfield condition --></label>
+    <name>Briefly_describe_Brownfield_condition__c</name>
+</CustomFieldTranslation>

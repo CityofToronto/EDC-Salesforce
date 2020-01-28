@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Starter_Company_Clients__c.Date_of_Grant_Approval__c</field>
+    </columns>
+    <columns>
+        <field>Starter_Company_Clients__c.Phase_2_GrantApproved__c</field>
+    </columns>
+    <description>Total number of new businesses created that were supported by BGS</description>
+    <filter>
+        <criteriaItems>
+            <column>Starter_Company_Clients__c.Phase_2_GrantApproved__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Yes</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Starter_Company_Clients__c.FU_Business_Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Starter Company with Account Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Starter_Company_Clients__c@Starter_Company_Clients__c.Account__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Starter_Company_Clients__c.Date_of_Grant_Approval__c</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

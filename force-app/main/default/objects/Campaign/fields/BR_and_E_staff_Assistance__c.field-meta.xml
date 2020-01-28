@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BR_and_E_staff_Assistance__c</fullName>
+    <description>This is the type of service rendered to the external clients</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the type of service rendered to the external clients</inlineHelpText>
+    <label>BR and E staff Assistance</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Building Permit</fullName>
+                <default>false</default>
+                <label>Building Permit</label>
+            </value>
+            <value>
+                <fullName>Business Connect Programs</fullName>
+                <default>false</default>
+                <label>Business Connect Programs</label>
+            </value>
+            <value>
+                <fullName>Committee of Adjustment</fullName>
+                <default>false</default>
+                <label>Committee of Adjustment</label>
+            </value>
+            <value>
+                <fullName>Gold Star</fullName>
+                <default>false</default>
+                <label>Gold Star</label>
+            </value>
+            <value>
+                <fullName>Natural Heritage</fullName>
+                <default>false</default>
+                <label>Natural Heritage</label>
+            </value>
+            <value>
+                <fullName>Official Plan</fullName>
+                <default>false</default>
+                <label>Official Plan</label>
+            </value>
+            <value>
+                <fullName>Parks Forestry &amp; Recreation</fullName>
+                <default>false</default>
+                <label>Parks Forestry &amp; Recreation</label>
+            </value>
+            <value>
+                <fullName>Pre-application Meeting</fullName>
+                <default>false</default>
+                <label>Pre-application Meeting</label>
+            </value>
+            <value>
+                <fullName>Preliminary Project Review (PPR)</fullName>
+                <default>false</default>
+                <label>Preliminary Project Review (PPR)</label>
+            </value>
+            <value>
+                <fullName>Property Taxes</fullName>
+                <default>false</default>
+                <label>Property Taxes</label>
+            </value>
+            <value>
+                <fullName>Signature Sites</fullName>
+                <default>false</default>
+                <label>Signature Sites</label>
+            </value>
+            <value>
+                <fullName>Site Plan Control</fullName>
+                <default>false</default>
+                <label>Site Plan Control</label>
+            </value>
+            <value>
+                <fullName>Site Selection</fullName>
+                <default>false</default>
+                <label>Site Selection</label>
+            </value>
+            <value>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+                <label>Technical Services</label>
+            </value>
+            <value>
+                <fullName>Transportation Services</fullName>
+                <default>false</default>
+                <label>Transportation Services</label>
+            </value>
+            <value>
+                <fullName>TRCA</fullName>
+                <default>false</default>
+                <label>TRCA</label>
+            </value>
+            <value>
+                <fullName>Zoning</fullName>
+                <default>false</default>
+                <label>Zoning</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

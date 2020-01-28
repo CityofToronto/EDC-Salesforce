@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Satisfaction survey Sent 1 Day After Consultation.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Small Business Consultation Follow-Up Email</name>
+    <style>none</style>
+    <subject>City of Toronto - Please Share Your Feedback</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

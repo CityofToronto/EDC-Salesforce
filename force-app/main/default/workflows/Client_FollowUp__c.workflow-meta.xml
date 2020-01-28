@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Client_Follow_Up_Survey_Email_30_Day</fullName>
+        <description>Client Follow-Up Survey Email - 30 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Company_Intelligence_Business_Engagement_Follow_Up_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_Follow_Up_Survey_Email_365_Day_Consultation</fullName>
+        <description>Client Follow-Up Survey Email - 365 Day Consultation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Consultation_Business_Engagement_Follow_Up_Email_1_Year</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_Follow_Up_Survey_Email_60_Day</fullName>
+        <description>Client Follow-Up Survey Email - 60 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Company_Intelligence_Business_Engagement_Follow_Up_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_Follow_Up_Survey_Email_90_Day</fullName>
+        <description>Client Follow-Up Survey Email - 90 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Company_Intelligence_Business_Engagement_Follow_Up_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Follow_Up_Survey_Email_30_Day</fullName>
+        <description>Consultation Follow-Up Survey Email - 30 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Consultation_Business_Engagement_Follow_Up_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Follow_Up_Survey_Email_60_Day</fullName>
+        <description>Consultation Follow-Up Survey Email - 60 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Consultation_Business_Engagement_Follow_Up_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Consultation_Follow_Up_Survey_Email_90_Day</fullName>
+        <description>Consultation Follow-Up Survey Email - 90 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Consultation_Business_Engagement_Follow_Up_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Online_Training_Follow_Up_Survey_Email_30_Day</fullName>
+        <description>Online Training Follow-Up Survey Email - 30 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Event_Online_Training_Notification_Email_30_60_90_Days</template>
+    </alerts>
+    <alerts>
+        <fullName>Online_Training_Follow_Up_Survey_Email_60_Day</fullName>
+        <description>Online Training Follow-Up Survey Email - 60 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Event_Online_Training_Notification_Email_30_60_90_Days</template>
+    </alerts>
+    <alerts>
+        <fullName>Online_Training_Follow_Up_Survey_Email_90_Day</fullName>
+        <description>Online Training Follow-Up Survey Email - 90 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Event_Online_Training_Notification_Email_30_60_90_Days</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>InitialSurveyStageUpdate</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 30 Days</literalValue>
+        <name>InitialSurveyStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>InitialSurveyStageUpdate_Consultation</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 30 Days</literalValue>
+        <name>InitialSurveyStageUpdate_Consultation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>InitialSurveyStageUpdate_Online</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 30 Days</literalValue>
+        <name>InitialSurveyStageUpdate_Online</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Initial_Survey_Stage_Unresponsive</fullName>
+        <description>This field update will chane stage value to Unresponsive</description>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>Unresponsive</literalValue>
+        <name>Initial Survey Stage Unresponsive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X1YearSurveyStageUpdateConsultation</fullName>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>1YearSurveyStageUpdateConsultation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X1_Year_Survey_Stage_Unresponsive</fullName>
+        <description>This field update will change stage value to Unresponsive</description>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>Unresponsive</literalValue>
+        <name>1 Year Survey Stage Unresponsive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X30DaysSurveyStageUpdate</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 60 Days</literalValue>
+        <name>30DaysSurveyStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X30DaysSurveyStageUpdateConsultation</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 60 Days</literalValue>
+        <name>30DaysSurveyStageUpdateConsultation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X30DaysSurveyStageUpdateOnline</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 60 Days</literalValue>
+        <name>30DaysSurveyStageUpdateOnline</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X365DaysSurveyStageUpdateConsultation</fullName>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>Sent</literalValue>
+        <name>365DaysSurveyStageUpdateConsultation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X60DaysSurveyStageUpdate</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 90 Days</literalValue>
+        <name>60DaysSurveyStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X60DaysSurveyStageUpdateConsultation</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 90 Days</literalValue>
+        <name>60DaysSurveyStageUpdateConsultation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X60DaysSurveyStageUpdateOnline</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue - 90 Days</literalValue>
+        <name>60DaysSurveyStageUpdateOnline</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X90DaysSurveyStageUpdate</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>Sent - 90 Days</literalValue>
+        <name>90DaysSurveyStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X90DaysSurveyStageUpdateConsultation</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>Sent - 90 Days</literalValue>
+        <name>90DaysSurveyStageUpdateConsultation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X90DaysSurveyStageUpdateOnline</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>Sent - 90 Days</literalValue>
+        <name>90DaysSurveyStageUpdateOnline</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Client Follow-Up Survey - 30%2F60%2F90 Days Company intelligence</fullName>
+        <actions>
+            <name>InitialSurveyStageUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule will trigger Business Outcome Survey after 30/60/90 days for Company Intelligence Interaction</description>
+        <formula>AND(TEXT(Workflow_Session__c)=&#39;Company Intelligence Interaction&#39;, NOT(Contact__r.HasOptedOutOfEmail),  NOT(Initial_Survey_Completed__c), NOT(ISBLANK(Survey_Start_Date__c)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Client_Follow_Up_Survey_Email_30_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X30DaysSurveyStageUpdate</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Client_Follow_Up_Survey_Email_60_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X60DaysSurveyStageUpdate</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>60</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Client_Follow_Up_Survey_Email_90_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X90DaysSurveyStageUpdate</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>90</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Client Follow-Up Survey - 30%2F60%2F90 Days Consultation</fullName>
+        <actions>
+            <name>InitialSurveyStageUpdate_Consultation</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule will trigger Business Outcome Survey after 30/60/90 days for Consultation Interaction</description>
+        <formula>AND(OR(TEXT(Workflow_Session__c)=&#39;Consultation Interaction&#39;,TEXT(Workflow_Session__c)=&#39;Business Start Up Event&#39;,TEXT(Workflow_Session__c)=&#39;Online Registration&#39;,TEXT(Workflow_Session__c)=&#39;Business Expansion Event&#39;), NOT(Contact__r.HasOptedOutOfEmail),  NOT(Initial_Survey_Completed__c), NOT(ISBLANK(Survey_Start_Date__c)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Consultation_Follow_Up_Survey_Email_60_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X60DaysSurveyStageUpdateConsultation</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>60</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Consultation_Follow_Up_Survey_Email_30_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X30DaysSurveyStageUpdateConsultation</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Consultation_Follow_Up_Survey_Email_90_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X90DaysSurveyStageUpdateConsultation</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>90</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Client Follow-Up Survey - 30%2F60%2F90 Days Online Training</fullName>
+        <actions>
+            <name>InitialSurveyStageUpdate_Online</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule trigger Outcome notification email to Contact for Online Training Workflow session type.</description>
+        <formula>AND(TEXT(Workflow_Session__c)=&#39;Online Training&#39;, NOT(Contact__r.HasOptedOutOfEmail),  NOT(Initial_Survey_Completed__c), NOT(ISBLANK(Survey_Start_Date__c)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Online_Training_Follow_Up_Survey_Email_30_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X30DaysSurveyStageUpdateOnline</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Online_Training_Follow_Up_Survey_Email_90_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X90DaysSurveyStageUpdateOnline</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>90</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Online_Training_Follow_Up_Survey_Email_60_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X60DaysSurveyStageUpdateOnline</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>60</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Client Follow-Up Survey - 365 Days Consultation</fullName>
+        <actions>
+            <name>X1YearSurveyStageUpdateConsultation</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule will trigger Business Outcome Survey after 365 days for Consultation  Interaction.</description>
+        <formula>AND(OR(TEXT(Workflow_Session__c)=&#39;Consultation Interaction&#39;,TEXT(Workflow_Session__c)=&#39;Business Start Up Event&#39;,TEXT(Workflow_Session__c)=&#39;Online Registration&#39;,TEXT(Workflow_Session__c)=&#39;Business Expansion Event&#39;), NOT(Contact__r.HasOptedOutOfEmail),  NOT(X1_Year_Survey_Completed__c), NOT(ISBLANK(Survey_Start_Date__c)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Client_Follow_Up_Survey_Email_365_Day_Consultation</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X365DaysSurveyStageUpdateConsultation</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>365</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Initial Business Outcome Survey - Unresponsive</fullName>
+        <active>true</active>
+        <description>This rule will update the Initial Survey Stage field to Unresponsive after 30 days of final reminder.</description>
+        <formula>AND(NOT(Initial_Survey_Completed__c), NOT(Contact__r.HasOptedOutOfEmail), NOT(ISBLANK(Survey_Start_Date__c)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Initial_Survey_Stage_Unresponsive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>120</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Yealry Business Outcome Survey - Unresponsive</fullName>
+        <active>true</active>
+        <description>This rule will update the 1 Year Survey Stage field to Unresponsive after 30 days of final reminder.</description>
+        <formula>AND(NOT(X1_Year_Survey_Completed__c), NOT(Contact__r.HasOptedOutOfEmail), NOT(ISBLANK(Survey_Start_Date__c)))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X1_Year_Survey_Stage_Unresponsive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_FollowUp__c.Survey_Start_Date__c</offsetFromField>
+            <timeLength>395</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

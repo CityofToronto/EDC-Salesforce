@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ICA Commercialization Survey - request to incubators to include their infrastructure.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ICA Commercialization Survey (9Feb15)</name>
+    <style>none</style>
+    <subject>ICA Commercialization Survey - Help Create A Global Database</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

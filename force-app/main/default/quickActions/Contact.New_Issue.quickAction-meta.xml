@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom button will be used instead standard New button on Contact Detail page to create new issue to auto populate Contact and its related direct Account</description>
+    <height>350</height>
+    <label>New Issue</label>
+    <lightningComponent>COT_NewIssueContact</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

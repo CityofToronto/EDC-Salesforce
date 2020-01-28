@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If there are No Conflict than EDC GM should upload the document before Approving IMIT Application. --></help>
+    <label><!-- Has No Conflict Doc Uploaded(EDC GM) --></label>
+    <name>Has_No_Conflict_Doc_Uploaded_EDC_GM__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation><!-- Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RPI_If_No_then_reason_is_required</fullName>
+    <active>true</active>
+    <description>RPI-If No, the reason is: required if RPI-ET to Attend Event: field is no.</description>
+    <errorConditionFormula>AND( ISPICKVAL( ET_to_Attend_Event__c , &#39;No&#39;),   ISBLANK( If_No_the_reason_is__c))</errorConditionFormula>
+    <errorDisplayField>If_No_the_reason_is__c</errorDisplayField>
+    <errorMessage>RPI-If No, the reason is: field required if it is RPI-ET to Attend Event field is No.</errorMessage>
+</ValidationRule>

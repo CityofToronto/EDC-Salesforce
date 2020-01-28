@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For IMIT grant that requires city council approval i.e. greater than 150M grant can only be Approved if City council&apos;s approval document has been uploaded. --></help>
+    <label><!-- City Council&apos;s Approval Doc Uploaded --></label>
+    <name>City_Council_s_Approval_Doc_Uploaded__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation><!-- Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

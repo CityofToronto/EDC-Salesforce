@@ -1,0 +1,404 @@
+<apex:page Controller="UserSettingController" id="pgid" tabStyle="User_Setting_Panel__tab">
+
+    <head><title> Advisor Control Panel</title></head>
+    <script type="text/javascript">
+        function toggleAlert() 
+        {
+            toggleDisabled(document.getElementById("content"));
+        }
+        function toggleDisabled(el) 
+        {
+            try 
+            {
+                el.disabled = el.disabled ? false : true;
+            }
+            catch(E)
+            {
+            }
+            if (el.childNodes && el.childNodes.length > 0) 
+            {
+                for (var x = 0; x < el.childNodes.length; x++) 
+                {
+                    toggleDisabled(el.childNodes[x]);
+                }
+            }
+        }
+       
+        function EnableControl() 
+        {
+            EnabledControl(document.getElementById("content"));
+        }
+        function EnabledControl(el) 
+        {
+            try 
+            {
+                el.disabled = false;
+            }
+            catch(E)
+            {
+            }
+            if (el.childNodes && el.childNodes.length > 0) 
+            {
+                for (var x = 0; x < el.childNodes.length; x++) 
+                {
+                    EnabledControl(el.childNodes[x]);
+                }
+            }
+        }
+    </script>
+    <br/>
+    <body><!-- style="background: url(https://c.cs22.content.force.com/servlet/servlet.FileDownload?file=01517000000EC0T) repeat;" -->
+    <div align="center">
+    <apex:form style="width:100%;">
+        <apex:PageMessages id="errorid"/>
+        <apex:pageBlock title="Your Control Panel">
+           <apex:pageBlockSection columns="1">
+           <apex:outputPanel >
+                  View: <apex:selectList value="{!selectedMeetingView}" multiselect="false" size="1">
+                <apex:selectOption itemLabel="All Requests" itemValue="ALL"/>
+                <apex:selectOption itemLabel="Confirmed & Completed" itemValue="CC"/>
+                <apex:selectOption itemLabel="Confirmed & Upcoming" itemValue="CU"/>
+                <apex:selectOption itemLabel="Rejected" itemValue="REJ"/>
+                <apex:actionSupport event="onchange" action="{!OnChangeMeetingView}"/>
+            </apex:selectList>
+                </apex:outputPanel>
+
+                <div style="align:left;font-weight:bold; height:20px; background-color:#003399; color:White; font-weight: bold"> &nbsp; Meeting Requests </div>
+                <apex:pageblocktable value="{!lstFollowUpObj}" var="lf" id="FollowuppbTable" columns="7" style="font-size:13px;">
+                <apex:column >
+                <apex:facet name="header">
+                 Consultation Record
+                </apex:facet>
+                <apex:outputPanel >
+                <div style="color:{!IF(lf.Status__c == 'Confirmed','Green', 'black')}">
+                    <apex:outputLink value="/{!lf.Consultation__c}" target="_blank">{!lf.Consultation__r.Name}</apex:outputLink>
+                </div>
+                </apex:outputPanel>                
+                </apex:column>
+                <apex:column >
+                <apex:facet name="header">
+                  Meeting Time
+                </apex:facet>
+                <apex:outputPanel rendered="{!if(Rescheduled && lf.id = followupId, false, true)}">
+                    <div style="color:{!IF(lf.Status__c == 'Confirmed','Green', 'black')}">
+                    <apex:outputText value="{!lf.MeetingTime__c}"/>
+                    </div>
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{!if(Rescheduled && lf.id = followupId, true, false)}">
+                    <apex:inputField value="{!lf.MeetingTime__c}"/>
+                </apex:outputPanel>
+                </apex:column>
+                <apex:column >
+                <apex:facet name="header">
+                  Meeting Date
+                </apex:facet>
+                <apex:outputPanel rendered="{!if(Rescheduled && lf.id = followupId, false, true)}">
+                    <div style="color:{!IF(lf.Status__c == 'Confirmed','Green', 'black')}">
+                    <apex:outputText value="{0, date, MMMM d','  yyyy}">
+                        <apex:param value="{!lf.Meeting_Date__c}" /> 
+                    </apex:outputText>
+                    </div>
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{!if(Rescheduled && lf.id = followupId, true, false)}">
+                    <apex:inputField value="{!lf.Meeting_Date__c}"/>
+                </apex:outputPanel>
+                </apex:column>
+                <apex:column >
+                <apex:facet name="header">
+                  Location
+                </apex:facet>
+                <apex:outputPanel rendered="{!if(Rescheduled && lf.id = followupId, false, true)}">
+                    <div style="color:{!IF(lf.Status__c == 'Confirmed','Green', 'black')}">
+                    <apex:outputText value="{!lf.Location__c}"/>
+                    </div>
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{!if(Rescheduled && lf.id = followupId, true, false)}">
+                    <apex:inputField value="{!lf.Location__c}"/>
+                </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column >
+                <apex:facet name="header">
+                  Contact Person 
+                </apex:facet>
+                <apex:outputPanel >
+                    <div style="color:{!IF(lf.Status__c == 'Confirmed','Green', 'black')}">
+                    <apex:outputText value="{!lf.Consultation__r.Contact_Consultation__r.Name}"/>
+                    </div>
+                </apex:outputPanel>
+                <!--<apex:outputPanel rendered="{!IF(lf.Status__c == 'Rejected',true,false)}">
+                    <div style="color:{!IF(lf.Status__c == 'Rejected','#B40404', 'black')}">
+                    <apex:outputText value="{!lf.Consultation__r.Contact_Consultation__r.Name}"/>
+                    </div>
+                </apex:outputPanel>-->
+                </apex:column>
+                
+                <apex:column >
+                <apex:facet name="header">
+                  Status
+                </apex:facet>
+                <apex:outputPanel rendered="{!IF(lf.Status__c != 'Rejected',true,false)}">
+                    <div style="text-align:center; background-color:{!IF(lf.Status__c == 'Confirmed','#0B610B', '')}; color:{!IF(lf.Status__c == 'Confirmed','White', 'black')}">
+                    <apex:outputText value="{!lf.Status__c}"/>
+                    </div>
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{!IF(lf.Status__c == 'Rejected',true,false)}">
+                    <div style="text-align:center; background-color:{!IF(lf.Status__c == 'Rejected','#B40404', '')}; color:{!IF(lf.Status__c == 'Rejected','White', 'black')}">
+                    <apex:outputText value="{!lf.Status__c}"/>
+                    </div>
+                </apex:outputPanel>
+                </apex:column>
+                <apex:column width="100px">
+                    <apex:facet name="header">
+                        Action
+                    </apex:facet>
+                    <div style="color:{!IF(lf.Status__c == 'Confirmed','Green', 'blue')}">
+                    <apex:commandlink value="Save" action="{!SaveFollowup}" rerender="FollowuppbTable" rendered="{!if((lf.Status__c != 'Confirmed' && Rescheduled && lf.id == followupId) , true, false)}" > 
+                        <apex:param name="cid" value="{!lf.id}" assignTo="{!followupId}"/>
+                    </apex:commandlink>
+                    &nbsp;&nbsp;
+                    <apex:commandlink value="Cancel" action="{!CancelFollowUp}" rerender="FollowuppbTable" rendered="{!if((lf.Status__c != 'Confirmed' && Rescheduled && lf.id == followupId), true, false)}" > 
+                        <apex:param name="cid" value="{!lf.id}" assignTo="{!followupId}"/>
+                    </apex:commandlink>
+                                   
+                    <apex:commandlink value="Approve" action="{!ApprovedFollowup}" rerender="FollowuppbTable" rendered="{!if((lf.Status__c == 'Confirmed' || lf.Status__c == 'Rejected' || Rescheduled), false, true)}" > 
+                        <apex:param name="cid" value="{!lf.id}" assignTo="{!followupId}"/>
+                    </apex:commandlink>  
+                    
+                    &nbsp;&nbsp;
+                    <apex:commandlink value="Reschedule" action="{!ReschdueldFollowup}" rerender="FollowuppbTable" rendered="{!if((lf.Status__c != 'Confirmed' && !Rescheduled && lf.Status__c != 'Rejected'), true, false)}" > 
+                        <apex:param name="cid" value="{!lf.id}" assignTo="{!followupId}"/>
+                    </apex:commandlink>
+                    
+                     &nbsp;&nbsp;
+                    <apex:commandlink value="Reject" action="{!RejectFollowup}" rerender="FollowuppbTable" rendered="{!if((lf.Status__c != 'Confirmed' && !Rescheduled && lf.Status__c != 'Rejected'), true, false)}" > 
+                        <apex:param name="cid" value="{!lf.id}" assignTo="{!followupId}"/>
+                    </apex:commandlink>
+                    </div>
+                </apex:column> 
+                </apex:pageblocktable> 
+            </apex:pageBlockSection>
+            
+            <BR/> <BR/> <BR/> <BR/>  <BR/>
+            <div style="align:left; height:4px; background-color:#BDBDBD; color:White; font-weight: bold">  </div>
+            <apex:pageBlockSection columns="1">
+                <div style="height:18px; font-weight:bold; color:black; font-weight: bold">{!LoggedUserName} -- Please update your regular working hours, location and leave plans below.</div>
+                <BR/> 
+                <div style="align:left; height:18px; background-color:#424242; font-weight:bold; color:White; font-weight: bold"> &nbsp; Your Working Hours </div>
+                <apex:pageblocktable value="{!LstLoggedUser}" var="lu" id="WorkhrbTable" columns="9" style="font-size:13px">
+                <apex:column width="660px">
+                    <apex:facet name="header">
+                      Location
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:outputText value="{!lu.Location__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.Location__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column width="400px">
+                    <apex:facet name="header">
+                      Start of Day
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:outputtext value="{!lu.Start_of_day__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.Start_of_day__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                <apex:column width="400px">
+                    <apex:facet name="header">
+                      End of Day
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:outputText value="{!lu.End_of_day__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.End_of_day__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column width="300px">
+                    <apex:facet name="header">
+                      Monday
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:inputCheckbox disabled="true" value="{!lu.Monday__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.Monday__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column width="300px">
+                    <apex:facet name="header">
+                      Tuesday
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:inputCheckbox disabled="true" value="{!lu.Tuesday__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.Tuesday__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column width="300px">
+                    <apex:facet name="header">
+                      Wednesday
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:inputCheckbox disabled="true" value="{!lu.Wednesday__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.Wednesday__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column width="300px">
+                    <apex:facet name="header">
+                      Thursday
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:inputCheckbox disabled="true" value="{!lu.Thursday__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.Thursday__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column width="300px">
+                    <apex:facet name="header">
+                      Friday
+                    </apex:facet>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}">
+                        <apex:inputCheckbox disabled="true" value="{!lu.Friday__c}"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}">
+                        <apex:inputField value="{!lu.Friday__c}"/>
+                    </apex:outputPanel>
+                </apex:column>
+                
+                <apex:column width="400px">
+                     <apex:facet name="header">
+                        Action
+                     </apex:facet>
+                     
+                    <apex:commandlink value="Save" action="{!SaveWorkingHour}" rerender="WorkhrbTable" rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}" > 
+                        <apex:param name="cid" value="{!lu.id}" assignTo="{!userId}"/>
+                    </apex:commandlink>
+                    
+                    <apex:commandlink value="Edit" action="{!EditUser}" rerender="WorkhrbTable" rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , false, true)}" > 
+                      <apex:param name="cid" value="{!lu.id}" assignTo="{!userId}"/>
+                    </apex:commandlink>
+                    &nbsp;&nbsp;
+                    <apex:commandlink value="Cancel" action="{!CancelWorkingHrs}" rerender="WorkhrbTable" rendered="{!if((EditableUser || lu.id ='')&& lu.id=userId , true, false)}" > 
+                      <apex:param name="cid" value="{!lu.id}" assignTo="{!userId}"/>
+                    </apex:commandlink>
+                    &nbsp;&nbsp;
+                  </apex:column>
+                </apex:pageblocktable> 
+            </apex:pageBlockSection>
+         
+            <BR/> 
+         
+            <apex:pageBlockSection columns="1">
+                <div style="align:left; height:18px; background-color:#B40404; font-weight:bold; color:White; font-weight: bold"> &nbsp; Your Leave Plans </div>
+                <div id="content">
+                <apex:pageblocktable value="{!lstLeaveplan}" var="lp" id="pbTableLeave" columns="6" style="font-size:13px">
+                    <apex:column >
+                        <apex:facet name="header">
+                          Start Date
+                        </apex:facet>
+                        <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, false, true)}">
+                            <apex:outputText value="{0, date, MMMM d','  yyyy}">
+                                <apex:param value="{!lp.Start_Date__c}" /> 
+                            </apex:outputText>
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, true, false)}">
+                            <apex:inputField value="{!lp.Start_Date__c}"/>
+                        </apex:outputPanel>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">
+                          End Date
+                        </apex:facet>
+                        <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, false, true)}">
+                            <apex:outputText value="{0, date, MMMM d','  yyyy}">
+                                <apex:param value="{!lp.End_Date__c}" /> 
+                            </apex:outputText>
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, true, false)}">
+                            <apex:inputField value="{!lp.End_Date__c}"/>
+                        </apex:outputPanel>
+                    </apex:column>
+                    
+                     <apex:column >
+                        <apex:facet name="header">
+                         Start Time
+                        </apex:facet>
+                          <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, false, true)}">
+                            <apex:outputText value="{!lp.Start_Time__c}"/>
+                        </apex:outputPanel>
+                       <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, true, false)}">
+                            <apex:inputField value="{!lp.Start_Time__c}"/>
+                        </apex:outputPanel>
+                    </apex:column>
+                    <apex:column >
+                        <apex:facet name="header">
+                        End Time
+                        </apex:facet>
+                        <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, false, true)}">
+                            <apex:outputText value="{!lp.End_Time__c}"/>
+                        </apex:outputPanel>
+                         <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, true, false)}">
+                            <apex:inputField value="{!lp.End_Time__c}"/>
+                        </apex:outputPanel>
+                    </apex:column> 
+                    
+                     <apex:column >
+                        <apex:facet name="header">
+                          Comments
+                        </apex:facet>
+                        <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, false, true)}">
+                            <apex:outputText value="{!lp.Comments__c}"/>
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, true, false)}">
+                            <apex:inputField value="{!lp.Comments__c}"/>
+                        </apex:outputPanel>
+                    </apex:column>
+                    
+                    <apex:column >
+                        <apex:facet name="header">
+                            Action
+                        </apex:facet>
+                        <apex:commandlink value="Save" action="{!SaveLeave}" reRender="pbTableLeave,errorid" rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, true, false)}"> 
+                            <apex:param name="Leave" value="{!lp.id}" assignTo="{!leaveId}"/>
+                        </apex:commandlink>
+                        
+                        <apex:commandlink value="Edit" action="{!EditLeave}" reRender="pbTableLeave" rendered="{!if((EditableLeave|| lp.id ='')&& lp.id=leaveId, false, true)}"> 
+                          <apex:param name="cid" value="{!lp.id}" assignTo="{!leaveId}"/>
+                        </apex:commandlink>
+                        
+                        &nbsp;&nbsp;
+                        <apex:commandlink value="Cancel" action="{!CancelLeave}" reRender="pbTableLeave" rendered="{!if((EditableLeave || lp.id ='')&& lp.id=leaveId, true, false)}"/>
+                        &nbsp;&nbsp;
+                        
+                        <apex:commandlink value="Delete" action="{!DeleteLeave}" reRender="pbTableLeave" rendered="{!if((EditableLeave|| lp.id ='')&& lp.id=leaveId, false, true)}">
+                            <apex:param name="cid" value="{!lp.id}" assignTo="{!leaveId}"/>
+                        </apex:commandlink>  
+                        
+                    </apex:column> 
+                    </apex:pageblocktable> 
+                </div>
+                <apex:commandButton value="Add Leaves" action="{!AddLine}" reRender="pbTableLeave" onclick="EnableControl();"/>
+                <BR/>
+            </apex:pageBlockSection>
+            <!-- div style="align:left; height:7px; background-color:#244166; color:White; font-weight: bold"/ -->
+        </apex:pageBlock>
+    </apex:form>
+    </div>
+    </body>
+</apex:page>

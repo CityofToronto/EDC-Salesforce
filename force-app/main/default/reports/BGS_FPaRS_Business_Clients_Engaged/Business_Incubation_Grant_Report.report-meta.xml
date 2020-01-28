@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Business_Incubation_Grants__c.Account_ID__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Business_Incubation_Grants__c.Reporting_Number_of_Attendees__c</field>
+    </columns>
+    <description>Pulls together all of the business clients served from all of BGS programming.</description>
+    <filter>
+        <criteriaItems>
+            <column>Business_Incubation_Grants__c.Year_of_Application__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>2019</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Business_Incubation_Grants__c.Requested_Support__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>Event Sponsorship</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Business_Incubation_Grants__c.Reporting_Number_of_Attendees__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>0</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Business_Incubation_Grants__c.Requested_Support__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Business Incubation Grant Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Business_Incubation_Grants__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Business_Incubation_Grants__c.Reporting_Number_of_Attendees__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Business_Incubation_Grants__c.Completion_Date_of_Program_Duration__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

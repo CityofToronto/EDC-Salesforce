@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- What is your Position within the BIA? --></label>
+    <name>What_is_your_Position_within_the_BIA__c</name>
+    <picklistValues>
+        <masterLabel>Board Member</masterLabel>
+        <translation><!-- Board Member --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chair</masterLabel>
+        <translation><!-- Chair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co Chair</masterLabel>
+        <translation><!-- Co Chair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation><!-- Secretary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff</masterLabel>
+        <translation><!-- Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Treasurer</masterLabel>
+        <translation><!-- Treasurer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vice Chair</masterLabel>
+        <translation><!-- Vice Chair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volunteer</masterLabel>
+        <translation><!-- Volunteer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

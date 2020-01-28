@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Description of construction, alteration or renovation --></help>
+    <label><!-- Description of Const/Alteration/Renov --></label>
+    <name>Description_of_Const_Alteration_Renov__c</name>
+</CustomFieldTranslation>

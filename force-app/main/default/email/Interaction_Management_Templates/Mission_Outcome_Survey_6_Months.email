@@ -1,0 +1,16 @@
+Dear {!CampaignMember.Contact}, 
+
+
+Six months ago you joined the City of Toronto on an international mission.
+
+We would like to know how things are going with your business and would appreciate if you could please provide us an update via this 1 minute survey - 
+
+https://cityoftoronto.tfaforms.net/355961?tfa_74={!CampaignMember.Id}
+
+By participating in this survey, you help us identify areas where we can improve services and better understand your business needs. Thanks and feel free to contact us anytime.
+
+If you would like to unsubscribe from future email communications then please follow this link: 
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!CampaignMember.ContactId} 
+
+Regards, 
+{!Campaign.CreatedBy}

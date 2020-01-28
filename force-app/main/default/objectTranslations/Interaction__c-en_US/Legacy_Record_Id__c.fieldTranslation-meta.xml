@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is used to store the actual record Id of Consultation or Corporate based on record mapped. --></help>
+    <label><!-- Legacy Record Id --></label>
+    <name>Legacy_Record_Id__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+Dear {!Online_Registration__c.Contact__c},
+ 
+Thanks again for completing your business registration with Enterprise Toronto.  Your confirmation number is: {!Online_Registration__c.Name}.
+
+Please follow the below link to see the registration details:
+{!Online_Registration__c.Reg_Confirmation_PDF__c} 
+ 
+You chose the following delivery method - {!Online_Registration__c.Documents_sending_method_INFO__c}
+
+If you chose email, please look for an email from either of the following addresses: david.singh@eservicecorp.ca or notifications@eservicecorp.ca
+ 	
+Our team will be in touch with your paperwork.
+
+Please note that documents will only be available three months after completion, to avoid additional charges, ensure that you receive your paperwork within three months of your request.
+
+Regards,
+
+Paul Pirri, 
+Acting Manager, Entrepreneurship Services
+City of Toronto
+
+www.toronto.ca/business

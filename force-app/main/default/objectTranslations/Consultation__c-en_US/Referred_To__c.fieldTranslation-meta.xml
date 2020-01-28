@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Referred To --></label>
+    <name>Referred_To__c</name>
+    <picklistValues>
+        <masterLabel>CFDC</masterLabel>
+        <translation><!-- CFDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada Business Ontario (FedDev)</masterLabel>
+        <translation><!-- Canada Business Ontario (FedDev) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial - ACCESS</masterLabel>
+        <translation><!-- Financial - ACCESS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial - TD</masterLabel>
+        <translation><!-- Financial - TD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incubator - CSI</masterLabel>
+        <translation><!-- Incubator - CSI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incubator - DMZ</masterLabel>
+        <translation><!-- Incubator - DMZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incubator - Fashion Incubator</masterLabel>
+        <translation><!-- Incubator - Fashion Incubator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incubator - Kinetic Cafe</masterLabel>
+        <translation><!-- Incubator - Kinetic Cafe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incubator - TBDC</masterLabel>
+        <translation><!-- Incubator - TBDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MaRS</masterLabel>
+        <translation><!-- MaRS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Municipal EcDev</masterLabel>
+        <translation><!-- Municipal EcDev --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Board of Trade</masterLabel>
+        <translation><!-- Toronto Board of Trade --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

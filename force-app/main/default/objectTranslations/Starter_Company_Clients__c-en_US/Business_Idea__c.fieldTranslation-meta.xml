@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Briefly describe what your business will do and the product or service you will provide. Please also tell us where your business will be located, when you plan to launch (if a new business) and your proposed operating hours. --></help>
+    <label><!-- Business Idea --></label>
+    <name>Business_Idea__c</name>
+</CustomFieldTranslation>

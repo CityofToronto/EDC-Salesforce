@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The total number of full time and part time employees. (Employment Full time  + Employment Part Time) for current year corresponding to most recent interaction. --></help>
+    <label><!-- Current Year Employment - Total --></label>
+    <name>Current_Year_Employment_Total__c</name>
+</CustomFieldTranslation>

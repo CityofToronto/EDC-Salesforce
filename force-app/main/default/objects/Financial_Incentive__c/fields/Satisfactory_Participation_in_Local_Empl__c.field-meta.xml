@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Satisfactory_Participation_in_Local_Empl__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Annual compliance check from Toronto Employment and Social Services to confirm the applicant has satisfied the Local Employment Plan requirements to collaborate with the City to promote local employment. This will include a local employment plan that will identify opportunities for local hiring and/or training and document how the applicant or property user will utilize City endorsed or sponsored employment programs. It is expected that the employment plan will span the term of the incentive and that outcomes will be tracked and documented.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Annual compliance check from Toronto Employment and Social Services to confirm the applicant has satisfied the Local Employment Plan requirements to collaborate with the City to promote local employment.</inlineHelpText>
+    <label>Satisfactory Participation in Local Empl</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

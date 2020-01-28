@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compare_Actual_and_Schedule_Amount</fullName>
+    <active>true</active>
+    <description>This validation rule is to make sure Actual Paid Amount can&#39;t be greater the Scheduled Amount</description>
+    <errorConditionFormula>Scheduled_Payment_Amount__c&lt;Actual_Paid_Amount__c</errorConditionFormula>
+    <errorMessage>Actual Paid amount can&#39;t be more than Scheduled Amount</errorMessage>
+</ValidationRule>

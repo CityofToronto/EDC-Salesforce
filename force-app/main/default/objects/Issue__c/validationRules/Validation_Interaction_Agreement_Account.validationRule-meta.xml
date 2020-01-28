@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Interaction_Agreement_Account</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK(Agreement__c)),NOT(ISBLANK(Agreement__r.Account_Name__c)),NOT(ISBLANK(Interaction__c)),NOT(ISBLANK(Interaction__r.Account__c)), Agreement__r.Account_Name__c &lt;&gt; Interaction__r.Account__c)</errorConditionFormula>
+    <errorMessage>Agreement Account and Interaction Account are not same.</errorMessage>
+</ValidationRule>

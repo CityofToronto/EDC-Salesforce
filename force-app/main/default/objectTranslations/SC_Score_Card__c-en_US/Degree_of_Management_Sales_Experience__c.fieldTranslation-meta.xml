@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Degree of Management experience in the Industry (including sales): --></help>
+    <label><!-- Degree of Management &amp; Sales Experience --></label>
+    <name>Degree_of_Management_Sales_Experience__c</name>
+    <picklistValues>
+        <masterLabel>3+ years (2 pts)</masterLabel>
+        <translation><!-- 3+ years (2 pts) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5+ years (3 pts)</masterLabel>
+        <translation><!-- 5+ years (3 pts) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less than 3 years (1 pt)</masterLabel>
+        <translation><!-- Less than 3 years (1 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

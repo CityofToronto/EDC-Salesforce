@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Programs of Interest – HR --></label>
+    <name>Programs_of_Interest_HR__c</name>
+    <picklistValues>
+        <masterLabel>Apprenticeship Training – Tax Credit</masterLabel>
+        <translation><!-- Apprenticeship Training – Tax Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada Ontario Job Grant</masterLabel>
+        <translation><!-- Canada Ontario Job Grant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada Summer Jobs – Service Canada</masterLabel>
+        <translation><!-- Canada Summer Jobs – Service Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employment Ontario</masterLabel>
+        <translation><!-- Employment Ontario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Federal Work Sharing</masterLabel>
+        <translation><!-- Federal Work Sharing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunities Ontario Provincial Nominee Program</masterLabel>
+        <translation><!-- Opportunities Ontario Provincial Nominee Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PAYE</masterLabel>
+        <translation><!-- PAYE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Services</masterLabel>
+        <translation><!-- Private Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summer Jobs Service</masterLabel>
+        <translation><!-- Summer Jobs Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TESS</masterLabel>
+        <translation><!-- TESS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temporary Foreign Workers Program</masterLabel>
+        <translation><!-- Temporary Foreign Workers Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth Employment Fund</masterLabel>
+        <translation><!-- Youth Employment Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth Employment Partnership</masterLabel>
+        <translation><!-- Youth Employment Partnership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth Employment Program – IRAP</masterLabel>
+        <translation><!-- Youth Employment Program – IRAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yves Landry Foundation</masterLabel>
+        <translation><!-- Yves Landry Foundation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

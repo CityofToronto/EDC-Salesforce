@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SC_OW_ApplicationsToReview</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Account__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Contact_Phone__c</columns>
+    <columns>Phase_1_Application_Approved__c</columns>
+    <columns>Application_Stream__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Application_Stream__c</field>
+        <operation>equals</operation>
+        <value>Ontario Works</value>
+    </filters>
+    <filters>
+        <field>Phase_1_Application_Approved__c</field>
+        <operation>notEqual</operation>
+        <value>Yes,No</value>
+    </filters>
+    <label>OW- Applications To Review</label>
+    <sharedTo>
+        <role>EDC_Admin</role>
+        <role>ES_Admin</role>
+        <role>ES_ET</role>
+    </sharedTo>
+</ListView>

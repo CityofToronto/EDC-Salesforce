@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- I declare the information provided in this application to be true,complete and accurate to the best of my ability --></help>
+    <label><!-- Personal Information Declaration --></label>
+    <name>Personal_Information_Declaration__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Type_Name_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((RecordType.DeveloperName  = &quot;BIA_Commercial_Industrial_Facade_and_Property_Improvement_Read_Only&quot; || RecordType.DeveloperName  = &quot;BIA_Commercial_Industrial_Facade_and_Property_Improvement&quot;),&quot;BIA Commercial - Industrial Facade and Property Improvement&quot;,
+IF((RecordType.DeveloperName  = &quot;BIA_Innovation_Fund_Read_Only&quot; || RecordType.DeveloperName = &quot;BIA_Innovation_Fund&quot;),&quot;BIA Innovation Fund&quot;,
+IF((RecordType.DeveloperName  = &quot;BIA_Leadership_Fund_Read_Only&quot; || RecordType.DeveloperName = &quot;BIA_Leadership_Fund&quot;),&quot;BIA Leadership Fund&quot;,
+IF((RecordType.DeveloperName  = &quot;BIA_Outside_Mural_and_Street_Art_Grant_Read_Only&quot; || RecordType.DeveloperName = &quot;BIA_Outside_Mural_and_Street_Art_Grant&quot;),&quot;BIA Outside Mural and Street Art&quot;,
+IF((RecordType.DeveloperName  = &quot;BIA_Streetscape_Master_Plan_Funding_Read_Only&quot; || RecordType.DeveloperName = &quot;BIA_Streetscape_Master_Plan_Funding&quot;),&quot;BIA Streetscape Master Plan Funding&quot;,
+IF((RecordType.DeveloperName  = &quot;Business_Incubation_Grant_Read_Only&quot; || RecordType.DeveloperName = &quot;Business_Incubation_Grant&quot;),&quot;Business Incubation Grant&quot;,
+IF((RecordType.DeveloperName  = &quot;Event_Sponsorship_Grant_Read_Only&quot; || RecordType.DeveloperName = &quot;Event_Sponsorship_Grant&quot;),&quot;Event Sponsorship Grant&quot;,
+IF((RecordType.DeveloperName = &quot;IMIT_Read_Only&quot; || RecordType.DeveloperName = &quot;IMIT&quot;),&quot;IMIT&quot;,
+IF((RecordType.DeveloperName = &quot;Starter_Company_Grant&quot;),&quot;Starter Company&quot;,
+IF((RecordType.DeveloperName = &quot;Sector_Grant_Read_Only&quot; || RecordType.DeveloperName  = &quot;Sector_Grant&quot;),&quot;Sector Grant&quot;,
+&quot;&quot;))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Record Type Name Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

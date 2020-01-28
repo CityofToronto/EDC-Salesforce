@@ -1,0 +1,60 @@
+<apex:component >
+<style>
+    .sitefooter {
+    width: 100%;
+    background: url(//www1.toronto.ca/static_files/assets/images/main_nav_bg.gif) repeat-x #566974;
+    margin-top: 10px;
+    padding: 10px;
+    z-index: 7000;
+    bottom: 0;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    }
+    .sitefooter ul {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding: 5px 0;
+    float: left;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sitefooter li {
+    display: inline;
+    white-space: nowrap;
+    text-align: left;
+    padding: 0;
+}
+.sitefooter a {
+    color: #fff;
+}
+
+
+.sitefooter li + li:before {
+    content: " | ";
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ddd;
+}
+
+.sitefooter p {
+    color:#FFFFFF;
+    text-align:right;
+}
+</style>
+<footer class="sitefooter" role="contentinfo">
+    <div class="wrap_content">
+            <div class="col-xs-12"> 
+                <p>
+                    <span title="Copyright" class="glyphicon glyphicon-copyright-mark"></span> City of Toronto, 1998-{!YEAR(TODAY())}
+                </p>
+            </div>
+    </div>
+</footer>
+</apex:component>

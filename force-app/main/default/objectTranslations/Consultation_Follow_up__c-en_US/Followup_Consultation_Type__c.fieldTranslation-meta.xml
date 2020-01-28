@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Follow-Up Consultation Type --></label>
+    <name>Followup_Consultation_Type__c</name>
+    <picklistValues>
+        <masterLabel>Follow-Up for walk-in clients</masterLabel>
+        <translation><!-- Follow-Up for walk-in clients --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Follow-up for online clients</masterLabel>
+        <translation><!-- Follow-up for online clients --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

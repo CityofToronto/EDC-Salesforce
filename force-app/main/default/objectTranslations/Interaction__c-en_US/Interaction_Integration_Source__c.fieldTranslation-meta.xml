@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This Field will be populated based on how record is created in salesforce i.e. or through Form Assembly --></help>
+    <label><!-- Interaction Integration Source --></label>
+    <name>Interaction_Integration_Source__c</name>
+</CustomFieldTranslation>

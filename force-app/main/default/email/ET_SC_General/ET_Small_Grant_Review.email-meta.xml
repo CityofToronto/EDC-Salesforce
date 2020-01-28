@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends email to staff with link for grant review email.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-Small-Grant Review</name>
+    <style>none</style>
+    <subject>Starter Company Plus - Small Business - Grant Email</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

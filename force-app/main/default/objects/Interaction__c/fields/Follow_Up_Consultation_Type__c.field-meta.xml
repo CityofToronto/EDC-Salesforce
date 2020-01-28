@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up_Consultation_Type__c</fullName>
+    <description>What type of follow up is required</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What type of follow up is required</inlineHelpText>
+    <label>Follow-Up Consultation Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Follow-Up for Walk in clients</fullName>
+                <default>false</default>
+                <label>Follow-Up for Walk in clients</label>
+            </value>
+            <value>
+                <fullName>Follow-Up for Online clients</fullName>
+                <default>false</default>
+                <label>Follow-Up for Online clients</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

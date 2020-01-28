@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Industry_Network --></help>
+    <label><!-- Industry Network --></label>
+    <name>Industry_Network__c</name>
+    <picklistValues>
+        <masterLabel>Some contacts/active member in industry association (1 pt)</masterLabel>
+        <translation><!-- Some contacts/active member in industry association (1 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Well Established (2 pts)</masterLabel>
+        <translation><!-- Well Established (2 pts) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

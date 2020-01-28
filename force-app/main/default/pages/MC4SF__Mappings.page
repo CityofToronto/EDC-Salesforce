@@ -1,0 +1,22 @@
+<apex:page standardController="MC4SF__MC_List__c" extensions="MC4SF.MappingsController" action="{!initPage}">
+    <apex:outputPanel rendered="false">{!MC4SF__MC_List__c.Name}</apex:outputPanel>
+	<apex:stylesheet value="{!URLFOR($Resource.MC4SF__Assets, 'css/apexElemToSLDS.css')}"/>
+	<div class="slds-scope">
+		<c:Header setupFunction="headerSetupObject" />
+		<apex:form id="mappings-form">
+			<c:Mappings listId="{!MC4SF__MC_List__c.Id}" baseController="{!mappingsBaseController}"/>
+		</apex:form>
+	</div>
+	<script>
+		var headerSetupObject = function() {
+			var recordName = "{!JSINHTMLENCODE(MC_List__c.name)}";
+			var setupObj;
+			setupObj = {
+				title : "Mailchimp for Salesforce",
+				pageHeading : "Mailchimp Audience - " + recordName,
+				pageDescription : "Add and configure mappings for your Mailchimp audience."
+			}
+			return setupObj;
+		}
+	</script>
+</apex:page>

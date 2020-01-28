@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will be hidden from page layout and used on Email Template under signatory to notify end client --></help>
+    <label><!-- Email Signatory Name --></label>
+    <name>Email_Signatory_Name__c</name>
+</CustomFieldTranslation>

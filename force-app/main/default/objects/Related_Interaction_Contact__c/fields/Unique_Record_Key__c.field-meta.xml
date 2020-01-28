@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unique_Record_Key__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>This field is to allow creating unique Related Interaction Contact Record i.e. one particular interaction can not be associated with same contact twice.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is to allow creating unique Related Interaction Contact Record i.e. one particular interaction can not be associated with same contact twice.</inlineHelpText>
+    <label>Unique Record Key</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Group --></label>
+    <name>Business_Group__c</name>
+    <picklistValues>
+        <masterLabel>BIA</masterLabel>
+        <translation><!-- BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRE</masterLabel>
+        <translation><!-- BRE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ES</masterLabel>
+        <translation><!-- ES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GM&#39;s Office</masterLabel>
+        <translation><!-- GM&apos;s Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Alliance</masterLabel>
+        <translation><!-- International Alliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector</masterLabel>
+        <translation><!-- Sector --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

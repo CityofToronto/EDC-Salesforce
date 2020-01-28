@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capital_Investment_Value__c</fullName>
+    <description>This is value of the assets that is being used up or used in the construction of the new bulding or the additional expansion e.g. machinery.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is value of the assets that is being used up or used in the construction of the new bulding or the additional expansion e.g. machinery.</inlineHelpText>
+    <label>Capital Investment Value ($)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The total number of full time employees for current year. --></help>
+    <label><!-- Current Year Employment-Full-Time --></label>
+    <name>Current_Year_Employment_Full_Time__c</name>
+</CustomFieldTranslation>

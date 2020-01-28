@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to get partners to share Startup City event info.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ES-StartupCityPromot(9May16)</name>
+    <style>none</style>
+    <subject>Please Share - Startup City: Embracing Startup Culture to Make Positive Change in Cities</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

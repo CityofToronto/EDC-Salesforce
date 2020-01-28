@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Aborted can be used if the interest to complete an agreement has ended or if both party signatures are not received, or, agreement terminated prior term by either of the parties --></help>
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Aborted</masterLabel>
+        <translation><!-- Aborted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation><!-- Expired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Approval</masterLabel>
+        <translation><!-- External Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Review</masterLabel>
+        <translation><!-- External Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Signature Received</masterLabel>
+        <translation><!-- External Signature Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Final Review</masterLabel>
+        <translation><!-- Final Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Approval</masterLabel>
+        <translation><!-- Internal Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Review</masterLabel>
+        <translation><!-- Internal Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Signature Received</masterLabel>
+        <translation><!-- Internal Signature Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre Agreement</masterLabel>
+        <translation><!-- Pre Agreement --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

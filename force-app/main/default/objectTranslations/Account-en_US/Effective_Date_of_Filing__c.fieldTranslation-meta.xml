@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Effective Date of Filing --></label>
+    <name>Effective_Date_of_Filing__c</name>
+    <picklistValues>
+        <masterLabel>Future filing date (can be upto 30 days from today&#39;s date).</masterLabel>
+        <translation><!-- Future filing date (can be upto 30 days from today&apos;s date). --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Today&#39;s Date or Next Available Business Date.</masterLabel>
+        <translation><!-- Today&apos;s Date or Next Available Business Date. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

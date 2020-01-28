@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field auto populate when the Email and further Reminder will be sent to Client --></help>
+    <label><!-- Event Business Outcome Survey Status --></label>
+    <name>Event_Business_Outcome_Survey_Status__c</name>
+    <picklistValues>
+        <masterLabel>In Queue - 1 Day</masterLabel>
+        <translation><!-- In Queue - 1 Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Queue - 1 Week</masterLabel>
+        <translation><!-- In Queue - 1 Week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Queue - 2 Week</masterLabel>
+        <translation><!-- In Queue - 2 Week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Queue - 3 Week</masterLabel>
+        <translation><!-- In Queue - 3 Week --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responded</masterLabel>
+        <translation><!-- Responded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent - 3 Week</masterLabel>
+        <translation><!-- Sent - 3 Week --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

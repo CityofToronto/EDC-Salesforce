@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDC_Report_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>EDC Report Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Council and Intergovernmental</fullName>
+                <default>false</default>
+                <label>Council and Intergovernmental</label>
+            </value>
+            <value>
+                <fullName>ED&amp;C Operations and Budgets</fullName>
+                <default>false</default>
+                <label>ED&amp;C Operations and Budgets</label>
+            </value>
+            <value>
+                <fullName>Hot Issues and Advance Notice</fullName>
+                <default>false</default>
+                <label>Hot Issues and Advance Notice</label>
+            </value>
+            <value>
+                <fullName>International Trade and Investment</fullName>
+                <default>false</default>
+                <label>International Trade and Investment</label>
+            </value>
+            <value>
+                <fullName>Local Business Investment, Formation and Growth</fullName>
+                <default>false</default>
+                <label>Local Business Investment, Formation and Growth</label>
+            </value>
+            <value>
+                <fullName>Sector Competitiveness</fullName>
+                <default>false</default>
+                <label>Sector Competitiveness</label>
+            </value>
+            <value>
+                <fullName>Workforce Development</fullName>
+                <default>false</default>
+                <label>Workforce Development</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to SC clients about upcoming expert legal session.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-SC-DMS-LegalBootCamp</name>
+    <style>none</style>
+    <subject>Legal Advice for Main Street - Digital Main Street</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

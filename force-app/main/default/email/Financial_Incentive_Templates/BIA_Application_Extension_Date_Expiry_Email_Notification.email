@@ -1,0 +1,7 @@
+Dear User,
+
+BIA Grant application for {!Financial_Incentive__c.Account__c} has reaches its term for extension in 30 days by {!Financial_Incentive__c.Application_Extension_Date__c} .Please refer below link to access the record and take necessary action.
+
+{!Financial_Incentive__c.Link} 
+
+Thanks

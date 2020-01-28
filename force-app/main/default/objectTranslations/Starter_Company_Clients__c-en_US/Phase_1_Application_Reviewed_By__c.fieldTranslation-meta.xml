@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Phase #1 - Application Reviewed By: --></label>
+    <name>Phase_1_Application_Reviewed_By__c</name>
+    <picklistValues>
+        <masterLabel>Andrew Patricio</masterLabel>
+        <translation><!-- Andrew Patricio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chris Rickett</masterLabel>
+        <translation><!-- Chris Rickett --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David Cohen</masterLabel>
+        <translation><!-- David Cohen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jason Li</masterLabel>
+        <translation><!-- Jason Li --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Margie Galarneau</masterLabel>
+        <translation><!-- Margie Galarneau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sandi Koitsis-Zigomanis</masterLabel>
+        <translation><!-- Sandi Koitsis-Zigomanis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vikas Jain</masterLabel>
+        <translation><!-- Vikas Jain --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

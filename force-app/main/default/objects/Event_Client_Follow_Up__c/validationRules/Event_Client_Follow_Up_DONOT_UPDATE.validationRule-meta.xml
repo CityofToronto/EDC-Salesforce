@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Client_Follow_Up_DONOT_UPDATE</fullName>
+    <active>true</active>
+    <description>This Validation rule do not allow any profile to update record of Event Client follow up</description>
+    <errorConditionFormula>AND(NOT($Profile.Name = &quot;System Administrator&quot;),OR( ISCHANGED( CampaignID__c) || ISCHANGED(  ContactID__c )|| ISCHANGED(  Workshop_Attendance_Before__c)|| ISCHANGED(  Workshop_Feedback__c )|| ISCHANGED(  Workshop_Knowledgeable_Presenter__c	)|| ISCHANGED( Workshop_Met_Expectations__c	  )|| ISCHANGED( Workshop_Recommend__c )|| ISCHANGED(  Workshop_Valuable__c	)|| ISCHANGED(  Workshop_Value_for_Money__c	) ))</errorConditionFormula>
+    <errorMessage>You Cannot change the value</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- States an appropriate and realistic pricing strategy, based on the SWOT analysi --></help>
+    <label><!-- States an appropriate pricing strategy? --></label>
+    <name>States_an_appropriate_pricing_strategy__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (2 pt)</masterLabel>
+        <translation><!-- Yes (2 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_Year_Survey_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is to indicated whether 1 year survey has been completed or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is to indicated whether 1 year survey has been completed or not.</inlineHelpText>
+    <label>1 Year Survey Completed</label>
+    <type>Checkbox</type>
+</CustomField>

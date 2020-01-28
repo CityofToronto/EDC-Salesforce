@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employment_Change_In_Next_12_Months__c</fullName>
+    <description>The increase or decrease of employees in future. (Tied to Empl. Incr. or Decr. Next 12 Months)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The increase or decrease.of employees in future (Tied to Empl. Incr. or Decr. Next 12 Months)</inlineHelpText>
+    <label>Employment Change In Next 12 Months</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

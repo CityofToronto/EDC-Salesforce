@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Target Industry --></label>
+    <name>Target_Industry__c</name>
+    <picklistValues>
+        <masterLabel>Bio-Medical</masterLabel>
+        <translation><!-- Bio-Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creative</masterLabel>
+        <translation><!-- Creative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environment</masterLabel>
+        <translation><!-- Environment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion</masterLabel>
+        <translation><!-- Fashion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food and Beverage</masterLabel>
+        <translation><!-- Food and Beverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IF OTHER – text space.</masterLabel>
+        <translation><!-- IF OTHER – text space. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information, Communications &amp; Technology</masterLabel>
+        <translation><!-- Information, Communications &amp; Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mixed Sector</masterLabel>
+        <translation><!-- Mixed Sector --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Innovation</masterLabel>
+        <translation><!-- Social Innovation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

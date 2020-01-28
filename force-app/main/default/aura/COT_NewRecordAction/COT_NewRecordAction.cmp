@@ -1,0 +1,64 @@
+<aura:component extensible="true" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="COT_Utility">
+
+    <aura:attribute name="objcetApiName" type="String"/>
+    <aura:attribute name="recordTypeName" type="String" default=""/>
+
+    <aura:attribute name="startLoadingData" type="Boolean" default="false"/>
+    <aura:attribute name="queryFields" type="String[]"/>
+    <aura:attribute name="loadedRecord" type="Object"/>
+    <aura:attribute name="recordLoadError" type="String"/>
+
+    <aura:attribute name="selectedRecordTypeId" type="String"/>
+    <aura:attribute name="displayPageLayout" type="Boolean" default="false"/>
+
+    <aura:attribute name="recordTypes" type="COT_Utility.CRecordType[]"/>
+    
+    <aura:attribute name="title" type="String"/>
+
+    <aura:method name="createRecordMethod" action="{!c.createRecord}"/>
+
+    <aura:if isTrue="{!v.startLoadingData}">
+        <force:recordData aura:id="recordLoader"
+            recordId="{!v.recordId}"
+            fields="{!v.queryFields}"
+            targetFields="{!v.loadedRecord}"
+            targetError="{!v.recordLoadError}"
+        />
+    </aura:if>
+
+    <div>{!v.body}</div>
+
+    <aura:if isTrue="{!!v.displayPageLayout}">
+        <lightning:card>
+            <div class="slds-align_absolute-center" >
+
+                <lightning:formattedText class="inlineTitle slds-p-horizontal--medium slds-text-heading--medium" value="{!v.title}"/>
+                
+            </div>
+            <hr/>
+            <lightning:formattedText class="slds-p-horizontal--medium" value="Select a record type"/>
+
+            <div class="slds-p-around--medium">
+                <div class="slds-p-left_xx-large">
+                    <aura:iteration items="{!v.recordTypes}" var="item">
+
+                        <lightning:input type="radio"  class="slds-radio" label="{!item.Name}" aura:id="radioId" name="{!item.Id}" onclick="{!c.onSelect}" checked="{!item.checked}"/>
+                        <div class="slds-p-left_xx-large">
+                        <lightning:formattedText value="{!item.Description}" />
+                        </div>
+                        <br/>
+                    </aura:iteration>
+                </div>
+
+            </div>
+
+        </lightning:card>
+        <footer>
+            <div class="modal-footer slds-modal__footer attach-to-bottom">
+                <lightning:button label="Cancel"  onclick="{!c.close}"/>
+                <lightning:button label="Next" variant="brand" onclick="{!c.createNewRecord}" disabled="{!v.selectedRecordTypeId==null}"/>
+            </div>
+        </footer>
+    
+    </aura:if>
+</aura:component>

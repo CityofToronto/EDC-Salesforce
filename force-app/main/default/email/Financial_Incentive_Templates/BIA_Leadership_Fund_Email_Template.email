@@ -1,0 +1,95 @@
+<messaging:emailTemplate recipientType="Contact" relatedToType="Financial_Incentive__c"  subject="{!RelatedTo.RecordType.Name} Grant application approved for {!RelatedTo.Account__r.Name}" replyTo="biaoffice@toronto.ca">
+    <messaging:htmlEmailBody >
+    Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},
+    <br /><br />
+    Your {!RelatedTo.RecordType.Name} Grant Approval Request for {!RelatedTo.Account__r.Name} has been Approved. 
+    <br /><br />
+    Please sign the attached Letter of Understanding and return to {!RelatedTo.Record_Submitter_Email__c}
+    <br /><br />
+    {!RelatedTo.Record_Submitter_Manager__c} 
+    <br />
+    Manager, BIA Office
+    </messaging:htmlEmailBody>
+    <messaging:attachment renderAs="PDF" filename="Letter of Understanding {!RelatedTo.Financial_Incentive_Name__c}.pdf">
+    <html>
+    <body>
+        <img src="https://cityoftoronto--c.na78.content.force.com/servlet/servlet.ImageServer?id=0151N000003Zcjj&oid=00Do0000000bTwm" width="680" height="120"/> <br/><br/>
+        <p>{!case(month(today()),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(TODAY())}, {!YEAR(TODAY())}</p>
+        <p>Re:&nbsp; &nbsp; &nbsp; &nbsp;BIA Leadership Fund &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Letter of Understanding<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;File No.: {!RelatedTo.Financial_Incentive_Name__c}</p>
+        <p>Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},</p>
+        <p>Your application for funding under the City of Toronto&rsquo;s BIA Leadership Fund has been approved for tuition coverage associated with the Certificate in Local Economic Development from the Chang School of Continuing Education at Ryerson University. The grant is based on the BIA Leadership Fund Program Guidelines. The grant and associated fees will be paid directly to Ryerson University on your behalf.</p>
+        <p>The Terms and Conditions of the grant are set out in this letter and Appendix 1 attached hereto which taken together form the agreement. If you breach any of the terms and conditions of this agreement, knowingly provided false information in the application, use funds for purposes not approved, or breach any of the provisions of the Ontario Human Rights Code in your operation, the funding must, at the request of the City, be repaid in whole or in part.</p>
+        <p>Please make an additional copy of this Letter of Understanding for your files.&nbsp; Sign and return the original letter of understanding to:</p>
+        <p>David Hessels<br />Economic Development &amp; Culture Division<br />City of Toronto<br />77 Elizabeth Street, 2nd Floor<br />Toronto, Ontario M5G 1P4</p>
+        <p>Sincerely,</p>
+        <p>Mike Major<br />Manager, Toronto BIA Office</p>
+        <p>&nbsp;</p>
+        <p>I have read, understand and agree to comply with this Letter of Understanding and the attached Appendix 1.</p>
+        <p>&nbsp;</p>
+        <p>Printed Name: _______________________________________</p>
+        <p>Signed Name: _______________________________________</p>
+        <p>Date: ______________________________________________</p>
+        
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>&nbsp; &nbsp; &nbsp; &nbsp; Appendix 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong><br /><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BIA Leadership Fund</strong></p>
+        <p>&nbsp;<em>Terms and Conditions</em></p>
+        <p>&nbsp;By signing and submitting this application, the Recipient acknowledges and agrees to the following terms and conditions:</p>
+        <p><strong>1.0&nbsp; &nbsp;Use and Purpose of Funding</strong></p>
+        <ul>
+        <li>The BIA Leadership Fund provides tuition funding to individuals involved in BIA work for accredited local economic development training.</li>
+        <li>The grant funding is based on the Program Guidelines.</li>
+        </ul>
+        <p><strong>2.0&nbsp; &nbsp;Municipal Freedom of Information and Protection of Privacy Act</strong></p>
+        <p style="padding-left: 30px;">Information contained in the BIA Leadership Fund application is subject to the <em>Municipal Freedom of Information and Protection of Privacy Act</em>. All funding decisions are publicly available.</p>
+        <p><strong>3.0&nbsp; &nbsp;Anti-Racism, Access and Equity Guidelines</strong></p>
+        <p style="padding-left: 30px;">The Recipient must complete and file a Declaration of a Non-Discrimination Policy that indicates that the funding recipient has adopted and upholds a policy of access and non- discrimination based on the City&rsquo;s Human Rights Policy. The Recipient will work actively to integrate anti-racism, access and equity, throughout their operations, inaccordance with the City&rsquo;s approved Anti-Racism, Access and Equity Policy as it relates to all funding recipients.</p>
+        <p><strong>4.0&nbsp; &nbsp;Review and Approval of Funding</strong></p>
+        <ul>
+        <li>Applications for the BIA Leadership Fund are reviewed by Toronto BIA Staff.</li>
+        <li>The General Manager, Economic Development and Culture will approve grant applications and release funds</li>
+        </ul>
+        <p><strong>5.0&nbsp; &nbsp;Payments</strong></p>
+        <ul>
+        <li>If funding is approved, the Recipient will be advised in writing of their grant approval.</li>
+        <li>Grants will be made by the Toronto BIA Office direct to Ryerson University on behalf of the Recipient.</li>
+        </ul>
+        <p><strong>6.0&nbsp; &nbsp;Limitation of Liability, Indemnification, and Comprehensive General Liability Insurance<br /> </strong></p>
+        <ul>
+        <li>The City will not be liable for any damages, injury or any loss of use or profit of the Recipient arising out of, or in any way related to the approval of the funding or to the Recipient.</li>
+        <li>The Recipient shall indemnify the City, its officers, employees and agents, against all costs, damages, and expenses incurred as a result of a claim or proceeding related to the funding or to the Recipient, unless such costs, damages, or expenses arise from the negligence or willful act of an officer, employee, or agent of the City.</li>
+        </ul>
+        <br/><br/><br/>
+        <p><strong>7.0&nbsp; &nbsp;Termination of Letter of Understanding</strong></p>
+        <ul>
+        <li>The Toronto BIA Office may terminate the Letter of Understanding if the Recipient fails to comply with any terms and conditions of the Letter of Understanding. If at any time the Letter of Understanding is terminated, the Recipient is expelled from the Certificate Program, or the Recipient drops out of the Certificate Program, the Recipient will not be eligible for any further tuition coverage/reimbursement.</li>
+        <li>Depending on the nature behind the Recipient's exit from the Certificate, the Toronto BIA Office may require repayment.</li>
+        </ul>
+        <p><strong>8.0&nbsp; &nbsp;Repayment</strong></p>
+        <ul>
+        <li>The Recipient must, at the request of the Manager, Toronto BIA Office, repay to the City the whole or any portion of the funding, as determined by the City, if the Recipient:
+        <ul>
+        <li>Has knowingly provided false information in their application;</li>
+        <li>Has exited the Program for reasons the Toronto BIA Office determines as negligent;</li>
+        <li>Breaches any of the terms and conditions of the funding; or,</li>
+        <li>Breaches any of the provisions of the Ontario Human Rights Code in its operations.</li>
+        </ul>
+        </li>
+        <li>The City may, in its sole discretion, require the Recipient to pay interest on any amount required to be repaid pursuant to this section at the prime rate of the Bank of Canada from the date of the request for repayment to the date of repayment.</li>
+        </ul>
+        <p><strong>9.0&nbsp; &nbsp;Status of Recipient</strong></p>
+        <p style="padding-left: 30px;">The Recipient must be in good standing with the City of Toronto, having met the terms and conditions of any previous funding provided by the City.</p>
+        <p><strong>10.0&nbsp; Further Conditions</strong></p>
+        <p style="padding-left: 30px;">The City shall be entitled, at any time, to impose such additional terms and conditions on the use of the funding which, in its sole discretion, it deems appropriate.</p>
+        <p><strong>11.0&nbsp; Letter of Understanding</strong></p>
+        <p style="padding-left: 30px;"><strong>&nbsp;</strong>To obtain grant approval and commence work under the BIA Leadership Fund, the Recipient must execute and return to the Toronto BIA Office an executed copy of the Letter of Understanding. Studies already begun or completed are ineligible.</p>
+        <p><strong>12.0&nbsp; Agreements with Ryerson University</strong></p>
+        <p style="padding-left: 30px;">The Recipient will sign separate agreements with Ryerson University, as per any of Ryerson University's protocols for admitting new students. The agreements made in the Terms and Conditions of the BIA Leadership Fund do not bear weight on agreements made with Ryerson University. The Agreements made with Ryerson University do not bear weight on the Terms and Conditions of the BIA Leadership Fund.</p>
+        <p><strong>13.0&nbsp; Mentorship Letter of Understanding</strong></p>
+        <p style="padding-left: 30px;">The Recipient must agree to execute a Mentorship Letter of Understanding before commencing the mentorship component of the Local Leadership.</p>
+        <br/>
+        <p><strong>14.0&nbsp; Funding Commitment</strong></p>
+        <p style="padding-left: 30px;">Funding for the BIA Leadership Fund is supported by the City of Toronto's Operating Budget. The City's Operating Budget is approved year to year. The Toronto BIA Office cannot therefore make commitments to funding for the BIA Leadership Fund each year.</p>
+        <p>&nbsp;</p>    
+    </body>
+    </html>
+    </messaging:attachment>
+</messaging:emailTemplate>

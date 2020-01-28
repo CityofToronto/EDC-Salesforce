@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of In-Kind Support --></label>
+    <name>Type_of_In_Kind_Support__c</name>
+    <picklistValues>
+        <masterLabel>Event Space</masterLabel>
+        <translation><!-- Event Space --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff Assistance</masterLabel>
+        <translation><!-- Staff Assistance --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

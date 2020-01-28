@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This date is Read Only field that will be Nov 15th every year and year will be automatically assigned based on BIC Grant Completion Status date. --></help>
+    <label><!-- BIC Report Trigger Date --></label>
+    <name>BIC_Report_Trigger_Date__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The method/means/mode in which the request was made --></help>
+    <label><!-- Request Communication Channel --></label>
+    <name>Request_Communication_Channel__c</name>
+    <picklistValues>
+        <masterLabel>DCM Clerk’s mail</masterLabel>
+        <translation><!-- DCM Clerk’s mail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

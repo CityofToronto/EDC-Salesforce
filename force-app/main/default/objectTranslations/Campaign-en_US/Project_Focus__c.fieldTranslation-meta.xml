@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Project Focus --></label>
+    <name>Project_Focus__c</name>
+    <picklistValues>
+        <masterLabel>Attraction - Expansion &amp; Location Assistance</masterLabel>
+        <translation><!-- Attraction - Expansion &amp; Location Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attraction - New Investment (FDI &amp; Relocation)</masterLabel>
+        <translation><!-- Attraction - New Investment (FDI &amp; Relocation) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Business Introduction</masterLabel>
+        <translation><!-- Biz Development - Business Introduction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Cluster Development</masterLabel>
+        <translation><!-- Biz Development - Cluster Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Delegation Assistance</masterLabel>
+        <translation><!-- Biz Development - Delegation Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Event Assistance</masterLabel>
+        <translation><!-- Biz Development - Event Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Export Assistance</masterLabel>
+        <translation><!-- Biz Development - Export Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Import Assistance</masterLabel>
+        <translation><!-- Biz Development - Import Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - PR &amp; Marketing</masterLabel>
+        <translation><!-- Biz Development - PR &amp; Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Partnership Development</masterLabel>
+        <translation><!-- Biz Development - Partnership Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - TAP Program</masterLabel>
+        <translation><!-- Biz Development - TAP Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biz Development - Workforce Development</masterLabel>
+        <translation><!-- Biz Development - Workforce Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Building Permit</masterLabel>
+        <translation><!-- City - Building Permit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - IMIT</masterLabel>
+        <translation><!-- City - IMIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Planning Issue (Zoning &amp; OP)</masterLabel>
+        <translation><!-- City - Planning Issue (Zoning &amp; OP) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City - Regulatory</masterLabel>
+        <translation><!-- City - Regulatory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City – Property maintenance and standards</masterLabel>
+        <translation><!-- City – Property maintenance and standards --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City – Property taxes</masterLabel>
+        <translation><!-- City – Property taxes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City – Transportation</masterLabel>
+        <translation><!-- City – Transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory Issues - Federal</masterLabel>
+        <translation><!-- Regulatory Issues - Federal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory Issues - Provincial</masterLabel>
+        <translation><!-- Regulatory Issues - Provincial --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

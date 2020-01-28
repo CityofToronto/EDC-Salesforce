@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>In Review</fullName>
+                <default>false</default>
+                <label>In Review</label>
+            </value>
+            <value>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+                <label>Pending Approval</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Extension</fullName>
+                <default>false</default>
+                <label>Extension</label>
+            </value>
+            <value>
+                <fullName>Pending Extension</fullName>
+                <default>false</default>
+                <label>Pending Extension</label>
+            </value>
+            <value>
+                <fullName>Extension Approved</fullName>
+                <default>false</default>
+                <label>Extension Approved</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Approved by GM</fullName>
+                <default>false</default>
+                <label>Approved by GM</label>
+            </value>
+            <value>
+                <fullName>Approved by City Council</fullName>
+                <default>false</default>
+                <label>Approved by City Council</label>
+            </value>
+            <value>
+                <fullName>With Legal</fullName>
+                <default>false</default>
+                <label>With Legal</label>
+            </value>
+            <value>
+                <fullName>Legal Agreement Completed</fullName>
+                <default>false</default>
+                <label>Legal Agreement Completed</label>
+            </value>
+            <value>
+                <fullName>Reassessment</fullName>
+                <default>false</default>
+                <label>Reassessment</label>
+            </value>
+            <value>
+                <fullName>Amending Agreement</fullName>
+                <default>false</default>
+                <label>Amending Agreement</label>
+            </value>
+            <value>
+                <fullName>Compliance/Payment Review</fullName>
+                <default>false</default>
+                <label>Compliance/Payment Review</label>
+            </value>
+            <value>
+                <fullName>Withdrawn/Inactive</fullName>
+                <default>false</default>
+                <label>Withdrawn/Inactive</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Application Declined</fullName>
+                <default>false</default>
+                <label>Application Declined</label>
+            </value>
+            <value>
+                <fullName>Extension Declined</fullName>
+                <default>false</default>
+                <label>Extension Declined</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>Eligibility Criteria not Met</fullName>
+                <default>false</default>
+                <label>Eligibility Criteria not Met</label>
+            </value>
+            <value>
+                <fullName>Interview Required</fullName>
+                <default>false</default>
+                <label>Interview Required</label>
+            </value>
+            <value>
+                <fullName>Declined after Interview</fullName>
+                <default>false</default>
+                <label>Declined after Interview</label>
+            </value>
+            <value>
+                <fullName>Approved for Training</fullName>
+                <default>false</default>
+                <label>Approved for Training</label>
+            </value>
+            <value>
+                <fullName>Declined for Training</fullName>
+                <default>false</default>
+                <label>Declined for Training</label>
+            </value>
+            <value>
+                <fullName>Training Completed</fullName>
+                <default>false</default>
+                <label>Training Completed</label>
+            </value>
+            <value>
+                <fullName>Business Plan Received</fullName>
+                <default>false</default>
+                <label>Business Plan Received</label>
+            </value>
+            <value>
+                <fullName>Score Card Received</fullName>
+                <default>false</default>
+                <label>Score Card Received</label>
+            </value>
+            <value>
+                <fullName>Grant Approved</fullName>
+                <default>false</default>
+                <label>Grant Approved</label>
+            </value>
+            <value>
+                <fullName>Document Received</fullName>
+                <default>false</default>
+                <label>Document Received</label>
+            </value>
+            <value>
+                <fullName>More Information Required</fullName>
+                <default>false</default>
+                <label>More Information Required</label>
+            </value>
+            <value>
+                <fullName>Grant Declined</fullName>
+                <default>false</default>
+                <label>Grant Declined</label>
+            </value>
+            <value>
+                <fullName>Grant Disbursement</fullName>
+                <default>false</default>
+                <label>Grant Disbursement</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Declined - More Information Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Declined - More Information Required</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>Payment Phase</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Payment Phase</label>
+            </value>
+            <value>
+                <fullName>Survey Received</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Survey Received</label>
+            </value>
+            <value>
+                <fullName>Survey Reviewed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Survey Reviewed</label>
+            </value>
+            <value>
+                <fullName>Survey Sent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Survey Sent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

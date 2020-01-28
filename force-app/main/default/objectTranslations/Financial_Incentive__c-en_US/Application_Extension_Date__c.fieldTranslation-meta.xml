@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This date will be approved by Approver if extension is requested but should not be later than one year after Expiry date. --></help>
+    <label><!-- Grant Extension Date --></label>
+    <name>Application_Extension_Date__c</name>
+</CustomFieldTranslation>

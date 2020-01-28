@@ -1,0 +1,11 @@
+The customer has provided poor feedback for recent Interaction with City of Toronto as details listed below-
+
+Interaction Name - {!Interaction__c.Name}
+Date and Time of Interaction - {!Interaction__c.Date_of_Contact__c}
+Account - {!Interaction__c.Account__c}
+Contact - {!Interaction__c.Contact__c}
+Interaction Owner -{!Interaction__c.Interaction_Owner__c}
+
+Click on the link to access the Interaction directly: {!Interaction__c.Link}
+
+Thanks

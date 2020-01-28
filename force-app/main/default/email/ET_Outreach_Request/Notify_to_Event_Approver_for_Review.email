@@ -1,0 +1,9 @@
+Dear {!Outreach__c.OwnerFullName},
+
+A client has requested for event. Please login into salesforce system to review it and let team know weather need to attend or not.
+
+New Event Request Record- {!Outreach__c.Link}
+
+
+Thanks,
+{!Outreach__c.CreatedBy}

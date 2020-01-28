@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ward__c</fullName>
+    <externalId>false</externalId>
+    <label>Ward</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ward 1 Etobicoke North</fullName>
+                <default>false</default>
+                <label>Ward 1 Etobicoke North</label>
+            </value>
+            <value>
+                <fullName>Ward 2 Etobicoke North</fullName>
+                <default>false</default>
+                <label>Ward 2 Etobicoke North</label>
+            </value>
+            <value>
+                <fullName>Ward 3 Etobicoke Centre</fullName>
+                <default>false</default>
+                <label>Ward 3 Etobicoke Centre</label>
+            </value>
+            <value>
+                <fullName>Ward 4 Etobicoke Centre</fullName>
+                <default>false</default>
+                <label>Ward 4 Etobicoke Centre</label>
+            </value>
+            <value>
+                <fullName>Ward 5 Etobicoke-Lakeshore</fullName>
+                <default>false</default>
+                <label>Ward 5 Etobicoke-Lakeshore</label>
+            </value>
+            <value>
+                <fullName>Ward 6 Etobicoke-Lakeshore</fullName>
+                <default>false</default>
+                <label>Ward 6 Etobicoke-Lakeshore</label>
+            </value>
+            <value>
+                <fullName>Ward 7 York West</fullName>
+                <default>false</default>
+                <label>Ward 7 York West</label>
+            </value>
+            <value>
+                <fullName>Ward 8 York West</fullName>
+                <default>false</default>
+                <label>Ward 8 York West</label>
+            </value>
+            <value>
+                <fullName>Ward 9 York Centre</fullName>
+                <default>false</default>
+                <label>Ward 9 York Centre</label>
+            </value>
+            <value>
+                <fullName>Ward 10 York Centre</fullName>
+                <default>false</default>
+                <label>Ward 10 York Centre</label>
+            </value>
+            <value>
+                <fullName>Ward 11 York South-Weston</fullName>
+                <default>false</default>
+                <label>Ward 11 York South-Weston</label>
+            </value>
+            <value>
+                <fullName>Ward 12 York South-Weston</fullName>
+                <default>false</default>
+                <label>Ward 12 York South-Weston</label>
+            </value>
+            <value>
+                <fullName>Ward 13 Parkdale-High Park</fullName>
+                <default>false</default>
+                <label>Ward 13 Parkdale-High Park</label>
+            </value>
+            <value>
+                <fullName>Ward 14 Parkdale-High Park</fullName>
+                <default>false</default>
+                <label>Ward 14 Parkdale-High Park</label>
+            </value>
+            <value>
+                <fullName>Ward 15 Eglinton-Lawrence</fullName>
+                <default>false</default>
+                <label>Ward 15 Eglinton-Lawrence</label>
+            </value>
+            <value>
+                <fullName>Ward 16 Eglinton-Lawrence</fullName>
+                <default>false</default>
+                <label>Ward 16 Eglinton-Lawrence</label>
+            </value>
+            <value>
+                <fullName>Ward 17 Davenport</fullName>
+                <default>false</default>
+                <label>Ward 17 Davenport</label>
+            </value>
+            <value>
+                <fullName>Ward 18 Davenport</fullName>
+                <default>false</default>
+                <label>Ward 18 Davenport</label>
+            </value>
+            <value>
+                <fullName>Ward 19 Trinity-Spadina</fullName>
+                <default>false</default>
+                <label>Ward 19 Trinity-Spadina</label>
+            </value>
+            <value>
+                <fullName>Ward 20 Trinity Spadina</fullName>
+                <default>false</default>
+                <label>Ward 20 Trinity Spadina</label>
+            </value>
+            <value>
+                <fullName>Ward 21 St. Paul&#39;s</fullName>
+                <default>false</default>
+                <label>Ward 21 St. Paul&#39;s</label>
+            </value>
+            <value>
+                <fullName>Ward 22 St. Paul&#39;s</fullName>
+                <default>false</default>
+                <label>Ward 22 St. Paul&#39;s</label>
+            </value>
+            <value>
+                <fullName>Ward 23 Willowdale</fullName>
+                <default>false</default>
+                <label>Ward 23 Willowdale</label>
+            </value>
+            <value>
+                <fullName>Ward 24 Willowdale</fullName>
+                <default>false</default>
+                <label>Ward 24 Willowdale</label>
+            </value>
+            <value>
+                <fullName>Ward 25 Don Valley West</fullName>
+                <default>false</default>
+                <label>Ward 25 Don Valley West</label>
+            </value>
+            <value>
+                <fullName>Ward 26 Don Valley West</fullName>
+                <default>false</default>
+                <label>Ward 26 Don Valley West</label>
+            </value>
+            <value>
+                <fullName>Ward 27 Toronto Centre-Rosedale</fullName>
+                <default>false</default>
+                <label>Ward 27 Toronto Centre-Rosedale</label>
+            </value>
+            <value>
+                <fullName>Ward 28 Toronto Centre-Rosedale</fullName>
+                <default>false</default>
+                <label>Ward 28 Toronto Centre-Rosedale</label>
+            </value>
+            <value>
+                <fullName>Ward 29 Toronto-Danforth</fullName>
+                <default>false</default>
+                <label>Ward 29 Toronto-Danforth</label>
+            </value>
+            <value>
+                <fullName>Ward 30 Toronto-Danforth</fullName>
+                <default>false</default>
+                <label>Ward 30 Toronto-Danforth</label>
+            </value>
+            <value>
+                <fullName>Ward 31 Beaches-East York</fullName>
+                <default>false</default>
+                <label>Ward 31 Beaches-East York</label>
+            </value>
+            <value>
+                <fullName>Ward 32 Beaches-East York</fullName>
+                <default>false</default>
+                <label>Ward 32 Beaches-East York</label>
+            </value>
+            <value>
+                <fullName>Ward 33 Don Valley East</fullName>
+                <default>false</default>
+                <label>Ward 33 Don Valley East</label>
+            </value>
+            <value>
+                <fullName>Ward 34 Don Valley East</fullName>
+                <default>false</default>
+                <label>Ward 34 Don Valley East</label>
+            </value>
+            <value>
+                <fullName>Ward 35 Scarborough Southwest</fullName>
+                <default>false</default>
+                <label>Ward 35 Scarborough Southwest</label>
+            </value>
+            <value>
+                <fullName>Ward 36 Scarborough Southwest</fullName>
+                <default>false</default>
+                <label>Ward 36 Scarborough Southwest</label>
+            </value>
+            <value>
+                <fullName>Ward 37 Scarborough Centre</fullName>
+                <default>false</default>
+                <label>Ward 37 Scarborough Centre</label>
+            </value>
+            <value>
+                <fullName>Ward 38 Scarborough Centre</fullName>
+                <default>false</default>
+                <label>Ward 38 Scarborough Centre</label>
+            </value>
+            <value>
+                <fullName>Ward 39 Scarborough Agincourt</fullName>
+                <default>false</default>
+                <label>Ward 39 Scarborough Agincourt</label>
+            </value>
+            <value>
+                <fullName>Ward 40 Scarborough Agincourt</fullName>
+                <default>false</default>
+                <label>Ward 40 Scarborough Agincourt</label>
+            </value>
+            <value>
+                <fullName>Ward 41 Scarborough-Rouge River</fullName>
+                <default>false</default>
+                <label>Ward 41 Scarborough-Rouge River</label>
+            </value>
+            <value>
+                <fullName>Ward 42 Scarborough-Rouge River</fullName>
+                <default>false</default>
+                <label>Ward 42 Scarborough-Rouge River</label>
+            </value>
+            <value>
+                <fullName>Ward 43 Scarborough East</fullName>
+                <default>false</default>
+                <label>Ward 43 Scarborough East</label>
+            </value>
+            <value>
+                <fullName>Ward 44 Scarborough East</fullName>
+                <default>false</default>
+                <label>Ward 44 Scarborough East</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

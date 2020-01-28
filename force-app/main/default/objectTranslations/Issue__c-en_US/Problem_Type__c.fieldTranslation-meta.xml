@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Problem Type --></label>
+    <name>Problem_Type__c</name>
+    <picklistValues>
+        <masterLabel>Accessibility (ramps, signage, etc.)</masterLabel>
+        <translation><!-- Accessibility (ramps, signage, etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business development (expanding networks, exporting and promotional opportunities)</masterLabel>
+        <translation><!-- Business development (expanding networks, exporting and promotional opportunities) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development - Building Permit</masterLabel>
+        <translation><!-- Development - Building Permit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development - Site Plan</masterLabel>
+        <translation><!-- Development - Site Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development - Site Search</masterLabel>
+        <translation><!-- Development - Site Search --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development – Committee of Adjustment</masterLabel>
+        <translation><!-- Development – Committee of Adjustment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development – Preliminary Project Review (PPR)</masterLabel>
+        <translation><!-- Development – Preliminary Project Review (PPR) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development – Zoning / Official Plan</masterLabel>
+        <translation><!-- Development – Zoning / Official Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Encroachment by Sensitive Uses</masterLabel>
+        <translation><!-- Encroachment by Sensitive Uses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funding - Lack of Access to Funding</masterLabel>
+        <translation><!-- Funding - Lack of Access to Funding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government Procurement (selling something to the City)</masterLabel>
+        <translation><!-- Government Procurement (selling something to the City) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Municipal Notice of Violation</masterLabel>
+        <translation><!-- Municipal Notice of Violation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Property Assessment</masterLabel>
+        <translation><!-- Property Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate – Cost / Availability</masterLabel>
+        <translation><!-- Real Estate – Cost / Availability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation – Congestion / Delay</masterLabel>
+        <translation><!-- Transportation – Congestion / Delay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation – Parking</masterLabel>
+        <translation><!-- Transportation – Parking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation – Public Transit</masterLabel>
+        <translation><!-- Transportation – Public Transit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation – Road Surface / Right of Way / Sidewalk</masterLabel>
+        <translation><!-- Transportation – Road Surface / Right of Way / Sidewalk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities – Broadband</masterLabel>
+        <translation><!-- Utilities – Broadband --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities – Electric</masterLabel>
+        <translation><!-- Utilities – Electric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities – Natural Gas</masterLabel>
+        <translation><!-- Utilities – Natural Gas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities – Water</masterLabel>
+        <translation><!-- Utilities – Water --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workforce – Amenities</masterLabel>
+        <translation><!-- Workforce – Amenities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workforce – Supply &amp; Demand</masterLabel>
+        <translation><!-- Workforce – Supply &amp; Demand --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

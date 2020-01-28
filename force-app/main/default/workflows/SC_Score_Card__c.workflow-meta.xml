@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Change_Grant_Review_Field_Approved</fullName>
+        <field>STATUS__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Change Grant Review Field-Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Grant_Review_Field_Declined</fullName>
+        <field>STATUS__c</field>
+        <literalValue>Declined</literalValue>
+        <name>Change Grant Review Field-Declined</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Change Grant Review Status-Approved</fullName>
+        <actions>
+            <name>Change_Grant_Review_Field_Approved</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>SC_Score_Card__c.TOTAL_POINTS__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>30</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Grant Review Status-Declined</fullName>
+        <actions>
+            <name>Change_Grant_Review_Field_Declined</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>SC_Score_Card__c.TOTAL_POINTS__c</field>
+            <operation>lessThan</operation>
+            <value>30</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

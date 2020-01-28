@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to BIA staff with Holiday Infographic</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>DMS Holiday 2017</name>
+    <style>none</style>
+    <subject>Digital Main Street - Holiday Checklist</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+With the holidays fast approaching, the DMS team wanted to share a small holiday survival checklist we put together for your businesses with some quick tips and tricks they can look to implement to make the holiday season a success!
+
+https://www.dropbox.com/s/rexn4tnzxtbmijx/DMS%20Holiday%20Graphic%20%2829Nov17%29.pdf?dl=0
+
+Feel free to share with your members or include in any communications going out!
+
+Cheers!
+
+-Darryl</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

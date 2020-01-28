@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is to allow creating unique Related Interaction Contact Record i.e. one particular interaction can not be associated with same contact twice. --></help>
+    <label><!-- Unique Record Key --></label>
+    <name>Unique_Record_Key__c</name>
+</CustomFieldTranslation>

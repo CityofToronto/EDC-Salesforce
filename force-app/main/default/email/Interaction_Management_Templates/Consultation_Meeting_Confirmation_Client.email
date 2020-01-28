@@ -1,0 +1,18 @@
+Dear {!Interaction__c.Contact__c}, 
+
+Your request to meet with an City of Toronto Small Business Consultant has been confirmed. The details are as follows: 
+
+Date: {!Interaction__c.Meeting_Date__c} 
+Time: {!Interaction__c.MeetingTime__c} 
+Location: {!Interaction__c.Location__c} 
+Consultant: {!Interaction__c.Advisor_Lookup__c} 
+Advisor Comments:{!Interaction__c.Advisor_Comments__c}
+
+Otherwise, we look forward to meeting with you. 
+
+In case you want to cancel this appointment for some reason follow link the below- 
+http://cityoftoronto.tfaforms.net/355963?tfa_66={!Interaction__c.Id} 
+
+Regards, 
+
+City of Toronto

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Engagement Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Start Up Event</fullName>
+                <default>false</default>
+                <label>Business Start Up Event</label>
+            </value>
+            <value>
+                <fullName>Online Registration</fullName>
+                <default>false</default>
+                <label>Online Registration</label>
+            </value>
+            <value>
+                <fullName>Consultation Interaction</fullName>
+                <default>false</default>
+                <label>Consultation Interaction</label>
+            </value>
+            <value>
+                <fullName>Company Intelligence Interaction</fullName>
+                <default>false</default>
+                <label>Company Intelligence Interaction</label>
+            </value>
+            <value>
+                <fullName>Business Expansion Event</fullName>
+                <default>false</default>
+                <label>Business Expansion Event</label>
+            </value>
+            <value>
+                <fullName>Online Training</fullName>
+                <default>false</default>
+                <label>Online Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

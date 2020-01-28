@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Annual compliance check from Toronto Employment and Social Services to confirm the applicant has satisfied the Local Employment Plan requirements to collaborate with the City to promote local employment. --></help>
+    <label><!-- Satisfactory Participation in Local Empl --></label>
+    <name>Satisfactory_Participation_in_Local_Empl__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Thompson_Update__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Determines if an update should be given to Thompson based on the record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if you want an update to be included for Councillor Thompson on the Corporate Call.</inlineHelpText>
+    <label>Thompson Update</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

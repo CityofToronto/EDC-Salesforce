@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check if you want an update to be included for Councillor Thompson on the Corporate Call. --></help>
+    <label><!-- Thompson Update --></label>
+    <name>Thompson_Update__c</name>
+</CustomFieldTranslation>

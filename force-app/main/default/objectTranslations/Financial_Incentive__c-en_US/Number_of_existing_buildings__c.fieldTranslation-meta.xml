@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How many existing buildings are on the subject site prior to the IMIT-eligible development(s)? --></help>
+    <label><!-- Number of existing buildings --></label>
+    <name>Number_of_existing_buildings__c</name>
+</CustomFieldTranslation>

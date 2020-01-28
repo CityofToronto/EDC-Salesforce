@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to recent clients to offer free access to business plan workshop.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-BizPlanWorkshop(April5-2018)</name>
+    <style>none</style>
+    <subject>Invite - Enterprise Toronto Business Planning Webinar</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

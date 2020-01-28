@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Enterprise Toronto Business Registration Received (Unique ID#)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Enterprise Toronto Business Registration Received (Unique ID#)</name>
+    <style>none</style>
+    <subject>Enterprise Toronto Business Registration Received ({!Online_Registration__c.Name})</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

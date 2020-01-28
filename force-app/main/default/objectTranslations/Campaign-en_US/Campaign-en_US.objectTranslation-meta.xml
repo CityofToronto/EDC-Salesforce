@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Initiative</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Initiatives</value>
+    </caseValues>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Event Information --></label>
+            <section>Event Information</section>
+        </sections>
+        <sections>
+            <label><!-- Event Overview --></label>
+            <section>Event Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Event Planning --></label>
+            <section>Event Planning</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Group Management Layout</layout>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Group Management Information --></label>
+            <section>Group Management Information</section>
+        </sections>
+        <sections>
+            <label><!-- Group Management Overview --></label>
+            <section>Group Management Overview</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Investment Activity Layout</layout>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Description --></label>
+            <section>Investment Description</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Overview --></label>
+            <section>Investment Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Project Planning --></label>
+            <section>Investment Project Planning</section>
+        </sections>
+        <sections>
+            <label><!-- Location of Investment --></label>
+            <section>Location of Investment</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Funding Information --></label>
+            <section>Funding Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Overview --></label>
+            <section>Project Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Project Planning --></label>
+            <section>Project Planning</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Financial Incentive --></label>
+        <name>New_Financial_Incentive</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Interaction --></label>
+        <name>New_Interaction</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- For tracking work on external event projects where the City is providing support in organizing. --></description>
+        <label><!-- Events --></label>
+        <name>Events</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Groups associated with economic development projects, including advisory bodies and stakeholders. --></description>
+        <label><!-- Group Management --></label>
+        <name>Group_Management</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Project of Investment Activity type --></description>
+        <label><!-- Investment Activity --></label>
+        <name>Investment_Activity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Projects that are being developed and implemented to support the business community. --></description>
+        <label><!-- Projects --></label>
+        <name>Projects</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- End date must be specified for completed program --></errorMessage>
+        <name>End_Data_Required_for_Complete_Program</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- External Revenue Source field cannot be blank. --></errorMessage>
+        <name>External_Revenue_Source_Mnadatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Postal Code --></errorMessage>
+        <name>Initiative_Postal_Code_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Mass_Email --></label>
+        <name>MSTMassEmail__Mass_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Investment_Activity --></label>
+        <name>New_Investment_Activity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_all_Program_Members --></label>
+        <name>View_all_Program_Members</name>
+    </webLinks>
+</CustomObjectTranslation>

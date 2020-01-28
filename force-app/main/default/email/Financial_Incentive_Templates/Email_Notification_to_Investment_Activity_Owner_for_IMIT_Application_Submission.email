@@ -1,0 +1,6 @@
+Dear {!Financial_Incentive__c.Initiative_Owner__c},
+
+An IMIT application linked  to Investment Activity {!Financial_Incentive__c.Initiative__c} owned by you has been submitted for approval. Please refer below link to access the record to see more details.
+{!Financial_Incentive__c.Link}
+
+Thanks

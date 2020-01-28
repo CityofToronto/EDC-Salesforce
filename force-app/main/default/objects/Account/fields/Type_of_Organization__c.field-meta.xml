@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Organization__c</fullName>
+    <description>List of organization types associated with Entrepreneurship Services.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of organization types associated with Entrepreneurship Services.</inlineHelpText>
+    <label>Type of Organization</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Biz Support - Accelerator</fullName>
+                <default>false</default>
+                <label>Biz Support - Accelerator</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Association</fullName>
+                <default>false</default>
+                <label>Biz Support - Association</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Finance</fullName>
+                <default>false</default>
+                <label>Biz Support - Finance</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Incubator</fullName>
+                <default>false</default>
+                <label>Biz Support - Incubator</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Mentor</fullName>
+                <default>false</default>
+                <label>Biz Support - Mentor</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Not-For-Profit</fullName>
+                <default>false</default>
+                <label>Biz Support - Not-For-Profit</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Partner</fullName>
+                <default>false</default>
+                <label>Biz Support - Partner</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Pre-Incubation</fullName>
+                <default>false</default>
+                <label>Biz Support - Pre-Incubation</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Research</fullName>
+                <default>false</default>
+                <label>Biz Support - Research</label>
+            </value>
+            <value>
+                <fullName>Client - BIC</fullName>
+                <default>false</default>
+                <label>Client - BIC</label>
+            </value>
+            <value>
+                <fullName>Client - ET</fullName>
+                <default>false</default>
+                <label>Client - ET</label>
+            </value>
+            <value>
+                <fullName>Govt - Federal</fullName>
+                <default>false</default>
+                <label>Govt - Federal</label>
+            </value>
+            <value>
+                <fullName>Govt - International</fullName>
+                <default>false</default>
+                <label>Govt - International</label>
+            </value>
+            <value>
+                <fullName>Govt - Local</fullName>
+                <default>false</default>
+                <label>Govt - Local</label>
+            </value>
+            <value>
+                <fullName>Govt - Provincial</fullName>
+                <default>false</default>
+                <label>Govt - Provincial</label>
+            </value>
+            <value>
+                <fullName>Media - Channel Partner</fullName>
+                <default>false</default>
+                <label>Media - Channel Partner</label>
+            </value>
+            <value>
+                <fullName>Media - Community</fullName>
+                <default>false</default>
+                <label>Media - Community</label>
+            </value>
+            <value>
+                <fullName>Media - StartUp</fullName>
+                <default>false</default>
+                <label>Media - StartUp</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Academic Institution</fullName>
+                <default>false</default>
+                <label>Biz Support - Academic Institution</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Business (General)</fullName>
+                <default>false</default>
+                <label>Biz Support - Business (General)</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Business (International)</fullName>
+                <default>false</default>
+                <label>Biz Support - Business (International)</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Distributor</fullName>
+                <default>false</default>
+                <label>Biz Support - Distributor</label>
+            </value>
+            <value>
+                <fullName>Biz Support - Supplier</fullName>
+                <default>false</default>
+                <label>Biz Support - Supplier</label>
+            </value>
+            <value>
+                <fullName>Client - Incubator</fullName>
+                <default>false</default>
+                <label>Client - Incubator</label>
+            </value>
+            <value>
+                <fullName>Clinical - Hospital</fullName>
+                <default>false</default>
+                <label>Clinical - Hospital</label>
+            </value>
+            <value>
+                <fullName>Clinical - Laboratory</fullName>
+                <default>false</default>
+                <label>Clinical - Laboratory</label>
+            </value>
+            <value>
+                <fullName>Retail - General</fullName>
+                <default>false</default>
+                <label>Retail - General</label>
+            </value>
+            <value>
+                <fullName>Retail - Grocery</fullName>
+                <default>false</default>
+                <label>Retail - Grocery</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

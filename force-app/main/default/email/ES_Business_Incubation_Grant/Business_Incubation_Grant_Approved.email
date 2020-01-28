@@ -1,0 +1,17 @@
+Dear {!Business_Incubation_Grants__c.First_Name__c},
+
+Thanks again for your application to the City of Toronto's Business Incubation Grant Program.
+
+We are happy to report that your request has been approved in the amount of {!Business_Incubation_Grants__c.Amount_Approved__c}. 
+
+As part of our sponsorship, we require you to recognize both the City of Toronto and StartUp HERE Toronto in your materials.  You can find both logo requirements via the following link - https://www.dropbox.com/sh/wc3olu9i6avdihx/AABQqB8M12f3nU_MUyJ_gPxda?dl=0
+
+Otherwise, we will be in touch to discuss next steps.
+
+Regards,
+
+Nina Gesa
+Economic Development Officer
+City of Toronto
+
+www.toronto.ca/business

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SC_Original_Completed</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Account__c</columns>
+    <columns>Application_Stream__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Application_Stream__c</field>
+        <operation>equals</operation>
+        <value>Starter Company - Original,Food Venture - Original,StarterSpace @Crossways</value>
+    </filters>
+    <filters>
+        <field>Program_Completed__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <label>SC-Original - Completed</label>
+    <sharedTo>
+        <role>EDC_Admin</role>
+        <role>ES_Admin</role>
+        <role>ES_ET</role>
+        <roleAndSubordinates>ES_ET</roleAndSubordinates>
+    </sharedTo>
+</ListView>

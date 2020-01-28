@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A project title or summary of the partnership. --></help>
+    <label><!-- Purpose of Project Support --></label>
+    <name>Purpose_of_Project_Support__c</name>
+</CustomFieldTranslation>

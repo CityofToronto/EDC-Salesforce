@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email notification will be sent to BIA Officer and contact once application extension has been Approved by Manager</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BIA Application Extension Approved Email Notification</name>
+    <style>none</style>
+    <subject>{!Financial_Incentive__c.Record_Type_Name_Formula__c} Grant extension approved for {!Financial_Incentive__c.Account__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

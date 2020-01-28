@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Initative_IMIT_Account</fullName>
+    <active>true</active>
+    <description>Validate to check if Account associated with Financial Incentive and Initative are same or not for IMIT record type records.</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;,RecordType.DeveloperName=&#39;IMIT&#39;,NOT(ISBLANK(Account__c)),NOT(ISBLANK(Initiative__c)),NOT(ISBLANK(Initiative__r.Account__c)), Account__c &lt;&gt; Initiative__r.Account__c)</errorConditionFormula>
+    <errorMessage>IMIT Account and Initiative Account are not same</errorMessage>
+</ValidationRule>

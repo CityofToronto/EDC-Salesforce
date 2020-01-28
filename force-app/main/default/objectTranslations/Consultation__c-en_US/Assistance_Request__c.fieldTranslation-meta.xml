@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Assistance Request --></label>
+    <name>Assistance_Request__c</name>
+    <picklistValues>
+        <masterLabel>Business Planning</masterLabel>
+        <translation><!-- Business Planning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Registration</masterLabel>
+        <translation><!-- Business Registration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financials/Accounting</masterLabel>
+        <translation><!-- Financials/Accounting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financing</masterLabel>
+        <translation><!-- Financing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government Information</masterLabel>
+        <translation><!-- Government Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import / Export</masterLabel>
+        <translation><!-- Import / Export --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation><!-- Insurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intellectual Property</masterLabel>
+        <translation><!-- Intellectual Property --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal - General</masterLabel>
+        <translation><!-- Legal - General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Market Research</masterLabel>
+        <translation><!-- Market Research --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mentoring</masterLabel>
+        <translation><!-- Mentoring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate</masterLabel>
+        <translation><!-- Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referral</masterLabel>
+        <translation><!-- Referral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Startup - General Info</masterLabel>
+        <translation><!-- Startup - General Info --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

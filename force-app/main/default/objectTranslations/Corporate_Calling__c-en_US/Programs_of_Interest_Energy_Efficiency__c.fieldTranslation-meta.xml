@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Programs of Interest – Energy Efficiency --></label>
+    <name>Programs_of_Interest_Energy_Efficiency__c</name>
+    <picklistValues>
+        <masterLabel>Better Building Partnership</masterLabel>
+        <translation><!-- Better Building Partnership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eco-Roof Incentive</masterLabel>
+        <translation><!-- Eco-Roof Incentive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enbridge</masterLabel>
+        <translation><!-- Enbridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NRCan</masterLabel>
+        <translation><!-- NRCan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OPA FIT</masterLabel>
+        <translation><!-- OPA FIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partners In Project Green</masterLabel>
+        <translation><!-- Partners In Project Green --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Hydro</masterLabel>
+        <translation><!-- Toronto Hydro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Water</masterLabel>
+        <translation><!-- Toronto Water --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

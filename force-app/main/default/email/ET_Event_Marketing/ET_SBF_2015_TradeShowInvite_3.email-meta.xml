@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Third invite to potential SBF booth participants.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-SBF-2015-TradeShowInvite(#3)</name>
+    <style>none</style>
+    <subject>Exhibitor Invite: 2015 Small Business Forum</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

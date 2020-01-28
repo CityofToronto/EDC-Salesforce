@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Property Ward (Location of Investment) --></label>
+    <name>Property_Ward_Location_of_Investment_New__c</name>
+    <picklistValues>
+        <masterLabel>1 Etobicoke North</masterLabel>
+        <translation><!-- 1 Etobicoke North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 Spadina-Fort York</masterLabel>
+        <translation><!-- 10 Spadina-Fort York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 University-Rosedale</masterLabel>
+        <translation><!-- 11 University-Rosedale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 Toronto-St. Paul’s</masterLabel>
+        <translation><!-- 12 Toronto-St. Paul’s --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>13 Toronto Centre</masterLabel>
+        <translation><!-- 13 Toronto Centre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14 Toronto-Danforth</masterLabel>
+        <translation><!-- 14 Toronto-Danforth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15 Don Valley West</masterLabel>
+        <translation><!-- 15 Don Valley West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16 Don Valley East</masterLabel>
+        <translation><!-- 16 Don Valley East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>17 Don Valley North</masterLabel>
+        <translation><!-- 17 Don Valley North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>18 Willowdale</masterLabel>
+        <translation><!-- 18 Willowdale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>19 Beaches-East York</masterLabel>
+        <translation><!-- 19 Beaches-East York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 Etobicoke Centre</masterLabel>
+        <translation><!-- 2 Etobicoke Centre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20 Scarborough Southwest</masterLabel>
+        <translation><!-- 20 Scarborough Southwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>21 Scarborough Centre</masterLabel>
+        <translation><!-- 21 Scarborough Centre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>22 Scarborough-Agincourt</masterLabel>
+        <translation><!-- 22 Scarborough-Agincourt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>23 Scarborough North</masterLabel>
+        <translation><!-- 23 Scarborough North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>24 Scarborough-Guildwood</masterLabel>
+        <translation><!-- 24 Scarborough-Guildwood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25 Scarborough-Rouge Park</masterLabel>
+        <translation><!-- 25 Scarborough-Rouge Park --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 Etobicoke-Lakeshore</masterLabel>
+        <translation><!-- 3 Etobicoke-Lakeshore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 Parkdale-High Park</masterLabel>
+        <translation><!-- 4 Parkdale-High Park --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 York South-Weston</masterLabel>
+        <translation><!-- 5 York South-Weston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6 York Centre</masterLabel>
+        <translation><!-- 6 York Centre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7 Humber River-Black Creek</masterLabel>
+        <translation><!-- 7 Humber River-Black Creek --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8 Eglinton-Lawrence</masterLabel>
+        <translation><!-- 8 Eglinton-Lawrence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9 Davenport</masterLabel>
+        <translation><!-- 9 Davenport --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>DMS_Visit_Satisfaction_Survey</fullName>
+        <description>DMS-Visit-Satisfaction-Survey</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_DMS__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Digital_Main_Street/DMS_Client_Satisfaction_Survey</template>
+    </alerts>
+    <rules>
+        <fullName>ET_DigitalMain_ClientSatisfactionSurvey</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Digital_Main_Street__c.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Digital_Main_Street__c.Date_Visited__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends ET client satisfaction survey  after record is created.</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>DMS_Visit_Satisfaction_Survey</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- EDC Theme Addressed --></label>
+    <name>EDC_Theme_Addressed__c</name>
+    <picklistValues>
+        <masterLabel>Excellence</masterLabel>
+        <translation><!-- Excellence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inclusion and Equity</masterLabel>
+        <translation><!-- Inclusion and Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Space and Access</masterLabel>
+        <translation><!-- Space and Access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Talent and Innovation</masterLabel>
+        <translation><!-- Talent and Innovation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

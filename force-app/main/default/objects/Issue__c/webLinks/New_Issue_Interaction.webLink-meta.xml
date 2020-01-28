@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Issue_Interaction</fullName>
+    <availability>online</availability>
+    <description>This custom button will be used instead standard New button on Interaction Detail page to create new issue to auto populate Contact and its related direct Accoun</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Issue</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/setup/ui/recordtypeselect.jsp?ent=01I1N000001y4qAUAQ&amp;retURL=%2F{!Interaction__c.Id}&amp;save_new_url=%2Fa0F%2Fe%3FCF00N1N00000F3HkM%3D{!Interaction__c.Contact__c}%26CF00N1N00000F3HkM_lkid%3D{!Interaction__c.ContactId__c}%26CF00N1N00000F3HkG%3D{!Interaction__c.Account__c}%26CF00N1N00000F3HkG_lkid%3D{!Interaction__c.AccountId__c}%26CF00N1N00000F3HkY%3D{!Interaction__c.Name}%26CF00N1N00000F3HkY_lkid%3D{!Interaction__c.Id}%26retURL%3D%252F{!Interaction__c.Id}</url>
+</WebLink>

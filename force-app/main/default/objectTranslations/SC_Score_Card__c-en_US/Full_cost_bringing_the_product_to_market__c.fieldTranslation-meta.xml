@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Full cost of bringing the product/service to market has been identified. This includes production processes and the means of delivery --></help>
+    <label><!-- Full cost bringing the product to market --></label>
+    <name>Full_cost_bringing_the_product_to_market__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (2 pt)</masterLabel>
+        <translation><!-- Yes (2 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

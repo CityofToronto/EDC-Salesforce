@@ -1,0 +1,32 @@
+Hello {!CampaignMember.FirstName} {!CampaignMember.LastName}, 
+
+Thanks for attending {!CampaignMember.Campaign} – we hope you found it useful and the content engaging. 
+
+We would appreciate it if you could please share your feedback on the event via this 1-minute client satisfaction survey: 
+
+https://cityoftoronto.tfaforms.net/355957?tfa_45={!CampaignMember.Id} 
+
+A reminder that if you’re looking for further assistance with your business, visit us at www.toronto.ca/enterprisetoronto 
+
+In the meantime, if you need some help with specific business needs, our partners have several resources: 
+
+• Vistaprint – can help you with all your printing needs. Check out offers here - www.vistaprint.ca/enttoronto 
+
+• TruShield – need insurance for your business? Purchase it online with TruShield here - https://www.trushieldinsurance.ca/online-business-insurance-quote/?utm_source=enterprise 
+
+• Microsoft – see how Microsoft 365 can bring together all of your small business needs here - https://blogs.business.microsoft.com/en-ca/?wt.mc_id=AID722493_QSG_343351
+
+• TD – ready to take the next step with your business? Visit TD Small Business Banking here - https://www.tdcanadatrust.com/products-services/small-business/smallbusiness-index.jsp 
+
+Please click below link to Unsubscribe from any Future Emails. 
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!CampaignMember.ContactId} 
+
+Otherwise, let us know if you have any questions. 
+
+Regards, 
+
+Paul Pirri
+Manager, Entrepreneurship Services 
+City of Toronto 
+
+Visit Enterprise Toronto @ www.toronto.ca/enterprisetoronto

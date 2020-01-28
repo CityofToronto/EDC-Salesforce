@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TempContactBRENewsletter_c__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Adds contacts to BRE newsletter.</description>
+    <externalId>false</externalId>
+    <label>TempContactBRENewsletter__c</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

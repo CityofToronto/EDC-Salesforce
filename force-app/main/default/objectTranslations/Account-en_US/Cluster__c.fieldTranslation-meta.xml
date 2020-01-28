@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cluster --></label>
+    <name>Cluster__c</name>
+    <picklistValues>
+        <masterLabel>Aerospc-Aircraft Modifications /Conversions</masterLabel>
+        <translation><!-- Aerospc-Aircraft Modifications /Conversions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Aircraft Structural Assemblies</masterLabel>
+        <translation><!-- Aerospc-Aircraft Structural Assemblies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Aircraft Systems</masterLabel>
+        <translation><!-- Aerospc-Aircraft Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Airport/Airport Services</masterLabel>
+        <translation><!-- Aerospc-Airport/Airport Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Avionics</masterLabel>
+        <translation><!-- Aerospc-Avionics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Communications Equipment</masterLabel>
+        <translation><!-- Aerospc-Communications Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Consulting Services</masterLabel>
+        <translation><!-- Aerospc-Consulting Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Electronics</masterLabel>
+        <translation><!-- Aerospc-Electronics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Engineering</masterLabel>
+        <translation><!-- Aerospc-Engineering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Industry Association/Organizations</masterLabel>
+        <translation><!-- Aerospc-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Interior finishing</masterLabel>
+        <translation><!-- Aerospc-Interior finishing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Landing Gear</masterLabel>
+        <translation><!-- Aerospc-Landing Gear --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Machining</masterLabel>
+        <translation><!-- Aerospc-Machining --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Maintenance Repair &amp; Overhaul</masterLabel>
+        <translation><!-- Aerospc-Maintenance Repair &amp; Overhaul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Metal coating</masterLabel>
+        <translation><!-- Aerospc-Metal coating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Navigation Systems</masterLabel>
+        <translation><!-- Aerospc-Navigation Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Non for Profit</masterLabel>
+        <translation><!-- Aerospc-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Paint products</masterLabel>
+        <translation><!-- Aerospc-Paint products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Raw materials</masterLabel>
+        <translation><!-- Aerospc-Raw materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Satellites</masterLabel>
+        <translation><!-- Aerospc-Satellites --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Simulation/Flight Training</masterLabel>
+        <translation><!-- Aerospc-Simulation/Flight Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Space Exploration</masterLabel>
+        <translation><!-- Aerospc-Space Exploration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Space Guidance Systems</masterLabel>
+        <translation><!-- Aerospc-Space Guidance Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Space Launch Vehicles</masterLabel>
+        <translation><!-- Aerospc-Space Launch Vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Space Systems</masterLabel>
+        <translation><!-- Aerospc-Space Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Special Processing &amp; Materials</masterLabel>
+        <translation><!-- Aerospc-Special Processing &amp; Materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Specialized Business Services (Banking, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Aerospc-Specialized Business Services (Banking, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Aerospc-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aerospc-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Aerospc-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Accessories</masterLabel>
+        <translation><!-- Auto-Auto Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Care (Paints, Protectants, Sealants, Fluids, Additives &amp; Oil etc.)</masterLabel>
+        <translation><!-- Auto-Auto Care (Paints, Protectants, Sealants, Fluids, Additives &amp; Oil etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Dealerships &amp; Retail</masterLabel>
+        <translation><!-- Auto-Auto Dealerships &amp; Retail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Electrical Components</masterLabel>
+        <translation><!-- Auto-Auto Electrical Components --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Glass Applications</masterLabel>
+        <translation><!-- Auto-Auto Glass Applications --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Industrial equipment &amp; automation</masterLabel>
+        <translation><!-- Auto-Auto Industrial equipment &amp; automation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Maintenance</masterLabel>
+        <translation><!-- Auto-Auto Maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Parts</masterLabel>
+        <translation><!-- Auto-Auto Parts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Safety &amp; Security</masterLabel>
+        <translation><!-- Auto-Auto Safety &amp; Security --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Servicing</masterLabel>
+        <translation><!-- Auto-Auto Servicing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Auto Tools, Equipment &amp; Storage</masterLabel>
+        <translation><!-- Auto-Auto Tools, Equipment &amp; Storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Gasoline Engines &amp; Engine Parts</masterLabel>
+        <translation><!-- Auto-Gasoline Engines &amp; Engine Parts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Industry Association/Organizations</masterLabel>
+        <translation><!-- Auto-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Manufacturing (Auto)</masterLabel>
+        <translation><!-- Auto-Manufacturing (Auto) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Metal Mills &amp; Foundries</masterLabel>
+        <translation><!-- Auto-Metal Mills &amp; Foundries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Military Vehicles</masterLabel>
+        <translation><!-- Auto-Military Vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Motor Vehicles</masterLabel>
+        <translation><!-- Auto-Motor Vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Non for Profit</masterLabel>
+        <translation><!-- Auto-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Small Vehicles</masterLabel>
+        <translation><!-- Auto-Small Vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Specialized Business Services (Packaging, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Auto-Specialized Business Services (Packaging, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Auto-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Auto-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Tire &amp; Tire Components</masterLabel>
+        <translation><!-- Auto-Tire &amp; Tire Components --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Actuaries</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Actuaries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Broadcasting</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Broadcasting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Data Processing</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Data Processing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Evaluators</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Evaluators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Facilities Management</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Facilities Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Financial Planners</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Financial Planners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Industry Association/ Organizations</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Industry Association/ Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Investment Managers</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Investment Managers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Library Services</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Library Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Non for Profit</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Publishing</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Publishing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Recruitment services</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Recruitment services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus &amp; Prof Services-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Bus &amp; Prof Services-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Architects</masterLabel>
+        <translation><!-- Constr-Architects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Commercial Buildings</masterLabel>
+        <translation><!-- Constr-Commercial Buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Constr Equipment</masterLabel>
+        <translation><!-- Constr-Constr Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Contractors</masterLabel>
+        <translation><!-- Constr-Contractors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Designers</masterLabel>
+        <translation><!-- Constr-Designers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Developers</masterLabel>
+        <translation><!-- Constr-Developers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Distributors</masterLabel>
+        <translation><!-- Constr-Distributors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Engineers</masterLabel>
+        <translation><!-- Constr-Engineers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Industrial Buildings</masterLabel>
+        <translation><!-- Constr-Industrial Buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Industry Association/Organizations</masterLabel>
+        <translation><!-- Constr-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Institutional Buildings</masterLabel>
+        <translation><!-- Constr-Institutional Buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Manufacturers</masterLabel>
+        <translation><!-- Constr-Manufacturers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Material Suppliers &amp; Dealers</masterLabel>
+        <translation><!-- Constr-Material Suppliers &amp; Dealers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Non for Profit</masterLabel>
+        <translation><!-- Constr-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Planners</masterLabel>
+        <translation><!-- Constr-Planners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Public Amenities</masterLabel>
+        <translation><!-- Constr-Public Amenities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Residential Buildings</masterLabel>
+        <translation><!-- Constr-Residential Buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Specialized Business Services ( Accounting Legal, consultants etc.)</masterLabel>
+        <translation><!-- Constr-Specialized Business Services ( Accounting Legal, consultants etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Constr-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Constr-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Specialized subcontractors</masterLabel>
+        <translation><!-- Constr-Specialized subcontractors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Surveyors</masterLabel>
+        <translation><!-- Constr-Surveyors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Constr-Sustainable Constr</masterLabel>
+        <translation><!-- Constr-Sustainable Constr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Baby Care Products</masterLabel>
+        <translation><!-- Cosmetics-Baby Care Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-BeautyTech</masterLabel>
+        <translation><!-- Cosmetics-BeautyTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Cosmeceuticals</masterLabel>
+        <translation><!-- Cosmetics-Cosmeceuticals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Cosmetic Marketing &amp; Business Development</masterLabel>
+        <translation><!-- Cosmetics-Cosmetic Marketing &amp; Business Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Cosmetics Biological &amp; Efficacy Testing</masterLabel>
+        <translation><!-- Cosmetics-Cosmetics Biological &amp; Efficacy Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Cosmetics Machinery &amp; Equipment Supplier</masterLabel>
+        <translation><!-- Cosmetics-Cosmetics Machinery &amp; Equipment Supplier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Cosmetics Regulatory &amp; Quality Control Services</masterLabel>
+        <translation><!-- Cosmetics-Cosmetics Regulatory &amp; Quality Control Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Cosmetics Retail, Wholesale &amp; Distribution</masterLabel>
+        <translation><!-- Cosmetics-Cosmetics Retail, Wholesale &amp; Distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Industry Association/ Organizations</masterLabel>
+        <translation><!-- Cosmetics-Industry Association/ Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Make Up Products</masterLabel>
+        <translation><!-- Cosmetics-Make Up Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Manufacturing (Private Label)</masterLabel>
+        <translation><!-- Cosmetics-Manufacturing (Private Label) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Non for Profit</masterLabel>
+        <translation><!-- Cosmetics-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-R&amp;D Formulating &amp; Product Development</masterLabel>
+        <translation><!-- Cosmetics-R&amp;D Formulating &amp; Product Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-R&amp;D Raw Material &amp; New Actives</masterLabel>
+        <translation><!-- Cosmetics-R&amp;D Raw Material &amp; New Actives --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Raw Material Production</masterLabel>
+        <translation><!-- Cosmetics-Raw Material Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Raw Material Supply &amp; Distribution</masterLabel>
+        <translation><!-- Cosmetics-Raw Material Supply &amp; Distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Skin Care Products</masterLabel>
+        <translation><!-- Cosmetics-Skin Care Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Specialized Business Services (Packaging, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Cosmetics-Specialized Business Services (Packaging, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Cosmetics-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Cosmetics-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cosmetics-Sunscreen Products</masterLabel>
+        <translation><!-- Cosmetics-Sunscreen Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Design Educators</masterLabel>
+        <translation><!-- Design-Design Educators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Design Media</masterLabel>
+        <translation><!-- Design-Design Media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Design Retailers</masterLabel>
+        <translation><!-- Design-Design Retailers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Design Service Providers</masterLabel>
+        <translation><!-- Design-Design Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Design Wholesalers</masterLabel>
+        <translation><!-- Design-Design Wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Designers</masterLabel>
+        <translation><!-- Design-Designers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Industry Association/Organizations</masterLabel>
+        <translation><!-- Design-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Manufacturers (Design)</masterLabel>
+        <translation><!-- Design-Manufacturers (Design) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Non for Profit</masterLabel>
+        <translation><!-- Design-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</masterLabel>
+        <translation><!-- Design-Specialized Business Services (Banking, Accounting Legal, consulting etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Design-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Design-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Accelerators</masterLabel>
+        <translation><!-- Educ-Accelerators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Career Colleges</masterLabel>
+        <translation><!-- Educ-Career Colleges --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Incubators</masterLabel>
+        <translation><!-- Educ-Incubators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Industry Association/Organizations</masterLabel>
+        <translation><!-- Educ-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Language Schools</masterLabel>
+        <translation><!-- Educ-Language Schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Non for Profit</masterLabel>
+        <translation><!-- Educ-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Private Universities / Schools</masterLabel>
+        <translation><!-- Educ-Private Universities / Schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Professional Training</masterLabel>
+        <translation><!-- Educ-Professional Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Public Sector Schools</masterLabel>
+        <translation><!-- Educ-Public Sector Schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Religious Schools</masterLabel>
+        <translation><!-- Educ-Religious Schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Research Institutes</masterLabel>
+        <translation><!-- Educ-Research Institutes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Specialized Business Services (Packaging, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Educ-Specialized Business Services (Packaging, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educ-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Educ-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Accessories</masterLabel>
+        <translation><!-- Fashion-Fashion Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Advocacy</masterLabel>
+        <translation><!-- Fashion-Fashion Advocacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Agencies</masterLabel>
+        <translation><!-- Fashion-Fashion Agencies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Contractors</masterLabel>
+        <translation><!-- Fashion-Fashion Contractors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Designers</masterLabel>
+        <translation><!-- Fashion-Fashion Designers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Educators</masterLabel>
+        <translation><!-- Fashion-Fashion Educators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Event Organizers</masterLabel>
+        <translation><!-- Fashion-Fashion Event Organizers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Manufacturers</masterLabel>
+        <translation><!-- Fashion-Fashion Manufacturers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Media</masterLabel>
+        <translation><!-- Fashion-Fashion Media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Retailers</masterLabel>
+        <translation><!-- Fashion-Fashion Retailers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Sustainability</masterLabel>
+        <translation><!-- Fashion-Fashion Sustainability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fashion Wholesalers</masterLabel>
+        <translation><!-- Fashion-Fashion Wholesalers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Fur</masterLabel>
+        <translation><!-- Fashion-Fur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Industry Association/Organizations</masterLabel>
+        <translation><!-- Fashion-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Non for Profit</masterLabel>
+        <translation><!-- Fashion-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</masterLabel>
+        <translation><!-- Fashion-Specialized Business Services (Banking, Accounting Legal, consulting etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Fashion-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Fashion-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion-Wearables</masterLabel>
+        <translation><!-- Fashion-Wearables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Bar / Nightclub</masterLabel>
+        <translation><!-- Film-Bar / Nightclub --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Communications media</masterLabel>
+        <translation><!-- Film-Communications media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Events / Exhibitions</masterLabel>
+        <translation><!-- Film-Events / Exhibitions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Fashion</masterLabel>
+        <translation><!-- Film-Fashion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Festivals</masterLabel>
+        <translation><!-- Film-Festivals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Film &amp; Television</masterLabel>
+        <translation><!-- Film-Film &amp; Television --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Industry Association/ Organizations</masterLabel>
+        <translation><!-- Film-Industry Association/ Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Leisure Attractions</masterLabel>
+        <translation><!-- Film-Leisure Attractions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Leisure Centers</masterLabel>
+        <translation><!-- Film-Leisure Centers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Live Entertainment</masterLabel>
+        <translation><!-- Film-Live Entertainment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Lodging</masterLabel>
+        <translation><!-- Film-Lodging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Marketing &amp; promotional firms</masterLabel>
+        <translation><!-- Film-Marketing &amp; promotional firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Non for Profit</masterLabel>
+        <translation><!-- Film-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Post Production</masterLabel>
+        <translation><!-- Film-Post Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Publishers</masterLabel>
+        <translation><!-- Film-Publishers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Recording &amp; distribution</masterLabel>
+        <translation><!-- Film-Recording &amp; distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Recreation, Amusements &amp; Attractions</masterLabel>
+        <translation><!-- Film-Recreation, Amusements &amp; Attractions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Restaurants and Food &amp; Beverage Services</masterLabel>
+        <translation><!-- Film-Restaurants and Food &amp; Beverage Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Software developers</masterLabel>
+        <translation><!-- Film-Software developers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Specialized Business Services (legal, financial) unions &amp; guilds</masterLabel>
+        <translation><!-- Film-Specialized Business Services (legal, financial) unions &amp; guilds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Film-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Film-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Studios &amp; Production Facilitates</masterLabel>
+        <translation><!-- Film-Studios &amp; Production Facilitates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Talent development firms</masterLabel>
+        <translation><!-- Film-Talent development firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Tour Operators</masterLabel>
+        <translation><!-- Film-Tour Operators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Travel Agents</masterLabel>
+        <translation><!-- Film-Travel Agents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Film-Venues</masterLabel>
+        <translation><!-- Film-Venues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Auto Leasing</masterLabel>
+        <translation><!-- Fin Serv-Auto Leasing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Automation</masterLabel>
+        <translation><!-- Fin Serv-Automation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Blockchain</masterLabel>
+        <translation><!-- Fin Serv-Blockchain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Business &amp; Professional Services (Legal, Accounting, Printing etc.)</masterLabel>
+        <translation><!-- Fin Serv-Business &amp; Professional Services (Legal, Accounting, Printing etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Commercial Banking</masterLabel>
+        <translation><!-- Fin Serv-Commercial Banking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Core Systems</masterLabel>
+        <translation><!-- Fin Serv-Core Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Credit Rating</masterLabel>
+        <translation><!-- Fin Serv-Credit Rating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Cyber Security</masterLabel>
+        <translation><!-- Fin Serv-Cyber Security --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-FinTech</masterLabel>
+        <translation><!-- Fin Serv-FinTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Financial Analytics</masterLabel>
+        <translation><!-- Fin Serv-Financial Analytics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Health Plans</masterLabel>
+        <translation><!-- Fin Serv-Health Plans --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Industry Association/Organizations</masterLabel>
+        <translation><!-- Fin Serv-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Industry Association/OrganizationsOTHER (Please Specify)</masterLabel>
+        <translation><!-- Fin Serv-Industry Association/OrganizationsOTHER (Please Specify) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-InsuranceTech</masterLabel>
+        <translation><!-- Fin Serv-InsuranceTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Investment Banking</masterLabel>
+        <translation><!-- Fin Serv-Investment Banking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Investment Funds</masterLabel>
+        <translation><!-- Fin Serv-Investment Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Lending</masterLabel>
+        <translation><!-- Fin Serv-Lending --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Non For Profit</masterLabel>
+        <translation><!-- Fin Serv-Non For Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Patent Owners &amp; Lessors</masterLabel>
+        <translation><!-- Fin Serv-Patent Owners &amp; Lessors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Payments</masterLabel>
+        <translation><!-- Fin Serv-Payments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Project financing</masterLabel>
+        <translation><!-- Fin Serv-Project financing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Real Estate Investment</masterLabel>
+        <translation><!-- Fin Serv-Real Estate Investment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-RegTech</masterLabel>
+        <translation><!-- Fin Serv-RegTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Retail Banking</masterLabel>
+        <translation><!-- Fin Serv-Retail Banking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Risk Management</masterLabel>
+        <translation><!-- Fin Serv-Risk Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Securities Services</masterLabel>
+        <translation><!-- Fin Serv-Securities Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Fin Serv-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Serv-Wealth Management</masterLabel>
+        <translation><!-- Fin Serv-Wealth Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Bakery Products Manufacturers</masterLabel>
+        <translation><!-- Food &amp; Bev-Bakery Products Manufacturers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Craft Beer Manufacturers</masterLabel>
+        <translation><!-- Food &amp; Bev-Craft Beer Manufacturers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Food &amp; Bev Associations</masterLabel>
+        <translation><!-- Food &amp; Bev-Food &amp; Bev Associations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Industry Association/Organizations</masterLabel>
+        <translation><!-- Food &amp; Bev-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Manufacturing (Private Label)</masterLabel>
+        <translation><!-- Food &amp; Bev-Manufacturing (Private Label) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Non for Profit</masterLabel>
+        <translation><!-- Food &amp; Bev-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Production Equipment</masterLabel>
+        <translation><!-- Food &amp; Bev-Production Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Retail, Wholesale &amp; Distribution</masterLabel>
+        <translation><!-- Food &amp; Bev-Retail, Wholesale &amp; Distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Specialized Business Services (Packaging, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Food &amp; Bev-Specialized Business Services (Packaging, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Food &amp; Bev-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Food &amp; Bev-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food &amp; Bev-Start-up Food Processors</masterLabel>
+        <translation><!-- Food &amp; Bev-Start-up Food Processors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Advanced materials</masterLabel>
+        <translation><!-- Green-Advanced materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Air &amp; environmental remediation</masterLabel>
+        <translation><!-- Green-Air &amp; environmental remediation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Air pollution &amp; GHG management</masterLabel>
+        <translation><!-- Green-Air pollution &amp; GHG management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Alternative fuel refueling infrastructure</masterLabel>
+        <translation><!-- Green-Alternative fuel refueling infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Alternative fuel vehicles</masterLabel>
+        <translation><!-- Green-Alternative fuel vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Autonomous vehicles</masterLabel>
+        <translation><!-- Green-Autonomous vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Bicycles &amp; related human powered vehicles</masterLabel>
+        <translation><!-- Green-Bicycles &amp; related human powered vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Bio-chemicals / Bio-plastics &amp; green chemistry</masterLabel>
+        <translation><!-- Green-Bio-chemicals / Bio-plastics &amp; green chemistry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Bio-fuels</masterLabel>
+        <translation><!-- Green-Bio-fuels --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Bio-mass</masterLabel>
+        <translation><!-- Green-Bio-mass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Bio-textiles</masterLabel>
+        <translation><!-- Green-Bio-textiles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Biomaterials &amp; composites</masterLabel>
+        <translation><!-- Green-Biomaterials &amp; composites --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Bird Friendly Glass</masterLabel>
+        <translation><!-- Green-Bird Friendly Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Building Integrated Photovoltaics</masterLabel>
+        <translation><!-- Green-Building Integrated Photovoltaics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Building green retrofits - large buildings</masterLabel>
+        <translation><!-- Green-Building green retrofits - large buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Building green retrofits - residential</masterLabel>
+        <translation><!-- Green-Building green retrofits - residential --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-CaGBC - GTA chapter</masterLabel>
+        <translation><!-- Green-CaGBC - GTA chapter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Canadian Energy Efficiency Alliance</masterLabel>
+        <translation><!-- Green-Canadian Energy Efficiency Alliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Carbon capture &amp; storage</masterLabel>
+        <translation><!-- Green-Carbon capture &amp; storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Circular economy</masterLabel>
+        <translation><!-- Green-Circular economy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-CleanTech North</masterLabel>
+        <translation><!-- Green-CleanTech North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Combined heat &amp; power</masterLabel>
+        <translation><!-- Green-Combined heat &amp; power --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-District energy</masterLabel>
+        <translation><!-- Green-District energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Efficiency industrial equipment</masterLabel>
+        <translation><!-- Green-Efficiency industrial equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Efficiency lighting</masterLabel>
+        <translation><!-- Green-Efficiency lighting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Electric Vehicles</masterLabel>
+        <translation><!-- Green-Electric Vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Electric vehicle recharging infrastructure</masterLabel>
+        <translation><!-- Green-Electric vehicle recharging infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Emissions trading</masterLabel>
+        <translation><!-- Green-Emissions trading --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Energy auditing &amp; energy efficiency certification</masterLabel>
+        <translation><!-- Green-Energy auditing &amp; energy efficiency certification --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Energy efficiency</masterLabel>
+        <translation><!-- Green-Energy efficiency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Energy storage</masterLabel>
+        <translation><!-- Green-Energy storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Environment roofs</masterLabel>
+        <translation><!-- Green-Environment roofs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Environmental Control Systems</masterLabel>
+        <translation><!-- Green-Environmental Control Systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Environmental monitoring &amp; compliance</masterLabel>
+        <translation><!-- Green-Environmental monitoring &amp; compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Fashion Takes Action</masterLabel>
+        <translation><!-- Green-Fashion Takes Action --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Fuel Cell vehicles</masterLabel>
+        <translation><!-- Green-Fuel Cell vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Geothermal</masterLabel>
+        <translation><!-- Green-Geothermal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Green aerospace technology</masterLabel>
+        <translation><!-- Green-Green aerospace technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Green buildings</masterLabel>
+        <translation><!-- Green-Green buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Green engineering</masterLabel>
+        <translation><!-- Green-Green engineering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Green infrastructure</masterLabel>
+        <translation><!-- Green-Green infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Green mining</masterLabel>
+        <translation><!-- Green-Green mining --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Green roofs</masterLabel>
+        <translation><!-- Green-Green roofs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Hydro</masterLabel>
+        <translation><!-- Green-Hydro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Hydrogen fuel</masterLabel>
+        <translation><!-- Green-Hydrogen fuel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Hydronic agriculture</masterLabel>
+        <translation><!-- Green-Hydronic agriculture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Industry Association/Organizations</masterLabel>
+        <translation><!-- Green-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-LEAF</masterLabel>
+        <translation><!-- Green-LEAF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-LNG transportation &amp; vehicles</masterLabel>
+        <translation><!-- Green-LNG transportation &amp; vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Net zero energy homes</masterLabel>
+        <translation><!-- Green-Net zero energy homes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Non for Profit</masterLabel>
+        <translation><!-- Green-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Photovoltaics</masterLabel>
+        <translation><!-- Green-Photovoltaics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Physical/chemical/ biological treatment of air pollution or flue gas</masterLabel>
+        <translation><!-- Green-Physical/chemical/ biological treatment of air pollution or flue gas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Public transportation</masterLabel>
+        <translation><!-- Green-Public transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Residential PV</masterLabel>
+        <translation><!-- Green-Residential PV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Roof top agriculture</masterLabel>
+        <translation><!-- Green-Roof top agriculture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Solar Thermal</masterLabel>
+        <translation><!-- Green-Solar Thermal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Specialized Business Services (Banking, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Green-Specialized Business Services (Banking, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Green-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Green-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Sustainability forestry</masterLabel>
+        <translation><!-- Green-Sustainability forestry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Tall wood building construction</masterLabel>
+        <translation><!-- Green-Tall wood building construction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Treatment of drinking water/filtration systems</masterLabel>
+        <translation><!-- Green-Treatment of drinking water/filtration systems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Urban agriculture</masterLabel>
+        <translation><!-- Green-Urban agriculture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Urban heat island technologies</masterLabel>
+        <translation><!-- Green-Urban heat island technologies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Urban wood arborists &amp; tree services</masterLabel>
+        <translation><!-- Green-Urban wood arborists &amp; tree services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Urban wood interior design &amp; furniture</masterLabel>
+        <translation><!-- Green-Urban wood interior design &amp; furniture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Urban wood processing &amp; manufacturing</masterLabel>
+        <translation><!-- Green-Urban wood processing &amp; manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Waste &amp; recycling</masterLabel>
+        <translation><!-- Green-Waste &amp; recycling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Wastewater treatment</masterLabel>
+        <translation><!-- Green-Wastewater treatment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Water efficiency</masterLabel>
+        <translation><!-- Green-Water efficiency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-WaterTap</masterLabel>
+        <translation><!-- Green-WaterTap --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green-Wind</masterLabel>
+        <translation><!-- Green-Wind --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Agriculture, food &amp; nutraceuticals</masterLabel>
+        <translation><!-- Life Sci-Agriculture, food &amp; nutraceuticals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Antibodies &amp; biologics</masterLabel>
+        <translation><!-- Life Sci-Antibodies &amp; biologics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Artificial intelligence</masterLabel>
+        <translation><!-- Life Sci-Artificial intelligence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Bioinformatics &amp; computing services</masterLabel>
+        <translation><!-- Life Sci-Bioinformatics &amp; computing services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Biomaterials &amp; coatings</masterLabel>
+        <translation><!-- Life Sci-Biomaterials &amp; coatings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Biosimilars &amp; generics</masterLabel>
+        <translation><!-- Life Sci-Biosimilars &amp; generics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Cell &amp; gene therapy</masterLabel>
+        <translation><!-- Life Sci-Cell &amp; gene therapy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Clinic</masterLabel>
+        <translation><!-- Life Sci-Clinic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Consulting services</masterLabel>
+        <translation><!-- Life Sci-Consulting services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Contract manufacturing services</masterLabel>
+        <translation><!-- Life Sci-Contract manufacturing services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Contract research services</masterLabel>
+        <translation><!-- Life Sci-Contract research services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Cosmetics</masterLabel>
+        <translation><!-- Life Sci-Cosmetics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Diagnostics</masterLabel>
+        <translation><!-- Life Sci-Diagnostics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Drug development</masterLabel>
+        <translation><!-- Life Sci-Drug development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Electronic health records, data &amp; software services</masterLabel>
+        <translation><!-- Life Sci-Electronic health records, data &amp; software services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Government</masterLabel>
+        <translation><!-- Life Sci-Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Hospital</masterLabel>
+        <translation><!-- Life Sci-Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Human resources services</masterLabel>
+        <translation><!-- Life Sci-Human resources services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Imaging</masterLabel>
+        <translation><!-- Life Sci-Imaging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Implantables &amp; surgical instruments</masterLabel>
+        <translation><!-- Life Sci-Implantables &amp; surgical instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Industrial biotechnology</masterLabel>
+        <translation><!-- Life Sci-Industrial biotechnology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Industry Association/Organizations</masterLabel>
+        <translation><!-- Life Sci-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Industry association</masterLabel>
+        <translation><!-- Life Sci-Industry association --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Laboratory &amp; screening services</masterLabel>
+        <translation><!-- Life Sci-Laboratory &amp; screening services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Marketing &amp; procurement services</masterLabel>
+        <translation><!-- Life Sci-Marketing &amp; procurement services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Media</masterLabel>
+        <translation><!-- Life Sci-Media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Medical devices</masterLabel>
+        <translation><!-- Life Sci-Medical devices --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Non for Profit</masterLabel>
+        <translation><!-- Life Sci-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Omics</masterLabel>
+        <translation><!-- Life Sci-Omics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Patient engagement &amp; support</masterLabel>
+        <translation><!-- Life Sci-Patient engagement &amp; support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Peptides &amp; proteins</masterLabel>
+        <translation><!-- Life Sci-Peptides &amp; proteins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Pharmaceuticals</masterLabel>
+        <translation><!-- Life Sci-Pharmaceuticals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Population &amp; public health</masterLabel>
+        <translation><!-- Life Sci-Population &amp; public health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Regenerative medicine</masterLabel>
+        <translation><!-- Life Sci-Regenerative medicine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Remote monitoring &amp; telehealth</masterLabel>
+        <translation><!-- Life Sci-Remote monitoring &amp; telehealth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Small molecules</masterLabel>
+        <translation><!-- Life Sci-Small molecules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</masterLabel>
+        <translation><!-- Life Sci-Specialized Business Services (Banking, Accounting Legal, consulting etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Specialized Research Service Providers (Laboratory, Clinical Testing)</masterLabel>
+        <translation><!-- Life Sci-Specialized Research Service Providers (Laboratory, Clinical Testing) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Life Sci-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Synthetic biology</masterLabel>
+        <translation><!-- Life Sci-Synthetic biology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life Sci-Vaccines</masterLabel>
+        <translation><!-- Life Sci-Vaccines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Bar / Nightclub</masterLabel>
+        <translation><!-- Music-Bar / Nightclub --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Communications media</masterLabel>
+        <translation><!-- Music-Communications media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Events / Exhibitions</masterLabel>
+        <translation><!-- Music-Events / Exhibitions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Fashion</masterLabel>
+        <translation><!-- Music-Fashion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Festivals</masterLabel>
+        <translation><!-- Music-Festivals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Industry Association/ Organizations</masterLabel>
+        <translation><!-- Music-Industry Association/ Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Leisure Attractions</masterLabel>
+        <translation><!-- Music-Leisure Attractions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Leisure Centers</masterLabel>
+        <translation><!-- Music-Leisure Centers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Live Entertainment</masterLabel>
+        <translation><!-- Music-Live Entertainment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Lodging</masterLabel>
+        <translation><!-- Music-Lodging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Marketing &amp; promotional firms</masterLabel>
+        <translation><!-- Music-Marketing &amp; promotional firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Music &amp; Television</masterLabel>
+        <translation><!-- Music-Music &amp; Television --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Non for Profit</masterLabel>
+        <translation><!-- Music-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Post Production</masterLabel>
+        <translation><!-- Music-Post Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Publishers</masterLabel>
+        <translation><!-- Music-Publishers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Recording &amp; distribution</masterLabel>
+        <translation><!-- Music-Recording &amp; distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Recreation, Amusements &amp; Attractions</masterLabel>
+        <translation><!-- Music-Recreation, Amusements &amp; Attractions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Restaurants and Food &amp; Beverage Services</masterLabel>
+        <translation><!-- Music-Restaurants and Food &amp; Beverage Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Software developers</masterLabel>
+        <translation><!-- Music-Software developers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Specialized Business Services (legal, financial) unions &amp; guilds</masterLabel>
+        <translation><!-- Music-Specialized Business Services (legal, financial) unions &amp; guilds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Music-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Music-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Studios &amp; Production Facilitates</masterLabel>
+        <translation><!-- Music-Studios &amp; Production Facilitates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Talent development firms</masterLabel>
+        <translation><!-- Music-Talent development firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Tour Operators</masterLabel>
+        <translation><!-- Music-Tour Operators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Travel Agents</masterLabel>
+        <translation><!-- Music-Travel Agents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Music-Venues</masterLabel>
+        <translation><!-- Music-Venues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-After Sales Service Providers</masterLabel>
+        <translation><!-- Retail-After Sales Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Convenience Store</masterLabel>
+        <translation><!-- Retail-Convenience Store --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Department Store</masterLabel>
+        <translation><!-- Retail-Department Store --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Discount Stores</masterLabel>
+        <translation><!-- Retail-Discount Stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Distribution</masterLabel>
+        <translation><!-- Retail-Distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-E-Commerce</masterLabel>
+        <translation><!-- Retail-E-Commerce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-E-talier</masterLabel>
+        <translation><!-- Retail-E-talier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-General Merchandise Stores</masterLabel>
+        <translation><!-- Retail-General Merchandise Stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Grocery</masterLabel>
+        <translation><!-- Retail-Grocery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Importer/ Wholesaler</masterLabel>
+        <translation><!-- Retail-Importer/ Wholesaler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Industry Association/Organizations</masterLabel>
+        <translation><!-- Retail-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Logistics Providers</masterLabel>
+        <translation><!-- Retail-Logistics Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Malls</masterLabel>
+        <translation><!-- Retail-Malls --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Non for Profit</masterLabel>
+        <translation><!-- Retail-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Packaged Goods Companies</masterLabel>
+        <translation><!-- Retail-Packaged Goods Companies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Quality Control Providers</masterLabel>
+        <translation><!-- Retail-Quality Control Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-RetailTech</masterLabel>
+        <translation><!-- Retail-RetailTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Specialized Business Services (Packaging, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Retail-Specialized Business Services (Packaging, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Retail-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Retail-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail-Specialty Store</masterLabel>
+        <translation><!-- Retail-Specialty Store --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Analytics &amp; Visualization</masterLabel>
+        <translation><!-- Tech.-Analytics &amp; Visualization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Blockchain</masterLabel>
+        <translation><!-- Tech.-Blockchain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Cybersecurity</masterLabel>
+        <translation><!-- Tech.-Cybersecurity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Data Centre</masterLabel>
+        <translation><!-- Tech.-Data Centre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-E-commerce</masterLabel>
+        <translation><!-- Tech.-E-commerce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-EducationTech</masterLabel>
+        <translation><!-- Tech.-EducationTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-FinTech</masterLabel>
+        <translation><!-- Tech.-FinTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Gaming</masterLabel>
+        <translation><!-- Tech.-Gaming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-HealthTech</masterLabel>
+        <translation><!-- Tech.-HealthTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Industry Association/Organizations</masterLabel>
+        <translation><!-- Tech.-Industry Association/Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-InsuranceTech</masterLabel>
+        <translation><!-- Tech.-InsuranceTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Machine Learning/ Artificial Intelligence</masterLabel>
+        <translation><!-- Tech.-Machine Learning/ Artificial Intelligence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Non for Profit</masterLabel>
+        <translation><!-- Tech.-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-RetailTech</masterLabel>
+        <translation><!-- Tech.-RetailTech --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Robotics</masterLabel>
+        <translation><!-- Tech.-Robotics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Smart Cities</masterLabel>
+        <translation><!-- Tech.-Smart Cities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Software Engineering</masterLabel>
+        <translation><!-- Tech.-Software Engineering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Specialized Business Services (Banking, Packaging, Legal)</masterLabel>
+        <translation><!-- Tech.-Specialized Business Services (Banking, Packaging, Legal) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Tech.-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Tech.-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Virtual &amp; Augmented Reality</masterLabel>
+        <translation><!-- Tech.-Virtual &amp; Augmented Reality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech.-Web Design &amp; Services</masterLabel>
+        <translation><!-- Tech.-Web Design &amp; Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Bar / Nightclub</masterLabel>
+        <translation><!-- Tour-Bar / Nightclub --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Communications media</masterLabel>
+        <translation><!-- Tour-Communications media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Events / Exhibitions</masterLabel>
+        <translation><!-- Tour-Events / Exhibitions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Fashion</masterLabel>
+        <translation><!-- Tour-Fashion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Festivals</masterLabel>
+        <translation><!-- Tour-Festivals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Industry Association/ Organizations</masterLabel>
+        <translation><!-- Tour-Industry Association/ Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Leisure Attractions</masterLabel>
+        <translation><!-- Tour-Leisure Attractions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Leisure Centers</masterLabel>
+        <translation><!-- Tour-Leisure Centers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Live Entertainment</masterLabel>
+        <translation><!-- Tour-Live Entertainment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Lodging</masterLabel>
+        <translation><!-- Tour-Lodging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Marketing &amp; promotional firms</masterLabel>
+        <translation><!-- Tour-Marketing &amp; promotional firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Non for Profit</masterLabel>
+        <translation><!-- Tour-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Post Production</masterLabel>
+        <translation><!-- Tour-Post Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Publishers</masterLabel>
+        <translation><!-- Tour-Publishers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Recording &amp; distribution</masterLabel>
+        <translation><!-- Tour-Recording &amp; distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Recreation, Amusements &amp; Attractions</masterLabel>
+        <translation><!-- Tour-Recreation, Amusements &amp; Attractions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Restaurants and Food &amp; Beverage Services</masterLabel>
+        <translation><!-- Tour-Restaurants and Food &amp; Beverage Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Software developers</masterLabel>
+        <translation><!-- Tour-Software developers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Specialized Business Services (legal, financial) unions &amp; guilds</masterLabel>
+        <translation><!-- Tour-Specialized Business Services (legal, financial) unions &amp; guilds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Tour-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Tour-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Studios &amp; Production Facilitates</masterLabel>
+        <translation><!-- Tour-Studios &amp; Production Facilitates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Talent development firms</masterLabel>
+        <translation><!-- Tour-Talent development firms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Tour &amp; Television</masterLabel>
+        <translation><!-- Tour-Tour &amp; Television --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Tour Operators</masterLabel>
+        <translation><!-- Tour-Tour Operators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Travel Agents</masterLabel>
+        <translation><!-- Tour-Travel Agents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tour-Venues</masterLabel>
+        <translation><!-- Tour-Venues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Freight Forwarding</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Freight Forwarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Industry Association/ Organizations</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Industry Association/ Organizations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-International Logistics Service Providers</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-International Logistics Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Kitting, Assembly &amp; Packaging</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Kitting, Assembly &amp; Packaging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Non for Profit</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Non for Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Specialized Business Services (Packaging, Accounting Legal etc.)</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Specialized Business Services (Packaging, Accounting Legal etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Specialized Research Service Providers</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Specialized Research Service Providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Specialized Risk Capital (VC Firms, Angel Networks)</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Specialized Risk Capital (VC Firms, Angel Networks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans, Dist &amp; Logistics-Transportation Systems/ Infrastructure Planning Management &amp; Regulation</masterLabel>
+        <translation><!-- Trans, Dist &amp; Logistics-Transportation Systems/ Infrastructure Planning Management &amp; Regulation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Mobile friendly means that your website also displays well on small and medium sized screens. If you provide your mobile visitors with a better experience so they’ll be more likely to stick around and engage with you. --></help>
+    <label><!-- Is Your Site Mobile Friendly? --></label>
+    <name>Is_Your_Site_Mobile_Friendly__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Sure</masterLabel>
+        <translation><!-- Not Sure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation><!-- Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

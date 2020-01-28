@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ET_Events_Unactive2018</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <columns>Business_Group__c</columns>
+    <columns>Event_Type__c</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>Program_Sub_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>Event_Type__c</field>
+        <operation>equals</operation>
+        <value>Event Support,Networking Events,Business Training</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.END_DATE</field>
+        <operation>lessThan</operation>
+        <value>12/31/2018</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.END_DATE</field>
+        <operation>greaterThan</operation>
+        <value>12/31/2017</value>
+    </filters>
+    <label>BGS Events Completed 2018</label>
+</ListView>

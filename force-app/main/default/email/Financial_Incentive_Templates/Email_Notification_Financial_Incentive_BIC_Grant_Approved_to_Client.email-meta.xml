@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends an email to the applicant to let them know their application has been approved.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Email Notification Financial Incentive BIC-Grant - Approved to Client</name>
+    <style>none</style>
+    <subject>City of Toronto - Business Incubation Grant Update for {!Financial_Incentive__c.Account__c}</subject>
+    <textOnly>Hello {!Financial_Incentive__c.Contact__c},
+
+Thanks again for your application to the City of Toronto&#39;s City of Toronto&#39;s Startup Community Grant Program. We are happy to report that your request has been approved in the amount of ${!Financial_Incentive__c.Amount_Approved__c}.
+
+As part of our sponsorship, we require you to recognize both the City of Toronto and StartUp HERE Toronto in your materials.  You can find both logo requirements via the following link - https://www.dropbox.com/sh/wc3olu9i6avdihx/AABQqB8M12f3nU_MUyJ_gPxda?dl=0
+
+Otherwise, we will be in touch to discuss next steps.
+
+Regards,
+Entrepreneurship Services
+Economic Development &amp; Culture
+City of Toronto
+www.toronto.ca/business</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

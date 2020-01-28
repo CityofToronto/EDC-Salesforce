@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- How did you hear about ET? --></label>
+    <name>How_did_you_hear_about_ET__c</name>
+    <picklistValues>
+        <masterLabel>Another Organization</masterLabel>
+        <translation><!-- Another Organization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ET E-Newsletter</masterLabel>
+        <translation><!-- ET E-Newsletter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Event</masterLabel>
+        <translation><!-- Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet Search</masterLabel>
+        <translation><!-- Internet Search --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newspaper</masterLabel>
+        <translation><!-- Newspaper --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

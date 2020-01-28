@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will be populated automatically if IMIT request is submitted by Client through form. --></help>
+    <label><!-- Created by Client --></label>
+    <name>Created_by_Client__c</name>
+</CustomFieldTranslation>

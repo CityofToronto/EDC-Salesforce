@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ET_Events_Active</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Business_Group__c</columns>
+    <columns>Event_Type__c</columns>
+    <columns>Program_Sub_Type__c</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event_Type__c</field>
+        <operation>contains</operation>
+        <value>Networking Events,Business Training</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>equals</operation>
+        <value>In Progress</value>
+    </filters>
+    <label>BGS-Events-Active</label>
+    <sharedTo>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_ET</roleAndSubordinates>
+    </sharedTo>
+</ListView>

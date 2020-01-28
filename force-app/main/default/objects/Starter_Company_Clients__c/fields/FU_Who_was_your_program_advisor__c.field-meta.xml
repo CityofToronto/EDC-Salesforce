@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FU_Who_was_your_program_advisor__c</fullName>
+    <externalId>false</externalId>
+    <label>FU - Who was your program advisor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Andrew Patricio</fullName>
+                <default>false</default>
+                <label>Andrew Patricio</label>
+            </value>
+            <value>
+                <fullName>Vikas Jain</fullName>
+                <default>false</default>
+                <label>Vikas Jain</label>
+            </value>
+            <value>
+                <fullName>Sandi Koitsis-Zigomanis</fullName>
+                <default>false</default>
+                <label>Sandi Koitsis-Zigomanis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

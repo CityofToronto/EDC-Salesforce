@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the type of Project Investment. The Investment types are Industrial office, Retail Services, Commercial, Institutional etc --></help>
+    <label><!-- Investment Type --></label>
+    <name>Investment_Type__c</name>
+    <picklistValues>
+        <masterLabel>Industrial (Manufacturing/Warehousing/Distribution)</masterLabel>
+        <translation><!-- Industrial (Manufacturing/Warehousing/Distribution) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Institutional</masterLabel>
+        <translation><!-- Institutional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office</masterLabel>
+        <translation><!-- Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail</masterLabel>
+        <translation><!-- Retail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service</masterLabel>
+        <translation><!-- Service --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

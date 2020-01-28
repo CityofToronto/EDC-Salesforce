@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_User_Consent_BIA_Grants</fullName>
+    <active>true</active>
+    <description>This rule will make sure any new BIA Grant records should be created with User consent checked.</description>
+    <errorConditionFormula>OR(AND(RecordType.DeveloperName=&#39;BIA_Commercial_Industrial_Facade_and_Property_Improvement&#39;,  Personal_Information_Declaration__c =false,Permission_to_Photograph_Video_Building__c =false),AND(RecordType.DeveloperName=&#39;BIA_Innovation_Fund&#39;,  Personal_Information_Declaration__c =false),AND(RecordType.DeveloperName=&#39;BIA_Leadership_Fund&#39;, Personal_Information_Declaration__c =false),AND(RecordType.DeveloperName=&#39;BIA_Outside_Mural_and_Street_Art_Grant&#39;, Personal_Information_Declaration__c =false),AND(RecordType.DeveloperName=&#39;BIA_Streetscape_Master_Plan_Funding&#39;, Personal_Information_Declaration__c =false, Acknowledgement_Signature_of_Chair__c =false))</errorConditionFormula>
+    <errorMessage>All check-boxes should be checked in User Consent Section</errorMessage>
+</ValidationRule>

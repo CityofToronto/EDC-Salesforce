@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IMIT_Grant_Review_Queue_Financial_Incentive</fullName>
+    <filterScope>Queue</filterScope>
+    <label>IMIT Grant Review Queue</label>
+    <queue>IMIT_Grant_Review_Queue</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

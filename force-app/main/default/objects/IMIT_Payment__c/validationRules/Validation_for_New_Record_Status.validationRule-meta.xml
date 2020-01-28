@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_New_Record_Status</fullName>
+    <active>true</active>
+    <description>This validation records will make sure new records will always be created with Compliance Preparation Status</description>
+    <errorConditionFormula>AND(ISNEW(),TEXT(Payment_Status__c)&lt;&gt;&#39;Compliance Preparation&#39;)</errorConditionFormula>
+    <errorDisplayField>Payment_Status__c</errorDisplayField>
+    <errorMessage>Payment Status should be Compliance Preparation for new record</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is used to format Amount Approved field value that will be shared on PDF email attachment to BIA Clients and not visible on page layout --></help>
+    <label><!-- Amount Approved Formula --></label>
+    <name>Amount_Approved_Formula__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delegate_Program_Members__c</fullName>
+    <externalId>false</externalId>
+    <label>Delegate Program Members</label>
+    <summaryFilterItems>
+        <field>CampaignMember.Member_Role__c</field>
+        <operation>equals</operation>
+        <value>Stakeholder - Delegate (Inbound), Stakeholder - Delegate (Outbound)</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CampaignMember.CampaignId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,7 @@
+Dear {!Issue__c.Assigned_To__c},
+
+A new Issue {!Issue__c.Name} of {!Issue__c.RecordType} type has been created and assigned to you. Please refer below link to check the Issue and take appropriate action. 
+
+{!Issue__c.Link}
+
+Thanks

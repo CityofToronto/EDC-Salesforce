@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ask to Channel Partners to share Summer Company information.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET_SummerCompany_2015</name>
+    <style>none</style>
+    <subject>Please Share: Summer Company Program</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

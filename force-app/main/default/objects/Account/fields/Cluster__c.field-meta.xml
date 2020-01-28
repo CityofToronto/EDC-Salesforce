@@ -1,0 +1,2218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cluster__c</fullName>
+    <description>Organizes firms into their supply chains. The full supply chain includes all elements of the generation of products and services including resource extraction through to the final delivery/installation and can include ongoing maintenance and operations. This allows the Salesforce owner of the account to identify if the account (organization) is in a supply chain of a specific segment of the sectors. Its helps to identify synergies and where there may be opportunities to support growth.</description>
+    <externalId>false</externalId>
+    <label>Cluster</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aerospc-Aircraft Modifications /Conversions</fullName>
+                <default>false</default>
+                <label>Aerospc-Aircraft Modifications /Conversions</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Aircraft Structural Assemblies</fullName>
+                <default>false</default>
+                <label>Aerospc-Aircraft Structural Assemblies</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Aircraft Systems</fullName>
+                <default>false</default>
+                <label>Aerospc-Aircraft Systems</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Airport/Airport Services</fullName>
+                <default>false</default>
+                <label>Aerospc-Airport/Airport Services</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Avionics</fullName>
+                <default>false</default>
+                <label>Aerospc-Avionics</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Communications Equipment</fullName>
+                <default>false</default>
+                <label>Aerospc-Communications Equipment</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Consulting Services</fullName>
+                <default>false</default>
+                <label>Aerospc-Consulting Services</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Electronics</fullName>
+                <default>false</default>
+                <label>Aerospc-Electronics</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Engineering</fullName>
+                <default>false</default>
+                <label>Aerospc-Engineering</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Aerospc-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Interior finishing</fullName>
+                <default>false</default>
+                <label>Aerospc-Interior finishing</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Landing Gear</fullName>
+                <default>false</default>
+                <label>Aerospc-Landing Gear</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Machining</fullName>
+                <default>false</default>
+                <label>Aerospc-Machining</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Maintenance Repair &amp; Overhaul</fullName>
+                <default>false</default>
+                <label>Aerospc-Maintenance Repair &amp; Overhaul</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Metal coating</fullName>
+                <default>false</default>
+                <label>Aerospc-Metal coating</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Navigation Systems</fullName>
+                <default>false</default>
+                <label>Aerospc-Navigation Systems</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Non for Profit</fullName>
+                <default>false</default>
+                <label>Aerospc-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Paint products</fullName>
+                <default>false</default>
+                <label>Aerospc-Paint products</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Raw materials</fullName>
+                <default>false</default>
+                <label>Aerospc-Raw materials</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Satellites</fullName>
+                <default>false</default>
+                <label>Aerospc-Satellites</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Simulation/Flight Training</fullName>
+                <default>false</default>
+                <label>Aerospc-Simulation/Flight Training</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Space Exploration</fullName>
+                <default>false</default>
+                <label>Aerospc-Space Exploration</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Space Guidance Systems</fullName>
+                <default>false</default>
+                <label>Aerospc-Space Guidance Systems</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Space Launch Vehicles</fullName>
+                <default>false</default>
+                <label>Aerospc-Space Launch Vehicles</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Space Systems</fullName>
+                <default>false</default>
+                <label>Aerospc-Space Systems</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Specialized Business Services (Banking, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Aerospc-Specialized Business Services (Banking, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Aerospc-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Aerospc-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Aerospc-Special Processing &amp; Materials</fullName>
+                <default>false</default>
+                <label>Aerospc-Special Processing &amp; Materials</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Accessories</fullName>
+                <default>false</default>
+                <label>Auto-Auto Accessories</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Care (Paints, Protectants, Sealants, Fluids, Additives &amp; Oil etc.)</fullName>
+                <default>false</default>
+                <label>Auto-Auto Care (Paints, Protectants, Sealants, Fluids, Additives &amp; Oil etc.)</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Dealerships &amp; Retail</fullName>
+                <default>false</default>
+                <label>Auto-Auto Dealerships &amp; Retail</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Electrical Components</fullName>
+                <default>false</default>
+                <label>Auto-Auto Electrical Components</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Glass Applications</fullName>
+                <default>false</default>
+                <label>Auto-Auto Glass Applications</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Industrial equipment &amp; automation</fullName>
+                <default>false</default>
+                <label>Auto-Auto Industrial equipment &amp; automation</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Maintenance</fullName>
+                <default>false</default>
+                <label>Auto-Auto Maintenance</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Parts</fullName>
+                <default>false</default>
+                <label>Auto-Auto Parts</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Safety &amp; Security</fullName>
+                <default>false</default>
+                <label>Auto-Auto Safety &amp; Security</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Servicing</fullName>
+                <default>false</default>
+                <label>Auto-Auto Servicing</label>
+            </value>
+            <value>
+                <fullName>Auto-Auto Tools, Equipment &amp; Storage</fullName>
+                <default>false</default>
+                <label>Auto-Auto Tools, Equipment &amp; Storage</label>
+            </value>
+            <value>
+                <fullName>Auto-Gasoline Engines &amp; Engine Parts</fullName>
+                <default>false</default>
+                <label>Auto-Gasoline Engines &amp; Engine Parts</label>
+            </value>
+            <value>
+                <fullName>Auto-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Auto-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Auto-Manufacturing (Auto)</fullName>
+                <default>false</default>
+                <label>Auto-Manufacturing (Auto)</label>
+            </value>
+            <value>
+                <fullName>Auto-Metal Mills &amp; Foundries</fullName>
+                <default>false</default>
+                <label>Auto-Metal Mills &amp; Foundries</label>
+            </value>
+            <value>
+                <fullName>Auto-Military Vehicles</fullName>
+                <default>false</default>
+                <label>Auto-Military Vehicles</label>
+            </value>
+            <value>
+                <fullName>Auto-Motor Vehicles</fullName>
+                <default>false</default>
+                <label>Auto-Motor Vehicles</label>
+            </value>
+            <value>
+                <fullName>Auto-Non for Profit</fullName>
+                <default>false</default>
+                <label>Auto-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Auto-Small Vehicles</fullName>
+                <default>false</default>
+                <label>Auto-Small Vehicles</label>
+            </value>
+            <value>
+                <fullName>Auto-Specialized Business Services (Packaging, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Auto-Specialized Business Services (Packaging, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Auto-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Auto-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Auto-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Auto-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Auto-Tire &amp; Tire Components</fullName>
+                <default>false</default>
+                <label>Auto-Tire &amp; Tire Components</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Actuaries</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Actuaries</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Broadcasting</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Broadcasting</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Data Processing</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Data Processing</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Evaluators</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Evaluators</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Facilities Management</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Facilities Management</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Financial Planners</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Financial Planners</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Industry Association/ Organizations</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Industry Association/ Organizations</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Investment Managers</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Investment Managers</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Library Services</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Library Services</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Non for Profit</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Publishing</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Publishing</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Recruitment services</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Recruitment services</label>
+            </value>
+            <value>
+                <fullName>Bus &amp; Prof Services-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Bus &amp; Prof Services-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Constr-Architects</fullName>
+                <default>false</default>
+                <label>Constr-Architects</label>
+            </value>
+            <value>
+                <fullName>Constr-Commercial Buildings</fullName>
+                <default>false</default>
+                <label>Constr-Commercial Buildings</label>
+            </value>
+            <value>
+                <fullName>Constr-Constr Equipment</fullName>
+                <default>false</default>
+                <label>Constr-Constr Equipment</label>
+            </value>
+            <value>
+                <fullName>Constr-Contractors</fullName>
+                <default>false</default>
+                <label>Constr-Contractors</label>
+            </value>
+            <value>
+                <fullName>Constr-Designers</fullName>
+                <default>false</default>
+                <label>Constr-Designers</label>
+            </value>
+            <value>
+                <fullName>Constr-Developers</fullName>
+                <default>false</default>
+                <label>Constr-Developers</label>
+            </value>
+            <value>
+                <fullName>Constr-Distributors</fullName>
+                <default>false</default>
+                <label>Constr-Distributors</label>
+            </value>
+            <value>
+                <fullName>Constr-Engineers</fullName>
+                <default>false</default>
+                <label>Constr-Engineers</label>
+            </value>
+            <value>
+                <fullName>Constr-Industrial Buildings</fullName>
+                <default>false</default>
+                <label>Constr-Industrial Buildings</label>
+            </value>
+            <value>
+                <fullName>Constr-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Constr-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Constr-Institutional Buildings</fullName>
+                <default>false</default>
+                <label>Constr-Institutional Buildings</label>
+            </value>
+            <value>
+                <fullName>Constr-Manufacturers</fullName>
+                <default>false</default>
+                <label>Constr-Manufacturers</label>
+            </value>
+            <value>
+                <fullName>Constr-Material Suppliers &amp; Dealers</fullName>
+                <default>false</default>
+                <label>Constr-Material Suppliers &amp; Dealers</label>
+            </value>
+            <value>
+                <fullName>Constr-Non for Profit</fullName>
+                <default>false</default>
+                <label>Constr-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Constr-Planners</fullName>
+                <default>false</default>
+                <label>Constr-Planners</label>
+            </value>
+            <value>
+                <fullName>Constr-Public Amenities</fullName>
+                <default>false</default>
+                <label>Constr-Public Amenities</label>
+            </value>
+            <value>
+                <fullName>Constr-Residential Buildings</fullName>
+                <default>false</default>
+                <label>Constr-Residential Buildings</label>
+            </value>
+            <value>
+                <fullName>Constr-Specialized Business Services ( Accounting Legal, consultants etc.)</fullName>
+                <default>false</default>
+                <label>Constr-Specialized Business Services ( Accounting Legal, consultants etc.)</label>
+            </value>
+            <value>
+                <fullName>Constr-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Constr-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Constr-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Constr-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Constr-Specialized subcontractors</fullName>
+                <default>false</default>
+                <label>Constr-Specialized subcontractors</label>
+            </value>
+            <value>
+                <fullName>Constr-Surveyors</fullName>
+                <default>false</default>
+                <label>Constr-Surveyors</label>
+            </value>
+            <value>
+                <fullName>Constr-Sustainable Constr</fullName>
+                <default>false</default>
+                <label>Constr-Sustainable Constr</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Baby Care Products</fullName>
+                <default>false</default>
+                <label>Cosmetics-Baby Care Products</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-BeautyTech</fullName>
+                <default>false</default>
+                <label>Cosmetics-BeautyTech</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Cosmeceuticals</fullName>
+                <default>false</default>
+                <label>Cosmetics-Cosmeceuticals</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Cosmetic Marketing &amp; Business Development</fullName>
+                <default>false</default>
+                <label>Cosmetics-Cosmetic Marketing &amp; Business Development</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Cosmetics Biological &amp; Efficacy Testing</fullName>
+                <default>false</default>
+                <label>Cosmetics-Cosmetics Biological &amp; Efficacy Testing</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Cosmetics Machinery &amp; Equipment Supplier</fullName>
+                <default>false</default>
+                <label>Cosmetics-Cosmetics Machinery &amp; Equipment Supplier</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Cosmetics Regulatory &amp; Quality Control Services</fullName>
+                <default>false</default>
+                <label>Cosmetics-Cosmetics Regulatory &amp; Quality Control Services</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Cosmetics Retail, Wholesale &amp; Distribution</fullName>
+                <default>false</default>
+                <label>Cosmetics-Cosmetics Retail, Wholesale &amp; Distribution</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Industry Association/ Organizations</fullName>
+                <default>false</default>
+                <label>Cosmetics-Industry Association/ Organizations</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Make Up Products</fullName>
+                <default>false</default>
+                <label>Cosmetics-Make Up Products</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Manufacturing (Private Label)</fullName>
+                <default>false</default>
+                <label>Cosmetics-Manufacturing (Private Label)</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Non for Profit</fullName>
+                <default>false</default>
+                <label>Cosmetics-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-R&amp;D Formulating &amp; Product Development</fullName>
+                <default>false</default>
+                <label>Cosmetics-R&amp;D Formulating &amp; Product Development</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-R&amp;D Raw Material &amp; New Actives</fullName>
+                <default>false</default>
+                <label>Cosmetics-R&amp;D Raw Material &amp; New Actives</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Raw Material Production</fullName>
+                <default>false</default>
+                <label>Cosmetics-Raw Material Production</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Raw Material Supply &amp; Distribution</fullName>
+                <default>false</default>
+                <label>Cosmetics-Raw Material Supply &amp; Distribution</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Skin Care Products</fullName>
+                <default>false</default>
+                <label>Cosmetics-Skin Care Products</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Specialized Business Services (Packaging, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Cosmetics-Specialized Business Services (Packaging, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Cosmetics-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Cosmetics-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Cosmetics-Sunscreen Products</fullName>
+                <default>false</default>
+                <label>Cosmetics-Sunscreen Products</label>
+            </value>
+            <value>
+                <fullName>Design-Design Educators</fullName>
+                <default>false</default>
+                <label>Design-Design Educators</label>
+            </value>
+            <value>
+                <fullName>Design-Designers</fullName>
+                <default>false</default>
+                <label>Design-Designers</label>
+            </value>
+            <value>
+                <fullName>Design-Design Media</fullName>
+                <default>false</default>
+                <label>Design-Design Media</label>
+            </value>
+            <value>
+                <fullName>Design-Design Retailers</fullName>
+                <default>false</default>
+                <label>Design-Design Retailers</label>
+            </value>
+            <value>
+                <fullName>Design-Design Service Providers</fullName>
+                <default>false</default>
+                <label>Design-Design Service Providers</label>
+            </value>
+            <value>
+                <fullName>Design-Design Wholesalers</fullName>
+                <default>false</default>
+                <label>Design-Design Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Design-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Design-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Design-Manufacturers (Design)</fullName>
+                <default>false</default>
+                <label>Design-Manufacturers (Design)</label>
+            </value>
+            <value>
+                <fullName>Design-Non for Profit</fullName>
+                <default>false</default>
+                <label>Design-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Design-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</fullName>
+                <default>false</default>
+                <label>Design-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</label>
+            </value>
+            <value>
+                <fullName>Design-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Design-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Design-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Design-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Educ-Accelerators</fullName>
+                <default>false</default>
+                <label>Educ-Accelerators</label>
+            </value>
+            <value>
+                <fullName>Educ-Career Colleges</fullName>
+                <default>false</default>
+                <label>Educ-Career Colleges</label>
+            </value>
+            <value>
+                <fullName>Educ-Incubators</fullName>
+                <default>false</default>
+                <label>Educ-Incubators</label>
+            </value>
+            <value>
+                <fullName>Educ-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Educ-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Educ-Language Schools</fullName>
+                <default>false</default>
+                <label>Educ-Language Schools</label>
+            </value>
+            <value>
+                <fullName>Educ-Non for Profit</fullName>
+                <default>false</default>
+                <label>Educ-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Educ-Private Universities / Schools</fullName>
+                <default>false</default>
+                <label>Educ-Private Universities / Schools</label>
+            </value>
+            <value>
+                <fullName>Educ-Professional Training</fullName>
+                <default>false</default>
+                <label>Educ-Professional Training</label>
+            </value>
+            <value>
+                <fullName>Educ-Public Sector Schools</fullName>
+                <default>false</default>
+                <label>Educ-Public Sector Schools</label>
+            </value>
+            <value>
+                <fullName>Educ-Religious Schools</fullName>
+                <default>false</default>
+                <label>Educ-Religious Schools</label>
+            </value>
+            <value>
+                <fullName>Educ-Research Institutes</fullName>
+                <default>false</default>
+                <label>Educ-Research Institutes</label>
+            </value>
+            <value>
+                <fullName>Educ-Specialized Business Services (Packaging, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Educ-Specialized Business Services (Packaging, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Educ-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Educ-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Accessories</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Accessories</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Advocacy</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Advocacy</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Agencies</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Agencies</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Contractors</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Contractors</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Designers</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Designers</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Educators</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Educators</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Event Organizers</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Event Organizers</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Manufacturers</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Manufacturers</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Media</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Media</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Retailers</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Retailers</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Sustainability</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Sustainability</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fashion Wholesalers</fullName>
+                <default>false</default>
+                <label>Fashion-Fashion Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Fashion-Fur</fullName>
+                <default>false</default>
+                <label>Fashion-Fur</label>
+            </value>
+            <value>
+                <fullName>Fashion-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Fashion-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Fashion-Non for Profit</fullName>
+                <default>false</default>
+                <label>Fashion-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Fashion-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</fullName>
+                <default>false</default>
+                <label>Fashion-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</label>
+            </value>
+            <value>
+                <fullName>Fashion-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Fashion-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Fashion-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Fashion-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Fashion-Wearables</fullName>
+                <default>false</default>
+                <label>Fashion-Wearables</label>
+            </value>
+            <value>
+                <fullName>Film-Bar / Nightclub</fullName>
+                <default>false</default>
+                <label>Film-Bar / Nightclub</label>
+            </value>
+            <value>
+                <fullName>Film-Communications media</fullName>
+                <default>false</default>
+                <label>Film-Communications media</label>
+            </value>
+            <value>
+                <fullName>Film-Events / Exhibitions</fullName>
+                <default>false</default>
+                <label>Film-Events / Exhibitions</label>
+            </value>
+            <value>
+                <fullName>Film-Fashion</fullName>
+                <default>false</default>
+                <label>Film-Fashion</label>
+            </value>
+            <value>
+                <fullName>Film-Festivals</fullName>
+                <default>false</default>
+                <label>Film-Festivals</label>
+            </value>
+            <value>
+                <fullName>Film-Film &amp; Television</fullName>
+                <default>false</default>
+                <label>Film-Film &amp; Television</label>
+            </value>
+            <value>
+                <fullName>Film-Industry Association/ Organizations</fullName>
+                <default>false</default>
+                <label>Film-Industry Association/ Organizations</label>
+            </value>
+            <value>
+                <fullName>Film-Leisure Attractions</fullName>
+                <default>false</default>
+                <label>Film-Leisure Attractions</label>
+            </value>
+            <value>
+                <fullName>Film-Leisure Centers</fullName>
+                <default>false</default>
+                <label>Film-Leisure Centers</label>
+            </value>
+            <value>
+                <fullName>Film-Live Entertainment</fullName>
+                <default>false</default>
+                <label>Film-Live Entertainment</label>
+            </value>
+            <value>
+                <fullName>Film-Lodging</fullName>
+                <default>false</default>
+                <label>Film-Lodging</label>
+            </value>
+            <value>
+                <fullName>Film-Marketing &amp; promotional firms</fullName>
+                <default>false</default>
+                <label>Film-Marketing &amp; promotional firms</label>
+            </value>
+            <value>
+                <fullName>Film-Non for Profit</fullName>
+                <default>false</default>
+                <label>Film-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Film-Post Production</fullName>
+                <default>false</default>
+                <label>Film-Post Production</label>
+            </value>
+            <value>
+                <fullName>Film-Publishers</fullName>
+                <default>false</default>
+                <label>Film-Publishers</label>
+            </value>
+            <value>
+                <fullName>Film-Recording &amp; distribution</fullName>
+                <default>false</default>
+                <label>Film-Recording &amp; distribution</label>
+            </value>
+            <value>
+                <fullName>Film-Recreation, Amusements &amp; Attractions</fullName>
+                <default>false</default>
+                <label>Film-Recreation, Amusements &amp; Attractions</label>
+            </value>
+            <value>
+                <fullName>Film-Restaurants and Food &amp; Beverage Services</fullName>
+                <default>false</default>
+                <label>Film-Restaurants and Food &amp; Beverage Services</label>
+            </value>
+            <value>
+                <fullName>Film-Software developers</fullName>
+                <default>false</default>
+                <label>Film-Software developers</label>
+            </value>
+            <value>
+                <fullName>Film-Specialized Business Services (legal, financial) unions &amp; guilds</fullName>
+                <default>false</default>
+                <label>Film-Specialized Business Services (legal, financial) unions &amp; guilds</label>
+            </value>
+            <value>
+                <fullName>Film-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Film-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Film-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Film-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Film-Studios &amp; Production Facilitates</fullName>
+                <default>false</default>
+                <label>Film-Studios &amp; Production Facilitates</label>
+            </value>
+            <value>
+                <fullName>Film-Talent development firms</fullName>
+                <default>false</default>
+                <label>Film-Talent development firms</label>
+            </value>
+            <value>
+                <fullName>Film-Tour Operators</fullName>
+                <default>false</default>
+                <label>Film-Tour Operators</label>
+            </value>
+            <value>
+                <fullName>Film-Travel Agents</fullName>
+                <default>false</default>
+                <label>Film-Travel Agents</label>
+            </value>
+            <value>
+                <fullName>Film-Venues</fullName>
+                <default>false</default>
+                <label>Film-Venues</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Auto Leasing</fullName>
+                <default>false</default>
+                <label>Fin Serv-Auto Leasing</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Automation</fullName>
+                <default>false</default>
+                <label>Fin Serv-Automation</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Blockchain</fullName>
+                <default>false</default>
+                <label>Fin Serv-Blockchain</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Business &amp; Professional Services (Legal, Accounting, Printing etc.)</fullName>
+                <default>false</default>
+                <label>Fin Serv-Business &amp; Professional Services (Legal, Accounting, Printing etc.)</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Commercial Banking</fullName>
+                <default>false</default>
+                <label>Fin Serv-Commercial Banking</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Core Systems</fullName>
+                <default>false</default>
+                <label>Fin Serv-Core Systems</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Credit Rating</fullName>
+                <default>false</default>
+                <label>Fin Serv-Credit Rating</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Cyber Security</fullName>
+                <default>false</default>
+                <label>Fin Serv-Cyber Security</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Financial Analytics</fullName>
+                <default>false</default>
+                <label>Fin Serv-Financial Analytics</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-FinTech</fullName>
+                <default>false</default>
+                <label>Fin Serv-FinTech</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Health Plans</fullName>
+                <default>false</default>
+                <label>Fin Serv-Health Plans</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Fin Serv-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Industry Association/OrganizationsOTHER (Please Specify)</fullName>
+                <default>false</default>
+                <label>Fin Serv-Industry Association/OrganizationsOTHER (Please Specify)</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-InsuranceTech</fullName>
+                <default>false</default>
+                <label>Fin Serv-InsuranceTech</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Investment Banking</fullName>
+                <default>false</default>
+                <label>Fin Serv-Investment Banking</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Investment Funds</fullName>
+                <default>false</default>
+                <label>Fin Serv-Investment Funds</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Lending</fullName>
+                <default>false</default>
+                <label>Fin Serv-Lending</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Non For Profit</fullName>
+                <default>false</default>
+                <label>Fin Serv-Non For Profit</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Patent Owners &amp; Lessors</fullName>
+                <default>false</default>
+                <label>Fin Serv-Patent Owners &amp; Lessors</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Payments</fullName>
+                <default>false</default>
+                <label>Fin Serv-Payments</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Project financing</fullName>
+                <default>false</default>
+                <label>Fin Serv-Project financing</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Real Estate Investment</fullName>
+                <default>false</default>
+                <label>Fin Serv-Real Estate Investment</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-RegTech</fullName>
+                <default>false</default>
+                <label>Fin Serv-RegTech</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Retail Banking</fullName>
+                <default>false</default>
+                <label>Fin Serv-Retail Banking</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Risk Management</fullName>
+                <default>false</default>
+                <label>Fin Serv-Risk Management</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Securities Services</fullName>
+                <default>false</default>
+                <label>Fin Serv-Securities Services</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Fin Serv-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Fin Serv-Wealth Management</fullName>
+                <default>false</default>
+                <label>Fin Serv-Wealth Management</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Bakery Products Manufacturers</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Bakery Products Manufacturers</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Craft Beer Manufacturers</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Craft Beer Manufacturers</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Food &amp; Bev Associations</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Food &amp; Bev Associations</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Manufacturing (Private Label)</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Manufacturing (Private Label)</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Non for Profit</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Production Equipment</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Production Equipment</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Retail, Wholesale &amp; Distribution</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Retail, Wholesale &amp; Distribution</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Specialized Business Services (Packaging, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Specialized Business Services (Packaging, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev-Start-up Food Processors</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev-Start-up Food Processors</label>
+            </value>
+            <value>
+                <fullName>Green-Advanced materials</fullName>
+                <default>false</default>
+                <label>Green-Advanced materials</label>
+            </value>
+            <value>
+                <fullName>Green-Air &amp; environmental remediation</fullName>
+                <default>false</default>
+                <label>Green-Air &amp; environmental remediation</label>
+            </value>
+            <value>
+                <fullName>Green-Air pollution &amp; GHG management</fullName>
+                <default>false</default>
+                <label>Green-Air pollution &amp; GHG management</label>
+            </value>
+            <value>
+                <fullName>Green-Alternative fuel refueling infrastructure</fullName>
+                <default>false</default>
+                <label>Green-Alternative fuel refueling infrastructure</label>
+            </value>
+            <value>
+                <fullName>Green-Alternative fuel vehicles</fullName>
+                <default>false</default>
+                <label>Green-Alternative fuel vehicles</label>
+            </value>
+            <value>
+                <fullName>Green-Autonomous vehicles</fullName>
+                <default>false</default>
+                <label>Green-Autonomous vehicles</label>
+            </value>
+            <value>
+                <fullName>Green-Bicycles &amp; related human powered vehicles</fullName>
+                <default>false</default>
+                <label>Green-Bicycles &amp; related human powered vehicles</label>
+            </value>
+            <value>
+                <fullName>Green-Bio-chemicals / Bio-plastics &amp; green chemistry</fullName>
+                <default>false</default>
+                <label>Green-Bio-chemicals / Bio-plastics &amp; green chemistry</label>
+            </value>
+            <value>
+                <fullName>Green-Bio-fuels</fullName>
+                <default>false</default>
+                <label>Green-Bio-fuels</label>
+            </value>
+            <value>
+                <fullName>Green-Bio-mass</fullName>
+                <default>false</default>
+                <label>Green-Bio-mass</label>
+            </value>
+            <value>
+                <fullName>Green-Biomaterials &amp; composites</fullName>
+                <default>false</default>
+                <label>Green-Biomaterials &amp; composites</label>
+            </value>
+            <value>
+                <fullName>Green-Bio-textiles</fullName>
+                <default>false</default>
+                <label>Green-Bio-textiles</label>
+            </value>
+            <value>
+                <fullName>Green-Bird Friendly Glass</fullName>
+                <default>false</default>
+                <label>Green-Bird Friendly Glass</label>
+            </value>
+            <value>
+                <fullName>Green-Building green retrofits - large buildings</fullName>
+                <default>false</default>
+                <label>Green-Building green retrofits - large buildings</label>
+            </value>
+            <value>
+                <fullName>Green-Building green retrofits - residential</fullName>
+                <default>false</default>
+                <label>Green-Building green retrofits - residential</label>
+            </value>
+            <value>
+                <fullName>Green-Building Integrated Photovoltaics</fullName>
+                <default>false</default>
+                <label>Green-Building Integrated Photovoltaics</label>
+            </value>
+            <value>
+                <fullName>Green-CaGBC - GTA chapter</fullName>
+                <default>false</default>
+                <label>Green-CaGBC - GTA chapter</label>
+            </value>
+            <value>
+                <fullName>Green-Canadian Energy Efficiency Alliance</fullName>
+                <default>false</default>
+                <label>Green-Canadian Energy Efficiency Alliance</label>
+            </value>
+            <value>
+                <fullName>Green-Carbon capture &amp; storage</fullName>
+                <default>false</default>
+                <label>Green-Carbon capture &amp; storage</label>
+            </value>
+            <value>
+                <fullName>Green-Circular economy</fullName>
+                <default>false</default>
+                <label>Green-Circular economy</label>
+            </value>
+            <value>
+                <fullName>Green-CleanTech North</fullName>
+                <default>false</default>
+                <label>Green-CleanTech North</label>
+            </value>
+            <value>
+                <fullName>Green-Combined heat &amp; power</fullName>
+                <default>false</default>
+                <label>Green-Combined heat &amp; power</label>
+            </value>
+            <value>
+                <fullName>Green-District energy</fullName>
+                <default>false</default>
+                <label>Green-District energy</label>
+            </value>
+            <value>
+                <fullName>Green-Efficiency industrial equipment</fullName>
+                <default>false</default>
+                <label>Green-Efficiency industrial equipment</label>
+            </value>
+            <value>
+                <fullName>Green-Efficiency lighting</fullName>
+                <default>false</default>
+                <label>Green-Efficiency lighting</label>
+            </value>
+            <value>
+                <fullName>Green-Electric vehicle recharging infrastructure</fullName>
+                <default>false</default>
+                <label>Green-Electric vehicle recharging infrastructure</label>
+            </value>
+            <value>
+                <fullName>Green-Electric Vehicles</fullName>
+                <default>false</default>
+                <label>Green-Electric Vehicles</label>
+            </value>
+            <value>
+                <fullName>Green-Emissions trading</fullName>
+                <default>false</default>
+                <label>Green-Emissions trading</label>
+            </value>
+            <value>
+                <fullName>Green-Energy auditing &amp; energy efficiency certification</fullName>
+                <default>false</default>
+                <label>Green-Energy auditing &amp; energy efficiency certification</label>
+            </value>
+            <value>
+                <fullName>Green-Energy efficiency</fullName>
+                <default>false</default>
+                <label>Green-Energy efficiency</label>
+            </value>
+            <value>
+                <fullName>Green-Energy storage</fullName>
+                <default>false</default>
+                <label>Green-Energy storage</label>
+            </value>
+            <value>
+                <fullName>Green-Environmental Control Systems</fullName>
+                <default>false</default>
+                <label>Green-Environmental Control Systems</label>
+            </value>
+            <value>
+                <fullName>Green-Environmental monitoring &amp; compliance</fullName>
+                <default>false</default>
+                <label>Green-Environmental monitoring &amp; compliance</label>
+            </value>
+            <value>
+                <fullName>Green-Environment roofs</fullName>
+                <default>false</default>
+                <label>Green-Environment roofs</label>
+            </value>
+            <value>
+                <fullName>Green-Fashion Takes Action</fullName>
+                <default>false</default>
+                <label>Green-Fashion Takes Action</label>
+            </value>
+            <value>
+                <fullName>Green-Fuel Cell vehicles</fullName>
+                <default>false</default>
+                <label>Green-Fuel Cell vehicles</label>
+            </value>
+            <value>
+                <fullName>Green-Geothermal</fullName>
+                <default>false</default>
+                <label>Green-Geothermal</label>
+            </value>
+            <value>
+                <fullName>Green-Green aerospace technology</fullName>
+                <default>false</default>
+                <label>Green-Green aerospace technology</label>
+            </value>
+            <value>
+                <fullName>Green-Green buildings</fullName>
+                <default>false</default>
+                <label>Green-Green buildings</label>
+            </value>
+            <value>
+                <fullName>Green-Green engineering</fullName>
+                <default>false</default>
+                <label>Green-Green engineering</label>
+            </value>
+            <value>
+                <fullName>Green-Green infrastructure</fullName>
+                <default>false</default>
+                <label>Green-Green infrastructure</label>
+            </value>
+            <value>
+                <fullName>Green-Green mining</fullName>
+                <default>false</default>
+                <label>Green-Green mining</label>
+            </value>
+            <value>
+                <fullName>Green-Green roofs</fullName>
+                <default>false</default>
+                <label>Green-Green roofs</label>
+            </value>
+            <value>
+                <fullName>Green-Hydro</fullName>
+                <default>false</default>
+                <label>Green-Hydro</label>
+            </value>
+            <value>
+                <fullName>Green-Hydrogen fuel</fullName>
+                <default>false</default>
+                <label>Green-Hydrogen fuel</label>
+            </value>
+            <value>
+                <fullName>Green-Hydronic agriculture</fullName>
+                <default>false</default>
+                <label>Green-Hydronic agriculture</label>
+            </value>
+            <value>
+                <fullName>Green-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Green-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Green-LEAF</fullName>
+                <default>false</default>
+                <label>Green-LEAF</label>
+            </value>
+            <value>
+                <fullName>Green-LNG transportation &amp; vehicles</fullName>
+                <default>false</default>
+                <label>Green-LNG transportation &amp; vehicles</label>
+            </value>
+            <value>
+                <fullName>Green-Net zero energy homes</fullName>
+                <default>false</default>
+                <label>Green-Net zero energy homes</label>
+            </value>
+            <value>
+                <fullName>Green-Non for Profit</fullName>
+                <default>false</default>
+                <label>Green-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Green-Photovoltaics</fullName>
+                <default>false</default>
+                <label>Green-Photovoltaics</label>
+            </value>
+            <value>
+                <fullName>Green-Physical/chemical/ biological treatment of air pollution or flue gas</fullName>
+                <default>false</default>
+                <label>Green-Physical/chemical/ biological treatment of air pollution or flue gas</label>
+            </value>
+            <value>
+                <fullName>Green-Public transportation</fullName>
+                <default>false</default>
+                <label>Green-Public transportation</label>
+            </value>
+            <value>
+                <fullName>Green-Residential PV</fullName>
+                <default>false</default>
+                <label>Green-Residential PV</label>
+            </value>
+            <value>
+                <fullName>Green-Roof top agriculture</fullName>
+                <default>false</default>
+                <label>Green-Roof top agriculture</label>
+            </value>
+            <value>
+                <fullName>Green-Solar Thermal</fullName>
+                <default>false</default>
+                <label>Green-Solar Thermal</label>
+            </value>
+            <value>
+                <fullName>Green-Specialized Business Services (Banking, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Green-Specialized Business Services (Banking, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Green-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Green-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Green-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Green-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Green-Sustainability forestry</fullName>
+                <default>false</default>
+                <label>Green-Sustainability forestry</label>
+            </value>
+            <value>
+                <fullName>Green-Tall wood building construction</fullName>
+                <default>false</default>
+                <label>Green-Tall wood building construction</label>
+            </value>
+            <value>
+                <fullName>Green-Treatment of drinking water/filtration systems</fullName>
+                <default>false</default>
+                <label>Green-Treatment of drinking water/filtration systems</label>
+            </value>
+            <value>
+                <fullName>Green-Urban agriculture</fullName>
+                <default>false</default>
+                <label>Green-Urban agriculture</label>
+            </value>
+            <value>
+                <fullName>Green-Urban heat island technologies</fullName>
+                <default>false</default>
+                <label>Green-Urban heat island technologies</label>
+            </value>
+            <value>
+                <fullName>Green-Urban wood arborists &amp; tree services</fullName>
+                <default>false</default>
+                <label>Green-Urban wood arborists &amp; tree services</label>
+            </value>
+            <value>
+                <fullName>Green-Urban wood interior design &amp; furniture</fullName>
+                <default>false</default>
+                <label>Green-Urban wood interior design &amp; furniture</label>
+            </value>
+            <value>
+                <fullName>Green-Urban wood processing &amp; manufacturing</fullName>
+                <default>false</default>
+                <label>Green-Urban wood processing &amp; manufacturing</label>
+            </value>
+            <value>
+                <fullName>Green-Waste &amp; recycling</fullName>
+                <default>false</default>
+                <label>Green-Waste &amp; recycling</label>
+            </value>
+            <value>
+                <fullName>Green-Wastewater treatment</fullName>
+                <default>false</default>
+                <label>Green-Wastewater treatment</label>
+            </value>
+            <value>
+                <fullName>Green-Water efficiency</fullName>
+                <default>false</default>
+                <label>Green-Water efficiency</label>
+            </value>
+            <value>
+                <fullName>Green-WaterTap</fullName>
+                <default>false</default>
+                <label>Green-WaterTap</label>
+            </value>
+            <value>
+                <fullName>Green-Wind</fullName>
+                <default>false</default>
+                <label>Green-Wind</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Agriculture, food &amp; nutraceuticals</fullName>
+                <default>false</default>
+                <label>Life Sci-Agriculture, food &amp; nutraceuticals</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Antibodies &amp; biologics</fullName>
+                <default>false</default>
+                <label>Life Sci-Antibodies &amp; biologics</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Artificial intelligence</fullName>
+                <default>false</default>
+                <label>Life Sci-Artificial intelligence</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Bioinformatics &amp; computing services</fullName>
+                <default>false</default>
+                <label>Life Sci-Bioinformatics &amp; computing services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Biomaterials &amp; coatings</fullName>
+                <default>false</default>
+                <label>Life Sci-Biomaterials &amp; coatings</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Biosimilars &amp; generics</fullName>
+                <default>false</default>
+                <label>Life Sci-Biosimilars &amp; generics</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Cell &amp; gene therapy</fullName>
+                <default>false</default>
+                <label>Life Sci-Cell &amp; gene therapy</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Clinic</fullName>
+                <default>false</default>
+                <label>Life Sci-Clinic</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Consulting services</fullName>
+                <default>false</default>
+                <label>Life Sci-Consulting services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Contract manufacturing services</fullName>
+                <default>false</default>
+                <label>Life Sci-Contract manufacturing services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Contract research services</fullName>
+                <default>false</default>
+                <label>Life Sci-Contract research services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Cosmetics</fullName>
+                <default>false</default>
+                <label>Life Sci-Cosmetics</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Diagnostics</fullName>
+                <default>false</default>
+                <label>Life Sci-Diagnostics</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Drug development</fullName>
+                <default>false</default>
+                <label>Life Sci-Drug development</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Electronic health records, data &amp; software services</fullName>
+                <default>false</default>
+                <label>Life Sci-Electronic health records, data &amp; software services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Government</fullName>
+                <default>false</default>
+                <label>Life Sci-Government</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Hospital</fullName>
+                <default>false</default>
+                <label>Life Sci-Hospital</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Human resources services</fullName>
+                <default>false</default>
+                <label>Life Sci-Human resources services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Imaging</fullName>
+                <default>false</default>
+                <label>Life Sci-Imaging</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Implantables &amp; surgical instruments</fullName>
+                <default>false</default>
+                <label>Life Sci-Implantables &amp; surgical instruments</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Industrial biotechnology</fullName>
+                <default>false</default>
+                <label>Life Sci-Industrial biotechnology</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Industry association</fullName>
+                <default>false</default>
+                <label>Life Sci-Industry association</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Life Sci-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Laboratory &amp; screening services</fullName>
+                <default>false</default>
+                <label>Life Sci-Laboratory &amp; screening services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Marketing &amp; procurement services</fullName>
+                <default>false</default>
+                <label>Life Sci-Marketing &amp; procurement services</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Media</fullName>
+                <default>false</default>
+                <label>Life Sci-Media</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Medical devices</fullName>
+                <default>false</default>
+                <label>Life Sci-Medical devices</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Non for Profit</fullName>
+                <default>false</default>
+                <label>Life Sci-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Omics</fullName>
+                <default>false</default>
+                <label>Life Sci-Omics</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Patient engagement &amp; support</fullName>
+                <default>false</default>
+                <label>Life Sci-Patient engagement &amp; support</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Peptides &amp; proteins</fullName>
+                <default>false</default>
+                <label>Life Sci-Peptides &amp; proteins</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Pharmaceuticals</fullName>
+                <default>false</default>
+                <label>Life Sci-Pharmaceuticals</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Population &amp; public health</fullName>
+                <default>false</default>
+                <label>Life Sci-Population &amp; public health</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Regenerative medicine</fullName>
+                <default>false</default>
+                <label>Life Sci-Regenerative medicine</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Remote monitoring &amp; telehealth</fullName>
+                <default>false</default>
+                <label>Life Sci-Remote monitoring &amp; telehealth</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Small molecules</fullName>
+                <default>false</default>
+                <label>Life Sci-Small molecules</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</fullName>
+                <default>false</default>
+                <label>Life Sci-Specialized Business Services (Banking, Accounting Legal, consulting etc.)</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Specialized Research Service Providers (Laboratory, Clinical Testing)</fullName>
+                <default>false</default>
+                <label>Life Sci-Specialized Research Service Providers (Laboratory, Clinical Testing)</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Life Sci-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Synthetic biology</fullName>
+                <default>false</default>
+                <label>Life Sci-Synthetic biology</label>
+            </value>
+            <value>
+                <fullName>Life Sci-Vaccines</fullName>
+                <default>false</default>
+                <label>Life Sci-Vaccines</label>
+            </value>
+            <value>
+                <fullName>Music-Bar / Nightclub</fullName>
+                <default>false</default>
+                <label>Music-Bar / Nightclub</label>
+            </value>
+            <value>
+                <fullName>Music-Communications media</fullName>
+                <default>false</default>
+                <label>Music-Communications media</label>
+            </value>
+            <value>
+                <fullName>Music-Events / Exhibitions</fullName>
+                <default>false</default>
+                <label>Music-Events / Exhibitions</label>
+            </value>
+            <value>
+                <fullName>Music-Fashion</fullName>
+                <default>false</default>
+                <label>Music-Fashion</label>
+            </value>
+            <value>
+                <fullName>Music-Festivals</fullName>
+                <default>false</default>
+                <label>Music-Festivals</label>
+            </value>
+            <value>
+                <fullName>Music-Industry Association/ Organizations</fullName>
+                <default>false</default>
+                <label>Music-Industry Association/ Organizations</label>
+            </value>
+            <value>
+                <fullName>Music-Leisure Attractions</fullName>
+                <default>false</default>
+                <label>Music-Leisure Attractions</label>
+            </value>
+            <value>
+                <fullName>Music-Leisure Centers</fullName>
+                <default>false</default>
+                <label>Music-Leisure Centers</label>
+            </value>
+            <value>
+                <fullName>Music-Live Entertainment</fullName>
+                <default>false</default>
+                <label>Music-Live Entertainment</label>
+            </value>
+            <value>
+                <fullName>Music-Lodging</fullName>
+                <default>false</default>
+                <label>Music-Lodging</label>
+            </value>
+            <value>
+                <fullName>Music-Marketing &amp; promotional firms</fullName>
+                <default>false</default>
+                <label>Music-Marketing &amp; promotional firms</label>
+            </value>
+            <value>
+                <fullName>Music-Music &amp; Television</fullName>
+                <default>false</default>
+                <label>Music-Music &amp; Television</label>
+            </value>
+            <value>
+                <fullName>Music-Non for Profit</fullName>
+                <default>false</default>
+                <label>Music-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Music-Post Production</fullName>
+                <default>false</default>
+                <label>Music-Post Production</label>
+            </value>
+            <value>
+                <fullName>Music-Publishers</fullName>
+                <default>false</default>
+                <label>Music-Publishers</label>
+            </value>
+            <value>
+                <fullName>Music-Recording &amp; distribution</fullName>
+                <default>false</default>
+                <label>Music-Recording &amp; distribution</label>
+            </value>
+            <value>
+                <fullName>Music-Recreation, Amusements &amp; Attractions</fullName>
+                <default>false</default>
+                <label>Music-Recreation, Amusements &amp; Attractions</label>
+            </value>
+            <value>
+                <fullName>Music-Restaurants and Food &amp; Beverage Services</fullName>
+                <default>false</default>
+                <label>Music-Restaurants and Food &amp; Beverage Services</label>
+            </value>
+            <value>
+                <fullName>Music-Software developers</fullName>
+                <default>false</default>
+                <label>Music-Software developers</label>
+            </value>
+            <value>
+                <fullName>Music-Specialized Business Services (legal, financial) unions &amp; guilds</fullName>
+                <default>false</default>
+                <label>Music-Specialized Business Services (legal, financial) unions &amp; guilds</label>
+            </value>
+            <value>
+                <fullName>Music-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Music-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Music-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Music-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Music-Studios &amp; Production Facilitates</fullName>
+                <default>false</default>
+                <label>Music-Studios &amp; Production Facilitates</label>
+            </value>
+            <value>
+                <fullName>Music-Talent development firms</fullName>
+                <default>false</default>
+                <label>Music-Talent development firms</label>
+            </value>
+            <value>
+                <fullName>Music-Tour Operators</fullName>
+                <default>false</default>
+                <label>Music-Tour Operators</label>
+            </value>
+            <value>
+                <fullName>Music-Travel Agents</fullName>
+                <default>false</default>
+                <label>Music-Travel Agents</label>
+            </value>
+            <value>
+                <fullName>Music-Venues</fullName>
+                <default>false</default>
+                <label>Music-Venues</label>
+            </value>
+            <value>
+                <fullName>Retail-After Sales Service Providers</fullName>
+                <default>false</default>
+                <label>Retail-After Sales Service Providers</label>
+            </value>
+            <value>
+                <fullName>Retail-Convenience Store</fullName>
+                <default>false</default>
+                <label>Retail-Convenience Store</label>
+            </value>
+            <value>
+                <fullName>Retail-Department Store</fullName>
+                <default>false</default>
+                <label>Retail-Department Store</label>
+            </value>
+            <value>
+                <fullName>Retail-Discount Stores</fullName>
+                <default>false</default>
+                <label>Retail-Discount Stores</label>
+            </value>
+            <value>
+                <fullName>Retail-Distribution</fullName>
+                <default>false</default>
+                <label>Retail-Distribution</label>
+            </value>
+            <value>
+                <fullName>Retail-E-Commerce</fullName>
+                <default>false</default>
+                <label>Retail-E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Retail-E-talier</fullName>
+                <default>false</default>
+                <label>Retail-E-talier</label>
+            </value>
+            <value>
+                <fullName>Retail-General Merchandise Stores</fullName>
+                <default>false</default>
+                <label>Retail-General Merchandise Stores</label>
+            </value>
+            <value>
+                <fullName>Retail-Grocery</fullName>
+                <default>false</default>
+                <label>Retail-Grocery</label>
+            </value>
+            <value>
+                <fullName>Retail-Importer/ Wholesaler</fullName>
+                <default>false</default>
+                <label>Retail-Importer/ Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Retail-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Retail-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Retail-Logistics Providers</fullName>
+                <default>false</default>
+                <label>Retail-Logistics Providers</label>
+            </value>
+            <value>
+                <fullName>Retail-Malls</fullName>
+                <default>false</default>
+                <label>Retail-Malls</label>
+            </value>
+            <value>
+                <fullName>Retail-Non for Profit</fullName>
+                <default>false</default>
+                <label>Retail-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Retail-Packaged Goods Companies</fullName>
+                <default>false</default>
+                <label>Retail-Packaged Goods Companies</label>
+            </value>
+            <value>
+                <fullName>Retail-Quality Control Providers</fullName>
+                <default>false</default>
+                <label>Retail-Quality Control Providers</label>
+            </value>
+            <value>
+                <fullName>Retail-RetailTech</fullName>
+                <default>false</default>
+                <label>Retail-RetailTech</label>
+            </value>
+            <value>
+                <fullName>Retail-Specialized Business Services (Packaging, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Retail-Specialized Business Services (Packaging, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Retail-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Retail-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Retail-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Retail-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Retail-Specialty Store</fullName>
+                <default>false</default>
+                <label>Retail-Specialty Store</label>
+            </value>
+            <value>
+                <fullName>Tech.-Analytics &amp; Visualization</fullName>
+                <default>false</default>
+                <label>Tech.-Analytics &amp; Visualization</label>
+            </value>
+            <value>
+                <fullName>Tech.-Blockchain</fullName>
+                <default>false</default>
+                <label>Tech.-Blockchain</label>
+            </value>
+            <value>
+                <fullName>Tech.-Cybersecurity</fullName>
+                <default>false</default>
+                <label>Tech.-Cybersecurity</label>
+            </value>
+            <value>
+                <fullName>Tech.-Data Centre</fullName>
+                <default>false</default>
+                <label>Tech.-Data Centre</label>
+            </value>
+            <value>
+                <fullName>Tech.-E-commerce</fullName>
+                <default>false</default>
+                <label>Tech.-E-commerce</label>
+            </value>
+            <value>
+                <fullName>Tech.-EducationTech</fullName>
+                <default>false</default>
+                <label>Tech.-EducationTech</label>
+            </value>
+            <value>
+                <fullName>Tech.-FinTech</fullName>
+                <default>false</default>
+                <label>Tech.-FinTech</label>
+            </value>
+            <value>
+                <fullName>Tech.-Gaming</fullName>
+                <default>false</default>
+                <label>Tech.-Gaming</label>
+            </value>
+            <value>
+                <fullName>Tech.-HealthTech</fullName>
+                <default>false</default>
+                <label>Tech.-HealthTech</label>
+            </value>
+            <value>
+                <fullName>Tech.-Industry Association/Organizations</fullName>
+                <default>false</default>
+                <label>Tech.-Industry Association/Organizations</label>
+            </value>
+            <value>
+                <fullName>Tech.-InsuranceTech</fullName>
+                <default>false</default>
+                <label>Tech.-InsuranceTech</label>
+            </value>
+            <value>
+                <fullName>Tech.-Machine Learning/ Artificial Intelligence</fullName>
+                <default>false</default>
+                <label>Tech.-Machine Learning/ Artificial Intelligence</label>
+            </value>
+            <value>
+                <fullName>Tech.-Non for Profit</fullName>
+                <default>false</default>
+                <label>Tech.-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Tech.-RetailTech</fullName>
+                <default>false</default>
+                <label>Tech.-RetailTech</label>
+            </value>
+            <value>
+                <fullName>Tech.-Robotics</fullName>
+                <default>false</default>
+                <label>Tech.-Robotics</label>
+            </value>
+            <value>
+                <fullName>Tech.-Smart Cities</fullName>
+                <default>false</default>
+                <label>Tech.-Smart Cities</label>
+            </value>
+            <value>
+                <fullName>Tech.-Software Engineering</fullName>
+                <default>false</default>
+                <label>Tech.-Software Engineering</label>
+            </value>
+            <value>
+                <fullName>Tech.-Specialized Business Services (Banking, Packaging, Legal)</fullName>
+                <default>false</default>
+                <label>Tech.-Specialized Business Services (Banking, Packaging, Legal)</label>
+            </value>
+            <value>
+                <fullName>Tech.-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Tech.-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Tech.-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Tech.-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Tech.-Virtual &amp; Augmented Reality</fullName>
+                <default>false</default>
+                <label>Tech.-Virtual &amp; Augmented Reality</label>
+            </value>
+            <value>
+                <fullName>Tech.-Web Design &amp; Services</fullName>
+                <default>false</default>
+                <label>Tech.-Web Design &amp; Services</label>
+            </value>
+            <value>
+                <fullName>Tour-Bar / Nightclub</fullName>
+                <default>false</default>
+                <label>Tour-Bar / Nightclub</label>
+            </value>
+            <value>
+                <fullName>Tour-Communications media</fullName>
+                <default>false</default>
+                <label>Tour-Communications media</label>
+            </value>
+            <value>
+                <fullName>Tour-Events / Exhibitions</fullName>
+                <default>false</default>
+                <label>Tour-Events / Exhibitions</label>
+            </value>
+            <value>
+                <fullName>Tour-Fashion</fullName>
+                <default>false</default>
+                <label>Tour-Fashion</label>
+            </value>
+            <value>
+                <fullName>Tour-Festivals</fullName>
+                <default>false</default>
+                <label>Tour-Festivals</label>
+            </value>
+            <value>
+                <fullName>Tour-Industry Association/ Organizations</fullName>
+                <default>false</default>
+                <label>Tour-Industry Association/ Organizations</label>
+            </value>
+            <value>
+                <fullName>Tour-Leisure Attractions</fullName>
+                <default>false</default>
+                <label>Tour-Leisure Attractions</label>
+            </value>
+            <value>
+                <fullName>Tour-Leisure Centers</fullName>
+                <default>false</default>
+                <label>Tour-Leisure Centers</label>
+            </value>
+            <value>
+                <fullName>Tour-Live Entertainment</fullName>
+                <default>false</default>
+                <label>Tour-Live Entertainment</label>
+            </value>
+            <value>
+                <fullName>Tour-Lodging</fullName>
+                <default>false</default>
+                <label>Tour-Lodging</label>
+            </value>
+            <value>
+                <fullName>Tour-Marketing &amp; promotional firms</fullName>
+                <default>false</default>
+                <label>Tour-Marketing &amp; promotional firms</label>
+            </value>
+            <value>
+                <fullName>Tour-Non for Profit</fullName>
+                <default>false</default>
+                <label>Tour-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Tour-Post Production</fullName>
+                <default>false</default>
+                <label>Tour-Post Production</label>
+            </value>
+            <value>
+                <fullName>Tour-Publishers</fullName>
+                <default>false</default>
+                <label>Tour-Publishers</label>
+            </value>
+            <value>
+                <fullName>Tour-Recording &amp; distribution</fullName>
+                <default>false</default>
+                <label>Tour-Recording &amp; distribution</label>
+            </value>
+            <value>
+                <fullName>Tour-Recreation, Amusements &amp; Attractions</fullName>
+                <default>false</default>
+                <label>Tour-Recreation, Amusements &amp; Attractions</label>
+            </value>
+            <value>
+                <fullName>Tour-Restaurants and Food &amp; Beverage Services</fullName>
+                <default>false</default>
+                <label>Tour-Restaurants and Food &amp; Beverage Services</label>
+            </value>
+            <value>
+                <fullName>Tour-Software developers</fullName>
+                <default>false</default>
+                <label>Tour-Software developers</label>
+            </value>
+            <value>
+                <fullName>Tour-Specialized Business Services (legal, financial) unions &amp; guilds</fullName>
+                <default>false</default>
+                <label>Tour-Specialized Business Services (legal, financial) unions &amp; guilds</label>
+            </value>
+            <value>
+                <fullName>Tour-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Tour-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Tour-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Tour-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Tour-Studios &amp; Production Facilitates</fullName>
+                <default>false</default>
+                <label>Tour-Studios &amp; Production Facilitates</label>
+            </value>
+            <value>
+                <fullName>Tour-Talent development firms</fullName>
+                <default>false</default>
+                <label>Tour-Talent development firms</label>
+            </value>
+            <value>
+                <fullName>Tour-Tour &amp; Television</fullName>
+                <default>false</default>
+                <label>Tour-Tour &amp; Television</label>
+            </value>
+            <value>
+                <fullName>Tour-Tour Operators</fullName>
+                <default>false</default>
+                <label>Tour-Tour Operators</label>
+            </value>
+            <value>
+                <fullName>Tour-Travel Agents</fullName>
+                <default>false</default>
+                <label>Tour-Travel Agents</label>
+            </value>
+            <value>
+                <fullName>Tour-Venues</fullName>
+                <default>false</default>
+                <label>Tour-Venues</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Freight Forwarding</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Freight Forwarding</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Industry Association/ Organizations</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Industry Association/ Organizations</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-International Logistics Service Providers</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-International Logistics Service Providers</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Kitting, Assembly &amp; Packaging</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Kitting, Assembly &amp; Packaging</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Non for Profit</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Non for Profit</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Specialized Business Services (Packaging, Accounting Legal etc.)</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Specialized Business Services (Packaging, Accounting Legal etc.)</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Specialized Research Service Providers</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Specialized Research Service Providers</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Specialized Risk Capital (VC Firms, Angel Networks)</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Specialized Risk Capital (VC Firms, Angel Networks)</label>
+            </value>
+            <value>
+                <fullName>Trans, Dist &amp; Logistics-Transportation Systems/ Infrastructure Planning Management &amp; Regulation</fullName>
+                <default>false</default>
+                <label>Trans, Dist &amp; Logistics-Transportation Systems/ Infrastructure Planning Management &amp; Regulation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

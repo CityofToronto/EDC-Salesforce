@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Need to specify details if Other selected in Any Financial Assistance Received? --></help>
+    <label><!-- Other Financial Assistance Detail --></label>
+    <name>Other_Financial_Assistance_Detail__c</name>
+</CustomFieldTranslation>

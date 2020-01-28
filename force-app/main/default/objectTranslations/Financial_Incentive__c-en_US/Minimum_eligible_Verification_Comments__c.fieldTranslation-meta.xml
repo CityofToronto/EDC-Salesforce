@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Minimum New eligible gfa verification comments --></help>
+    <label><!-- Minimum eligible Verification Comments --></label>
+    <name>Minimum_eligible_Verification_Comments__c</name>
+</CustomFieldTranslation>

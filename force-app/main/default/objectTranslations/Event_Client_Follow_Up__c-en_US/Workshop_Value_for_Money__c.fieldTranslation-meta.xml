@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Workshop – Value for Money --></label>
+    <name>Workshop_Value_for_Money__c</name>
+    <picklistValues>
+        <masterLabel>A Great Deal of Value</masterLabel>
+        <translation><!-- A Great Deal of Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A Lot of Value</masterLabel>
+        <translation><!-- A Lot of Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A Moderate Level of Value</masterLabel>
+        <translation><!-- A Moderate Level of Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Little Value</masterLabel>
+        <translation><!-- Little Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Value</masterLabel>
+        <translation><!-- No Value --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

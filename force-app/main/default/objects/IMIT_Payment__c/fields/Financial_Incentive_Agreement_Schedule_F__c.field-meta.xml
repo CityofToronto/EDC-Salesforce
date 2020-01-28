@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Incentive_Agreement_Schedule_F__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Agreement between the City and Owner, to be registered on title, that sets out the terms and conditions of the Brownfields Remediation Tax Assistance and/or the Development Grant Program, as applicable. This is also verified in the Statutory Delcaration and through the in-person site visit.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Agreement between the City and Owner, to be registered on title, that sets out the terms and conditions of the Brown fields Remediation Tax Assistance and/or the Development Grant Program, as applicable.</inlineHelpText>
+    <label>Financial Incentive Agreement Schedule F</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

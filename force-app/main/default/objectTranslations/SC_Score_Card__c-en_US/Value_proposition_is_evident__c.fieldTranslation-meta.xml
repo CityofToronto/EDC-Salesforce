@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The value proposition is evident? --></help>
+    <label><!-- Value proposition is evident? --></label>
+    <name>Value_proposition_is_evident__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (1 pt)</masterLabel>
+        <translation><!-- Yes (1 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

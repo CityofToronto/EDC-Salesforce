@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Describe the use(s) of the property and the type of business to be conducted --></help>
+    <label><!-- Describe Use 1 --></label>
+    <name>Describe_Use_1__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to ES stakeholders about the EDC strategy.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EDC-Strategy</name>
+    <style>none</style>
+    <subject>Input Request - City of Toronto Economic Development Strategy</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

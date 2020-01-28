@@ -1,0 +1,15 @@
+Dear {!Online_Registration__c.Contact__c},
+
+Thank you for coming to Enterprise Toronto for your business needs. Please fill out this 1 minute Client Satisfaction Survey:
+
+https://cityoftoronto.tfaforms.net/355809?ID={!Online_Registration__c.Id}
+
+Otherwise, feel free to contact us anytime to discuss your business needs.
+
+Regards,
+
+Paul Pirri, 
+Acting Manager, Entrepreneurship Services
+City of Toronto
+
+Visit Enterprise Toronto @ www.toronto.ca/enterprisetoronto

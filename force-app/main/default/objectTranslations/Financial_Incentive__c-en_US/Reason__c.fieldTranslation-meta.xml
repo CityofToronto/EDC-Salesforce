@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Reason why the IMIT application has been withdrawn or Inactive --></help>
+    <label><!-- Reason --></label>
+    <name>Reason__c</name>
+</CustomFieldTranslation>

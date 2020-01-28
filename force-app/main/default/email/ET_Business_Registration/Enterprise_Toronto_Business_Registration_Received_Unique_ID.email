@@ -1,0 +1,20 @@
+Dear David,
+
+The following is Business Registration ({!Online_Registration__c.Name})
+
+Please follow the below link to see the registration details and process it.
+
+https://cityoftoronto.tfaforms.net/355780?ID={!Online_Registration__c.Id}
+
+Please click the below link to download the Document.
+
+{!Online_Registration__c.Reg_Confirmation_PDF__c}
+
+
+Regards,
+
+Paul Pirri, 
+Acting Manager, Entrepreneurship Services
+City of Toronto
+
+www.toronto.ca/business

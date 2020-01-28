@@ -1,0 +1,5 @@
+<p>Hello {!Financial_Incentive__c.Contact__c},</p>
+<p>Thanks again for your application to the City of Toronto's City of Toronto's Startup Community Grant Program. We are happy to report that your request has been approved in the amount of ${!Financial_Incentive__c.Amount_Approved__c}.</p>
+<p>As part of our sponsorship, we require you to recognize both the City of Toronto and StartUp HERE Toronto in your materials.&nbsp; You can find both logo requirements via the following link - <a href="https://www.dropbox.com/sh/wc3olu9i6avdihx/AABQqB8M12f3nU_MUyJ_gPxda?dl=0">https://www.dropbox.com/sh/wc3olu9i6avdihx/AABQqB8M12f3nU_MUyJ_gPxda?dl=0</a></p>
+<p>Otherwise, we will be in touch to discuss next steps.</p>
+<p>Regards,<br />Entrepreneurship Services<br />Economic Development &amp; Culture<br />City of Toronto<br />www.toronto.ca/business</p>

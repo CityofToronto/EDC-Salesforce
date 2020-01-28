@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Emails to multipliers to help promote B2Bs for Cdn companies.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Collision-CdnB2BOrgChannels(18Mar19)</name>
+    <style>none</style>
+    <subject>Collision @ Toronto - Connecting Canadian Companies to International Buyers</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

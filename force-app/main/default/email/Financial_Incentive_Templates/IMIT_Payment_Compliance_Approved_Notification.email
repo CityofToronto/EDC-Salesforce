@@ -1,0 +1,7 @@
+Dear User,
+
+Your IMIT Payment Approval Request has been approved by both Approvers. Please refer below link to further action Payment Request.
+
+{!IMIT_Payment__c.Link}
+
+Thanks

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_to_compare_Total_Grant_Amount</fullName>
+    <active>true</active>
+    <description>This field value will compare the the calculated Grant amount with Total Grant Amount field before saving a record.</description>
+    <errorConditionFormula>Financial_Incentive__r.Total_Grant_Amount__c &lt;  Financial_Incentive__r.Roll_Up_IMIT_Payment_Amount__c</errorConditionFormula>
+    <errorMessage>The value in Total Grant Amount should not be less than payment made for all IMIT Payment records.</errorMessage>
+</ValidationRule>

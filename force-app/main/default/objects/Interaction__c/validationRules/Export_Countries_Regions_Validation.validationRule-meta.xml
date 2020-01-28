@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Export_Countries_Regions_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &#39;Company_Intelligence&#39;, ISBLANK( Export_Countries_Regions_m__c),TEXT( Do_You_Export__c )=&#39;Yes&#39;)</errorConditionFormula>
+    <errorDisplayField>Export_Countries_Regions_m__c</errorDisplayField>
+    <errorMessage>Required Input</errorMessage>
+</ValidationRule>

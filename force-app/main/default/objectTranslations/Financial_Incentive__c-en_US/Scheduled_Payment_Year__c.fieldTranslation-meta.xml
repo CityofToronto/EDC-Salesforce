@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The tax year for which the payments are to be made --></help>
+    <label><!-- Scheduled Payment Year --></label>
+    <name>Scheduled_Payment_Year__c</name>
+</CustomFieldTranslation>

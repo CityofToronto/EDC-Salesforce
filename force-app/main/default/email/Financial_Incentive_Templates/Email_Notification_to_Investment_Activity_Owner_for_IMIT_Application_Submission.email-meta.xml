@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template will be used to notify Investment Activity Owner whenever IMIT application is submitted for Approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Email Notification to Investment Activity Owner for IMIT Application Submission</name>
+    <style>none</style>
+    <subject>IMIT Request Approved by GM</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

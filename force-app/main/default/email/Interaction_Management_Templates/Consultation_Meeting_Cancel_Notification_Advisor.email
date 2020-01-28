@@ -1,0 +1,16 @@
+{!Interaction__c.Advisor_Lookup__c}, 
+
+A client has cancelled a consultation scheduled with you. The following are the details: 
+
+Client Name: {!Interaction__c.Contact__c} 
+Client Business Name: {!Interaction__c.Account_Name__c} 
+Date: {!Interaction__c.Meeting_Date__c} 
+Time: {!Interaction__c.MeetingTime__c} 
+Location: {!Interaction__c.Location__c} 
+Consultant: {!Interaction__c.Advisor_Lookup__c} 
+Reason for Cancellation:{!Interaction__c.Reason_for_Cancellation__c}
+Link to Business Plan: {!Interaction__c.Link} 
+
+Thanks, 
+
+City of Toronto

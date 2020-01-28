@@ -1,0 +1,13 @@
+Dear {!Business_Incubation_Grants__c.First_Name__c},
+<P>
+Thanks again for involving the City of Toronto in your recent event - {!Business_Incubation_Grants__c.Name_of_Event__c}.  We appreciate the opportunity to be involved.
+<P>
+As part of our sponsorship of the event, we require some feedback on the event.  Could you please complete the following report form?
+<P>
+https://cityoftoronto.tfaforms.net/355816?tfa_2={!Business_Incubation_Grants__c.Name}
+<P>
+Thanks and please keep us involved in your upcoming activities.
+<P>
+Regards,
+<P>
+Nina

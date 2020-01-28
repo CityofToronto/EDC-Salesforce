@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DMS_Businesses</fullName>
+    <columns>NAME</columns>
+    <columns>Account_DMS__c</columns>
+    <columns>Contact_DMS__c</columns>
+    <columns>Business_Improvement_Area__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Business</value>
+    </filters>
+    <label>DMS - Businesses</label>
+    <sharedTo/>
+</ListView>

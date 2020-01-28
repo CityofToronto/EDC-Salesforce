@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Economic_Partnership_Advisor__c</fullName>
+    <externalId>false</externalId>
+    <label>Economic Partnership Advisor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Angela Varone</fullName>
+                <default>false</default>
+                <label>Angela Varone</label>
+            </value>
+            <value>
+                <fullName>Antonella Nicaso</fullName>
+                <default>false</default>
+                <label>Antonella Nicaso</label>
+            </value>
+            <value>
+                <fullName>David Hessels</fullName>
+                <default>false</default>
+                <label>David Hessels</label>
+            </value>
+            <value>
+                <fullName>Evelyn D&#39;Souza</fullName>
+                <default>false</default>
+                <label>Evelyn D&#39;Souza</label>
+            </value>
+            <value>
+                <fullName>Marianne Szczuryk</fullName>
+                <default>false</default>
+                <label>Marianne Szczuryk</label>
+            </value>
+            <value>
+                <fullName>Michael Saunders</fullName>
+                <default>false</default>
+                <label>Michael Saunders</label>
+            </value>
+            <value>
+                <fullName>Mike Kari</fullName>
+                <default>false</default>
+                <label>Mike Kari</label>
+            </value>
+            <value>
+                <fullName>Mike Major</fullName>
+                <default>false</default>
+                <label>Mike Major</label>
+            </value>
+            <value>
+                <fullName>Mirella Martino</fullName>
+                <default>false</default>
+                <label>Mirella Martino</label>
+            </value>
+            <value>
+                <fullName>Ned Sabev</fullName>
+                <default>false</default>
+                <label>Ned Sabev</label>
+            </value>
+            <value>
+                <fullName>Rajashree Kumar</fullName>
+                <default>false</default>
+                <label>Rajashree Kumar</label>
+            </value>
+            <value>
+                <fullName>Robert Patterson</fullName>
+                <default>false</default>
+                <label>Robert Patterson</label>
+            </value>
+            <value>
+                <fullName>Ron Nash</fullName>
+                <default>false</default>
+                <label>Ron Nash</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

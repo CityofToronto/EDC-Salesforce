@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SUB_TOTAL_FA__c</fullName>
+    <externalId>false</externalId>
+    <formula>Points_Cash_Flow_projections__c + Points_Demonstrated_personal__c + Points_Assumptions_identified__c + Points_Sales_Revenue_projections__c + Points_All_Operating_Cost__c + Points_Grant_Allocation_FP__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SUB-TOTAL</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

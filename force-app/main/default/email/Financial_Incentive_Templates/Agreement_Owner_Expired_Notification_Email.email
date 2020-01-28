@@ -1,0 +1,8 @@
+Dear {!International_Agreement__c.Agreement_Owner__c}, 
+
+
+The {!International_Agreement__c.Name} Agreement reached its term on {!International_Agreement__c.AgreementEndDate__c} and has been Expired. 
+
+Click on the below link to access the Agreement directly: {!International_Agreement__c.Link} 
+
+Thanks

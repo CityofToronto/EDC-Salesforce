@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Details a realistic marketing plan that aggressively introduces the product/service to the target market (based on sound market research) --></help>
+    <label><!-- Details a realistic marketing plan? --></label>
+    <name>Details_a_realistic_marketing_plan__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (5 pt)</masterLabel>
+        <translation><!-- Yes (5 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

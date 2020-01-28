@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Business_101_Online_Training_User_Notification</fullName>
+        <description>Business 101 Online Training User Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Business_101_Online_Training_User_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Business_Fundamental_Online_Training_User_Notification</fullName>
+        <description>Business Fundamental Online Training User Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Business_Fundamental_Online_Training_User_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Event_Business_Network_Feedback</fullName>
+        <description>Event - Business Network Feedback</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Event_Business_Network_Feedback_Notification_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Event_Business_StartUp_and_Expansion_Feedback</fullName>
+        <description>Event - Business StartUp and Expansion Feedback</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Event_Business_StartUp_and_Expansion_Feedback_Notification_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Event_Online_Training_Feedback</fullName>
+        <description>Event - Online Training Feedback</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/Event_Business_StartUp_and_Expansion_Feedback_Notification_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>International_Business_Outcome_Survey_Sent_After_6_Months</fullName>
+        <description>International Business Outcome Survey Sent After 6 Months</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/International_Events_Business_Outcome_Survey_6_Months</template>
+    </alerts>
+    <alerts>
+        <fullName>International_Events_Business_Outcome_Survey_Sent_After_12_Months</fullName>
+        <description>International Events Business Outcome Survey Sent After 12 Months</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Interaction_Management_Templates/International_Events_Business_Outcome_Survey_12_Months</template>
+    </alerts>
+    <alerts>
+        <fullName>Mission_Feeback_Notification_Email</fullName>
+        <description>Mission Feeback Notification Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Mission_Feedback_Notification_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Outbound_Mission_Outcome_Survey_12_Months</fullName>
+        <description>Outbound Mission Outcome Survey 12 - Months</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Mission_Outcome_Survey_12_Months</template>
+    </alerts>
+    <alerts>
+        <fullName>Outbound_Mission_Outcome_Survey_6_Months</fullName>
+        <description>Outbound Mission Outcome Survey 6 - Months</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Interaction_Management_Templates/Mission_Outcome_Survey_6_Months</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ClientNetworkStageUpdate</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>ClientNetworkStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ClientSatisfactionStageUpdate</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>ClientSatisfactionStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ClientSatisfactionStageUpdateOnline</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>ClientSatisfactionStageUpdateOnline</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Client_Satisfaction_Survey_Unresponsive</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Unresponsive</literalValue>
+        <name>Client Satisfaction Survey Unresponsive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>InitialClientSatisfactionStageUpdate</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>InitialClientSatisfactionStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>InitialSurveyStageFinaUpdateMission</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>Sent</literalValue>
+        <name>InitialSurveyStageFinaUpdateMission</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>InitialSurveyStageUpdateIntEvents</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>InitialSurveyStageUpdateIntEvents</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>InitialSurveyStageUpdateMission</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>InitialSurveyStageUpdateMission</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Initial_Survey_Stage_Unresponsive</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>Unresponsive</literalValue>
+        <name>Initial Survey Stage Unresponsive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MissionSatisfactionStageUpdtae</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>MissionSatisfactionStageUpdtae</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MissionStageUpdate</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>MissionStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NetworkStageUpdate</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>NetworkStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OnlineTrainClientSatisfactionStageUpdate</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>OnlineTrainClientSatisfactionStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Satisfaction_Survey_Unresponsive_Online</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Unresponsive</literalValue>
+        <name>Satisfaction Survey Unresponsive Online</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X180DaysSurveyStageUpdate</fullName>
+        <field>Initial_Survey_Stage__c</field>
+        <literalValue>Sent</literalValue>
+        <name>180DaysSurveyStageUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X1YearSurveyStageFinalUpdateIntEvents</fullName>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>Sent</literalValue>
+        <name>1YearSurveyStageFinalUpdateIntEvents</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X1YearSurveyStageFinalUpdateMission</fullName>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>Sent</literalValue>
+        <name>1YearSurveyStageFinalUpdateMission</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X1YearSurveyStageUpdateIntEvents</fullName>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>1YearSurveyStageUpdateIntEvents</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X1YearSurveyStageUpdateMission</fullName>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>1YearSurveyStageUpdateMission</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Yearly_Survey_Stage_Unresponsive</fullName>
+        <field>X1_Year_Survey_Stage__c</field>
+        <literalValue>Unresponsive</literalValue>
+        <name>Yearly Survey Stage Unresponsive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Business 101 Online Training Registration Notification</fullName>
+        <actions>
+            <name>Business_101_Online_Training_User_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.Name</field>
+            <operation>equals</operation>
+            <value>Business 101 Online Training</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>Online Training</value>
+        </criteriaItems>
+        <description>This rule will trigger the email to user whenever anyone register for Online Training to share the link to YouTube Videos and downloadable presentation for Business 101</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Business Fundamentals Online Training Registration Notification</fullName>
+        <actions>
+            <name>Business_Fundamental_Online_Training_User_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.Name</field>
+            <operation>equals</operation>
+            <value>Business Fundamentals</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>Online Training</value>
+        </criteriaItems>
+        <description>This rule will trigger the email to user whenever anyone register for Online Training to share the link to YouTube Videos and downloadable presentation for Business Fundamentals</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Client Satisfaction Survey - Unresponsive</fullName>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND (3 OR 4) AND 5</booleanFilter>
+        <criteriaItems>
+            <field>CampaignMember.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Mission Program Member,International Program Member,Business Training Program Member,Mission Program Member,International Program Member</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Client_Satisfaction_Survey_Status__c</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>International Events,Business Start Up,Business Expansion</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.International_Project_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound Mission</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will update the Client Satisfaction Survey Stage field to Unresponsive after 30 days of notification date applicable to all process except Online Training.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Client_Satisfaction_Survey_Unresponsive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>31</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Client Satisfaction Survey - Unresponsive%28Online Training%29</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>CampaignMember.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Training Program Member,Mission Program Member,International Program Member</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Client_Satisfaction_Survey_Status__c</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>Online Training</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will update the Client Satisfaction Survey Stage field to Unresponsive after 37 days of record created date applicable to only Online Training.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Satisfaction_Survey_Unresponsive_Online</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.CreatedDate</offsetFromField>
+            <timeLength>37</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Event - Business Networking Feedback</fullName>
+        <actions>
+            <name>ClientNetworkStageUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Event_Type__c</field>
+            <operation>equals</operation>
+            <value>Networking Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initiative_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Attendee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Client Satisfaction Survey for Networking Events 1 Day after the event completion.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Event_Business_Network_Feedback</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>NetworkStageUpdate</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Event - Business Online Training Feedback</fullName>
+        <actions>
+            <name>OnlineTrainClientSatisfactionStageUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>Online Training</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Attendee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Client Satisfaction Survey for Online Training Events</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Event_Online_Training_Feedback</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ClientSatisfactionStageUpdateOnline</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.CreatedDate</offsetFromField>
+            <timeLength>7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Event - Business StartUp%2FExpansion%2FInternational Event Feedback</fullName>
+        <actions>
+            <name>InitialClientSatisfactionStageUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Event_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Training</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initiative_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Start Up,Business Expansion,International Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Attendee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Client Satisfaction Survey for Business Start Up, Business Outcome and International Events 1 Day after the event completion</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Event_Business_StartUp_and_Expansion_Feedback</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ClientSatisfactionStageUpdate</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Initial Outcome Survey Mission%2FInternational- Unresponsive</fullName>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 6 AND (4 OR 5) AND 7</booleanFilter>
+        <criteriaItems>
+            <field>CampaignMember.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Mission Program Member,International Program Member</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initial_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.International_Project_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound Mission</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>International Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initial_Survey_Stage__c</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will update the Initial Survey Stage field to Unresponsive after 30 days of final reminder.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Initial_Survey_Stage_Unresponsive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>210</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>International Events Outcome Survey - 12 Months</fullName>
+        <actions>
+            <name>X1YearSurveyStageUpdateIntEvents</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>International Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.X1_Year_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Unsubscribe_from_Follow_Up_Emails__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initiative_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Attendee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Business Outcome Survey after 12 months for International Events.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>International_Events_Business_Outcome_Survey_Sent_After_12_Months</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X1YearSurveyStageFinalUpdateIntEvents</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>365</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>International Events Outcome Survey - 6 Months</fullName>
+        <actions>
+            <name>InitialSurveyStageUpdateIntEvents</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>International Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initial_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Unsubscribe_from_Follow_Up_Emails__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initiative_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Attendee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Business Outcome Survey after 6 months for International Events.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>International_Business_Outcome_Survey_Sent_After_6_Months</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X180DaysSurveyStageUpdate</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>180</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Mission Feedback Notification</fullName>
+        <actions>
+            <name>MissionStageUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Projects</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.International_Project_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound Mission</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Status</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Delegate (Outbound)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initiative_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Client Satisfaction Survey for Mission Project type 1 Day after the Mission completion date.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Mission_Feeback_Notification_Email</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>MissionSatisfactionStageUpdtae</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Outbound Mission Outcome Survey - 12 Months</fullName>
+        <actions>
+            <name>X1YearSurveyStageUpdateMission</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <field>Campaign.International_Project_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound Mission</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.X1_Year_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Unsubscribe_from_Follow_Up_Emails__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Delegate (Outbound)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initiative_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Business Outcome Survey after 12 months for Outbound Mission Events.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Outbound_Mission_Outcome_Survey_12_Months</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>X1YearSurveyStageFinalUpdateMission</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>365</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Outbound Mission Outcome Survey - 6 Months</fullName>
+        <actions>
+            <name>InitialSurveyStageUpdateMission</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <field>Campaign.International_Project_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound Mission</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initial_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Unsubscribe_from_Follow_Up_Emails__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Member_Role__c</field>
+            <operation>equals</operation>
+            <value>Stakeholder - Delegate (Outbound)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Initiative_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Related_Contact_Account_Type__c</field>
+            <operation>equals</operation>
+            <value>Business Client</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will trigger Business Outcome Survey after 6 months for Outbound Mission Events.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Outbound_Mission_Outcome_Survey_6_Months</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>InitialSurveyStageFinaUpdateMission</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>180</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Yearly Outcome Survey Mission%2FInternational- Unresponsive</fullName>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 6 AND (4 OR 5) AND 7</booleanFilter>
+        <criteriaItems>
+            <field>CampaignMember.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Mission Program Member,International Program Member</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Survey_Start_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.X1_Year_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.International_Project_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound Mission</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.Program_Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>International Events</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.X1_Year_Survey_Stage__c</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.HasOptedOutOfEmail</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This rule will update the 1 Year Survey Stage field to Unresponsive after 30 days of final reminder.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Yearly_Survey_Stage_Unresponsive</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>CampaignMember.Survey_Start_Date__c</offsetFromField>
+            <timeLength>395</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Improvement Area --></label>
+    <name>Business_Improvement_Area__c</name>
+    <picklistValues>
+        <masterLabel>Albion Islington Square</masterLabel>
+        <translation><!-- Albion Islington Square --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baby Point Gates</masterLabel>
+        <translation><!-- Baby Point Gates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bayview Leaside</masterLabel>
+        <translation><!-- Bayview Leaside --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belmont Village</masterLabel>
+        <translation><!-- Belmont Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bloor Annex</masterLabel>
+        <translation><!-- Bloor Annex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bloor Street</masterLabel>
+        <translation><!-- Bloor Street --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bloor West Village</masterLabel>
+        <translation><!-- Bloor West Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bloor by the Park</masterLabel>
+        <translation><!-- Bloor by the Park --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bloor-Yorkville</masterLabel>
+        <translation><!-- Bloor-Yorkville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bloorcourt Village</masterLabel>
+        <translation><!-- Bloorcourt Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bloordale Village</masterLabel>
+        <translation><!-- Bloordale Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bowmanville BIA</masterLabel>
+        <translation><!-- Bowmanville BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabbagetown</masterLabel>
+        <translation><!-- Cabbagetown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinatown</masterLabel>
+        <translation><!-- Chinatown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Church-Wellesley Village</masterLabel>
+        <translation><!-- Church-Wellesley Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>College Promenade</masterLabel>
+        <translation><!-- College Promenade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>College West</masterLabel>
+        <translation><!-- College West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corso Italia</masterLabel>
+        <translation><!-- Corso Italia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Crossroads of the Danforth</masterLabel>
+        <translation><!-- Crossroads of the Danforth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danforth Mosaic</masterLabel>
+        <translation><!-- Danforth Mosaic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danforth Village</masterLabel>
+        <translation><!-- Danforth Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dovercourt Village</masterLabel>
+        <translation><!-- Dovercourt Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Downtown Cambridge</masterLabel>
+        <translation><!-- Downtown Cambridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Downtown Elmira</masterLabel>
+        <translation><!-- Downtown Elmira --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Downtown Kitchener</masterLabel>
+        <translation><!-- Downtown Kitchener --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Downtown Yonge</masterLabel>
+        <translation><!-- Downtown Yonge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dufferin Finch</masterLabel>
+        <translation><!-- Dufferin Finch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dufferin-Wingold</masterLabel>
+        <translation><!-- Dufferin-Wingold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dundas West</masterLabel>
+        <translation><!-- Dundas West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dupont by the Castle</masterLabel>
+        <translation><!-- Dupont by the Castle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eglinton Hill</masterLabel>
+        <translation><!-- Eglinton Hill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emery Village</masterLabel>
+        <translation><!-- Emery Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fairbank Village</masterLabel>
+        <translation><!-- Fairbank Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial District</masterLabel>
+        <translation><!-- Financial District --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forest Hill Village</masterLabel>
+        <translation><!-- Forest Hill Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gerrard India Bazaar</masterLabel>
+        <translation><!-- Gerrard India Bazaar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GreekTown on the Danforth</masterLabel>
+        <translation><!-- GreekTown on the Danforth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harbord Street</masterLabel>
+        <translation><!-- Harbord Street --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hespeler Village</masterLabel>
+        <translation><!-- Hespeler Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hillcrest Village</masterLabel>
+        <translation><!-- Hillcrest Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Historic Queen East</masterLabel>
+        <translation><!-- Historic Queen East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I don&#39;t know</masterLabel>
+        <translation><!-- I don&apos;t know --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Junction Gardens</masterLabel>
+        <translation><!-- Junction Gardens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kennedy Road Neighbourhood</masterLabel>
+        <translation><!-- Kennedy Road Neighbourhood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kensington Market</masterLabel>
+        <translation><!-- Kensington Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Korea Town</masterLabel>
+        <translation><!-- Korea Town --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lakeshore Village</masterLabel>
+        <translation><!-- Lakeshore Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leslieville</masterLabel>
+        <translation><!-- Leslieville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liberty Village</masterLabel>
+        <translation><!-- Liberty Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Little Italy</masterLabel>
+        <translation><!-- Little Italy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Little Portugal District</masterLabel>
+        <translation><!-- Little Portugal District --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long Branch</masterLabel>
+        <translation><!-- Long Branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midtown Yonge</masterLabel>
+        <translation><!-- Midtown Yonge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mimico Village</masterLabel>
+        <translation><!-- Mimico Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mimico by the Lake</masterLabel>
+        <translation><!-- Mimico by the Lake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mirvish Village</masterLabel>
+        <translation><!-- Mirvish Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mount Dennis</masterLabel>
+        <translation><!-- Mount Dennis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mount Pleasant</masterLabel>
+        <translation><!-- Mount Pleasant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Hamburg Downtown</masterLabel>
+        <translation><!-- New Hamburg Downtown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newcastle BIA</masterLabel>
+        <translation><!-- Newcastle BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oakwood Village</masterLabel>
+        <translation><!-- Oakwood Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orono BIA</masterLabel>
+        <translation><!-- Orono BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oshawa BIA</masterLabel>
+        <translation><!-- Oshawa BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ossington Avenue</masterLabel>
+        <translation><!-- Ossington Avenue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outside of Toronto</masterLabel>
+        <translation><!-- Outside of Toronto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pape Village</masterLabel>
+        <translation><!-- Pape Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parkdale Village</masterLabel>
+        <translation><!-- Parkdale Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pickering Village BIA</masterLabel>
+        <translation><!-- Pickering Village BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port Perry BIA</masterLabel>
+        <translation><!-- Port Perry BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preston Towne Centre</masterLabel>
+        <translation><!-- Preston Towne Centre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queen Street West</masterLabel>
+        <translation><!-- Queen Street West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regal Heights Village</masterLabel>
+        <translation><!-- Regal Heights Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Riverside District</masterLabel>
+        <translation><!-- Riverside District --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roncesvalles Village</masterLabel>
+        <translation><!-- Roncesvalles Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rosedale Main Street</masterLabel>
+        <translation><!-- Rosedale Main Street --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sheppard East Village</masterLabel>
+        <translation><!-- Sheppard East Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Clair Gardens</masterLabel>
+        <translation><!-- St. Clair Gardens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Lawrence Market</masterLabel>
+        <translation><!-- St. Lawrence Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Beach</masterLabel>
+        <translation><!-- The Beach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Danforth</masterLabel>
+        <translation><!-- The Danforth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Eglinton Way</masterLabel>
+        <translation><!-- The Eglinton Way --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Kingsway</masterLabel>
+        <translation><!-- The Kingsway --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Waterfront</masterLabel>
+        <translation><!-- The Waterfront --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Entertainment</masterLabel>
+        <translation><!-- Toronto Entertainment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trinity Bellwoods</masterLabel>
+        <translation><!-- Trinity Bellwoods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Village</masterLabel>
+        <translation><!-- Upper Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uptown Waterloo</masterLabel>
+        <translation><!-- Uptown Waterloo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uptown Yonge</masterLabel>
+        <translation><!-- Uptown Yonge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uxbridge BIA</masterLabel>
+        <translation><!-- Uxbridge BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Village of Islington</masterLabel>
+        <translation><!-- Village of Islington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Queen West</masterLabel>
+        <translation><!-- West Queen West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weston Village</masterLabel>
+        <translation><!-- Weston Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wexford Heights</masterLabel>
+        <translation><!-- Wexford Heights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Whitby BIA</masterLabel>
+        <translation><!-- Whitby BIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wilson-Keele</masterLabel>
+        <translation><!-- Wilson-Keele --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wychwood Heights</masterLabel>
+        <translation><!-- Wychwood Heights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yonge Lawrence Village</masterLabel>
+        <translation><!-- Yonge Lawrence Village --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>York Eglinton</masterLabel>
+        <translation><!-- York Eglinton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>shoptheQueensway.com</masterLabel>
+        <translation><!-- shoptheQueensway.com --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Estimated cost of remediation $ that Include a statement of costs to be incurred in connection with the remediation. The statement must summarize all remediation costs --></help>
+    <label><!-- Estimated cost of remediation $ --></label>
+    <name>Estimated_cost_of_remediation__c</name>
+</CustomFieldTranslation>

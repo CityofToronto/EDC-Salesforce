@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultation_Type__c</fullName>
+    <description>Type of Consultation Requested</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of Consultation Requested</inlineHelpText>
+    <label>Consultation Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Idea Consultation</fullName>
+                <default>false</default>
+                <label>Business Idea Consultation</label>
+            </value>
+            <value>
+                <fullName>Business Plan Consultation</fullName>
+                <default>false</default>
+                <label>Business Plan Consultation</label>
+            </value>
+            <value>
+                <fullName>GrowthWheel / Business Expansion Consultation</fullName>
+                <default>false</default>
+                <label>GrowthWheel / Business Expansion Consultation</label>
+            </value>
+            <value>
+                <fullName>Starter Company Consultation</fullName>
+                <default>false</default>
+                <label>Starter Company Consultation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

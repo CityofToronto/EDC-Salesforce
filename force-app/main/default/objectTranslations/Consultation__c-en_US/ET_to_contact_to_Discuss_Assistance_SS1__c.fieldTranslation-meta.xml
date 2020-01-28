@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sub-Section 1 - Not Started:  Would you like an Enterprise Toronto business consultant to contact you to discuss assistance available to your business? --></help>
+    <label><!-- ET to contact to Discuss Assistance? --></label>
+    <name>ET_to_contact_to_Discuss_Assistance_SS1__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation><!-- Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

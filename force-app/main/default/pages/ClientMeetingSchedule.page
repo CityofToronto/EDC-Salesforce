@@ -1,0 +1,57 @@
+<apex:page controller="ClientMeetingScheduleCtrl" id="pgid" showHeader="false" sidebar="false" > 
+    <html>
+        <head>
+            <Title> Schedule meeting with Advisor </Title>
+        </head>
+        <div style="background: url({!$Label.BackgroundIMG}) repeat; height:8px;"/>
+        <body style="background: url({!$Label.BackgroundIMG}) repeat;">
+            <div align="center">
+                <apex:form style="background-color: #FAFAFA; width:770px; height:760px;" id="fmId">
+                    <div style="background-color: #FAFAFA; width:770px; height:18px;"/>
+                    <div align="center">
+                        <div style="background: url({!$Label.FormTitleIMG}) no-repeat; width:744px; height:60px;"> 
+                            <br/> 
+                            <div align="left" style="color:white; font-size: 16px; font-weight: bold;"> 
+                                &nbsp; Schedule a meeting with Advisor
+                            </div>
+                        </div>
+                        <br/><br/>
+                        <div style="width:750px;">
+                            <fieldset style="border: 2px black solid; font-size: 15px;">
+                                <legend style="margin-left: 1em; padding: 0.2em 0.5em; background-color:none; color:black;">Meeting Information</legend>
+                                <div style="height:600px">
+                                    <apex:outputpanel id="FullPageId" >
+                                        
+                                        <apex:pagemessages rendered="{!ShowErrMsg}" id="ShowErroMsgId"/>
+                                        
+                                        <apex:outputpanel id="RegisConfirmPnlId" rendered="{!ShowRegisConfirmPnlId}">
+                                            <br/><br/>
+                                            <div style="text-align:left; height:15px; font-weight: bold; color:green; width:630px">
+                                               Thanks for your interest in meeting with a Small Business Advisor. <br/><br/> Please schedule a meeting with one of our team members.
+                                            </div>
+                                            <br/><br/>
+                                        </apex:outputpanel>
+                                        
+                                        <apex:outputpanel id="ConfirmMsgPnlId" rendered="{!ShowMeetingConfimedMsg}">
+                                            <br/><br/><br/>
+                                            <div style="text-align:center; height:18px; font-weight: bold; color:green;">
+                                                Your meeting request has been submitted to your advisor. <br/> <br/> He/She will review and confirm it and your will receive an email for the same.
+                                            </div>
+                                        </apex:outputpanel>
+                                        
+                                        <apex:outputpanel id="ShowCalPnlId" rendered="{!ShowCalendar}">
+                                            <br/><br/><br/>
+                                            
+                                            <c:ScheduleMeetingComp Email="{!$CurrentPage.parameters.email}" id="CMiD"/>
+                                                
+                                        </apex:outputpanel>
+                                    </apex:outputpanel>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </apex:form>
+            </div>
+        </body>
+    </html>
+</apex:page>

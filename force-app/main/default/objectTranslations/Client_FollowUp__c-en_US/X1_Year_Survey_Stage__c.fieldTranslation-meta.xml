@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 1 Year Survey Stage --></label>
+    <name>X1_Year_Survey_Stage__c</name>
+    <picklistValues>
+        <masterLabel>In Queue</masterLabel>
+        <translation><!-- In Queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responded</masterLabel>
+        <translation><!-- Responded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent</masterLabel>
+        <translation><!-- Sent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresponsive</masterLabel>
+        <translation><!-- Unresponsive --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

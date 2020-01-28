@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Grant fund Allocation is clearly outlined --></help>
+    <label><!-- Grant fund Allocation is clearly outline --></label>
+    <name>Grant_fund_Allocation_clearly_outline_fp__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (1 pt)</masterLabel>
+        <translation><!-- Yes (1 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

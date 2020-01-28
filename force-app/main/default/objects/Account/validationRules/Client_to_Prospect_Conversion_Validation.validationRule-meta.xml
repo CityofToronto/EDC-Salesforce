@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_to_Prospect_Conversion_Validation</fullName>
+    <active>true</active>
+    <description>This rule avoid converting Account Type from Client to Prospect if there are any related child record exist.</description>
+    <errorConditionFormula>AND(Related_Child_Interactions__c &gt; 0, ISCHANGED(Account_Type__c), ISPICKVAL(Account_Type__c,&#39;Business Prospect&#39;))</errorConditionFormula>
+    <errorDisplayField>Account_Type__c</errorDisplayField>
+    <errorMessage>Account Type can not be changed to Prospect as it has related child records.</errorMessage>
+</ValidationRule>

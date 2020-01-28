@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact Subtype --></label>
+    <name>Contact_Type_Order__c</name>
+    <picklistValues>
+        <masterLabel>D1</masterLabel>
+        <translation><!-- D1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D2</masterLabel>
+        <translation><!-- D2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D3</masterLabel>
+        <translation><!-- D3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D4</masterLabel>
+        <translation><!-- D4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D5</masterLabel>
+        <translation><!-- D5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E</masterLabel>
+        <translation><!-- E --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I1</masterLabel>
+        <translation><!-- I1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I2</masterLabel>
+        <translation><!-- I2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I3</masterLabel>
+        <translation><!-- I3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I4</masterLabel>
+        <translation><!-- I4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I5</masterLabel>
+        <translation><!-- I5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OT</masterLabel>
+        <translation><!-- OT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P</masterLabel>
+        <translation><!-- P --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the last activity date of investment activity record from old database. --></help>
+    <label><!-- Last Updated --></label>
+    <name>Last_Updated__c</name>
+</CustomFieldTranslation>

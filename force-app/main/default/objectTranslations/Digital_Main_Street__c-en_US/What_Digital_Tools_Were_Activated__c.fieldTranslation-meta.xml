@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- What Digital Tools Were Activated? --></label>
+    <name>What_Digital_Tools_Were_Activated__c</name>
+    <picklistValues>
+        <masterLabel>Ecommerce</masterLabel>
+        <translation><!-- Ecommerce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facebook Page</masterLabel>
+        <translation><!-- Facebook Page --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Google My Business</masterLabel>
+        <translation><!-- Google My Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NetSync</masterLabel>
+        <translation><!-- NetSync --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Website</masterLabel>
+        <translation><!-- Website --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

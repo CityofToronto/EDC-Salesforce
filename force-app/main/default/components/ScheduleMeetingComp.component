@@ -1,0 +1,171 @@
+<apex:component controller="ScheduleMeetingCompCtrl" id="CompId" allowDML="true">
+
+    <apex:attribute name="Email" type="String" description="FollowUp Email" assignTo="{!FollowUpEmail}"/>
+    
+    <apex:attribute name="FId" type="String" description="FollowUp Id" assignTo="{!FollowUpId}"/>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <apex:stylesheet value="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css"/>
+    <apex:stylesheet value="{!URLFOR($Resource.CSSCityofToronto, 'css/styles.css')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.JQueryCityofToronto, 'JQueryCityofToronto/jquery-1.3.2.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.JQueryCityofToronto, 'JQueryCityofToronto/jquery.maskedinput.js')}"/>
+    <script type="text/javascript" src="http://digitalbush.com/wp-content/uploads/2013/01/jquery.maskedinput-1.3.1.min_.js"></script>
+    <style>
+        .ui-widget-header {background: #009BBB;} 
+    </style>
+    
+    <table>
+        <tr>
+            <td><apex:outputLabel value="Location:"/></td>
+            <td>
+                <apex:selectList required="true" style="width:155px" value="{!LocationSelected}" size="1" onchange="RefreshAdvisor();" id="LocationId" >
+                    <apex:selectOptions value="{!AvailableLocations}" />
+                </apex:selectList>
+                <br/><br/>
+            </td>
+        </tr>
+        <tr>
+            <td><apex:outputLabel value="Advisor:"/></td>
+            <td>
+                <apex:selectList required="true" style="width:155px" value="{!AdvisorSelected}" size="1" onchange="RefreshCalander();" id="AdvisorId" disabled="{!AvailableAdvisorsDisable}">
+                    <apex:selectOptions value="{!AvailableAdvisors}" /> 
+                </apex:selectList>
+                <br/><br/>
+            </td>
+        </tr>
+        <tr>
+            <td><apex:outputLabel value="Date:"/></td>
+            <td>
+                <apex:outputPanel id="CalenderId">
+                    <div id="datepicker" style="font-size: 90%;"> </div>
+                </apex:outputPanel>
+                <br/><br/>
+            </td>
+        </tr>
+        <tr>
+            <td><apex:outputLabel value="Time:"/></td>
+            <td>
+                 <apex:selectList required="true" style="width:155px" value="{!TimeSelected}" size="1" id="TimeId" disabled="{!AvailableTimeDisable}">
+                    <apex:selectOptions value="{!AvailableTimeSlots}" /> 
+                </apex:selectList>
+                <br/><br/> <br/><br/>
+            </td>
+        </tr>
+        <tr> <td> </td>  <td> </td></tr>
+        <tr >
+            <td colspan="2" align="center">
+              <apex:commandButton action="{!scheduleMeeting}" value="Schedule"  onclick="if(true == validate()){return true;}else{return false;}"  style="width:150px; height:30px;"/>
+            </td>
+        </tr>
+    </table>
+    <apex:outputPanel id="JSid">
+        <script type="text/javascript" language="javascript">
+            var disableddates = {!disableddates};
+            function DisableSpecificDates(date) 
+            {
+                var m = date.getMonth();
+                var d = date.getDate();
+                var y = date.getFullYear();
+                
+                // First convert the date in to the mm-dd-yyyy format 
+                // Take note that we will increment the month count by 1 
+                var currentdate = (m + 1) + '-' + d + '-' + y ;
+                
+                
+                // We will now check if the date belongs to disableddates array 
+                for (var i = 0; i < disableddates.length; i++) {
+                
+                // Now check if the current date is in disabled dates array. 
+                if ($.inArray(currentdate, disableddates) != -1 ) {
+                return [false];
+                } 
+                }
+                
+                // In case the date is not present in disabled array, we will now check if it is a weekend. 
+                // We will use the noWeekends function
+                var weekenddate = $.datepicker.noWeekends(date);
+                return weekenddate; 
+            }
+        
+            var startDateFrom = new Date({!StartYear}, {!StartMonth}, {!StartDay}); 
+            var startDateTo = {!StartDateTo};
+            var nOfMonths = {!NoOfMonths};
+            var selecteddate = new Date({!StartYear}, {!StartMonth}, {!StartDay}); 
+
+            $( "#datepicker" ).datepicker({altField: '#hiddenval', gotoCurrent: false,
+               beforeShowDay: DisableSpecificDates,
+               minDate: startDateFrom,
+               maxDate: startDateTo
+             });
+            
+            $("#datepicker").datepicker('setDate', selecteddate);
+            
+            $(document).on("change", "#datepicker", function () 
+            {
+                PassDateToCls($(this).val()); 
+                return false;
+            })
+        </script>
+    </apex:outputPanel>     
+    <script type="text/javascript" language="javascript">
+        function SelectedAdvisorJS()
+        {
+            PassSelectedAdvisor(document.getElementById('{!$Component.CompId:AdvisorId}').value);
+        }
+        function validate()
+        {
+            var LocationVar = true;
+            var AdvisorVar = true;
+            var TimeVar = true;
+            
+            if(document.getElementById('{!$Component.CompId:LocationId}').value == '-SELECT-')
+            {
+                alert('Please select a location.');
+                LocationVar = true;
+            }
+            else
+            {
+                LocationVar = false;
+                if(document.getElementById('{!$Component.CompId:AdvisorId}').value == '-SELECT-')  
+                {  
+                    alert('Please select an Advisor.'); 
+                    AdvisorVar = true;
+                }  
+                else 
+                {
+                    AdvisorVar = false;
+                    if(document.getElementById('{!$Component.CompId:TimeId}').value == '-SELECT-')
+                    {
+                       alert('Please select Time.');
+                       TimeVar = true;
+                    }
+                    else
+                    {
+                        if(LocationVar = false && AdvisorVar == false && TimeVar == false)
+                        {
+                            return false;
+                        }
+                        else
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+       }
+    </script>
+        
+    <apex:actionFunction id="A" name="RefreshAdvisor" action="{!AvailableAdvisors}" reRender="AdvisorId,CalenderId,JSid"/>
+   
+    <apex:actionFunction id="B" name="PassSelectedAdvisor" action="{!Dummy}" reRender="CalenderId,JSid">
+        <apex:param name="Advisor" assignTo="{!AdvisorSelected}" value=""/>
+    </apex:actionFunction>
+    
+    <apex:actionFunction id="C" name="RefreshCalander" action="{!AvailableDays}" oncomplete="SelectedAdvisorJS();"/>
+    
+    <apex:actionFunction id="D" name="PassDateToCls" action="{!AvailableTimeSlots}" reRender="TimeId"> 
+        <apex:param name="DateSelected" assignTo="{!DateSelected}" value=""/>
+    </apex:actionFunction>
+    
+</apex:component>

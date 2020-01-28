@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the BIA Member Company information i.e. the company they work for outside of the BIA. --></help>
+    <label><!-- BIA Member Company Name --></label>
+    <name>BIA_Member_Company_Name__c</name>
+</CustomFieldTranslation>

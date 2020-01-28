@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is a read only field populated based on Investment Activity record selected. --></help>
+    <label><!-- Initiative Owner --></label>
+    <name>Initiative_Owner__c</name>
+    <relationshipLabel><!-- Financial Incentives (Initiative Owner) --></relationshipLabel>
+</CustomFieldTranslation>

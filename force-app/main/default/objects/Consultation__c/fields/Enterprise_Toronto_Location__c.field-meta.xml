@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enterprise_Toronto_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Enterprise Toronto Location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City Hall</fullName>
+                <default>false</default>
+                <label>City Hall</label>
+            </value>
+            <value>
+                <fullName>North York</fullName>
+                <default>false</default>
+                <label>North York</label>
+            </value>
+            <value>
+                <fullName>Scarborough</fullName>
+                <default>false</default>
+                <label>Scarborough</label>
+            </value>
+            <value>
+                <fullName>Online Training</fullName>
+                <default>false</default>
+                <label>Online Training</label>
+            </value>
+            <value>
+                <fullName>Outreach</fullName>
+                <default>false</default>
+                <label>Outreach</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

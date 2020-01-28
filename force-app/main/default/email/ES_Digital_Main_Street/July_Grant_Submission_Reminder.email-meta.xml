@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to July cohort reminding them to submit their plan</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>July Grant Submission Reminder</name>
+    <style>none</style>
+    <subject>Reminder: Submit your Digital Transformation Plan!</subject>
+    <textOnly>Good morning {!Contact.FirstName},
+
+This is just a reminder that you have less than 2 weeks to submit your Digital Transformation Plan if you have not already.
+
+Your plan must be submitted here: https://cityoftoronto.tfaforms.net/355909
+
+If you have any questions please let me know.
+
+Regards,
+
+-Darryl</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

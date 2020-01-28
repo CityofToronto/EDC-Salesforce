@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Asking incubators to share DMS information with their members for the launch</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>DMS-Launch(Incubators)</name>
+    <style>none</style>
+    <subject>Please Share: Digital Main Street Launch</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

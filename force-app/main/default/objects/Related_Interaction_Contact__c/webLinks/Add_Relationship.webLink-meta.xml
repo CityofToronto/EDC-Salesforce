@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Relationship</fullName>
+    <availability>online</availability>
+    <description>This List button will allow user to a Contact to an existing Interaction Record to create a Related Interaction Contact record</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Add Relationship</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/a0B/e?CF00N1N00000PW07l={!Contact.Name}&amp;CF00N1N00000PW07l_lkid={!Contact.Id}&amp;retURL=%2F{!Contact.Id}</url>
+</WebLink>

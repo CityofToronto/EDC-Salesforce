@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Corporate Calling</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Corporate Calling</value>
+    </caseValues>
+    <layouts>
+        <layout>Corporate Calling Layout</layout>
+        <sections>
+            <label><!-- Company - Address --></label>
+            <section>Company - Address</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Basic Contact Information --></label>
+            <section>Company - Basic Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Employment --></label>
+            <section>Company - Employment</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Export --></label>
+            <section>Company - Export</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Facility --></label>
+            <section>Company - Facility</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Overview --></label>
+            <section>Company - Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Parent --></label>
+            <section>Company - Parent</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Programs Accessed --></label>
+            <section>Company - Programs Accessed</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Programs Requested --></label>
+            <section>Company - Programs Requested</section>
+        </sections>
+        <sections>
+            <label><!-- Company - Relocation --></label>
+            <section>Company - Relocation</section>
+        </sections>
+        <sections>
+            <label><!-- Corporate Call --></label>
+            <section>Corporate Call</section>
+        </sections>
+        <sections>
+            <label><!-- Corporate Call - Client Follow-Up --></label>
+            <section>Corporate Call - Client Follow-Up</section>
+        </sections>
+        <sections>
+            <label><!-- Corporate Call - Client Satisfaction --></label>
+            <section>Corporate Call - Client Satisfaction</section>
+        </sections>
+        <sections>
+            <label><!-- Corporate Call - Meeting Notes --></label>
+            <section>Corporate Call - Meeting Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Councillor Thompson Update --></label>
+            <section>Councillor Thompson Update</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Work Flow Management --></label>
+            <section>Work Flow Management</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

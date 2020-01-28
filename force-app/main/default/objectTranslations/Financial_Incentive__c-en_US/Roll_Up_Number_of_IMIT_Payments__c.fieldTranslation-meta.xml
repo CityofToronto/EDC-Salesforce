@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will used to Roll up the count of all IMIT payment records and compare with Total Number of Payment value specific on main application. This field will be referred in validation rule and will not be visible on detail page. --></help>
+    <label><!-- Roll Up Number of IMIT Payments --></label>
+    <name>Roll_Up_Number_of_IMIT_Payments__c</name>
+</CustomFieldTranslation>

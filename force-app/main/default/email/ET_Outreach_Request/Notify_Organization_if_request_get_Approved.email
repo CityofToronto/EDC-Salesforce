@@ -1,0 +1,15 @@
+Dear {!Outreach__c.Contact__c},
+
+This email is to confirm that the Enterprise Toronto team will attend your upcoming event.  We appreciate you involving us.  To confirm, here are the details our team has:
+
+Event Date: {!Outreach__c.Date_of_Event__c}
+Event Time: {!Outreach__c.BPQ_Time_of_Event__c}
+Description of Event: {!Outreach__c.Description_of_the_Event__c}
+
+{!Outreach__c.RPI_Staff_member_attending_user1__c} from our team will be attending and is cc'd on this email.
+
+Otherwise, thanks again and we look forward to seeing you soon.
+
+Regards,
+
+Karen

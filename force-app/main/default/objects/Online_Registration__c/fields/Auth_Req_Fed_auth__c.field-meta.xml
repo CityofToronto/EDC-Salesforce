@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auth_Req_Fed_auth__c</fullName>
+    <externalId>false</externalId>
+    <label>Auth Req (Fed auth)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accept and proceed with filing.</fullName>
+                <default>false</default>
+                <label>Accept and proceed with filing.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+Dear User,
+
+A Grant Approval Request for {!Financial_Incentive__c.Account__c} has been assigned to you for Approval. Please refer below link to Approve/Reject the request.
+
+{!Financial_Incentive__c.Link}
+
+Thanks

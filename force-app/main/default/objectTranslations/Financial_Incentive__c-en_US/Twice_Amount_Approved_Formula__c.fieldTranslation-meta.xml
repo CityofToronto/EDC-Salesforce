@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This formula evaluates twice of Amount of Approved and will be used on BIA email template attachment send to client after grant approval and will not be shown on page layout --></help>
+    <label><!-- Twice Amount Approved Formula --></label>
+    <name>Twice_Amount_Approved_Formula__c</name>
+</CustomFieldTranslation>

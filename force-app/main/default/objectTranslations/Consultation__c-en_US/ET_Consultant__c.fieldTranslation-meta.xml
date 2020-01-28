@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Identifies the Enterprise Toronto staff member that provided the consultation. --></help>
+    <label><!-- ET Consultant --></label>
+    <name>ET_Consultant__c</name>
+    <picklistValues>
+        <masterLabel>Angie Bellanza</masterLabel>
+        <translation><!-- Angie Bellanza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chris Rickett</masterLabel>
+        <translation><!-- Chris Rickett --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gracie Worrall</masterLabel>
+        <translation><!-- Gracie Worrall --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jason Li</masterLabel>
+        <translation><!-- Jason Li --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Karen Keskull</masterLabel>
+        <translation><!-- Karen Keskull --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Margie Galarneau</masterLabel>
+        <translation><!-- Margie Galarneau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Training</masterLabel>
+        <translation><!-- Online Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ronit Goldenberg</masterLabel>
+        <translation><!-- Ronit Goldenberg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sandi Koitsis</masterLabel>
+        <translation><!-- Sandi Koitsis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vikas Jain</masterLabel>
+        <translation><!-- Vikas Jain --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

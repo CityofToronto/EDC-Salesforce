@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Assessment_Appeals_Made__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Annual compliance check through Municipal Licencing and Standards and Toronto Building to ensure there are no outstanding work orders, violations and/or requests to comply from any municipal or provincial entity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>No outstanding work orders and/or orders or requests to comply  from any municipal or provincial entity (attach confirmation)&quot;</inlineHelpText>
+    <label>No Assessment Appeals Made</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

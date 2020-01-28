@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email notification will be sent to BIA Officer 30 days before Grant Expiry Date</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BIA Grant Expiry Notification to BIA Officer</name>
+    <style>none</style>
+    <subject>Upcoming {!Financial_Incentive__c.Record_Type_Name_Formula__c} grant application Expiration for {!Financial_Incentive__c.Account__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

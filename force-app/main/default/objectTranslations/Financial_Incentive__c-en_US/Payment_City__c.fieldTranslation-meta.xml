@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Payment City --></label>
+    <name>Payment_City__c</name>
+    <picklistValues>
+        <masterLabel>Abbotsford</masterLabel>
+        <translation><!-- Abbotsford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Acton Vale</masterLabel>
+        <translation><!-- Acton Vale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airdrie</masterLabel>
+        <translation><!-- Airdrie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alma</masterLabel>
+        <translation><!-- Alma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amos</masterLabel>
+        <translation><!-- Amos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amqui</masterLabel>
+        <translation><!-- Amqui --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Armstrong</masterLabel>
+        <translation><!-- Armstrong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Asbestos</masterLabel>
+        <translation><!-- Asbestos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baie-Comeau</masterLabel>
+        <translation><!-- Baie-Comeau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baie-D&#39;Urfé</masterLabel>
+        <translation><!-- Baie-D&apos;Urfé --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baie-Saint-Paul</masterLabel>
+        <translation><!-- Baie-Saint-Paul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Barkmere</masterLabel>
+        <translation><!-- Barkmere --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Barrie</masterLabel>
+        <translation><!-- Barrie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bathurst</masterLabel>
+        <translation><!-- Bathurst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beaconsfield</masterLabel>
+        <translation><!-- Beaconsfield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beauceville</masterLabel>
+        <translation><!-- Beauceville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beauharnois</masterLabel>
+        <translation><!-- Beauharnois --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beaupré</masterLabel>
+        <translation><!-- Beaupré --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bedford</masterLabel>
+        <translation><!-- Bedford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belleterre</masterLabel>
+        <translation><!-- Belleterre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belleville</masterLabel>
+        <translation><!-- Belleville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beloeil</masterLabel>
+        <translation><!-- Beloeil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Berthierville</masterLabel>
+        <translation><!-- Berthierville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blainville</masterLabel>
+        <translation><!-- Blainville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bois-des-Filion</masterLabel>
+        <translation><!-- Bois-des-Filion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boisbriand</masterLabel>
+        <translation><!-- Boisbriand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonaventure</masterLabel>
+        <translation><!-- Bonaventure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boucherville</masterLabel>
+        <translation><!-- Boucherville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brampton</masterLabel>
+        <translation><!-- Brampton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brandon</masterLabel>
+        <translation><!-- Brandon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brant</masterLabel>
+        <translation><!-- Brant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brantford</masterLabel>
+        <translation><!-- Brantford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brockville</masterLabel>
+        <translation><!-- Brockville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brome Lake</masterLabel>
+        <translation><!-- Brome Lake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bromont</masterLabel>
+        <translation><!-- Bromont --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brooks</masterLabel>
+        <translation><!-- Brooks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brossard</masterLabel>
+        <translation><!-- Brossard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brownsburg-Chatham</masterLabel>
+        <translation><!-- Brownsburg-Chatham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Burlington</masterLabel>
+        <translation><!-- Burlington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Burnaby</masterLabel>
+        <translation><!-- Burnaby --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bécancour</masterLabel>
+        <translation><!-- Bécancour --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Calgary</masterLabel>
+        <translation><!-- Calgary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cambridge</masterLabel>
+        <translation><!-- Cambridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Campbell River</masterLabel>
+        <translation><!-- Campbell River --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Campbellton</masterLabel>
+        <translation><!-- Campbellton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Camrose</masterLabel>
+        <translation><!-- Camrose --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Candiac</masterLabel>
+        <translation><!-- Candiac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cap-Chat</masterLabel>
+        <translation><!-- Cap-Chat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cap-Santé</masterLabel>
+        <translation><!-- Cap-Santé --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carignan</masterLabel>
+        <translation><!-- Carignan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carleton-sur-Mer</masterLabel>
+        <translation><!-- Carleton-sur-Mer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Castlegar</masterLabel>
+        <translation><!-- Castlegar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Causapscal</masterLabel>
+        <translation><!-- Causapscal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chambly</masterLabel>
+        <translation><!-- Chambly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chandler</masterLabel>
+        <translation><!-- Chandler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chapais</masterLabel>
+        <translation><!-- Chapais --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charlemagne</masterLabel>
+        <translation><!-- Charlemagne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charlottetown</masterLabel>
+        <translation><!-- Charlottetown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chestermere</masterLabel>
+        <translation><!-- Chestermere --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chibougamau</masterLabel>
+        <translation><!-- Chibougamau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chilliwack</masterLabel>
+        <translation><!-- Chilliwack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Château-Richer</masterLabel>
+        <translation><!-- Château-Richer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Châteauguay</masterLabel>
+        <translation><!-- Châteauguay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clarence-Rockland</masterLabel>
+        <translation><!-- Clarence-Rockland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clermont</masterLabel>
+        <translation><!-- Clermont --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coaticook</masterLabel>
+        <translation><!-- Coaticook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cold Lake</masterLabel>
+        <translation><!-- Cold Lake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Colwood</masterLabel>
+        <translation><!-- Colwood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contrecoeur</masterLabel>
+        <translation><!-- Contrecoeur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cookshire-Eaton</masterLabel>
+        <translation><!-- Cookshire-Eaton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coquitlam</masterLabel>
+        <translation><!-- Coquitlam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corner Brook</masterLabel>
+        <translation><!-- Corner Brook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cornwall</masterLabel>
+        <translation><!-- Cornwall --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coteau-du-Lac</masterLabel>
+        <translation><!-- Coteau-du-Lac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Courtenay</masterLabel>
+        <translation><!-- Courtenay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cowansville</masterLabel>
+        <translation><!-- Cowansville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cranbrook</masterLabel>
+        <translation><!-- Cranbrook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Côte Saint-Luc</masterLabel>
+        <translation><!-- Côte Saint-Luc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danville</masterLabel>
+        <translation><!-- Danville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dauphin</masterLabel>
+        <translation><!-- Dauphin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Daveluyville</masterLabel>
+        <translation><!-- Daveluyville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dawson Creek</masterLabel>
+        <translation><!-- Dawson Creek --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delson</masterLabel>
+        <translation><!-- Delson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Desbiens</masterLabel>
+        <translation><!-- Desbiens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deux-Montagnes</masterLabel>
+        <translation><!-- Deux-Montagnes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dieppe</masterLabel>
+        <translation><!-- Dieppe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disraeli</masterLabel>
+        <translation><!-- Disraeli --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dolbeau-Mistassini</masterLabel>
+        <translation><!-- Dolbeau-Mistassini --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dollard-des-Ormeaux</masterLabel>
+        <translation><!-- Dollard-des-Ormeaux --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Donnacona</masterLabel>
+        <translation><!-- Donnacona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dorval</masterLabel>
+        <translation><!-- Dorval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drummondville</masterLabel>
+        <translation><!-- Drummondville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dryden</masterLabel>
+        <translation><!-- Dryden --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duncan</masterLabel>
+        <translation><!-- Duncan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dunham</masterLabel>
+        <translation><!-- Dunham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duparquet</masterLabel>
+        <translation><!-- Duparquet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dégelis</masterLabel>
+        <translation><!-- Dégelis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Angus</masterLabel>
+        <translation><!-- East Angus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edmonton</masterLabel>
+        <translation><!-- Edmonton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edmundston</masterLabel>
+        <translation><!-- Edmundston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elliot Lake</masterLabel>
+        <translation><!-- Elliot Lake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enderby</masterLabel>
+        <translation><!-- Enderby --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estevan</masterLabel>
+        <translation><!-- Estevan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estérel</masterLabel>
+        <translation><!-- Estérel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Farnham</masterLabel>
+        <translation><!-- Farnham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fermont</masterLabel>
+        <translation><!-- Fermont --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fernie</masterLabel>
+        <translation><!-- Fernie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flin Flon (part)</masterLabel>
+        <translation><!-- Flin Flon (part) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forestville</masterLabel>
+        <translation><!-- Forestville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fort Saskatchewan</masterLabel>
+        <translation><!-- Fort Saskatchewan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fort St. John</masterLabel>
+        <translation><!-- Fort St. John --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fossambault-sur-le-Lac</masterLabel>
+        <translation><!-- Fossambault-sur-le-Lac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fredericton</masterLabel>
+        <translation><!-- Fredericton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gaspé</masterLabel>
+        <translation><!-- Gaspé --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gatineau</masterLabel>
+        <translation><!-- Gatineau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gracefield</masterLabel>
+        <translation><!-- Gracefield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Granby</masterLabel>
+        <translation><!-- Granby --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grand Forks</masterLabel>
+        <translation><!-- Grand Forks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grande Prairie</masterLabel>
+        <translation><!-- Grande Prairie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grande-Rivière</masterLabel>
+        <translation><!-- Grande-Rivière --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greater Sudbury</masterLabel>
+        <translation><!-- Greater Sudbury --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greenwood</masterLabel>
+        <translation><!-- Greenwood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guelph</masterLabel>
+        <translation><!-- Guelph --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Haldimand County</masterLabel>
+        <translation><!-- Haldimand County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hamilton</masterLabel>
+        <translation><!-- Hamilton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hampstead</masterLabel>
+        <translation><!-- Hampstead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hudson</masterLabel>
+        <translation><!-- Hudson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Humboldt</masterLabel>
+        <translation><!-- Humboldt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Huntingdon</masterLabel>
+        <translation><!-- Huntingdon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iqaluit</masterLabel>
+        <translation><!-- Iqaluit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joliette</masterLabel>
+        <translation><!-- Joliette --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kamloops</masterLabel>
+        <translation><!-- Kamloops --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kawartha Lakes</masterLabel>
+        <translation><!-- Kawartha Lakes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kelowna</masterLabel>
+        <translation><!-- Kelowna --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kenora</masterLabel>
+        <translation><!-- Kenora --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kimberley</masterLabel>
+        <translation><!-- Kimberley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kingsey Falls</masterLabel>
+        <translation><!-- Kingsey Falls --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kingston</masterLabel>
+        <translation><!-- Kingston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kirkland</masterLabel>
+        <translation><!-- Kirkland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kitchener</masterLabel>
+        <translation><!-- Kitchener --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L&#39;Ancienne-Lorette</masterLabel>
+        <translation><!-- L&apos;Ancienne-Lorette --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L&#39;Assomption</masterLabel>
+        <translation><!-- L&apos;Assomption --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L&#39;Épiphanie</masterLabel>
+        <translation><!-- L&apos;Épiphanie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L&#39;Île-Cadieux</masterLabel>
+        <translation><!-- L&apos;Île-Cadieux --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L&#39;Île-Dorval</masterLabel>
+        <translation><!-- L&apos;Île-Dorval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L&#39;Île-Perrot</masterLabel>
+        <translation><!-- L&apos;Île-Perrot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>La Malbaie</masterLabel>
+        <translation><!-- La Malbaie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>La Pocatière</masterLabel>
+        <translation><!-- La Pocatière --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>La Prairie</masterLabel>
+        <translation><!-- La Prairie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>La Sarre</masterLabel>
+        <translation><!-- La Sarre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>La Tuque</masterLabel>
+        <translation><!-- La Tuque --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lac-Delage</masterLabel>
+        <translation><!-- Lac-Delage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lac-Mégantic</masterLabel>
+        <translation><!-- Lac-Mégantic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lac-Saint-Joseph</masterLabel>
+        <translation><!-- Lac-Saint-Joseph --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lac-Sergent</masterLabel>
+        <translation><!-- Lac-Sergent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lachute</masterLabel>
+        <translation><!-- Lachute --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lacombe</masterLabel>
+        <translation><!-- Lacombe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Langford</masterLabel>
+        <translation><!-- Langford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Langley</masterLabel>
+        <translation><!-- Langley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laval</masterLabel>
+        <translation><!-- Laval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lavaltrie</masterLabel>
+        <translation><!-- Lavaltrie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lebel-sur-Quévillon</masterLabel>
+        <translation><!-- Lebel-sur-Quévillon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leduc</masterLabel>
+        <translation><!-- Leduc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lethbridge</masterLabel>
+        <translation><!-- Lethbridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lloydminster (part)</masterLabel>
+        <translation><!-- Lloydminster (part) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>London</masterLabel>
+        <translation><!-- London --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Longueuil</masterLabel>
+        <translation><!-- Longueuil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lorraine</masterLabel>
+        <translation><!-- Lorraine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Louiseville</masterLabel>
+        <translation><!-- Louiseville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Léry</masterLabel>
+        <translation><!-- Léry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lévis</masterLabel>
+        <translation><!-- Lévis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Macamic</masterLabel>
+        <translation><!-- Macamic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Magog</masterLabel>
+        <translation><!-- Magog --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Malartic</masterLabel>
+        <translation><!-- Malartic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maniwaki</masterLabel>
+        <translation><!-- Maniwaki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maple Ridge</masterLabel>
+        <translation><!-- Maple Ridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marieville</masterLabel>
+        <translation><!-- Marieville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Markham</masterLabel>
+        <translation><!-- Markham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Martensville</masterLabel>
+        <translation><!-- Martensville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mascouche</masterLabel>
+        <translation><!-- Mascouche --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matagami</masterLabel>
+        <translation><!-- Matagami --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matane</masterLabel>
+        <translation><!-- Matane --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meadow Lake</masterLabel>
+        <translation><!-- Meadow Lake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicine Hat</masterLabel>
+        <translation><!-- Medicine Hat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Melfort</masterLabel>
+        <translation><!-- Melfort --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Melville</masterLabel>
+        <translation><!-- Melville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mercier</masterLabel>
+        <translation><!-- Mercier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merritt</masterLabel>
+        <translation><!-- Merritt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mirabel</masterLabel>
+        <translation><!-- Mirabel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miramichi</masterLabel>
+        <translation><!-- Miramichi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mississauga</masterLabel>
+        <translation><!-- Mississauga --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moncton</masterLabel>
+        <translation><!-- Moncton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mont-Joli</masterLabel>
+        <translation><!-- Mont-Joli --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mont-Laurier</masterLabel>
+        <translation><!-- Mont-Laurier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mont-Saint-Hilaire</masterLabel>
+        <translation><!-- Mont-Saint-Hilaire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mont-Tremblant</masterLabel>
+        <translation><!-- Mont-Tremblant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montmagny</masterLabel>
+        <translation><!-- Montmagny --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montreal</masterLabel>
+        <translation><!-- Montreal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montreal West</masterLabel>
+        <translation><!-- Montreal West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montréal-Est</masterLabel>
+        <translation><!-- Montréal-Est --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moose Jaw</masterLabel>
+        <translation><!-- Moose Jaw --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Morden</masterLabel>
+        <translation><!-- Morden --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mount Pearl</masterLabel>
+        <translation><!-- Mount Pearl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mount Royal</masterLabel>
+        <translation><!-- Mount Royal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Murdochville</masterLabel>
+        <translation><!-- Murdochville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Métabetchouan–Lac-à-la-Croix</masterLabel>
+        <translation><!-- Métabetchouan–Lac-à-la-Croix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Métis-sur-Mer</masterLabel>
+        <translation><!-- Métis-sur-Mer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nanaimo</masterLabel>
+        <translation><!-- Nanaimo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nelson</masterLabel>
+        <translation><!-- Nelson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neuville</masterLabel>
+        <translation><!-- Neuville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Richmond</masterLabel>
+        <translation><!-- New Richmond --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Westminster</masterLabel>
+        <translation><!-- New Westminster --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Niagara Falls</masterLabel>
+        <translation><!-- Niagara Falls --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nicolet</masterLabel>
+        <translation><!-- Nicolet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norfolk County</masterLabel>
+        <translation><!-- Norfolk County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normandin</masterLabel>
+        <translation><!-- Normandin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Battleford</masterLabel>
+        <translation><!-- North Battleford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Bay</masterLabel>
+        <translation><!-- North Bay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Vancouver</masterLabel>
+        <translation><!-- North Vancouver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Notre-Dame-de-l&#39;Île-Perrot</masterLabel>
+        <translation><!-- Notre-Dame-de-l&apos;Île-Perrot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Notre-Dame-des-Prairies</masterLabel>
+        <translation><!-- Notre-Dame-des-Prairies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orillia</masterLabel>
+        <translation><!-- Orillia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oshawa</masterLabel>
+        <translation><!-- Oshawa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ottawa</masterLabel>
+        <translation><!-- Ottawa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otterburn Park</masterLabel>
+        <translation><!-- Otterburn Park --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owen Sound</masterLabel>
+        <translation><!-- Owen Sound --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parksville</masterLabel>
+        <translation><!-- Parksville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paspébiac</masterLabel>
+        <translation><!-- Paspébiac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pembroke</masterLabel>
+        <translation><!-- Pembroke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Penticton</masterLabel>
+        <translation><!-- Penticton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percé</masterLabel>
+        <translation><!-- Percé --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peterborough</masterLabel>
+        <translation><!-- Peterborough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pickering</masterLabel>
+        <translation><!-- Pickering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pincourt</masterLabel>
+        <translation><!-- Pincourt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pitt Meadows</masterLabel>
+        <translation><!-- Pitt Meadows --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plessisville</masterLabel>
+        <translation><!-- Plessisville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pohénégamook</masterLabel>
+        <translation><!-- Pohénégamook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pointe-Claire</masterLabel>
+        <translation><!-- Pointe-Claire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pont-Rouge</masterLabel>
+        <translation><!-- Pont-Rouge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port Alberni</masterLabel>
+        <translation><!-- Port Alberni --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port Colborne</masterLabel>
+        <translation><!-- Port Colborne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port Coquitlam</masterLabel>
+        <translation><!-- Port Coquitlam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port Moody</masterLabel>
+        <translation><!-- Port Moody --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port-Cartier</masterLabel>
+        <translation><!-- Port-Cartier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portage la Prairie</masterLabel>
+        <translation><!-- Portage la Prairie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portneuf</masterLabel>
+        <translation><!-- Portneuf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Powell River</masterLabel>
+        <translation><!-- Powell River --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prince Albert</masterLabel>
+        <translation><!-- Prince Albert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prince Edward County</masterLabel>
+        <translation><!-- Prince Edward County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prince George</masterLabel>
+        <translation><!-- Prince George --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prince Rupert</masterLabel>
+        <translation><!-- Prince Rupert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Princeville</masterLabel>
+        <translation><!-- Princeville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prévost</masterLabel>
+        <translation><!-- Prévost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quesnel</masterLabel>
+        <translation><!-- Quesnel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quinte West</masterLabel>
+        <translation><!-- Quinte West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Québec</masterLabel>
+        <translation><!-- Québec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red Deer</masterLabel>
+        <translation><!-- Red Deer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regina</masterLabel>
+        <translation><!-- Regina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Repentigny</masterLabel>
+        <translation><!-- Repentigny --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revelstoke</masterLabel>
+        <translation><!-- Revelstoke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Richelieu</masterLabel>
+        <translation><!-- Richelieu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Richmond</masterLabel>
+        <translation><!-- Richmond --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rimouski</masterLabel>
+        <translation><!-- Rimouski --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rivière-Rouge</masterLabel>
+        <translation><!-- Rivière-Rouge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rivière-du-Loup</masterLabel>
+        <translation><!-- Rivière-du-Loup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roberval</masterLabel>
+        <translation><!-- Roberval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rosemère</masterLabel>
+        <translation><!-- Rosemère --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rossland</masterLabel>
+        <translation><!-- Rossland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rouyn-Noranda</masterLabel>
+        <translation><!-- Rouyn-Noranda --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saguenay</masterLabel>
+        <translation><!-- Saguenay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint John</masterLabel>
+        <translation><!-- Saint John --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Augustin-de-Desmaures</masterLabel>
+        <translation><!-- Saint-Augustin-de-Desmaures --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Basile</masterLabel>
+        <translation><!-- Saint-Basile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Basile-le-Grand</masterLabel>
+        <translation><!-- Saint-Basile-le-Grand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Bruno-de-Montarville</masterLabel>
+        <translation><!-- Saint-Bruno-de-Montarville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Colomban</masterLabel>
+        <translation><!-- Saint-Colomban --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Constant</masterLabel>
+        <translation><!-- Saint-Constant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Césaire</masterLabel>
+        <translation><!-- Saint-Césaire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Eustache</masterLabel>
+        <translation><!-- Saint-Eustache --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Félicien</masterLabel>
+        <translation><!-- Saint-Félicien --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Gabriel</masterLabel>
+        <translation><!-- Saint-Gabriel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Georges</masterLabel>
+        <translation><!-- Saint-Georges --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Hyacinthe</masterLabel>
+        <translation><!-- Saint-Hyacinthe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Jean-sur-Richelieu</masterLabel>
+        <translation><!-- Saint-Jean-sur-Richelieu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Joseph-de-Beauce</masterLabel>
+        <translation><!-- Saint-Joseph-de-Beauce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Joseph-de-Sorel</masterLabel>
+        <translation><!-- Saint-Joseph-de-Sorel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Jérôme</masterLabel>
+        <translation><!-- Saint-Jérôme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Lambert</masterLabel>
+        <translation><!-- Saint-Lambert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Lazare</masterLabel>
+        <translation><!-- Saint-Lazare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Lin-Laurentides</masterLabel>
+        <translation><!-- Saint-Lin-Laurentides --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Marc-des-Carrières</masterLabel>
+        <translation><!-- Saint-Marc-des-Carrières --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Ours</masterLabel>
+        <translation><!-- Saint-Ours --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Pamphile</masterLabel>
+        <translation><!-- Saint-Pamphile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Pascal</masterLabel>
+        <translation><!-- Saint-Pascal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Pie</masterLabel>
+        <translation><!-- Saint-Pie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Raymond</masterLabel>
+        <translation><!-- Saint-Raymond --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Rémi</masterLabel>
+        <translation><!-- Saint-Rémi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Sauveur</masterLabel>
+        <translation><!-- Saint-Sauveur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saint-Tite</masterLabel>
+        <translation><!-- Saint-Tite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Adèle</masterLabel>
+        <translation><!-- Sainte-Adèle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Agathe-des-Monts</masterLabel>
+        <translation><!-- Sainte-Agathe-des-Monts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Anne-de-Beaupré</masterLabel>
+        <translation><!-- Sainte-Anne-de-Beaupré --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Anne-de-Bellevue</masterLabel>
+        <translation><!-- Sainte-Anne-de-Bellevue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Anne-des-Monts</masterLabel>
+        <translation><!-- Sainte-Anne-des-Monts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Anne-des-Plaines</masterLabel>
+        <translation><!-- Sainte-Anne-des-Plaines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Catherine</masterLabel>
+        <translation><!-- Sainte-Catherine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Catherine-de-la-Jacques-Cartier</masterLabel>
+        <translation><!-- Sainte-Catherine-de-la-Jacques-Cartier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Julie</masterLabel>
+        <translation><!-- Sainte-Julie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Marguerite-du-Lac-Masson</masterLabel>
+        <translation><!-- Sainte-Marguerite-du-Lac-Masson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Marie</masterLabel>
+        <translation><!-- Sainte-Marie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Marthe-sur-le-Lac</masterLabel>
+        <translation><!-- Sainte-Marthe-sur-le-Lac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sainte-Thérèse</masterLabel>
+        <translation><!-- Sainte-Thérèse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salaberry-de-Valleyfield</masterLabel>
+        <translation><!-- Salaberry-de-Valleyfield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salmon Arm</masterLabel>
+        <translation><!-- Salmon Arm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sarnia</masterLabel>
+        <translation><!-- Sarnia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saskatoon</masterLabel>
+        <translation><!-- Saskatoon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sault Ste. Marie</masterLabel>
+        <translation><!-- Sault Ste. Marie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schefferville</masterLabel>
+        <translation><!-- Schefferville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scotstown</masterLabel>
+        <translation><!-- Scotstown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selkirk</masterLabel>
+        <translation><!-- Selkirk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senneterre</masterLabel>
+        <translation><!-- Senneterre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sept-Îles</masterLabel>
+        <translation><!-- Sept-Îles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shawinigan</masterLabel>
+        <translation><!-- Shawinigan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sherbrooke</masterLabel>
+        <translation><!-- Sherbrooke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sorel-Tracy</masterLabel>
+        <translation><!-- Sorel-Tracy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spruce Grove</masterLabel>
+        <translation><!-- Spruce Grove --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Albert</masterLabel>
+        <translation><!-- St. Albert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Catharines</masterLabel>
+        <translation><!-- St. Catharines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. John&#39;s</masterLabel>
+        <translation><!-- St. John&apos;s --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Thomas</masterLabel>
+        <translation><!-- St. Thomas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stanstead</masterLabel>
+        <translation><!-- Stanstead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steinbach</masterLabel>
+        <translation><!-- Steinbach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stratford</masterLabel>
+        <translation><!-- Stratford --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summerside</masterLabel>
+        <translation><!-- Summerside --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surrey</masterLabel>
+        <translation><!-- Surrey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sutton</masterLabel>
+        <translation><!-- Sutton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swift Current</masterLabel>
+        <translation><!-- Swift Current --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temiskaming Shores</masterLabel>
+        <translation><!-- Temiskaming Shores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terrace</masterLabel>
+        <translation><!-- Terrace --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terrebonne</masterLabel>
+        <translation><!-- Terrebonne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thetford Mines</masterLabel>
+        <translation><!-- Thetford Mines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thompson</masterLabel>
+        <translation><!-- Thompson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thorold</masterLabel>
+        <translation><!-- Thorold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thunder Bay</masterLabel>
+        <translation><!-- Thunder Bay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thurso</masterLabel>
+        <translation><!-- Thurso --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timmins</masterLabel>
+        <translation><!-- Timmins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto</masterLabel>
+        <translation><!-- Toronto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trail</masterLabel>
+        <translation><!-- Trail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trois-Pistoles</masterLabel>
+        <translation><!-- Trois-Pistoles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trois-Rivières</masterLabel>
+        <translation><!-- Trois-Rivières --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Témiscaming</masterLabel>
+        <translation><!-- Témiscaming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Témiscouata-sur-le-Lac</masterLabel>
+        <translation><!-- Témiscouata-sur-le-Lac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Val-d&#39;Or</masterLabel>
+        <translation><!-- Val-d&apos;Or --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Valcourt</masterLabel>
+        <translation><!-- Valcourt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vancouver</masterLabel>
+        <translation><!-- Vancouver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Varennes</masterLabel>
+        <translation><!-- Varennes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vaudreuil-Dorion</masterLabel>
+        <translation><!-- Vaudreuil-Dorion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vaughan</masterLabel>
+        <translation><!-- Vaughan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vernon</masterLabel>
+        <translation><!-- Vernon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Victoria</masterLabel>
+        <translation><!-- Victoria --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Victoriaville</masterLabel>
+        <translation><!-- Victoriaville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ville-Marie</masterLabel>
+        <translation><!-- Ville-Marie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warman</masterLabel>
+        <translation><!-- Warman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warwick</masterLabel>
+        <translation><!-- Warwick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waterloo</masterLabel>
+        <translation><!-- Waterloo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waterville</masterLabel>
+        <translation><!-- Waterville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welland</masterLabel>
+        <translation><!-- Welland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Westmount</masterLabel>
+        <translation><!-- Westmount --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wetaskiwin</masterLabel>
+        <translation><!-- Wetaskiwin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weyburn</masterLabel>
+        <translation><!-- Weyburn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>White Rock</masterLabel>
+        <translation><!-- White Rock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Whitehorse</masterLabel>
+        <translation><!-- Whitehorse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Williams Lake</masterLabel>
+        <translation><!-- Williams Lake --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windsor</masterLabel>
+        <translation><!-- Windsor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Winkler</masterLabel>
+        <translation><!-- Winkler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Winnipeg</masterLabel>
+        <translation><!-- Winnipeg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Woodstock</masterLabel>
+        <translation><!-- Woodstock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yellowknife</masterLabel>
+        <translation><!-- Yellowknife --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yorkton</masterLabel>
+        <translation><!-- Yorkton --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Meeting Time --></help>
+    <label><!-- Meeting Time --></label>
+    <name>Meeting_Time__c</name>
+    <picklistValues>
+        <masterLabel>1000</masterLabel>
+        <translation><!-- 1000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1030</masterLabel>
+        <translation><!-- 1030 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1100</masterLabel>
+        <translation><!-- 1100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1130</masterLabel>
+        <translation><!-- 1130 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1200</masterLabel>
+        <translation><!-- 1200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1230</masterLabel>
+        <translation><!-- 1230 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1300</masterLabel>
+        <translation><!-- 1300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1330</masterLabel>
+        <translation><!-- 1330 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1400</masterLabel>
+        <translation><!-- 1400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1430</masterLabel>
+        <translation><!-- 1430 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1500</masterLabel>
+        <translation><!-- 1500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1530</masterLabel>
+        <translation><!-- 1530 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1600</masterLabel>
+        <translation><!-- 1600 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1630</masterLabel>
+        <translation><!-- 1630 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1700</masterLabel>
+        <translation><!-- 1700 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1730</masterLabel>
+        <translation><!-- 1730 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1800</masterLabel>
+        <translation><!-- 1800 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>800</masterLabel>
+        <translation><!-- 800 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>830</masterLabel>
+        <translation><!-- 830 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>900</masterLabel>
+        <translation><!-- 900 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>930</masterLabel>
+        <translation><!-- 930 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

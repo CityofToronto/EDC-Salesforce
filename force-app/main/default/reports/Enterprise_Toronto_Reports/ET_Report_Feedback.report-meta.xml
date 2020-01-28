@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Event_Client_Follow_Up__c.CampaignID__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Event_Client_Follow_Up__c.Workshop_Knowledgeable_Presenter__c</field>
+    </columns>
+    <columns>
+        <field>Event_Client_Follow_Up__c.Workshop_Met_Expectations__c</field>
+    </columns>
+    <columns>
+        <field>Event_Client_Follow_Up__c.Workshop_Valuable__c</field>
+    </columns>
+    <columns>
+        <field>Event_Client_Follow_Up__c.Workshop_Recommend__c</field>
+    </columns>
+    <columns>
+        <field>Event_Client_Follow_Up__c.Workshop_Value_for_Money__c</field>
+    </columns>
+    <columns>
+        <field>Event_Client_Follow_Up__c.Workshop_Feedback__c</field>
+    </columns>
+    <description>A report on feedback from Enterprise Toronto events.</description>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>Event_Client_Follow_Up__c.Workshop_Attendance_Before__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Event_Client_Follow_Up__c.Workshop_Attendance_Before__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>No</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>ET-Workshop Feedback</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Event_Client_Follow_Up__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

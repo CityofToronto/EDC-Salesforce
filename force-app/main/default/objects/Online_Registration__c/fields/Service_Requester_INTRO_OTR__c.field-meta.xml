@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Requester_INTRO_OTR__c</fullName>
+    <externalId>false</externalId>
+    <label>Service Requested (INTRO OTR)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Name Search or Corporate Profile Report</fullName>
+                <default>false</default>
+                <label>Business Name Search or Corporate Profile Report</label>
+            </value>
+            <value>
+                <fullName>Certified Document Replica of a Business Name Registration</fullName>
+                <default>false</default>
+                <label>Certified Document Replica of a Business Name Registration</label>
+            </value>
+            <value>
+                <fullName>Copies of Articles of Incorporation</fullName>
+                <default>false</default>
+                <label>Copies of Articles of Incorporation</label>
+            </value>
+            <value>
+                <fullName>Initial Return/Notice Change Filing</fullName>
+                <default>false</default>
+                <label>Initial Return/Notice Change Filing</label>
+            </value>
+            <value>
+                <fullName>Extra-Provincial Registration</fullName>
+                <default>false</default>
+                <label>Extra-Provincial Registration</label>
+            </value>
+            <value>
+                <fullName>Name Amendment or Cancellation</fullName>
+                <default>false</default>
+                <label>Name Amendment or Cancellation</label>
+            </value>
+            <value>
+                <fullName>Name Reservation Report (NUANS)</fullName>
+                <default>false</default>
+                <label>Name Reservation Report (NUANS)</label>
+            </value>
+            <value>
+                <fullName>Other (Please Specify)</fullName>
+                <default>false</default>
+                <label>Other (Please Specify)</label>
+            </value>
+            <value>
+                <fullName>Provincial Articles of Amendment</fullName>
+                <default>false</default>
+                <label>Provincial Articles of Amendment</label>
+            </value>
+            <value>
+                <fullName>Provincial Articles of Amendment with NUANS report</fullName>
+                <default>false</default>
+                <label>Provincial Articles of Amendment with NUANS report</label>
+            </value>
+            <value>
+                <fullName>Provincial Non-Profit Filing</fullName>
+                <default>false</default>
+                <label>Provincial Non-Profit Filing</label>
+            </value>
+            <value>
+                <fullName>Provincial Non-Profit Filing with NUANS report</fullName>
+                <default>false</default>
+                <label>Provincial Non-Profit Filing with NUANS report</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

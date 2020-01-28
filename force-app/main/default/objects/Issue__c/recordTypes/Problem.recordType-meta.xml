@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem</fullName>
+    <active>true</active>
+    <description>Its should be used for tracking any problem related to Account, Contact or Initiative.</description>
+    <label>Problem</label>
+    <picklistValues>
+        <picklist>Additional_Assistance_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Satisfaction_Survey_Status__c</picklist>
+        <values>
+            <fullName>In Queue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Responded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Confirm_Assistance__c</picklist>
+        <values>
+            <fullName>Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highly Effective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ineffective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EDC_Report_Type__c</picklist>
+        <values>
+            <fullName>Council and Intergovernmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ED%26C Operations and Budgets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Issues and Advance Notice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Trade and Investment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Business Investment%2C Formation and Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sector Competitiveness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workforce Development</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Issue_Type__c</picklist>
+        <values>
+            <fullName>Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Type__c</picklist>
+        <values>
+            <fullName>Advocacy %28competitive policy%2C development%2C infrastructure%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Problem_Type__c</picklist>
+        <values>
+            <fullName>Accessibility %28ramps%2C signage%2C etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business development %28expanding networks%2C exporting and promotional opportunities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development %E2%80%93 Committee of Adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development %E2%80%93 Preliminary Project Review %28PPR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development %E2%80%93 Zoning %2F Official Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Building Permit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Site Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development - Site Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encroachment by Sensitive Uses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding - Lack of Access to Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Procurement %28selling something to the City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Municipal Notice of Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate %E2%80%93 Cost %2F Availability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %E2%80%93 Congestion %2F Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %E2%80%93 Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %E2%80%93 Public Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %E2%80%93 Road Surface %2F Right of Way %2F Sidewalk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities %E2%80%93 Broadband</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities %E2%80%93 Electric</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities %E2%80%93 Natural Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities %E2%80%93 Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workforce %E2%80%93 Amenities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workforce %E2%80%93 Supply %26 Demand</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Recommend_Service__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Rating__c</picklist>
+        <values>
+            <fullName>Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highly Effective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ineffective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Aborted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

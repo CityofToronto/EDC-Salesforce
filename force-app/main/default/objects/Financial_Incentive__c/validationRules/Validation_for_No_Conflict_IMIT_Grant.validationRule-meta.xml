@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_No_Conflict_IMIT_Grant</fullName>
+    <active>true</active>
+    <description>This rule will make sure user should answer No Conflict while reviewing IMIT Application</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;,RecordType.DeveloperName=&#39;IMIT&#39;,OR(TEXT(Status__c)=&#39;In Review&#39;,TEXT(Status__c)=&#39;Draft&#39;),ISBLANK(TEXT(No_Conflict_of_Interest_IMIT_Admin__c)))</errorConditionFormula>
+    <errorDisplayField>No_Conflict_of_Interest_IMIT_Admin__c</errorDisplayField>
+    <errorMessage>Required Input</errorMessage>
+</ValidationRule>

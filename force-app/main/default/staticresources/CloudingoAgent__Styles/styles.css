@@ -1,0 +1,426 @@
+
+  
+   
+	h2 {
+		font-size: 14px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+/*Main DIVS Begin*/		
+	#body {
+	
+		margin: 5px 0px;
+		height: 300px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		padding-right: 10px;
+		padding-left:10px;
+		background-color:#f6f6f6;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#nav {
+		padding: 10px 10px;
+		margin: -9px;
+		border-bottom: 1px solid #CFCFCF;
+		background: rgb(219,219,219);
+		background: -moz-linear-gradient(top,  rgba(219,219,219,1) 0%, rgba(246,246,246,1) 21%, rgba(246,246,246,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(219,219,219,1)), color-stop(21%,rgba(246,246,246,1)), color-stop(100%,rgba(246,246,246,1)));
+		background: -webkit-linear-gradient(top,  rgba(219,219,219,1) 0%,rgba(246,246,246,1) 21%,rgba(246,246,246,1) 100%);
+		background: -o-linear-gradient(top,  rgba(219,219,219,1) 0%,rgba(246,246,246,1) 21%,rgba(246,246,246,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(219,219,219,1) 0%,rgba(246,246,246,1) 21%,rgba(246,246,246,1) 100%);
+		background: linear-gradient(to bottom,  rgba(219,219,219,1) 0%,rgba(246,246,246,1) 21%,rgba(246,246,246,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#f6f6f6',GradientType=0 );
+		-webkit-border-radius: 5px 5px 0px 0px;
+        border-radius: 5px 5px 0px 0px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#top {
+		width: 100%;
+		height: 200px;
+		background-color:#f6f6f6;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#left {
+		float:left;
+		height: 270px;
+		min-width: 508px;
+		width: 70%;
+		background-color:#f6f6f6;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+		
+	}
+	
+	#right {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		float:left;
+		height: 270px;
+		width: 27%;
+		background-color:#f6f6f6;
+		border-left: 1px solid #CFCFCF;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+		
+	}
+	
+	#bottom {
+		clear: both;
+		margin-top: -5px;
+		padding-bottom: 10px;
+		background: rgb(246,246,246);
+		background: -moz-linear-gradient(top,  rgba(246,246,246,1) 0%, rgba(246,246,246,1) 47%, rgba(255,255,255,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(255,255,255,1)));
+		background: -webkit-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 47%,rgba(255,255,255,1) 100%);
+		background: -o-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 47%,rgba(255,255,255,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 47%,rgba(255,255,255,1) 100%);
+		background: linear-gradient(to bottom,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 47%,rgba(255,255,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0 );
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+
+
+	}
+/*Main DIVS End*/	
+	
+	#bottomContent{
+		height: 200px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		padding-right: 10px;
+		padding-left:10px;
+		border-top: 1px solid #CFCFCF;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+
+	#button {
+		width: 200px;
+		height: 60px;
+		font-size: 18px;
+		color: white;
+		background: rgb(129,194,24);
+		background: -moz-linear-gradient(top,  rgba(129,194,24,1) 0%, rgba(129,194,24,1) 50%, rgba(159,212,75,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(129,194,24,1)), color-stop(50%,rgba(129,194,24,1)), color-stop(100%,rgba(159,212,75,1)));
+		background: -webkit-linear-gradient(top,  rgba(129,194,24,1) 0%,rgba(129,194,24,1) 50%,rgba(159,212,75,1) 100%);
+		background: -o-linear-gradient(top,  rgba(129,194,24,1) 0%,rgba(129,194,24,1) 50%,rgba(159,212,75,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(129,194,24,1) 0%,rgba(129,194,24,1) 50%,rgba(159,212,75,1) 100%);
+		background: linear-gradient(to bottom,  rgba(129,194,24,1) 0%,rgba(129,194,24,1) 50%,rgba(159,212,75,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81c218', endColorstr='#9fd44b',GradientType=0 );
+        cursor: pointer;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#button:hover{
+		background: rgb(159,212,75);
+		background: -moz-linear-gradient(top,  rgba(159,212,75,1) 0%, rgba(129,194,24,1) 50%, rgba(129,194,24,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(159,212,75,1)), color-stop(50%,rgba(129,194,24,1)), color-stop(100%,rgba(129,194,24,1)));
+		background: -webkit-linear-gradient(top,  rgba(159,212,75,1) 0%,rgba(129,194,24,1) 50%,rgba(129,194,24,1) 100%);
+		background: -o-linear-gradient(top,  rgba(159,212,75,1) 0%,rgba(129,194,24,1) 50%,rgba(129,194,24,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(159,212,75,1) 0%,rgba(129,194,24,1) 50%,rgba(129,194,24,1) 100%);
+		background: linear-gradient(to bottom,  rgba(159,212,75,1) 0%,rgba(129,194,24,1) 50%,rgba(129,194,24,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fd44b', endColorstr='#81c218',GradientType=0 );
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#button em{
+		font-size: 10px;
+		color: #6B6B6B;
+		text-shadow: 0px 0px 0px #a6a6a6;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#gstarted ul {
+		position: relative;
+		font-size: 16px;
+		list-style-type: none;
+		padding: 5px 10px;
+		margin: 0px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+		
+	}
+	
+	#gstarted ul li {
+		padding-top: 5px;
+		margin: 0px;
+		vertical-align:text-top;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#setupContent {
+		display: block;
+		text-align: center;
+		padding-top: 85px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#gstarted {
+		min-height: 225px;
+		min-width: 276px;
+		background-color: #ececec;
+		background-image:url("blines.png");	
+		margin-left: 10px;
+		margin-right: 0px;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		padding: 5px;
+		border: 2px solid #c3c3c3;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+		
+	}
+	
+	#settings{
+		background-color: #ececec;
+		width: 500px;
+		height: 170px;
+		padding: 10px;
+		background-image:url("gear.png");
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#settingsLeft {
+		float: left;
+		width: 200px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+
+	}
+	
+	#help {
+		float: left;
+		margin-left: 5px;
+		padding-left: 20px;
+		width: 260px;
+		border-left: 1px solid #CFCFCF;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+
+	}
+	
+	#footer {
+		border-top: 1px solid #CFCFCF;
+		margin-top: 10px;
+		padding: 5px 0px;
+		text-align: center;
+		clear: both;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+
+	}
+	
+	#wrapper{
+		min-width: 990px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	.image {
+		position: relative;
+		padding: 0px;
+		margin:0px;
+		display: inline;
+	}
+	.image .notactiveText {
+		position: absolute;
+		top: -40px;
+		left: 40px;
+		font-family:"Salesforce Sans", Arial, sans-serif;
+		font-size: 14px;
+		color: #595959;
+		
+	}
+	
+	.notactiveText a, .notactiveText a:hover{
+		text-decoration: none;
+		color: #595959;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	.notactiveText a:hover {
+		color: #72b00c;
+		text-decoration: none;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	.image .activeText{
+		position: absolute;
+		top: -40px;
+		left: 90px;
+		text-align: center;
+		font-family:"Salesforce Sans", Arial, sans-serif;
+		font-size: 14px;
+		color: #595959;
+	}
+	
+	.activeText a{
+		text-decoration: none;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	#activeSucceeded{
+		font-size:12px;
+		background-color: #E8E8E8;!important
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+
+	}
+	
+	.activeText span {
+		background-color: #edff58;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	
+	.activeText .iePadding {
+		padding-top: 5px;
+	}
+	
+	.image .expiredText{
+		position: absolute;
+		top: -40px;
+		left: 70px;
+		text-align: center;
+		font-family:"Salesforce Sans", Arial, sans-serif;
+		font-size: 14px;
+		color: #595959;
+	}
+	
+	.expiredText a{
+		text-decoration: none;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	.expiredText span {
+		background-color: #edff58;
+		padding-left: 3px;
+		padding-right: 3px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	.expiredText .iePadding {
+		padding-top: 5px;
+	}
+	
+
+	
+	.selectList {
+		margin-right: 5px;
+		margin-top: 5px;
+		height: 25px;
+		width: 160px;
+		font: 100%/1.5 "Salesforce Sans", Arial, sans-serif;
+	}
+	
+	
+.slds-text-body--regular {
+  font-size: 0.875rem; }
+
+.slds-text-heading--small {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.25; }
+
+.slds-text-heading--medium {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.25; }
+
+.slds-text-heading--large {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.25; }
+
+.slds-text-heading--label {
+  font-size: 0.75rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: .0625em;
+  color: #54698d; }
+
+.slds-text-body--small {
+  font-size: 0.75rem;
+  color: #54698d; }
+
+.slds-text-align--left {
+  text-align: left; }
+
+.slds-text-align--center {
+  text-align: center; }
+
+.slds-text-align--right {
+  text-align: right; }
+
+
+.slds-button {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  background: transparent;
+    background-clip: padding-box;
+  border: none;
+    border-radius: 0.25rem;
+  color: #0070d2;
+  font-size: inherit;
+  line-height: 2.125rem;
+  text-decoration: none;
+  -webkit-appearance: none;
+  white-space: normal;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: color 0.05s linear, background-color 0.05s linear;
+          transition: color 0.05s linear, background-color 0.05s linear; }
+  .slds-button:hover,
+  .slds-button:focus,
+  .slds-button:active,
+  .slds-button:visited {
+    text-decoration: none; }
+  .slds-button:hover,
+  .slds-button:focus {
+    color: #005fb2; }
+  .slds-button:focus {
+    outline: 0;
+    box-shadow: 0 0 3px #0070D2; }
+  .slds-button:active {
+    color: #00396b; }
+  .slds-button[disabled] {
+    color: #d8dde6; }
+  .slds-button:hover .slds-button__icon,
+  .slds-button:focus .slds-button__icon,
+  .slds-button:active .slds-button__icon,
+  .slds-button[disabled] .slds-button__icon {
+    fill: currentColor; }
+  .slds-button + .slds-button-group {
+    margin-left: 0.25rem; }
+  .slds-button + .slds-button {
+    margin-left: 0.25rem; }
+
+.slds-button-space-left {
+  margin-left: 0.25rem; }
+
+a.slds-button {
+  text-align: center; }
+  a.slds-button:focus {
+    outline: 0;
+    box-shadow: 0 0 3px #0070D2; }
+
+.slds-button--small {
+  line-height: 1.875rem;
+  min-height: 2rem; }
+
+.slds-button--neutral {
+  padding-left: 1rem; 
+  padding-right: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #d8dde6;
+  background-color: white; }
+  .slds-button--neutral:hover,
+  .slds-button--neutral:focus {
+    background-color: #f4f6f9; }
+  .slds-button--neutral:active {
+    background-color: #eef1f6; }
+  .slds-button--neutral[disabled] {
+    background-color: white;
+    cursor: default; }

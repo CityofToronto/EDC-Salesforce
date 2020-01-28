@@ -1,0 +1,15 @@
+Hello {!CampaignMember.FirstName} {!CampaignMember.LastName}, 
+
+Thanks for attending {!CampaignMember.Campaign} – we hope you found it useful and the content engaging. 
+
+We would appreciate it if you could please share your feedback on the event via this 1-minute client satisfaction survey: 
+
+https://cityoftoronto.tfaforms.net/355956?tfa_45={!CampaignMember.Id} 
+
+By participating in this survey, you help us identify areas where we can improve services and better understand your needs. Otherwise, let us know if you have any questions. Otherwise, let us know if you have any questions. 
+
+Please click below link to Unsubscribe from any Future Emails. 
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!CampaignMember.ContactId} 
+
+Regards, 
+{!Campaign.CreatedBy}

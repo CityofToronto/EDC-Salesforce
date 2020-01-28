@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Investment_Activity</fullName>
+    <availability>online</availability>
+    <description>This is custom button to create Investment activity record from Account details page skipping record type selection page</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Investment Activity</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/701/e?CF00N1N00000PW03O={!Account.Name}&amp;CF00N1N00000PW03O_lkid={!Account.Id}&amp;retURL=%2F{!Account.Id}&amp;RecordType=0121N0000012kqJ&amp;ent=Campaign&amp;p8=0121N0000012kqN&amp;CMRT=0121N0000012kqN</url>
+</WebLink>

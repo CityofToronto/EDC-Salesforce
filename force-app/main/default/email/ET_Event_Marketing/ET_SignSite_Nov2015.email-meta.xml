@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to Signature Sites event on Nov. 19th.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-SignSite(Nov2015)</name>
+    <style>none</style>
+    <subject>Invite: Join Mayor John Tory @ Going Global: Toronto Reaching New Heights</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

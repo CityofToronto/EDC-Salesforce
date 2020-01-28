@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIA_Wards__c</fullName>
+    <externalId>false</externalId>
+    <label>BIA Wards</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - Michael Ford</fullName>
+                <default>false</default>
+                <label>1 - Michael Ford</label>
+            </value>
+            <value>
+                <fullName>2 - Stephen Holyday</fullName>
+                <default>false</default>
+                <label>2 - Stephen Holyday</label>
+            </value>
+            <value>
+                <fullName>3 - Mark Grimes</fullName>
+                <default>false</default>
+                <label>3 - Mark Grimes</label>
+            </value>
+            <value>
+                <fullName>4 - Gord Perks</fullName>
+                <default>false</default>
+                <label>4 - Gord Perks</label>
+            </value>
+            <value>
+                <fullName>5 - Frances Nunziata</fullName>
+                <default>false</default>
+                <label>5 - Frances Nunziata</label>
+            </value>
+            <value>
+                <fullName>6 - James Pasternak</fullName>
+                <default>false</default>
+                <label>6 - James Pasternak</label>
+            </value>
+            <value>
+                <fullName>7 - Anthony Perruzza</fullName>
+                <default>false</default>
+                <label>7 - Anthony Perruzza</label>
+            </value>
+            <value>
+                <fullName>8 - Mike Colle</fullName>
+                <default>false</default>
+                <label>8 - Mike Colle</label>
+            </value>
+            <value>
+                <fullName>9 - Ana Bailão</fullName>
+                <default>false</default>
+                <label>9 - Ana Bailão</label>
+            </value>
+            <value>
+                <fullName>10 - Joe Cressy</fullName>
+                <default>false</default>
+                <label>10 - Joe Cressy</label>
+            </value>
+            <value>
+                <fullName>11 - Mike Layton</fullName>
+                <default>false</default>
+                <label>11 - Mike Layton</label>
+            </value>
+            <value>
+                <fullName>12 - Josh Matlow</fullName>
+                <default>false</default>
+                <label>12 - Josh Matlow</label>
+            </value>
+            <value>
+                <fullName>13 - Kristyn Wong-Tam</fullName>
+                <default>false</default>
+                <label>13 - Kristyn Wong-Tam</label>
+            </value>
+            <value>
+                <fullName>14 - Paula Fletcher</fullName>
+                <default>false</default>
+                <label>14 - Paula Fletcher</label>
+            </value>
+            <value>
+                <fullName>15 - Jaye Robinson</fullName>
+                <default>false</default>
+                <label>15 - Jaye Robinson</label>
+            </value>
+            <value>
+                <fullName>16 - Denzil Minnan-Wong</fullName>
+                <default>false</default>
+                <label>16 - Denzil Minnan-Wong</label>
+            </value>
+            <value>
+                <fullName>17 - Shelley Carroll</fullName>
+                <default>false</default>
+                <label>17 - Shelley Carroll</label>
+            </value>
+            <value>
+                <fullName>18 - John Filion</fullName>
+                <default>false</default>
+                <label>18 - John Filion</label>
+            </value>
+            <value>
+                <fullName>19 - Brad Bradford</fullName>
+                <default>false</default>
+                <label>19 - Brad Bradford</label>
+            </value>
+            <value>
+                <fullName>20 - Gary Crawford</fullName>
+                <default>false</default>
+                <label>20 - Gary Crawford</label>
+            </value>
+            <value>
+                <fullName>21 - Michael Thompson</fullName>
+                <default>false</default>
+                <label>21 - Michael Thompson</label>
+            </value>
+            <value>
+                <fullName>22 - Jim Karygiannis</fullName>
+                <default>false</default>
+                <label>22 - Jim Karygiannis</label>
+            </value>
+            <value>
+                <fullName>23 - Cynthia Lai</fullName>
+                <default>false</default>
+                <label>23 - Cynthia Lai</label>
+            </value>
+            <value>
+                <fullName>24 - Paul Ainslie</fullName>
+                <default>false</default>
+                <label>24 - Paul Ainslie</label>
+            </value>
+            <value>
+                <fullName>25 - Jennifer McKelvie</fullName>
+                <default>false</default>
+                <label>25 - Jennifer McKelvie</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

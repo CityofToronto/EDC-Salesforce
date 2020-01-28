@@ -1,0 +1,66 @@
+select, input[type=text] {
+  background-color: #fff;
+  color: #16325c;
+  border: 1px solid #d8dde6;
+  border-radius: .25rem;
+  transition: border .1s linear,background-color .1s linear;
+  display: inline-block;
+  padding: 0 1rem 0 .75rem;
+  line-height: 1.875rem;
+  height: calc(1.875rem + (1px * 2));
+  width: 15rem;
+
+}
+
+select {
+  background: #fff url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-128.png') no-repeat;
+  background-size: 16px;
+  background-position:  right 10px center;
+  font-family: 'Arial';
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+
+}
+
+select:active, select:focus {
+  outline: 0;
+  border-color: #1589ee;
+  background-color: #fff;
+  box-shadow: 0 0 3px #0070D2;
+}
+
+.slds-scope .slds-docked-form-footer {
+  padding: 1rem !important;
+  justify-content: flex-end !important;
+}
+.slds-scope .slds-docked-form-footer button {
+  margin-right: 1rem;
+}
+
+.slds-scope .slds-tabs_path .slds-is-complete .slds-tabs_path__title {
+  transform: none !important;
+  color: #fff !important;
+}
+
+.oRight {
+  padding-bottom: 75px !important;
+}
+
+.slds-scope .slds-checkbox_toggle [type=checkbox][disabled]+.slds-checkbox_faux_container .slds-checkbox_faux {
+  border-color: #a9a9a9;
+}
+
+input[type="checkbox"]{
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  border: 1px solid #d8dde6;
+  border-radius: 0.125rem;
+  background: white;
+  transition: border 0.1s linear, background-color 0.1s linear;
+}

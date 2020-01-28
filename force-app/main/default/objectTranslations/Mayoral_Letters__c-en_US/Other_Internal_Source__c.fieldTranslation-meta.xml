@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Specify the other internal source not listed in the Internal source drop down field --></help>
+    <label><!-- Other Internal Source --></label>
+    <name>Other_Internal_Source__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- List how you will allocate the grant: --></label>
+    <name>List_how_you_will_allocate_the_grant__c</name>
+</CustomFieldTranslation>

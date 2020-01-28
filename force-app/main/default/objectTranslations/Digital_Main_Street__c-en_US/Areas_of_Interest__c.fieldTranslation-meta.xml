@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Areas of Interest --></label>
+    <name>Areas_of_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Analytics</masterLabel>
+        <translation><!-- Analytics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blogging</masterLabel>
+        <translation><!-- Blogging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Content Development</masterLabel>
+        <translation><!-- Content Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital Marketing / Social Media</masterLabel>
+        <translation><!-- Digital Marketing / Social Media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecommerce</masterLabel>
+        <translation><!-- Ecommerce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email Marketing</masterLabel>
+        <translation><!-- Email Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Website</masterLabel>
+        <translation><!-- New Website --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Presence</masterLabel>
+        <translation><!-- Online Presence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>POS Integration</masterLabel>
+        <translation><!-- POS Integration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgrade Existing Website</masterLabel>
+        <translation><!-- Upgrade Existing Website --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

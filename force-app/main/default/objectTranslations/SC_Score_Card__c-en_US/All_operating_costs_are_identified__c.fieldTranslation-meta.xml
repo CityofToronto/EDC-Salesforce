@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- All operating costs including grant, loan payments, salaries, utilities have been identified and are included in the disbursements --></help>
+    <label><!-- All operating costs are identified? --></label>
+    <name>All_operating_costs_are_identified__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (1 pt)</masterLabel>
+        <translation><!-- Yes (1 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

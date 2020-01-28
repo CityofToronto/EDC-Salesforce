@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_Strat_Bus_Trade_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &#39;Company_Intelligence&#39;, ISBLANK( What_Strat_Bus_and_or_Trade_Alliances__c ),TEXT( Int_in_Strat_Bus_and_or_Trade_Allianc__c)=&#39;Yes&#39;)</errorConditionFormula>
+    <errorDisplayField>What_Strat_Bus_and_or_Trade_Alliances__c</errorDisplayField>
+    <errorMessage>Required Input</errorMessage>
+</ValidationRule>

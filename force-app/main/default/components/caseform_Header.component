@@ -1,0 +1,42 @@
+<apex:component >
+    <style>
+        .skipto a {
+            padding: 6px;
+            position: absolute;
+            top: -60px;
+            left: 0px;
+            color: white;
+            border-right: 1px solid white;
+            border-bottom: 1px solid white;
+            border-bottom-right-radius: 8px;
+            background: transparent;
+            -webkit-transition: top 1s ease-out, background 1s linear;
+            transition: top 1s ease-out, background 1s linear;
+            z-index: 1031;
+        }
+        .skipto a:focus {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            background: #BF1722;
+            outline: 0;
+            -webkit-transition: top .1s ease-in, background .5s linear;
+            transition: top .1s ease-in, background .5s linear;
+        }
+    </style>
+    <div id="skiptocontent" class="skipto">
+            <a href="#main-content">skip to main content</a>
+        </div>
+    <div style="background-color:#346488; margin-bottom: 15px;">
+        <div class="form-horizontal wrap_content">
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <a href="http://www.toronto.ca"><img src="{!URLFOR($Resource.tvimage, '/image/logo2.gif')}" alt="..." /></a>
+                </div>
+                <div class="col-sm-10">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</apex:component>

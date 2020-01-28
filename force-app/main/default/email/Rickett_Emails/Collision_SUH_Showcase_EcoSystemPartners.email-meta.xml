@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ask to have channel partners promote SUH showcase on May 24, 2019.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Collision-SUH-Showcase-EcoSystemPartners</name>
+    <style>none</style>
+    <subject>Please Share: Startup Here Innovation Showcase - May 24th</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

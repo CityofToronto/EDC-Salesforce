@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lecture_3_Pricing_Bookkeeping_Completed__c</fullName>
+    <description>Lecture #3 – Pricing &amp; Bookkeeping Completed?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lecture #3 – Pricing &amp; Bookkeeping Completed?</inlineHelpText>
+    <label>Lecture#3-Pricing&amp;Bookkeeping Completed?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

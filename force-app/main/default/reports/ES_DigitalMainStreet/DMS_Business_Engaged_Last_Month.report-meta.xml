@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Digital_Main_Street__c.Contact_Email__c</field>
+    </columns>
+    <columns>
+        <field>Digital_Main_Street__c.Account_Name__c</field>
+    </columns>
+    <columns>
+        <field>Digital_Main_Street__c.Staff_Contact__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Digital_Main_Street__c.Number_Of_Visits__c</field>
+    </columns>
+    <description>Monthly List of Businesses Engaged</description>
+    <filter>
+        <criteriaItems>
+            <column>Digital_Main_Street__c.Type__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Business</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Digital_Main_Street__c.Business_Improvement_Area__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Village of Islington</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Digital_Main_Street__c.Business_Improvement_Area__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DMS - Business Engaged Last Month</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Digital_Main_Street__c@Digital_Main_Street__c.Contact_DMS__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Digital_Main_Street__c.Date_Visited__c</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

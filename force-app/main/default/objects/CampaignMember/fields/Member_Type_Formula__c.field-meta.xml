@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Type_Formula__c</fullName>
+    <description>This field value corresponds to Event Type/Project Type/Group Management Type based on Initiative Record Type</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(ISBLANK(TEXT(Campaign.Event_Type__c))),Campaign.RecordType.Name=&#39;Events&#39;),TEXT(Campaign.Event_Type__c),IF(AND(NOT(ISBLANK(TEXT(Campaign.Project_Type__c))),Campaign.RecordType.Name=&#39;Projects&#39;),TEXT(Campaign.Project_Type__c),IF(AND(NOT(ISBLANK(TEXT(Campaign.Group_Management_Type__c))),Campaign.RecordType.Name=&#39;Group_Management&#39;),TEXT(Campaign.Group_Management_Type__c),IF(Campaign.RecordType.Name=&#39;Investment_Activity&#39;,&#39;Investment Activity&#39;,null))))</formula>
+    <inlineHelpText>This field value corresponds to Event Type/Project Type/Group Management Type based on Initiative Record Type</inlineHelpText>
+    <label>Member Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

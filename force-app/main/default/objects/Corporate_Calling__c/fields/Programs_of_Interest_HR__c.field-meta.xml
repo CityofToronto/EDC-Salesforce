@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programs_of_Interest_HR__c</fullName>
+    <externalId>false</externalId>
+    <label>Programs of Interest – HR</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yves Landry Foundation</fullName>
+                <default>false</default>
+                <label>Yves Landry Foundation</label>
+            </value>
+            <value>
+                <fullName>Apprenticeship Training – Tax Credit</fullName>
+                <default>false</default>
+                <label>Apprenticeship Training – Tax Credit</label>
+            </value>
+            <value>
+                <fullName>Canada Ontario Job Grant</fullName>
+                <default>false</default>
+                <label>Canada Ontario Job Grant</label>
+            </value>
+            <value>
+                <fullName>Canada Summer Jobs – Service Canada</fullName>
+                <default>false</default>
+                <label>Canada Summer Jobs – Service Canada</label>
+            </value>
+            <value>
+                <fullName>Federal Work Sharing</fullName>
+                <default>false</default>
+                <label>Federal Work Sharing</label>
+            </value>
+            <value>
+                <fullName>Opportunities Ontario Provincial Nominee Program</fullName>
+                <default>false</default>
+                <label>Opportunities Ontario Provincial Nominee Program</label>
+            </value>
+            <value>
+                <fullName>PAYE</fullName>
+                <default>false</default>
+                <label>PAYE</label>
+            </value>
+            <value>
+                <fullName>Private Services</fullName>
+                <default>false</default>
+                <label>Private Services</label>
+            </value>
+            <value>
+                <fullName>Employment Ontario</fullName>
+                <default>false</default>
+                <label>Employment Ontario</label>
+            </value>
+            <value>
+                <fullName>Summer Jobs Service</fullName>
+                <default>false</default>
+                <label>Summer Jobs Service</label>
+            </value>
+            <value>
+                <fullName>Temporary Foreign Workers Program</fullName>
+                <default>false</default>
+                <label>Temporary Foreign Workers Program</label>
+            </value>
+            <value>
+                <fullName>TESS</fullName>
+                <default>false</default>
+                <label>TESS</label>
+            </value>
+            <value>
+                <fullName>Youth Employment Fund</fullName>
+                <default>false</default>
+                <label>Youth Employment Fund</label>
+            </value>
+            <value>
+                <fullName>Youth Employment Partnership</fullName>
+                <default>false</default>
+                <label>Youth Employment Partnership</label>
+            </value>
+            <value>
+                <fullName>Youth Employment Program – IRAP</fullName>
+                <default>false</default>
+                <label>Youth Employment Program – IRAP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

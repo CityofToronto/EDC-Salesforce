@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_has_goods_to_supply_product__c</fullName>
+    <description>The company can consistently acquire goods to supply the product/service at an acceptable price and quality</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The company can consistently acquire goods to supply the product/service at an acceptable price and quality</inlineHelpText>
+    <label>Company has goods to supply product?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>yes (2 pt)</fullName>
+                <default>false</default>
+                <label>yes (2 pt)</label>
+            </value>
+            <value>
+                <fullName>No (0 pt)</fullName>
+                <default>false</default>
+                <label>No (0 pt)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

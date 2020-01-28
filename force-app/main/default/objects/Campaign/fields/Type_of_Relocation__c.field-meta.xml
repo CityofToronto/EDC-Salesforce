@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Relocation__c</fullName>
+    <description>This is to identify if this is a new business that is moving into the city or a new business opening up in the city.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is to identify if this is a new business that is moving into the city or a new business opening up in the city.</inlineHelpText>
+    <label>Type of Relocation</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>International (FDI)</fullName>
+                <default>false</default>
+                <label>International (FDI)</label>
+            </value>
+            <value>
+                <fullName>Within Canada</fullName>
+                <default>false</default>
+                <label>Within Canada</label>
+            </value>
+            <value>
+                <fullName>Within Toronto</fullName>
+                <default>false</default>
+                <label>Within Toronto</label>
+            </value>
+            <value>
+                <fullName>From outside City</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>From outside City</label>
+            </value>
+            <value>
+                <fullName>Within City</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Within City</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

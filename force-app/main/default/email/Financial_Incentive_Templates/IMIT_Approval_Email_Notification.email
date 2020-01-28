@@ -1,0 +1,9 @@
+Dear User,
+
+A new IMIT Approval Request has been assigned to you. Please refer below link to Approve/Reject the request.
+
+{!Financial_Incentive__c.Link}
+
+Comments - {!Financial_Incentive__c.Comments__c}
+
+Thanks

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Degree of Practical Experience in the Industry: --></help>
+    <label><!-- Practical Experience in the Industry --></label>
+    <name>Practical_Experience_in_the_Industry__c</name>
+    <picklistValues>
+        <masterLabel>5+ years (2 pts)</masterLabel>
+        <translation><!-- 5+ years (2 pts) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less than 5 years (1 pt)</masterLabel>
+        <translation><!-- Less than 5 years (1 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

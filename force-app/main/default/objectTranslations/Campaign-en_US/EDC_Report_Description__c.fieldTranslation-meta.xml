@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is a free form text field where the user can enter any text pertaining to the interaction included in the weekly report --></help>
+    <label><!-- EDC Report Description --></label>
+    <name>EDC_Report_Description__c</name>
+</CustomFieldTranslation>

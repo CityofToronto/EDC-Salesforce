@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email invitation to SC clients to come to mentor lunch.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-MentorLunch-1Par15</name>
+    <style>none</style>
+    <subject>Invite: Enterprise Toronto - Starter Company Mentor Appreciation Lunch - Apr. 1st</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

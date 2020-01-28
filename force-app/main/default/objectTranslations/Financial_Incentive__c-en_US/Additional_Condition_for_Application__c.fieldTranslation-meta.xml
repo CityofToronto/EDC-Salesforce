@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field applicable to specify any additional condition that needs to be included in approved application notification sent to Client --></help>
+    <label><!-- Additional Condition for Application --></label>
+    <name>Additional_Condition_for_Application__c</name>
+</CustomFieldTranslation>

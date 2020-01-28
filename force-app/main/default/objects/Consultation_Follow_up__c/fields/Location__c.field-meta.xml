@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Location</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City Hall</fullName>
+                <default>false</default>
+                <label>City Hall</label>
+            </value>
+            <value>
+                <fullName>North York Civic Centre</fullName>
+                <default>false</default>
+                <label>North York Civic Centre</label>
+            </value>
+            <value>
+                <fullName>Scarborough Civic Centre</fullName>
+                <default>false</default>
+                <label>Scarborough Civic Centre</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

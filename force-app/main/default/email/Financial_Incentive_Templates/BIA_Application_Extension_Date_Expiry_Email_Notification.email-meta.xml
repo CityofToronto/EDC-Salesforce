@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email notification will be sent to BIA Officer a month before Extension Date of BIA Grant Application.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BIA Application Extension Date Expiry Email Notification</name>
+    <style>none</style>
+    <subject>Upcoming BIA Grant Application Extension Expiration for {!Financial_Incentive__c.Account__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

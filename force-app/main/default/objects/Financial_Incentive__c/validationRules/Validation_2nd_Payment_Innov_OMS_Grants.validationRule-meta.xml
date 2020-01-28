@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_2nd_Payment_Innov_OMS_Grants</fullName>
+    <active>true</active>
+    <description>This rule will make sure any payment detail must be provided for Innovation and Outside Mural BIA grant once Status is 2nd Payment made</description>
+    <errorConditionFormula>AND(OR(RecordType.DeveloperName=&#39;BIA_Innovation_Fund&#39;,RecordType.DeveloperName=&#39;BIA_Outside_Mural_and_Street_Art_Grant&#39;),TEXT(Has_2nd_Payment_been_made__c)=&#39;Yes&#39;,OR(ISBLANK(Actual_Paid_Amount_for_2nd_Payment__c),ISBLANK(EDC_Invoice_for_2nd_payment__c),ISBLANK(Final_Invoice_Received_Date__c),ISBLANK(WBS_Account_for_2nd_Payment__c),ISBLANK(Amount_Approved__c)))</errorConditionFormula>
+    <errorMessage>Amount Approved, Final Invoice Received Date and 2nd Payment details should be provided in Payment section</errorMessage>
+</ValidationRule>

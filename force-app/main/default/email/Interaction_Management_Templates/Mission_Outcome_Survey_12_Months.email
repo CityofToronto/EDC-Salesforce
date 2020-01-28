@@ -1,0 +1,15 @@
+Dear {!CampaignMember.Contact}, 
+
+Last year you visited our Enterprise Toronto office to get assistance with your business. 
+
+We would like to know how things are going with your business and would appreciate if you could please provide us an update via this 1 minute survey - 
+
+https://cityoftoronto.tfaforms.net/355962?tfa_74={!CampaignMember.Id}
+
+By participating in this survey, you help us understand the value of these missions. Thanks and feel free to contact us anytime. 
+
+If you would like to unsubscribe from future email communications then please follow this link: 
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!CampaignMember.ContactId} 
+
+Regards, 
+{!Campaign.CreatedBy}

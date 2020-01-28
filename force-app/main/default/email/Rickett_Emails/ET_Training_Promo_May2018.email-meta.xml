@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to recent ET clients (since Jan) about upcoming sessions and offering them at no cost.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-Training-Promo(May2018</name>
+    <style>none</style>
+    <subject>Attending Upcoming Business Training at No-Cost</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_cost_of_remediation__c</fullName>
+    <description>List and summarize the remediation costs. Attach a statement of the costs to be incurred. Paid invoices must be from a Qualified Person as defined in Ontario Regulation 153/04 of the Environmental Protection Act or an entity that is satisfactory to the City. The costs claimed may be subject to an independent audit at the City&#39;s request, to be conducted at the sole expense of the property owner.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Estimated cost of remediation $ that Include a statement of costs to be incurred in connection with the remediation. The statement must summarize all remediation costs</inlineHelpText>
+    <label>Estimated cost of remediation $</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

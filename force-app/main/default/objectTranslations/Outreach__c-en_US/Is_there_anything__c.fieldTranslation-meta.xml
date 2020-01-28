@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- FUE-Anything ET can do in the future --></label>
+    <name>Is_there_anything__c</name>
+</CustomFieldTranslation>

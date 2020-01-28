@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SC Monthly Reporting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SC Monthly Reportings</value>
+    </caseValues>
+    <layouts>
+        <layout>Financial Incentive Monthly Reporting Layout</layout>
+        <sections>
+            <label><!-- 1). Training Information --></label>
+            <section>1). Training Information</section>
+        </sections>
+        <sections>
+            <label><!-- 2). Mentor Details --></label>
+            <section>2). Mentor Details</section>
+        </sections>
+        <sections>
+            <label><!-- 3). Advisor Information --></label>
+            <section>3). Advisor Information</section>
+        </sections>
+        <sections>
+            <label><!-- 4). Milestone Information --></label>
+            <section>4). Milestone Information</section>
+        </sections>
+        <sections>
+            <label><!-- 5). Business Outcome --></label>
+            <section>5). Business Outcome</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SC Monthly Reporting Layout</layout>
+        <sections>
+            <label><!-- 1). Training Information --></label>
+            <section>1). Training Information</section>
+        </sections>
+        <sections>
+            <label><!-- 2). Mentor Details --></label>
+            <section>2). Mentor Details</section>
+        </sections>
+        <sections>
+            <label><!-- 3). Adviser Information --></label>
+            <section>3). Adviser Information</section>
+        </sections>
+        <sections>
+            <label><!-- 4). Milestone Information --></label>
+            <section>4). Milestone Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Starter Space Training --></label>
+            <section>Starter Space Training</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<apex:page standardController="Account" extensions="MC4SF.NamespaceExtension">
+    <apex:includeScript value="/soap/ajax/30.0/connection.js" />
+    <apex:includeScript value="/soap/ajax/30.0/apex.js" />
+    <script>
+        try { 
+            sforce.connection.sessionId = '{!$Api.Session_ID}'; 
+            var personContactId = sforce.apex.execute("{!namespaceClass}Util", "getPersonContactId", {accountId: '{!Account.Id}'}); 
+            if (personContactId == '') {
+                alert('This feature is only applicable to Person Accounts.');
+                top.location.href = '/{!Account.Id}';
+            } else {
+                top.location.href = '/apex/{!namespaceObj}SubscriptionsContact?id=' + personContactId;
+            }
+        } catch (error) { 
+            if (error.faultcode == 'sf:INSUFFICIENT_ACCESS') { 
+                alert('You do not have permission to perform this function.'); 
+                top.location.href = '/{!Account.Id}';
+            } else { 
+                alert(error); 
+                top.location.href = '/{!Account.Id}';
+            } 
+        }
+    </script>
+</apex:page>

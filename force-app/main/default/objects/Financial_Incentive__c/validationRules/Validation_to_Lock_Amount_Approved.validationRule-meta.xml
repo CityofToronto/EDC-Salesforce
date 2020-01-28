@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_to_Lock_Amount_Approved</fullName>
+    <active>true</active>
+    <description>This validation will restrict user from changing Amount Approved values once its been approved</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;,ISCHANGED(Amount_Approved__c),OR(TEXT(Status__c)=&#39;Approved&#39;,TEXT(Status__c)=&#39;Completed&#39;,TEXT(Status__c)=&#39;Payment&#39;,TEXT(Status__c)=&#39;Approved by GM&#39;,TEXT(Status__c)=&#39;Approved by City Council&#39;,TEXT(Status__c)=&#39;Pending Extension&#39;,TEXT(Status__c)=&#39;Extension Approved&#39;,TEXT(Status__c)=&#39;Payment&#39;))</errorConditionFormula>
+    <errorDisplayField>Amount_Approved__c</errorDisplayField>
+    <errorMessage>Once Application has been Approved  &#39;Amount Approved&#39; can not be changed</errorMessage>
+</ValidationRule>

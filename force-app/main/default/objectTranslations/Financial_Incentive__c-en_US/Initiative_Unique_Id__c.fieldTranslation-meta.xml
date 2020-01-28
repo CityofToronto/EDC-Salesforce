@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is a hidden and unique field will be populated using Workflow and used to maintain one to one relation between Financial Invenctive IMIT and Investment Activity Initiative --></help>
+    <label><!-- Initiative Unique Id --></label>
+    <name>Initiative_Unique_Id__c</name>
+</CustomFieldTranslation>

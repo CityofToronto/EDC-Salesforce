@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retail_Program</fullName>
+    <active>true</active>
+    <label>Retail Program</label>
+    <picklistValues>
+        <picklist>All_operating_costs_are_identified__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assets_required_for_business_identified__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %282 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assumptions_are_clearly_identified__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %282 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Objectives_clearly_identified__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Plan_identify_SWOT_of_venture__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %283 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_has_CRM_System__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_has_Customer_Loyalty_Program__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cash_Flow_projections_are_included__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %283 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Company_has_goods_to_supply_product__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>yes %282 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Corporate_Objective_Early_Identified__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Service__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Degree_of_Management_Sales_Experience__c</picklist>
+        <values>
+            <fullName>3%2B years %282 pts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2B years %283 pts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than 3 years %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Demonstrated_personal_investment_of_cash__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Details_a_realistic_marketing_plan__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %285 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Differentiation_from_Competitors__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Full_cost_bringing_the_product_to_market__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %282 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Geographical_service_area_clearly_Identi__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_Reviewer_Name__c</picklist>
+        <values>
+            <fullName>Marcie Wenn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandi Koitsis-Zigomanis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vikas Jain</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_Reviewer__c</picklist>
+        <values>
+            <fullName>Abdullah Snobar %28asnobar%40ryerson%2Eca%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andrew Patricio %28andrew%40bizlaunch%2Eca%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dave Sora %28dsora%40sseontario%2Eorg%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>David Cohen %28dcohen%40smallbusinessbigideas%2Ecom%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marissa Maislin %28marissa%40theshoptoronto%2Eca%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marlene Latour %28marlene%2Elatour%40gmail%2Ecom%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandi Koitsis-Zigomanis %28skoitsi%40toronto%2Eca%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vik Jain %28jain%40toronto%2Eca%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grant_fund_Allocation_clearly_outline_fp__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hiring_Practices_are_clearly_Identified__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Identify_and_responding_to_Gaps_are_clea__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry_Network__c</picklist>
+        <values>
+            <fullName>Some contacts%2Factive member in industry association %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Well Established %282 pts%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Level_of_Education_Business_Start_Up__c</picklist>
+        <values>
+            <fullName>OSSD or equivilent %281pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Secondary or Trade related %283pts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Secondary or Trade unrelated %282pts%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Management_has_been_profiled__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Operating_processes_are_described__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %282 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Performance_Management_Process_in_place__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Performing_Market_Research__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Practical_Experience_in_the_Industry__c</picklist>
+        <values>
+            <fullName>5%2B years %282 pts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than 5 years %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Placement_strategic_plan_describ__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quality_Control__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retail_Store_Design_Plan_and_objective_d__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reviewer__c</picklist>
+        <values>
+            <fullName>Grant Reviewer1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant Reviewer2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Risk_Analysis_has_been_completed__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %282 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>STATUS__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Forecasting_Processes_Described__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Revenue_projections_are_realistic__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %283 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Speed_to_Closing_Sales__c</picklist>
+        <values>
+            <fullName>Business has closed sales or existing client base %283 pts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business has no closed sales or existing client base but does have firm orders %282 pts%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business has no closed sales or exsting client base or firm orders but does have letter%28s%29 of intent %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>States_an_appropriate_pricing_strategy__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %282 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Market_Area_clearly_Identified__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tracking_Inventory_for_Operating__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Value_proposition_is_evident__c</picklist>
+        <values>
+            <fullName>No %280 pt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %281 pt%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

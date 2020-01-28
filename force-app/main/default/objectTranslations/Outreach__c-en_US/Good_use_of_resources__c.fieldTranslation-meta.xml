@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- FUI-Good use of resources? --></label>
+    <name>Good_use_of_resources__c</name>
+</CustomFieldTranslation>

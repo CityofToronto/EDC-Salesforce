@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- General Project Type --></label>
+    <name>General_Project_Type__c</name>
+    <picklistValues>
+        <masterLabel>Community Development</masterLabel>
+        <translation><!-- Community Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Attraction</masterLabel>
+        <translation><!-- Investment Attraction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Market Development</masterLabel>
+        <translation><!-- Market Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Policy</masterLabel>
+        <translation><!-- Policy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulatory</masterLabel>
+        <translation><!-- Regulatory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector Development</masterLabel>
+        <translation><!-- Sector Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workforce Development</masterLabel>
+        <translation><!-- Workforce Development --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

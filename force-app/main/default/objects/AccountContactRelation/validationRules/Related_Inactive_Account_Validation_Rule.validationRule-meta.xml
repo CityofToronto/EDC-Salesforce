@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Inactive_Account_Validation_Rule</fullName>
+    <active>true</active>
+    <description>This Validation rule will avoid creating Account Contact relationship record for an inactive Account.</description>
+    <errorConditionFormula>AND(ISNEW(), TEXT(Account.Active__c) = &#39;No&#39;)</errorConditionFormula>
+    <errorMessage>New Account Contact relationship record can not be created for Inactive Account.</errorMessage>
+</ValidationRule>

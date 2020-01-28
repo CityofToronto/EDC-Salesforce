@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Improvement_Area__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Improvement Area</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wexford Heights</fullName>
+                <default>false</default>
+                <label>Wexford Heights</label>
+            </value>
+            <value>
+                <fullName>Outside of Toronto</fullName>
+                <default>false</default>
+                <label>Outside of Toronto</label>
+            </value>
+            <value>
+                <fullName>I don&#39;t know</fullName>
+                <default>false</default>
+                <label>I don&#39;t know</label>
+            </value>
+            <value>
+                <fullName>Albion Islington Square</fullName>
+                <default>false</default>
+                <label>Albion Islington Square</label>
+            </value>
+            <value>
+                <fullName>Baby Point Gates</fullName>
+                <default>false</default>
+                <label>Baby Point Gates</label>
+            </value>
+            <value>
+                <fullName>Bayview Leaside</fullName>
+                <default>false</default>
+                <label>Bayview Leaside</label>
+            </value>
+            <value>
+                <fullName>Bloor-Yorkville</fullName>
+                <default>false</default>
+                <label>Bloor-Yorkville</label>
+            </value>
+            <value>
+                <fullName>Bloor Annex</fullName>
+                <default>false</default>
+                <label>Bloor Annex</label>
+            </value>
+            <value>
+                <fullName>Bloor by the Park</fullName>
+                <default>false</default>
+                <label>Bloor by the Park</label>
+            </value>
+            <value>
+                <fullName>Bloor Street</fullName>
+                <default>false</default>
+                <label>Bloor Street</label>
+            </value>
+            <value>
+                <fullName>Bloor West Village</fullName>
+                <default>false</default>
+                <label>Bloor West Village</label>
+            </value>
+            <value>
+                <fullName>Bloorcourt Village</fullName>
+                <default>false</default>
+                <label>Bloorcourt Village</label>
+            </value>
+            <value>
+                <fullName>Bloordale Village</fullName>
+                <default>false</default>
+                <label>Bloordale Village</label>
+            </value>
+            <value>
+                <fullName>Cabbagetown</fullName>
+                <default>false</default>
+                <label>Cabbagetown</label>
+            </value>
+            <value>
+                <fullName>Chinatown</fullName>
+                <default>false</default>
+                <label>Chinatown</label>
+            </value>
+            <value>
+                <fullName>Church-Wellesley Village</fullName>
+                <default>false</default>
+                <label>Church-Wellesley Village</label>
+            </value>
+            <value>
+                <fullName>College Promenade</fullName>
+                <default>false</default>
+                <label>College Promenade</label>
+            </value>
+            <value>
+                <fullName>College West</fullName>
+                <default>false</default>
+                <label>College West</label>
+            </value>
+            <value>
+                <fullName>Corso Italia</fullName>
+                <default>false</default>
+                <label>Corso Italia</label>
+            </value>
+            <value>
+                <fullName>Crossroads of the Danforth</fullName>
+                <default>false</default>
+                <label>Crossroads of the Danforth</label>
+            </value>
+            <value>
+                <fullName>Danforth Mosaic</fullName>
+                <default>false</default>
+                <label>Danforth Mosaic</label>
+            </value>
+            <value>
+                <fullName>Danforth Village</fullName>
+                <default>false</default>
+                <label>Danforth Village</label>
+            </value>
+            <value>
+                <fullName>Dovercourt Village</fullName>
+                <default>false</default>
+                <label>Dovercourt Village</label>
+            </value>
+            <value>
+                <fullName>Downtown Yonge</fullName>
+                <default>false</default>
+                <label>Downtown Yonge</label>
+            </value>
+            <value>
+                <fullName>Dufferin-Wingold</fullName>
+                <default>false</default>
+                <label>Dufferin-Wingold</label>
+            </value>
+            <value>
+                <fullName>Dufferin Finch</fullName>
+                <default>false</default>
+                <label>Dufferin Finch</label>
+            </value>
+            <value>
+                <fullName>Dundas West</fullName>
+                <default>false</default>
+                <label>Dundas West</label>
+            </value>
+            <value>
+                <fullName>Dupont by the Castle</fullName>
+                <default>false</default>
+                <label>Dupont by the Castle</label>
+            </value>
+            <value>
+                <fullName>Eglinton Hill</fullName>
+                <default>false</default>
+                <label>Eglinton Hill</label>
+            </value>
+            <value>
+                <fullName>Emery Village</fullName>
+                <default>false</default>
+                <label>Emery Village</label>
+            </value>
+            <value>
+                <fullName>Fairbank Village</fullName>
+                <default>false</default>
+                <label>Fairbank Village</label>
+            </value>
+            <value>
+                <fullName>Forest Hill Village</fullName>
+                <default>false</default>
+                <label>Forest Hill Village</label>
+            </value>
+            <value>
+                <fullName>Gerrard India Bazaar</fullName>
+                <default>false</default>
+                <label>Gerrard India Bazaar</label>
+            </value>
+            <value>
+                <fullName>GreekTown on the Danforth</fullName>
+                <default>false</default>
+                <label>GreekTown on the Danforth</label>
+            </value>
+            <value>
+                <fullName>Harbord Street</fullName>
+                <default>false</default>
+                <label>Harbord Street</label>
+            </value>
+            <value>
+                <fullName>Hillcrest Village</fullName>
+                <default>false</default>
+                <label>Hillcrest Village</label>
+            </value>
+            <value>
+                <fullName>Historic Queen East</fullName>
+                <default>false</default>
+                <label>Historic Queen East</label>
+            </value>
+            <value>
+                <fullName>Financial District</fullName>
+                <default>false</default>
+                <label>Financial District</label>
+            </value>
+            <value>
+                <fullName>Junction Gardens</fullName>
+                <default>false</default>
+                <label>Junction Gardens</label>
+            </value>
+            <value>
+                <fullName>Kennedy Road Neighbourhood</fullName>
+                <default>false</default>
+                <label>Kennedy Road Neighbourhood</label>
+            </value>
+            <value>
+                <fullName>Kensington Market</fullName>
+                <default>false</default>
+                <label>Kensington Market</label>
+            </value>
+            <value>
+                <fullName>Korea Town</fullName>
+                <default>false</default>
+                <label>Korea Town</label>
+            </value>
+            <value>
+                <fullName>Lakeshore Village</fullName>
+                <default>false</default>
+                <label>Lakeshore Village</label>
+            </value>
+            <value>
+                <fullName>Leslieville</fullName>
+                <default>false</default>
+                <label>Leslieville</label>
+            </value>
+            <value>
+                <fullName>Liberty Village</fullName>
+                <default>false</default>
+                <label>Liberty Village</label>
+            </value>
+            <value>
+                <fullName>Little Italy</fullName>
+                <default>false</default>
+                <label>Little Italy</label>
+            </value>
+            <value>
+                <fullName>Little Portugal</fullName>
+                <default>false</default>
+                <label>Little Portugal District</label>
+            </value>
+            <value>
+                <fullName>Long Branch</fullName>
+                <default>false</default>
+                <label>Long Branch</label>
+            </value>
+            <value>
+                <fullName>Midtown Yonge</fullName>
+                <default>false</default>
+                <label>Midtown Yonge</label>
+            </value>
+            <value>
+                <fullName>Mimico by the Lake</fullName>
+                <default>false</default>
+                <label>Mimico by the Lake</label>
+            </value>
+            <value>
+                <fullName>Mimico Village</fullName>
+                <default>false</default>
+                <label>Mimico Village</label>
+            </value>
+            <value>
+                <fullName>Mirvish Village</fullName>
+                <default>false</default>
+                <label>Mirvish Village</label>
+            </value>
+            <value>
+                <fullName>Mount Dennis</fullName>
+                <default>false</default>
+                <label>Mount Dennis</label>
+            </value>
+            <value>
+                <fullName>Mount Pleasant</fullName>
+                <default>false</default>
+                <label>Mount Pleasant</label>
+            </value>
+            <value>
+                <fullName>Oakwood Village</fullName>
+                <default>false</default>
+                <label>Oakwood Village</label>
+            </value>
+            <value>
+                <fullName>Ossington Avenue</fullName>
+                <default>false</default>
+                <label>Ossington Avenue</label>
+            </value>
+            <value>
+                <fullName>Pape Village</fullName>
+                <default>false</default>
+                <label>Pape Village</label>
+            </value>
+            <value>
+                <fullName>Parkdale Village</fullName>
+                <default>false</default>
+                <label>Parkdale Village</label>
+            </value>
+            <value>
+                <fullName>Queen Street West</fullName>
+                <default>false</default>
+                <label>Queen Street West</label>
+            </value>
+            <value>
+                <fullName>Regal Heights Village</fullName>
+                <default>false</default>
+                <label>Regal Heights Village</label>
+            </value>
+            <value>
+                <fullName>Riverside District</fullName>
+                <default>false</default>
+                <label>Riverside District</label>
+            </value>
+            <value>
+                <fullName>Roncesvalles Village</fullName>
+                <default>false</default>
+                <label>Roncesvalles Village</label>
+            </value>
+            <value>
+                <fullName>Rosedale Main Street</fullName>
+                <default>false</default>
+                <label>Rosedale Main Street</label>
+            </value>
+            <value>
+                <fullName>Sheppard East Village</fullName>
+                <default>false</default>
+                <label>Sheppard East Village</label>
+            </value>
+            <value>
+                <fullName>shoptheQueensway.com</fullName>
+                <default>false</default>
+                <label>shoptheQueensway.com</label>
+            </value>
+            <value>
+                <fullName>St. Clair Gardens</fullName>
+                <default>false</default>
+                <label>St. Clair Gardens</label>
+            </value>
+            <value>
+                <fullName>St. Lawrence Market</fullName>
+                <default>false</default>
+                <label>St. Lawrence Market</label>
+            </value>
+            <value>
+                <fullName>The Beach</fullName>
+                <default>false</default>
+                <label>The Beach</label>
+            </value>
+            <value>
+                <fullName>The Danforth</fullName>
+                <default>false</default>
+                <label>The Danforth</label>
+            </value>
+            <value>
+                <fullName>The Eglinton Way</fullName>
+                <default>false</default>
+                <label>The Eglinton Way</label>
+            </value>
+            <value>
+                <fullName>The Kingsway</fullName>
+                <default>false</default>
+                <label>The Kingsway</label>
+            </value>
+            <value>
+                <fullName>The Waterfront</fullName>
+                <default>false</default>
+                <label>The Waterfront</label>
+            </value>
+            <value>
+                <fullName>Toronto Entertainment</fullName>
+                <default>false</default>
+                <label>Toronto Entertainment</label>
+            </value>
+            <value>
+                <fullName>Trinity Bellwoods</fullName>
+                <default>false</default>
+                <label>Trinity Bellwoods</label>
+            </value>
+            <value>
+                <fullName>Upper Village</fullName>
+                <default>false</default>
+                <label>Upper Village</label>
+            </value>
+            <value>
+                <fullName>Uptown Yonge</fullName>
+                <default>false</default>
+                <label>Uptown Yonge</label>
+            </value>
+            <value>
+                <fullName>Village of Islington</fullName>
+                <default>false</default>
+                <label>Village of Islington</label>
+            </value>
+            <value>
+                <fullName>West Queen West</fullName>
+                <default>false</default>
+                <label>West Queen West</label>
+            </value>
+            <value>
+                <fullName>Weston Village</fullName>
+                <default>false</default>
+                <label>Weston Village</label>
+            </value>
+            <value>
+                <fullName>Wilson-Keele</fullName>
+                <default>false</default>
+                <label>Wilson-Keele</label>
+            </value>
+            <value>
+                <fullName>Wychwood Heights</fullName>
+                <default>false</default>
+                <label>Wychwood Heights</label>
+            </value>
+            <value>
+                <fullName>Yonge Lawrence Village</fullName>
+                <default>false</default>
+                <label>Yonge Lawrence Village</label>
+            </value>
+            <value>
+                <fullName>York Eglinton</fullName>
+                <default>false</default>
+                <label>York Eglinton</label>
+            </value>
+            <value>
+                <fullName>Downtown Cambridge</fullName>
+                <default>false</default>
+                <label>Downtown Cambridge</label>
+            </value>
+            <value>
+                <fullName>Hespeler Village</fullName>
+                <default>false</default>
+                <label>Hespeler Village</label>
+            </value>
+            <value>
+                <fullName>Preston Towne Centre</fullName>
+                <default>false</default>
+                <label>Preston Towne Centre</label>
+            </value>
+            <value>
+                <fullName>Downtown Elmira</fullName>
+                <default>false</default>
+                <label>Downtown Elmira</label>
+            </value>
+            <value>
+                <fullName>Downtown Kitchener</fullName>
+                <default>false</default>
+                <label>Downtown Kitchener</label>
+            </value>
+            <value>
+                <fullName>Belmont Village</fullName>
+                <default>false</default>
+                <label>Belmont Village</label>
+            </value>
+            <value>
+                <fullName>New Hamburg Downtown</fullName>
+                <default>false</default>
+                <label>New Hamburg Downtown</label>
+            </value>
+            <value>
+                <fullName>Uptown Waterloo</fullName>
+                <default>false</default>
+                <label>Uptown Waterloo</label>
+            </value>
+            <value>
+                <fullName>Bowmanville BIA</fullName>
+                <default>false</default>
+                <label>Bowmanville BIA</label>
+            </value>
+            <value>
+                <fullName>Newcastle BIA</fullName>
+                <default>false</default>
+                <label>Newcastle BIA</label>
+            </value>
+            <value>
+                <fullName>Orono BIA</fullName>
+                <default>false</default>
+                <label>Orono BIA</label>
+            </value>
+            <value>
+                <fullName>Oshawa BIA</fullName>
+                <default>false</default>
+                <label>Oshawa BIA</label>
+            </value>
+            <value>
+                <fullName>Pickering Village BIA</fullName>
+                <default>false</default>
+                <label>Pickering Village BIA</label>
+            </value>
+            <value>
+                <fullName>Port Perry BIA</fullName>
+                <default>false</default>
+                <label>Port Perry BIA</label>
+            </value>
+            <value>
+                <fullName>Uxbridge BIA</fullName>
+                <default>false</default>
+                <label>Uxbridge BIA</label>
+            </value>
+            <value>
+                <fullName>Whitby BIA</fullName>
+                <default>false</default>
+                <label>Whitby BIA</label>
+            </value>
+            <value>
+                <fullName>Commercial/Industrial Property Assessment Value</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Commercial/Industrial Property Assessment Value</label>
+            </value>
+            <value>
+                <fullName>Danforth, the</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Danforth, the</label>
+            </value>
+            <value>
+                <fullName>Data collection</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Data collection</label>
+            </value>
+            <value>
+                <fullName>Eglinton Way</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Eglinton Way</label>
+            </value>
+            <value>
+                <fullName>Employment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Employment</label>
+            </value>
+            <value>
+                <fullName>Junction, The</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Junction, The</label>
+            </value>
+            <value>
+                <fullName>Mount Pleasant Village</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mount Pleasant Village</label>
+            </value>
+            <value>
+                <fullName>Operating Budget</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operating Budget</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

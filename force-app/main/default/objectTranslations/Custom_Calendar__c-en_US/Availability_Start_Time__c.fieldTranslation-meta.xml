@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Availability - Start Time --></label>
+    <name>Availability_Start_Time__c</name>
+    <picklistValues>
+        <masterLabel>01 00 PM</masterLabel>
+        <translation><!-- 01 00 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>01 30 PM</masterLabel>
+        <translation><!-- 01 30 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02 00 PM</masterLabel>
+        <translation><!-- 02 00 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02 30 PM</masterLabel>
+        <translation><!-- 02 30 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03 00 PM</masterLabel>
+        <translation><!-- 03 00 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03 30 PM</masterLabel>
+        <translation><!-- 03 30 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04 00 PM</masterLabel>
+        <translation><!-- 04 00 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04 30 PM</masterLabel>
+        <translation><!-- 04 30 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>05 00 PM</masterLabel>
+        <translation><!-- 05 00 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>05 30 PM</masterLabel>
+        <translation><!-- 05 30 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>06 00 PM</masterLabel>
+        <translation><!-- 06 00 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08 00 AM</masterLabel>
+        <translation><!-- 08 00 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08 30 AM</masterLabel>
+        <translation><!-- 08 30 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>09 00 AM</masterLabel>
+        <translation><!-- 09 00 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>09 30 AM</masterLabel>
+        <translation><!-- 09 30 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 00 AM</masterLabel>
+        <translation><!-- 10 00 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 30 AM</masterLabel>
+        <translation><!-- 10 30 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 00 AM</masterLabel>
+        <translation><!-- 11 00 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 30 AM</masterLabel>
+        <translation><!-- 11 30 AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 00 PM</masterLabel>
+        <translation><!-- 12 00 PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 30 PM</masterLabel>
+        <translation><!-- 12 30 PM --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

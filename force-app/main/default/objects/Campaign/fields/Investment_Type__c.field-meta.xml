@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_Type__c</fullName>
+    <description>This is the type of Project Investment. The Investment types are Industrial office, Retail Services, Commercial, Institutional etc</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the type of Project Investment. The Investment types are Industrial office, Retail Services, Commercial, Institutional etc</inlineHelpText>
+    <label>Investment Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Industrial (Manufacturing/Warehousing/Distribution)</fullName>
+                <default>false</default>
+                <label>Industrial (Manufacturing/Warehousing/Distribution)</label>
+            </value>
+            <value>
+                <fullName>Office</fullName>
+                <default>false</default>
+                <label>Office</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Institutional</fullName>
+                <default>false</default>
+                <label>Institutional</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

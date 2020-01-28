@@ -1,0 +1,138 @@
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: center;
+}
+
+* html #footer {
+  position: absolute;
+  top: expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+@font-face {
+  font-family: 'freddicons';
+  src: url(freddicons.eot?orgId=00Do0000000bTwm);
+  src: url(freddicons.eot?orgId=00Do0000000bTwm#iefix) format('embedded-opentype'), url(freddicons.woff?orgId=00Do0000000bTwm) format('woff'), url(freddicons.ttf?orgId=00Do0000000bTwm) format('truetype'), url(freddicons.svg?orgId=00Do0000000bTwm#freddicons) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#footer ul {
+  font-size: 15px;
+  list-style: none;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  line-height: 1.5em;
+}
+
+#footer li {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  line-height: 1.5em;
+}
+
+#footer li a {
+  display: inline-block;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  color: #b7b7b7;
+  -webkit-transition: none 0 linear .0001s;
+  -ms-transition: none 0 linear .0001s;
+  transition: none 0 linear .0001s;
+}
+
+#footer li.current a {
+  color: #fff;
+}
+
+#footer li a:hover {
+  color: #fff;
+}
+
+#footer li:after {
+  content: "\e03a";
+  font-family: 'freddicons';
+  font-size: 20px;
+  position: absolute;
+  top: 21px;
+  right: 0;
+  margin-right: -11px;
+  color: #737373;
+}
+
+a.back-button, a.back-button:visited, a.next-button, a.next-button:visited {
+  color: #b7b7b7;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  margin-right: 0;
+  text-decoration: none;
+}
+
+a.back-button {
+  left: 0;
+}
+
+a.next-button {
+  right: 0;
+}
+
+a.back-button:hover, a.next-button:hover {
+  color: #fff;
+  background: #52bad5;
+  text-decoration: none;
+}
+
+.freddicon {
+  color: #fff;
+  margin: -2px 0 0 5px;
+  color: #737373;
+  display: inline-block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.15;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-transform: none !important;
+  font-family: 'freddicons';
+}
+
+.freddicon.laquo {
+  margin: -2px 5px 0 0;
+}
+
+.freddicon.laquo:after {
+  content: '\e016';
+}
+
+.freddicon.raquo:after {
+  content: '\e03a';
+}
+
+a.back-button:hover .freddicon, a.next-button:hover .freddicon {
+  color: #fff;
+}

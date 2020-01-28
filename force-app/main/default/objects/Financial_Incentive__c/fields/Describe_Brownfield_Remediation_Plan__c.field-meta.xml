@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Describe_Brownfield_Remediation_Plan__c</fullName>
+    <description>What remedial actions are required and how will these actions be carried out?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What remedial actions are required and how will these actions be carried out?</inlineHelpText>
+    <label>Describe Brownfield Remediation Plan</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

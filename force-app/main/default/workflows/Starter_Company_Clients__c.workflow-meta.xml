@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>SC_General_GrantApproved</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Email to let them know they have been approved for a grant.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Grant_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_General_GrantSubmissionRequest</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca, andrew@bizlaunch.com</ccEmails>
+        <description>SC-General-GrantSubmissionRequest</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_Welcome_Emails/SC_General_NextSteps</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_SmallBiz_RejectionPhase1</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>SC-SmallBiz-RejectionPhase1</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Application_Denied</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_120</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Monthly report.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_150</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Monthly report.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_180</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Monthly report.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_30</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Monthly report.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_60</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Monthly report.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_90</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Monthly report.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_Approved</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Approved notification.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Application_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_Denied</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Not approved notification.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>jain@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_NoBizPlan_Denied</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_FollowUP</fullName>
+        <ccEmails>vikas.jain@toronto.ca, paul.pirri@toronto.ca</ccEmails>
+        <description>Follow up survey.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_FollowUpSurvey</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_GrantScore</fullName>
+        <description>Grant review</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jain@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>paul.pirri@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Grant_Review</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_NotifyClient</fullName>
+        <ccEmails>vikas.jain@toronto.ca, Paul.Pirri@toronto.ca</ccEmails>
+        <description>Notify client of application.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_AppRecieved_ApplicantNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>SC_Small_NotifyStaff</fullName>
+        <description>Notify staff.</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jain@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>paul.pirri@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_SC_General/ET_Small_Application_Recieved</template>
+    </alerts>
+    <rules>
+        <fullName>ES_SC_Small-Phase1_Rejected</fullName>
+        <actions>
+            <name>SC_SmallBiz_RejectionPhase1</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Phase_1_Application_Approved__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General</value>
+        </criteriaItems>
+        <description>Email to SC applicants to let them know they were not accepted into the program.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_ApplicationReceivedNotification</fullName>
+        <actions>
+            <name>SC_Small_NotifyClient</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>SC_Small_NotifyStaff</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.CreatedDate</field>
+            <operation>greaterThan</operation>
+            <value>12/1/2014</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General</value>
+        </criteriaItems>
+        <description>Sends email to ET staff to notify of application submitted, creates associated tasks and notifies client.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_Approved</fullName>
+        <actions>
+            <name>SC_Small_Approved</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Phase_1_Application_Approved__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General</value>
+        </criteriaItems>
+        <description>Email to SC applicants to let them know they have been accepted into the program.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_FollowUP</fullName>
+        <actions>
+            <name>SC_Small_FollowUP</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Program_Completed__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General,SC - Startup Boost,SC - TorontoStarts</value>
+        </criteriaItems>
+        <description>Sends a follow-up survey to those who have completed the program.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_GrantApproved</fullName>
+        <actions>
+            <name>SC_General_GrantApproved</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Phase_2_GrantApproved__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General,SC - TorontoStarts</value>
+        </criteriaItems>
+        <description>Email to SC applicants to let them know they have been accepted for a grant.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_GrantReview</fullName>
+        <actions>
+            <name>SC_Small_GrantScore</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Phase_2_Biz_Plan_to_Grant_Committee__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General,SC - Startup Boost,SC - TorontoStarts,SC - Music</value>
+        </criteriaItems>
+        <description>Send Score Card form to Vikas Jain to forward it for grant review.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_MonthlyReport</fullName>
+        <active>true</active>
+        <description>Monthly email to get current training from clients.</description>
+        <formula>AND(ISPICKVAL(Application_Stream__c ,  &quot;Starter Company - General&quot;),
+AND(!ISBLANK(Phase_1_Start_Date__c), OR(ISBLANK(Date_of_Completing_Program__c), Date_of_Completing_Program__c&gt;Today())))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>SC_Small_30</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Starter_Company_Clients__c.Phase_1_Start_Date__c</offsetFromField>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>SC_Small_60</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Starter_Company_Clients__c.Phase_1_Start_Date__c</offsetFromField>
+            <timeLength>60</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>SC_Small_90</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Starter_Company_Clients__c.Phase_1_Start_Date__c</offsetFromField>
+            <timeLength>90</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>SC_Small_150</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Starter_Company_Clients__c.Phase_1_Start_Date__c</offsetFromField>
+            <timeLength>150</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>SC_Small_180</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Starter_Company_Clients__c.Phase_1_Start_Date__c</offsetFromField>
+            <timeLength>180</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>SC_Small_120</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Starter_Company_Clients__c.Phase_1_Start_Date__c</offsetFromField>
+            <timeLength>120</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_Rejected</fullName>
+        <actions>
+            <name>SC_Small_Denied</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Phase_2_GrantApproved__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General</value>
+        </criteriaItems>
+        <description>Email to SC applicants to let them know they were not accepted into the program.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES_SC_Small_RequestBusinessPlan</fullName>
+        <actions>
+            <name>SC_General_GrantSubmissionRequest</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Send_Grant_Submission_Email__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Starter_Company_Clients__c.Application_Stream__c</field>
+            <operation>equals</operation>
+            <value>Starter Company - General</value>
+        </criteriaItems>
+        <description>Sends an email to those who completed the training asking them to submit their grant application.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

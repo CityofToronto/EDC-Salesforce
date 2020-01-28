@@ -1,0 +1,18 @@
+<!-- 
+    New Issue Action on Contact object
+     - Allow user create an Issue record on a Contact Record 
+-->
+
+<aura:component extends="c:COT_NewRecordAction">
+
+    <aura:set attribute="objcetApiName" value="Issue__c"/>
+    <aura:set attribute="queryFields" value="['Id','AccountId']"/>
+    <aura:set attribute="displayPageLayout" value="false"/>
+    <aura:set attribute="title" value="New Issue"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.loadRecordType}"/>
+
+    <aura:handler name="change" value="{!v.loadedRecord}" action="{!c.loadRecordType}"/>
+    
+
+</aura:component>

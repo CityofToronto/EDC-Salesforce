@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Issues</value>
+    </caseValues>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Problem Layout</layout>
+        <sections>
+            <label><!-- Client Satisfaction Survey(Business Intelligence Follow up) --></label>
+            <section>Client Satisfaction Survey(Business Intelligence Follow up)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Problem Information --></label>
+            <section>Problem Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- This will be used to track any new Opportunity but not necessarily related to any other record. --></description>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Its should be used for tracking any problem related to Account, Contact or Initiative. --></description>
+        <label><!-- Problem --></label>
+        <name>Problem</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Agreement Account and Financial Account are not same. --></errorMessage>
+        <name>Validation_Agreement_FinIncentiv_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Agreement Account and Issue Account are not same. --></errorMessage>
+        <name>Validation_Agreement_Issue_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Agreement Account and Financial Account are not same. --></errorMessage>
+        <name>Validation_FinIncentiv_Issue_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Agreement Account and Interaction Account are not same. --></errorMessage>
+        <name>Validation_Interaction_Agreement_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Financial Incentive Account and Interaction Account are not same. --></errorMessage>
+        <name>Validation_Interaction_Finlncent_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Interaction  Account and Issue Account are not same. --></errorMessage>
+        <name>Validation_Interaction_Issue_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Closed can not be in future --></errorMessage>
+        <name>Validation_Rule_to_Check_Date_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Raised can not be greater than Date Closed --></errorMessage>
+        <name>Validation_Rule_to_Check_Date_Raised</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Closed required for Completed Status --></errorMessage>
+        <name>Validation_for_Date_Closed_on_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Specify Other Problem Type Details --></errorMessage>
+        <name>Validation_for_Other_Problem_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status should be Completed as Date Closed provided --></errorMessage>
+        <name>Validation_for_Status_with_Date_Closed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Issue --></label>
+        <name>New_Issue</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Issue_Financial_Incentive --></label>
+        <name>New_Issue_Financial_Incentive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Issue_Interaction --></label>
+        <name>New_Issue_Interaction</name>
+    </webLinks>
+</CustomObjectTranslation>

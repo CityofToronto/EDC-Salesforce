@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Cancellation__c</fullName>
+    <description>This field is used to capture the reason provided by client for cancelling a consultation meeting scheduled with City of Toronto Advisor</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used to capture the reason provided by client for cancelling a consultation meeting scheduled with City of Toronto Advisor</inlineHelpText>
+    <label>Reason for Cancellation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

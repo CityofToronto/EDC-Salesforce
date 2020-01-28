@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Amending Agreement</masterLabel>
+        <translation><!-- Amending Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Application Declined</masterLabel>
+        <translation><!-- Application Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved by City Council</masterLabel>
+        <translation><!-- Approved by City Council --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved by GM</masterLabel>
+        <translation><!-- Approved by GM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved for Training</masterLabel>
+        <translation><!-- Approved for Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Plan Received</masterLabel>
+        <translation><!-- Business Plan Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation><!-- Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compliance/Payment Review</masterLabel>
+        <translation><!-- Compliance/Payment Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined</masterLabel>
+        <translation><!-- Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined after Interview</masterLabel>
+        <translation><!-- Declined after Interview --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined for Training</masterLabel>
+        <translation><!-- Declined for Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Document Received</masterLabel>
+        <translation><!-- Document Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eligibility Criteria not Met</masterLabel>
+        <translation><!-- Eligibility Criteria not Met --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation><!-- Expired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extension</masterLabel>
+        <translation><!-- Extension --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extension Approved</masterLabel>
+        <translation><!-- Extension Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extension Declined</masterLabel>
+        <translation><!-- Extension Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grant Approved</masterLabel>
+        <translation><!-- Grant Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grant Declined</masterLabel>
+        <translation><!-- Grant Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grant Disbursement</masterLabel>
+        <translation><!-- Grant Disbursement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Review</masterLabel>
+        <translation><!-- In Review --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interview Required</masterLabel>
+        <translation><!-- Interview Required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Agreement Completed</masterLabel>
+        <translation><!-- Legal Agreement Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>More Information Required</masterLabel>
+        <translation><!-- More Information Required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment</masterLabel>
+        <translation><!-- Payment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Approval</masterLabel>
+        <translation><!-- Pending Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Extension</masterLabel>
+        <translation><!-- Pending Extension --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reassessment</masterLabel>
+        <translation><!-- Reassessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Score Card Received</masterLabel>
+        <translation><!-- Score Card Received --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Submitted</masterLabel>
+        <translation><!-- Submitted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training Completed</masterLabel>
+        <translation><!-- Training Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With Legal</masterLabel>
+        <translation><!-- With Legal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Withdrawn/Inactive</masterLabel>
+        <translation><!-- Withdrawn/Inactive --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What is the value of that investment --></help>
+    <label><!-- If yes, Value of that Investment --></label>
+    <name>If_yes_Value_of_that_Investment__c</name>
+</CustomFieldTranslation>

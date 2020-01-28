@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to Starter Company Female Founder Program Applicant to submit the business plan</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Starter Company-Female Founder Program Business Plan Submission</name>
+    <style>none</style>
+    <subject>Starter Company Plus - Small Business {!Financial_Incentive__c.Application_Stream__c} – Submission of Business Plan</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

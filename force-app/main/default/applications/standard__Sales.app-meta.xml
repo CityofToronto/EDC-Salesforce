@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <tabs>Consultation_Meeting_Requests</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Interaction__c</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>Starter_Company_Clients__c</tabs>
+    <tabs>Outreach__c</tabs>
+    <tabs>Online_Registration__c</tabs>
+    <tabs>Financial_Incentive__c</tabs>
+    <tabs>International_Agreement__c</tabs>
+    <tabs>Issue__c</tabs>
+    <tabs>Business_Incubation_Grants__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>All_Tasks_Activities</tabs>
+    <tabs>standard-Dashboard</tabs>
+</CustomApplication>

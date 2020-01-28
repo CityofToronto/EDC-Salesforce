@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>International Events Business Outcome Survey Sent After 6 Months</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>International Events Business Outcome Survey 6 - Months</name>
+    <style>none</style>
+    <subject>City of Toronto - How Is Your Business Doing?</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

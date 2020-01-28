@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Approver_Reviewed_Checklist__c</fullName>
+    <description>Approver can select the list of received documents to approve after reviewing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Approver can select the list of received documents to approve after reviewing</inlineHelpText>
+    <label>First Approver Reviewed Checklist</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Financial Incentive Agreement Schedule F</fullName>
+                <default>false</default>
+                <label>Financial Incentive Agreement Schedule F</label>
+            </value>
+            <value>
+                <fullName>Signed FIA Amending Agreement Schedule F</fullName>
+                <default>false</default>
+                <label>Signed FIA Amending Agreement Schedule F</label>
+            </value>
+            <value>
+                <fullName>Gross Floor Area (GFA)</fullName>
+                <default>false</default>
+                <label>Gross Floor Area (GFA)</label>
+            </value>
+            <value>
+                <fullName>Owners Statutory Declaration</fullName>
+                <default>false</default>
+                <label>Owners Statutory Declaration</label>
+            </value>
+            <value>
+                <fullName>No Outstanding Property Taxes</fullName>
+                <default>false</default>
+                <label>No Outstanding Property Taxes</label>
+            </value>
+            <value>
+                <fullName>No Outstanding Work Orders</fullName>
+                <default>false</default>
+                <label>No Outstanding Work Orders</label>
+            </value>
+            <value>
+                <fullName>No Assessment Appeals Made</fullName>
+                <default>false</default>
+                <label>No Assessment Appeals Made</label>
+            </value>
+            <value>
+                <fullName>Continued Eligible Use (attach memo)</fullName>
+                <default>false</default>
+                <label>Continued Eligible Use (attach memo)</label>
+            </value>
+            <value>
+                <fullName>Rebate Adjustment</fullName>
+                <default>false</default>
+                <label>Rebate Adjustment</label>
+            </value>
+            <value>
+                <fullName>Brownfield Remediation</fullName>
+                <default>false</default>
+                <label>Brownfield Remediation</label>
+            </value>
+            <value>
+                <fullName>Satisfactory Participation in Local Empl</fullName>
+                <default>false</default>
+                <label>Satisfactory Participation in Local Empl</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

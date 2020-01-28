@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diversity__c</fullName>
+    <description>Please indicate how you are handling diversity as part of your event.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please indicate how you are handling diversity as part of your event.</inlineHelpText>
+    <label>Diversity</label>
+    <length>1000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

@@ -1,0 +1,11 @@
+Dear User,
+
+An IMIT Approval Request submitted by you has been Rejected by the approver. 
+
+Finance Incentive Name - {!Financial_Incentive__c.Name}
+Rejection Reason - {!Financial_Incentive__c.Rejection_Reason__c}
+
+If Rejection Reason is More Information Required you can submit it for approval after updating required information.Please refer below link to check the details.
+ {!Financial_Incentive__c.Link}
+
+Thanks

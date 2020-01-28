@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LeadConvertSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowOwnerChange>true</allowOwnerChange>
+    <objectMapping>
+        <inputObject>Lead</inputObject>
+        <mappingFields>
+            <inputField>MC4SF__MC_Subscriber__c</inputField>
+            <outputField>MC4SF__MC_Subscriber__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Add_to_SUH_Newsletter__c</inputField>
+            <outputField>Add_to_SUH_Newsletter__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Add_to_ET_Newsletter__c</inputField>
+            <outputField>ET_Newsletter__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Add_to_BRE_Newsletter__c</inputField>
+            <outputField>BRE_Newsletter__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Add_to_DMS_Newsletter__c</inputField>
+            <outputField>Add_to_DMS_Newsletter__c</outputField>
+        </mappingFields>
+        <outputObject>Contact</outputObject>
+    </objectMapping>
+    <opportunityCreationOptions>VisibleOptional</opportunityCreationOptions>
+</LeadConvertSettings>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_to_Check_Inactive_Account</fullName>
+    <active>true</active>
+    <description>This rule will check if a Financial Incentive record is associated with Inactive Account</description>
+    <errorConditionFormula>AND(ISNEW(),TEXT(Account__r.Active__c)=&#39;No&#39;)</errorConditionFormula>
+    <errorDisplayField>Account__c</errorDisplayField>
+    <errorMessage>Financial Incentive record can not be associated with Inactive Account</errorMessage>
+</ValidationRule>

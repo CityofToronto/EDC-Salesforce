@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RPI-Outreach Category --></label>
+    <name>RPI_Outreach_Category__c</name>
+    <picklistValues>
+        <masterLabel>General Networking</masterLabel>
+        <translation><!-- General Networking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outreach Events</masterLabel>
+        <translation><!-- Outreach Events --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outreach to Business</masterLabel>
+        <translation><!-- Outreach to Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partnership Outreach</masterLabel>
+        <translation><!-- Partnership Outreach --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

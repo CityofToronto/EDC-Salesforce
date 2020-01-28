@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIA_Board_Size_Validation</fullName>
+    <active>true</active>
+    <description>This validation rule ensure the Board Size is sum of Vacancies and standing member</description>
+    <errorConditionFormula>Board_Size__c  &lt;&gt;  (Vacancies__c+Standing_Members__c)</errorConditionFormula>
+    <errorDisplayField>Board_Size__c</errorDisplayField>
+    <errorMessage>Board size should be sum of Vacancies and Standing Members.</errorMessage>
+</ValidationRule>

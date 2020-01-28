@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Letter of Authorization received and uploaded related Comments --></help>
+    <label><!-- Letter of Authorization Comments --></label>
+    <name>Letter_of_Authorization_Comments__c</name>
+</CustomFieldTranslation>

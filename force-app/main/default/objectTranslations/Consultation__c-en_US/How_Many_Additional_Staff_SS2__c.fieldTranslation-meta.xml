@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sub-Section 2 - New Business: If yes, how many additional staff have you hired? --></help>
+    <label><!-- If Yes, How Many Additional Staff? --></label>
+    <name>How_Many_Additional_Staff_SS2__c</name>
+</CustomFieldTranslation>

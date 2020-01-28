@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Councillors__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(BIA_Wards__c , &quot;1 - Michael Ford&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;2 - Stephen Holyday&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;3 - Mark Grimes&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;4 - Gord Perks&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;5 - Frances Nunziata&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;6 - James Pasternak&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;7 - Anthony Perruzza&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;8 - Mike Colle&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;9 - Ana Bailão&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;10 - Joe Cressy&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;11 - Mike Layton&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;12 - Josh Matlow&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;13 - Kristyn Wong-Tam&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;14 - Paula Fletcher&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;15 - Jaye Robinson&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;16 - Denzil Minnan-Wong&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;17 - Shelley Carroll&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;18 - John Filion&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;19 - Brad Bradford&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;20 - Gary Crawford&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;21 - Michael Thompson&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;22 - Jim Karygiannis&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;23 - Cynthia Lai&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;24 - Paul Ainslie&quot;),1,0) +
+IF(INCLUDES(BIA_Wards__c , &quot;25 - Jennifer McKelvie&quot;),1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Councillors</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

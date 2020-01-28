@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to those who have completed the Startup Launch program to let them know they qualify for Starter Company.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SC-ProgramLaunchforStartupLaunchTeam</name>
+    <style>none</style>
+    <subject>Grant Program for Recent</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

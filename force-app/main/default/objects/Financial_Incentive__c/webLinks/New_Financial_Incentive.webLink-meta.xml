@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Financial_Incentive</fullName>
+    <availability>online</availability>
+    <description>This button will be used to create New Financial Incentive record of IMIT Record Type from Initiative of Investment Activity Type</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Financial Incentive</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/a0C/e?CF00Nc0000003tWh9={!Campaign.Name}&amp;CF00Nc0000003tWh9_lkid={!Campaign.Id}&amp;retURL=%2F{!Campaign.Id}&amp;CF00Nc0000003tWfM={!Campaign.Account__c}&amp;CF00Nc0000003tWfM_lkid={!Campaign.AccountId__c}&amp;RecordType=012c0000000DeCP&amp;ent=01Ic0000000F6Ys</url>
+</WebLink>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Programs Currently Used – Exporting --></label>
+    <name>Programs_Currently_Used_Exporting__c</name>
+    <picklistValues>
+        <masterLabel>CBN - New Exporters to Border States</masterLabel>
+        <translation><!-- CBN - New Exporters to Border States --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CoT - Toronto Export Assistance</masterLabel>
+        <translation><!-- CoT - Toronto Export Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EDC – Export Assistance</masterLabel>
+        <translation><!-- EDC – Export Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ont - Export Market Access</masterLabel>
+        <translation><!-- Ont - Export Market Access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRBOT – Export Program</masterLabel>
+        <translation><!-- TRBOT – Export Program --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

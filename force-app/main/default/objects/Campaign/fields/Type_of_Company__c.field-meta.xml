@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Company__c</fullName>
+    <description>This is to identify if this is a new company or a retained company.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is to identify if this is a new company or a retained company.</inlineHelpText>
+    <label>Type of Company</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Existing Company (Retained)</fullName>
+                <default>false</default>
+                <label>Existing Company (Retained)</label>
+            </value>
+            <value>
+                <fullName>New Company</fullName>
+                <default>false</default>
+                <label>New Company</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

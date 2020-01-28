@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An invite to stakeholders to sit in on a session to discuss launching an online mentoring hub.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ES-10ThousandCoffeesHub-Invite</name>
+    <style>none</style>
+    <subject>Invite: Developing &amp; Launching Online Entrepreneur Hub</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

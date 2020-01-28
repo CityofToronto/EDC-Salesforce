@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Focus__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Focus</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attraction - Expansion &amp; Location Assistance</fullName>
+                <default>false</default>
+                <label>Attraction - Expansion &amp; Location Assistance</label>
+            </value>
+            <value>
+                <fullName>Attraction - New Investment (FDI &amp; Relocation)</fullName>
+                <default>false</default>
+                <label>Attraction - New Investment (FDI &amp; Relocation)</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Business Introduction</fullName>
+                <default>false</default>
+                <label>Biz Development - Business Introduction</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Cluster Development</fullName>
+                <default>false</default>
+                <label>Biz Development - Cluster Development</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Delegation Assistance</fullName>
+                <default>false</default>
+                <label>Biz Development - Delegation Assistance</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Event Assistance</fullName>
+                <default>false</default>
+                <label>Biz Development - Event Assistance</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Export Assistance</fullName>
+                <default>false</default>
+                <label>Biz Development - Export Assistance</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Import Assistance</fullName>
+                <default>false</default>
+                <label>Biz Development - Import Assistance</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Partnership Development</fullName>
+                <default>false</default>
+                <label>Biz Development - Partnership Development</label>
+            </value>
+            <value>
+                <fullName>Biz Development - PR &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Biz Development - PR &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Biz Development - TAP Program</fullName>
+                <default>false</default>
+                <label>Biz Development - TAP Program</label>
+            </value>
+            <value>
+                <fullName>Biz Development - Workforce Development</fullName>
+                <default>false</default>
+                <label>Biz Development - Workforce Development</label>
+            </value>
+            <value>
+                <fullName>City - Building Permit</fullName>
+                <default>false</default>
+                <label>City - Building Permit</label>
+            </value>
+            <value>
+                <fullName>City - IMIT</fullName>
+                <default>false</default>
+                <label>City - IMIT</label>
+            </value>
+            <value>
+                <fullName>City - Planning Issue (Zoning &amp; OP)</fullName>
+                <default>false</default>
+                <label>City - Planning Issue (Zoning &amp; OP)</label>
+            </value>
+            <value>
+                <fullName>City – Property maintenance and standards</fullName>
+                <default>false</default>
+                <label>City – Property maintenance and standards</label>
+            </value>
+            <value>
+                <fullName>City – Property taxes</fullName>
+                <default>false</default>
+                <label>City – Property taxes</label>
+            </value>
+            <value>
+                <fullName>City - Regulatory</fullName>
+                <default>false</default>
+                <label>City - Regulatory</label>
+            </value>
+            <value>
+                <fullName>City – Transportation</fullName>
+                <default>false</default>
+                <label>City – Transportation</label>
+            </value>
+            <value>
+                <fullName>Regulatory Issues - Federal</fullName>
+                <default>false</default>
+                <label>Regulatory Issues - Federal</label>
+            </value>
+            <value>
+                <fullName>Regulatory Issues - Provincial</fullName>
+                <default>false</default>
+                <label>Regulatory Issues - Provincial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

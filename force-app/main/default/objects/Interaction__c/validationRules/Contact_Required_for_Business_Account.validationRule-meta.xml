@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Required_for_Business_Account</fullName>
+    <active>true</active>
+    <description>This rule is to validate that no interaction record is saved without associated contact if its linked to business Account</description>
+    <errorConditionFormula>AND(NOT(Account__r.IsPersonAccount),ISBLANK(Contact__c))</errorConditionFormula>
+    <errorDisplayField>Contact__c</errorDisplayField>
+    <errorMessage>Contact is required for Business Account</errorMessage>
+</ValidationRule>

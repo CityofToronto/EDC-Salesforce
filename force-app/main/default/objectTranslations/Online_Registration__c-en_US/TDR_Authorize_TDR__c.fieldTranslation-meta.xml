@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- On behalf of our partners at TD Merchant Services, may a TD Bank representative contact you to discuss the option of accepting debit and or credit payments ( e.g Visa, Mastercard, Interac, Direct Payment) ? --></help>
+    <label><!-- TDR Authorize (TDR) --></label>
+    <name>TDR_Authorize_TDR__c</name>
+    <picklistValues>
+        <masterLabel>No. I do not authorize TD bank to contact me.</masterLabel>
+        <translation><!-- No. I do not authorize TD bank to contact me. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes. I authorize TD bank to contact me.</masterLabel>
+        <translation><!-- Yes. I authorize TD bank to contact me. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Business_Consultation_1_Year_Follow_Up</fullName>
+        <description>Business Consultation – 1 Year Follow-Up</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_ClientFollowUp__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Client_Follow_Ups_Email_Template/Business_Consultation_1_Year_Follow_Up</template>
+    </alerts>
+    <alerts>
+        <fullName>Business_Follow_up_Status_Email_365_days</fullName>
+        <description>Business Follow-up Status Email- 365 days</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_ClientFollowUp__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Client_Follow_Ups_Email_Template/Business_Registration_1_Year_Follow_Up</template>
+    </alerts>
+    <alerts>
+        <fullName>Training_1_Year_Follow_Up</fullName>
+        <description>Training – 1 Year Follow-Up</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_ClientFollowUp__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Client_Follow_Ups_Email_Template/Training_1_Year_Follow_Up</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>WorkFlow_Session_Consultation</fullName>
+        <description>Updates Workflow session field</description>
+        <field>Work_Flow_Session__c</field>
+        <literalValue>Consultation</literalValue>
+        <name>WorkFlow Session Consultation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>WorkFlow_Session_Trng_Update</fullName>
+        <description>Update Workflow session Field</description>
+        <field>Work_Flow_Session__c</field>
+        <literalValue>Training</literalValue>
+        <name>WorkFlow Session-Trng Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Flow_Session_Registration_Field</fullName>
+        <description>Updates the Workflow Session Field</description>
+        <field>Work_Flow_Session__c</field>
+        <literalValue>Registration</literalValue>
+        <name>Work Flow Session-Registration</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Flow_Stage_1_Year_FollowUp</fullName>
+        <field>Work_Flow_Stage__c</field>
+        <literalValue>1 Year Follow-Up</literalValue>
+        <name>Work Flow Stage-1 Year FollowUp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Flow_Stage_1_Year_Follow_Up</fullName>
+        <description>Updates Workflow stage Field.</description>
+        <field>Work_Flow_Stage__c</field>
+        <literalValue>1 Year Follow-Up</literalValue>
+        <name>Work Flow Stage - 1 Year Follow-Up</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Flow_Stage_1_yr_FollowUp</fullName>
+        <description>Work Flow Stage-1 Year FollowUp</description>
+        <field>Work_Flow_Stage__c</field>
+        <literalValue>1 Year Follow-Up</literalValue>
+        <name>Work Flow Stage-1 yr FollowUp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Workflow_Status_Client_FolowUp</fullName>
+        <description>Updates the workflow status field in Client Followup object</description>
+        <field>Work_Flow_Status__c</field>
+        <literalValue>Started</literalValue>
+        <name>Workflow Status- Client FolowUp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>ET- Client 1year Follow-Up Survey-Business Registration</fullName>
+        <actions>
+            <name>Work_Flow_Session_Registration_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND (2 OR 3 OR 4) AND (5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <field>Client_Follow_up__c.ET_Follow_Up_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+            <value>Started</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+            <value>Unresponsive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Session__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Session__c</field>
+            <operation>equals</operation>
+            <value>Registration</value>
+        </criteriaItems>
+        <description>The followup survey sent after 1year.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Business_Follow_up_Status_Email_365_days</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Work_Flow_Stage_1_Year_Follow_Up</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_Follow_up__c.LastModifiedDate</offsetFromField>
+            <timeLength>365</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>ET- Client 1year Follow-Up Survey-Consultation</fullName>
+        <actions>
+            <name>WorkFlow_Session_Consultation</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND (2 OR 3 OR 4) AND (5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <field>Client_Follow_up__c.ET_Follow_Up_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+            <value>Started</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+            <value>Unresponsive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Session__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Session__c</field>
+            <operation>equals</operation>
+            <value>Consultation</value>
+        </criteriaItems>
+        <description>The followup survey sent after 1 year-consultation</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Business_Consultation_1_Year_Follow_Up</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Work_Flow_Stage_1_Year_FollowUp</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_Follow_up__c.LastModifiedDate</offsetFromField>
+            <timeLength>365</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>ET- Client 1year Follow-Up Survey-Training</fullName>
+        <actions>
+            <name>WorkFlow_Session_Trng_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND (2 OR 3 OR 4) AND (5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <field>Client_Follow_up__c.ET_Follow_Up_Survey_Completed__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+            <value>Started</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Status__c</field>
+            <operation>equals</operation>
+            <value>Unresponsive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Session__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Client_Follow_up__c.Work_Flow_Session__c</field>
+            <operation>equals</operation>
+            <value>Training</value>
+        </criteriaItems>
+        <description>The followup survey sent after 1 year-Training</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Training_1_Year_Follow_Up</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Work_Flow_Stage_1_yr_FollowUp</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Client_Follow_up__c.LastModifiedDate</offsetFromField>
+            <timeLength>365</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

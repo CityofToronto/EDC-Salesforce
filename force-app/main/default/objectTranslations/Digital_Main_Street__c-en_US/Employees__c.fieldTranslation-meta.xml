@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Employee Numbers --></label>
+    <name>Employees__c</name>
+    <picklistValues>
+        <masterLabel>20 or less</masterLabel>
+        <translation><!-- 20 or less --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 or less</masterLabel>
+        <translation><!-- 5 or less --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>99 or less</masterLabel>
+        <translation><!-- 99 or less --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Over 100</masterLabel>
+        <translation><!-- Over 100 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

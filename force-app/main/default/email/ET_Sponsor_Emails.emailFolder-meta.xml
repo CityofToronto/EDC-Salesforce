@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>ET - Sponsor Emails</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <role>ES_Admin</role>
+        <role>ES_BIC</role>
+        <role>ES_ET</role>
+    </sharedTo>
+</EmailFolder>

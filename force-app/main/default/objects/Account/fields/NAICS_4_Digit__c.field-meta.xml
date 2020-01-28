@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAICS_4_Digit__c</fullName>
+    <description>This is the four digit code for the North American Industry Classification System. This is for federal use.</description>
+    <externalId>false</externalId>
+    <formula>NAICS_Code_Lookup__r.NAICS_4_Digit__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NAICS 4 Digit #</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

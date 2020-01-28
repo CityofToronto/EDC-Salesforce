@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_made_in_Business_after_Grant__c</fullName>
+    <description>In the last month, have you made investments in your business since receiving grant from City of Toronto? These could be investments in space, equipment or staff</description>
+    <externalId>false</externalId>
+    <inlineHelpText>In the last month, have you made investments in your business since receiving grant from City of Toronto? These could be investments in space, equipment or staff</inlineHelpText>
+    <label>Investment made in Business after Grant</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Culture_Priorities__c</fullName>
+    <description>Any local/global issues, activities, etc., the Culture section of ED&amp;C has identified as of interest to them.  This info is solicited directly from Culture</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Any local/global issues, activities, etc., the Culture section of ED&amp;C has identified as of interest to them.  This info is solicited directly from Culture</inlineHelpText>
+    <label>Culture Priorities</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Any number/type of descriptors can go here, for example: &apos;The agreement hard copy was sent (date) FeDex (tracking # xxxxx) to Mexico for signature&apos; --></help>
+    <label><!-- Description --></label>
+    <name>Description__c</name>
+</CustomFieldTranslation>

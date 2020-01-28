@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Rule_for_Adjustment_Reason</fullName>
+    <active>true</active>
+    <description>This rule will ask user to specify the Reason for adjustment if Actual Paid Amount and Scheduled Paid Amount are not same</description>
+    <errorConditionFormula>AND(Actual_Paid_Amount__c&lt;&gt;Scheduled_Payment_Amount__c,ISBLANK(TEXT(Reason_for_Adjustment__c)))</errorConditionFormula>
+    <errorDisplayField>Reason_for_Adjustment__c</errorDisplayField>
+    <errorMessage>Please specify the Reason as Scheduled and Paid Amount are different</errorMessage>
+</ValidationRule>

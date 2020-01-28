@@ -1,0 +1,20 @@
+Dear {!Client_Follow_up__c.Contact_ClientFollowUp__c},
+
+A number of weeks ago you visited our Enterprise Toronto office to complete a business consultation. 
+
+We would like to know how things are going with your business and would appreciate if you could please provide us an update via this 1 minute survey - 
+
+https://cityoftoronto.tfaforms.net/355884?ID={!Client_Follow_up__c.Id}
+
+Thanks and feel free to contact us anytime. 
+
+If you would like to unsubscribe from future email communications then please follow this link:
+https://cityoftoronto.tfaforms.net/355892?ID={!Client_Follow_up__c.Id}
+
+Regards, 
+
+Paul Pirri, 
+Acting Manager, Entrepreneurship Services
+City of Toronto
+
+Visit Enterprise Toronto @ www.toronto.ca/enterprisetoronto

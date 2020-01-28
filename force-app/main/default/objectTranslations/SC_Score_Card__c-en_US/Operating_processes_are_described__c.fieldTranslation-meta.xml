@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Operating processes are described --></help>
+    <label><!-- Operating processes are described? --></label>
+    <name>Operating_processes_are_described__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (2 pt)</masterLabel>
+        <translation><!-- Yes (2 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

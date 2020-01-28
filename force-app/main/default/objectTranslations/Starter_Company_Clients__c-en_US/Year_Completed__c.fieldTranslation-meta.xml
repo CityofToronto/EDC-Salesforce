@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Year completed last level of education. --></help>
+    <label><!-- Year Completed --></label>
+    <name>Year_Completed__c</name>
+</CustomFieldTranslation>

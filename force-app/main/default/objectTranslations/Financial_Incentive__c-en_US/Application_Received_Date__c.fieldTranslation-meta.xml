@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The date the user submitted the application to the IMIT office i.e. the date the IMIT office receives the application. --></help>
+    <label><!-- Application Received Date --></label>
+    <name>Application_Received_Date__c</name>
+</CustomFieldTranslation>

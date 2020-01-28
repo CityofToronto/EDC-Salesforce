@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- By Law --></label>
+    <name>By_Law__c</name>
+    <picklistValues>
+        <masterLabel>1323-2012</masterLabel>
+        <translation><!-- 1323-2012 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1324-2012</masterLabel>
+        <translation><!-- 1324-2012 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1325-2012</masterLabel>
+        <translation><!-- 1325-2012 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>516 - 2008</masterLabel>
+        <translation><!-- 516 - 2008 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>517 - 2008</masterLabel>
+        <translation><!-- 517 - 2008 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>518 - 2008</masterLabel>
+        <translation><!-- 518 - 2008 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

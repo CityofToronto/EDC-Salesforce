@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Starter Company</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Starter Company</value>
+    </caseValues>
+    <layouts>
+        <layout>Starter Company Client Layout</layout>
+        <sections>
+            <label><!-- 1.1 - Application - Contact Information --></label>
+            <section>1.1 - Application - Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- 1.2 - Application - Education --></label>
+            <section>1.2 - Application - Education</section>
+        </sections>
+        <sections>
+            <label><!-- 1.3 - Application - Business Information --></label>
+            <section>1.3 - Application - Business Information</section>
+        </sections>
+        <sections>
+            <label><!-- 1.4 - Application - Eligibility --></label>
+            <section>1.4 - Application - Eligibility</section>
+        </sections>
+        <sections>
+            <label><!-- 1.5 - Application - Business Overview --></label>
+            <section>1.5 - Application - Business Overview</section>
+        </sections>
+        <sections>
+            <label><!-- 1.6 - Application - Financials --></label>
+            <section>1.6 - Application - Financials</section>
+        </sections>
+        <sections>
+            <label><!-- 1.7 - Application - References --></label>
+            <section>1.7 - Application - References</section>
+        </sections>
+        <sections>
+            <label><!-- 2. Application Review --></label>
+            <section>2. Application Review</section>
+        </sections>
+        <sections>
+            <label><!-- 3 - Program Participation - Admin (Pre-Grant Training) --></label>
+            <section>3 - Program Participation - Admin (Pre-Grant Training)</section>
+        </sections>
+        <sections>
+            <label><!-- 3.1 - Program Participation - Notes (Pre-Grant Training) --></label>
+            <section>3.1 - Program Participation - Notes (Pre-Grant Training)</section>
+        </sections>
+        <sections>
+            <label><!-- 4 - Grant Committee Application Review --></label>
+            <section>4 - Grant Committee Application Review</section>
+        </sections>
+        <sections>
+            <label><!-- 5 - Program Participation - Admin (Post-Grant Programming) --></label>
+            <section>5 - Program Participation - Admin (Post-Grant Programming)</section>
+        </sections>
+        <sections>
+            <label><!-- 6 - Program Completion --></label>
+            <section>6 - Program Completion</section>
+        </sections>
+        <sections>
+            <label><!-- 7 - Client Document Checklist --></label>
+            <section>7 - Client Document Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- 8 - Client Follow-up Survey --></label>
+            <section>8 - Client Follow-up Survey</section>
+        </sections>
+        <sections>
+            <label><!-- 8.1 Please rank the most helpful elements of the Starter Company Program --></label>
+            <section>8.1 Please rank the most helpful elements of the Starter Company Program</section>
+        </sections>
+        <sections>
+            <label><!-- 8.2 Since Completing the Starter Company have you: --></label>
+            <section>8.2 Since Completing the Starter Company have you:</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+</CustomObjectTranslation>

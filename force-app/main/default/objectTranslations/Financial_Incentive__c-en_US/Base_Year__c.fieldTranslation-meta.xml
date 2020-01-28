@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Taxation year in which a Financial Incentive Agreement is signed for the Property upon which the Eligible Development is to be constructed --></help>
+    <label><!-- Base Year --></label>
+    <name>Base_Year__c</name>
+</CustomFieldTranslation>

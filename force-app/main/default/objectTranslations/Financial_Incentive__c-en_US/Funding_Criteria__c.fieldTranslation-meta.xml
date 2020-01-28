@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The strategic goals that this partnership aims to address. Funding requests for $3,000 and under must meet three criteria; $3,001-$5,000 must meet five; $5,001 and over must meet seven. --></help>
+    <label><!-- Funding Criteria --></label>
+    <name>Funding_Criteria__c</name>
+    <picklistValues>
+        <masterLabel>Helps to overcome barriers to business growth.</masterLabel>
+        <translation><!-- Helps to overcome barriers to business growth. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Improves availability of, access to or geographic diversity in physical space.</masterLabel>
+        <translation><!-- Improves availability of, access to or geographic diversity in physical space. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Improves diversity, equity and inclusion, in the sector or in service delivery.</masterLabel>
+        <translation><!-- Improves diversity, equity and inclusion, in the sector or in service delivery. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Increases domestic sales or supports engagement with domestic organizations.</masterLabel>
+        <translation><!-- Increases domestic sales or supports engagement with domestic organizations. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Increases exports, improves international reputation or supports the development of</masterLabel>
+        <translation><!-- Increases exports, improves international reputation or supports the development of --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Increases profitability or productivity, or stimulates domestic or foreign investment.</masterLabel>
+        <translation><!-- Increases profitability or productivity, or stimulates domestic or foreign investment. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotes the sector, within the Toronto Region or externally.</masterLabel>
+        <translation><!-- Promotes the sector, within the Toronto Region or externally. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strengthens internal networks and collaboration within the sector.</masterLabel>
+        <translation><!-- Strengthens internal networks and collaboration within the sector. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supports innovation within or technology transfer to the sector.</masterLabel>
+        <translation><!-- Supports innovation within or technology transfer to the sector. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supports workforce development</masterLabel>
+        <translation><!-- Supports workforce development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>international collaborations.</masterLabel>
+        <translation><!-- international collaborations. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Expiry_Date_Validation</fullName>
+    <active>true</active>
+    <description>This validation rule is to make sure user must specify Expiry date if Occupancy type in Lease</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &#39;Company_Intelligence&#39;, ISBLANK(Lease_Expiry__c),TEXT(Occupancy_Type__c)=&#39;Lease&#39;)</errorConditionFormula>
+    <errorDisplayField>Lease_Expiry__c</errorDisplayField>
+    <errorMessage>Required Input</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<!-- 
+    New Investment Activity Action on Account object
+     - Allow user create a Investment Activity  record on a Account Record 
+     with Initiative(Campaign) record typeId 'Investment Activity' (0121N0000012kqJ)
+-->
+
+<aura:component extends="c:COT_NewRecordAction">
+
+    <aura:set attribute="objcetApiName" value="Campaign"/>
+    <aura:set attribute="recordTypeName" value="Investment Activity"/>
+    <aura:set attribute="queryFields" value="['Id']"/>
+    <aura:set attribute="displayPageLayout" value="false"/>
+    <aura:set attribute="title" value="New Investment Activity"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.loadRecordType}"/>
+
+    <aura:handler name="change" value="{!v.loadedRecord}" action="{!c.createRecord}"/>
+    
+
+</aura:component>

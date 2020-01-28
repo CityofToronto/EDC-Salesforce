@@ -1,0 +1,798 @@
+<messaging:emailTemplate recipientType="Contact" relatedToType="Financial_Incentive__c"  subject="Starter Company Plus - Small Business {!relatedTo.Application_Stream__c} - Approved  for {!relatedTo.Account__r.Name} and {!RelatedTo.Financial_Incentive_Name__c}" replyTo="{!$Label.StarterCompanyReplyToAddress}">
+
+    <messaging:htmlEmailBody >
+    Welcome {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName} - we're happy to let you know that you have been approved the Micro Financing of ${!relatedTo.Total_Grant_Amount__c}
+    <br /><br />
+    Please complete and sign the attached grant agreement for process the micro financing and email back to the using the reply button.
+    <br />
+    Please do not change the subject line of the email when replying the email.
+    <br /><br />
+    A reminder that for the next 6 months you will need to complete a monthly report detailing additional training, mentoring and your achievement of milestones. 
+    <br /><br />
+    If you are interested in other training opportunities visit our listing of upcoming sessions here -
+    <br />
+    https://www.toronto.ca/business-economy/business-start-ups/training/seminars/ 
+    <br /><br />
+    If you would like to book an appointment with an advisor use the following link - 
+    <br />
+    https://cityoftoronto.tfaforms.net/355947 
+    <br /><br />
+    Good Luck and the City of Toronto is looking forward to assisting your small business grow and succeed. 
+    <br /><br />
+    Regards, 
+    <br /><br />
+    Vikas Jain 
+    <br />
+    Small Business Advisor/ Lead Co-ordinator Starter Company 
+    <br />
+    City of Toronto, Business Growth Services, Entrepreneurship Services 
+    <br />
+    Enterprise Toronto Small Business Centre, Scarborough Civic Centre, 150 Borough Dr., Ground Floor
+    </messaging:htmlEmailBody>
+    <messaging:attachment renderAs="PDF" filename="{!RelatedTo.Application_Stream__c} Grant Agreement {!RelatedTo.Financial_Incentive_Name__c}.pdf">
+    <html>
+        <body>
+            <p style="text-align: center;">
+                THIS AGREEMENT made in duplicate as of the day
+                <strong>
+                     &nbsp;{!case(month(today()),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(TODAY())}, {!YEAR(TODAY())} &nbsp;&nbsp;
+                </strong>
+            </p>
+            <p style="text-align: center;">
+                BETWEEN:&nbsp;
+            </p>
+            <p style="text-align: center;">
+                <strong>
+                     CITY OF TORONTO
+                </strong>
+                <br/>
+                <strong>
+                     &nbsp;(the "City")
+                </strong>
+            </p>
+            <p style="text-align: center;">
+                &ndash; and &ndash;
+            </p>
+            <p style="text-align: center;">
+                &nbsp;
+                <strong>
+                     {!relatedTo.Account__r.Name}
+                </strong>
+            </p>
+            <p>
+                &nbsp;
+            </p>
+            <p>
+                WHEREAS the Participant has applied for a grant under the Starter Company &ndash; {!relatedTo.Application_Stream__c} which provides funding to start-ups and existing retail business who are starting or expanding a business in their community.
+            </p>
+            <p>
+                AND WHEREAS Her Majesty the Queen In Right of Ontario, as represented by the Minister of Economic Development Trade and Employment has provided grant funds to the City of Toronto to assist with the {!relatedTo.Application_Stream__c}.
+            </p>
+            <p>
+                AND WHEREAS the City and the Participant wish to set out in this Agreement their respective rights and obligations concerning the grant of funds from the City.
+            </p>
+            <p>
+                NOW THEREFORE THIS AGREEMENT WITNESSES that in consideration of the mutual promises and covenants contained in it, the City and the Participant agree as follows:
+            </p>
+            <p>
+                <strong>
+                    <u>
+                         Section 1 - Interpretation of the Agreement
+                    </u>
+                </strong>
+            </p>
+            <p>
+                <strong>
+                     1.01
+                </strong>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Definitions
+                </u>
+                 .&nbsp; The following capitalized terms shall have the meanings set out below unless there is something in the context inconsistent therewith:
+            </p>
+            <p>
+                &ldquo;Agreement&rdquo; means this agreement, the Application, Guidelines, appendices and any amendments to these documents;
+            </p>
+            <p>
+                "Application" means the {!relatedTo.Application_Stream__c} grant application completed by the Participant and includes the Business Plan;
+            </p>
+            <p>
+                &ldquo;Business&rdquo; means the business described in the Application and the Business Plan;
+            </p>
+            <p>
+                "Business Mentoring Group" means the committee of local business representatives referred to in the Guidelines to which the Participant is assigned;
+            </p>
+            <p>
+                "Business Plan" means the business plan submitted by the Participant with the Application and approved by the City
+            </p>
+            <p>
+                "Disbursement" means any advance of funds authorized by the City on account of the Grant;
+            </p>
+            <p>
+                "Enterprise Toronto" means a community based organization that is responsible for assisting the City in the delivery of&nbsp; small business programs and training modules and is responsible for delivery of the Starter Company Program;
+            </p>
+            <p>
+                "Micro Financing" means financial assistance in the amount of up to
+                <strong>
+                     ${!relatedTo.Total_Grant_Amount__c}
+                </strong>
+                 &nbsp;to be disbursed by the City to the Participant in the manner provided in this Agreement;
+            </p>
+            <p>
+                "Guidelines" means the guidelines provided to the Participant with the Application, which set out the terms and conditions for the Starter Company Program, as may be amended from time to time without notice;
+            </p>
+            <p>
+                "Milestones" means the identified actions to be completed by the Participant as set out in Appendix A of this Agreement;
+            </p>
+            <p>
+                &ldquo;Participant Survey&rdquo; means the survey on the Starter Company Program that the Participant is required to complete;
+            </p>
+            <p>
+                &nbsp;&ldquo;Starter Company Program&rdquo; means the program established pursuant to the Province of Ontario&rsquo;s Youth Jobs Strategy for purposes of providing mentoring, training and capital for businesses to start, grow or buy a small business;
+            </p>
+            <p>
+                <strong>
+                     "Term" means the period commencing October 2019 and ending March 2020
+                </strong>
+            </p>
+            <p>
+                <strong>
+                    <u>
+                         Section 2 &ndash; Participant Covenants
+                    </u>
+                </strong>
+            </p>
+            <p>
+                2.01&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall start up and run the Business substantially in accordance with this Agreement and the approved Business Plan and shall operate the Business on a full time basis (an average of a minimum of 35 hours a week). The Participant shall satisfy the targets set out in the Business Plan and meet the Milestones identified in Appendix A and shall notify Enterprise Toronto promptly in accordance with paragraph 7.08 in the event that the Participant desires to make any material changes to the Business Plan or is unable to meet the targets set out in the Business Plan or the Milestones identified in Appendix A.
+            </p>
+            <p>
+                2.02&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall provide Enterprise Toronto with a copy of the Business&rsquo; articles of incorporation and/or, business name registration, as applicable, together with any shareholder agreement, or partnership agreement entered into by the Participant when requested.
+            </p>
+            <p>
+                2.03&nbsp; &nbsp; &nbsp;The Participant shall obtain and keep in good standing all applicable licenses required to operate the Business, and upon request, provide copies of such licenses to Enterprise Toronto.
+            </p>
+            <p>
+                2.04&nbsp;&nbsp;&nbsp;&nbsp; The Participant and the Business shall comply with and duly observe all present and future applicable federal and provincial laws, regulations and municipal by-laws.
+            </p>
+            <p>
+                2.05&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall provide the following upon request and to the satisfaction of Enterprise Toronto; &nbsp;
+            </p>
+            <p style="padding-left: 30px;">
+                (a)&nbsp; a journal that includes a description of the progress of the Business, time allocations, business tasks, operations and marketing activities to Enterprise Toronto; and,
+            </p>
+            <p style="padding-left: 30px;">
+                (b)&nbsp; a cash flow statement of the Business operations together with copies of all &nbsp;&nbsp;&nbsp;&nbsp;receipts and invoices organized, totaled and reconciled to the cash flow record.
+            </p>
+            <p>
+                2.06&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall attend bi-weekly meetings for at least six (6) months with Enterprise Toronto
+            </p>
+            <p>
+                2.07&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall at least one (1) mentor meeting per month for six (6) months.
+            </p>
+            <p>
+                2.08&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall attend and participate in business training as recommended by Enterprise Toronto.
+            </p>
+            <p>
+                2.09&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall permit Enterprise Toronto to visit the Business site at such reasonable times as may be requested by the Manager in order to review the progress of the Business and compliance with the terms and conditions of this Agreement.
+            </p>
+            <p>
+                2.10&nbsp; &nbsp; &nbsp;The Participant agrees to complete an anonymous Participant Survey within two (2) weeks of receipt of the Participant Survey.
+            </p>
+            <p>
+                2.11&nbsp; &nbsp; &nbsp;The Participant shall attend an exit interview promptly upon request by Enterprise Toronto in order to provide information about the Participant&rsquo;s experience with the Starter Company Program.
+            </p>
+            <p>
+                2.11&nbsp;&nbsp;&nbsp;&nbsp; The Participant shall provide such other information and comply with such other reasonable requirements established by the City throughout the Term.
+            </p>
+            <p>
+                <u>
+                </u>
+                <strong>
+                    <u>
+                         Section 3 &ndash; Participant&rsquo;s Representations and Warranties
+                    </u>
+                </strong>
+            </p>
+            <p>
+                3.01&nbsp;&nbsp;&nbsp;&nbsp; The Participant represents and warrants that:
+            </p>
+            <p style="padding-left: 30px;">
+                (a) that the information supplied in the Application or in support of the Application by the Participant is true and accurate. The Participant acknowledges that the City has relied&nbsp;upon the truth, authenticity and accuracy of the information in authorizing the Grant;
+            </p>
+            <p style="padding-left: 30px;">
+                (b) if the Business is incorporated that it is a corporation duly incorporated, organized, validly existing and in good standing under the laws of Ontario or Canada, as the case may be, and that the Participant is the majority shareholder of such corporation;
+            </p>
+            <p style="padding-left: 30px;">
+                (c) the Participant operates the Business at arms length from any family business operation or venture;
+            </p>
+            <p style="padding-left: 30px;">
+                (d)&nbsp; the Business proposed in the Business Plan is a new or expanding business venture;
+            </p>
+            <p style="padding-left: 30px;">
+                (e)&nbsp; that the Participant is between the ages of 18 and older
+            </p>
+            <p style="padding-left: 30px;">
+                (f)&nbsp; that the Participant is a resident of Ontario;
+            </p>
+            <p style="padding-left: 30px;">
+                (g)&nbsp; the Participant is a Canadian citizen or a permanent resident of Canada;
+            </p>
+            <p style="padding-left: 30px;">
+                (h)&nbsp; the Participant has not previously received a grant or award from any program that is the same as or similar to the Starter Company Program;
+            </p>
+            <p style="padding-left: 30px;">
+                (i)&nbsp;&nbsp; the Participant is not currently and shall not during the Term make use of any other self-employment programs, whether private or public, without the prior written consent of the City;
+            </p>
+            <p style="padding-left: 30px;">
+                (j)&nbsp;&nbsp; that the Participant is not presently enrolled, and shall not be returning, to full-time education during the Term of this Agreement.
+            </p>
+            <p>
+                <u>
+                </u>
+                <strong>
+                    <u>
+                         Section 4 -The Award
+                    </u>
+                </strong>
+            </p>
+            <p>
+                4.01&nbsp;&nbsp;&nbsp;&nbsp; Subject to and in accordance with all of the terms and conditions of this Agreement, and in reliance on the representations and warranties in Section 3, the City agrees to provide a grant to the Participant to a maximum amount of Five Thousand dollars ($5,000) to assist the Participant to carry out the Business Plan for the Business.
+            </p>
+            <br/>
+            <p>
+                <u>
+                </u>
+                <strong>
+                    <u>
+                         Section 5 - Terms and Conditions of Disbursement
+                    </u>
+                </strong>
+            </p>
+            <p>
+                5.01&nbsp;&nbsp;&nbsp;&nbsp; The Micro Financing shall be disbursed to the Participant as follows:
+            </p>
+            <p style="padding-left: 30px;">
+                (a)&nbsp; the disbursement of the micro financing shall be in an amount up to $5,000 upon execution of this Agreement by both parties;
+            </p>
+            <p style="padding-left: 30px;">
+                (b)&nbsp; the disbursement, shall be disbursed to the Participant, provided that the Participant is and has at all times throughout the Term been in compliance with the terms, conditions and covenants of this Agreement and has provided the City, with the following documents on or before the end of the Term, to the satisfaction of Enterprise Toronto.
+            </p>
+            <p style="padding-left: 60px;">
+                i.&nbsp; &nbsp;cash flow statements of the Business&rsquo; operations;
+            </p>
+            <p style="padding-left: 60px;">
+                ii.&nbsp; all reports and&nbsp; journals;
+            </p>
+            <p style="padding-left: 60px;">
+                iii.&nbsp; copies of bank statements for the Business;
+            </p>
+            <p style="padding-left: 60px;">
+                iv.&nbsp; a detailed expenditure statement and accounting, satisfactory to Enterprise Toronto for the expenditure of the micro financing including a statement of all costs incurred and paid by the Participant on account of the Business together with, invoices and other appropriate records supporting the said expenditures and proof of payment thereof organized, totaled and reconciled to the cash flow statement and expenditure statement; and
+            </p>
+            <p style="padding-left: 60px;">
+                &nbsp;v.&nbsp; any additional documentation required by Enterprise Toronto.
+            </p>
+            <p>
+                <strong>
+                    <u>
+                         Section 6 -Termination
+                    </u>
+                </strong>
+            </p>
+            <p>
+                6.01&nbsp;&nbsp;&nbsp;&nbsp; If the Participant:
+            </p>
+            <p style="padding-left: 30px;">
+                (a) fails to observe, perform and keep each covenant, agreement, provision, stipulation and condition contained in this Agreement to be observed, performed and kept by the Participant;
+            </p>
+            <p style="padding-left: 30px;">
+                (b) becomes insolvent or commits an act of bankruptcy or become bankruptcy or takes the benefit of any statute that may be in force for bankrupt or insolvent debtors or becomes involved in voluntary or involuntary dissolution or winding-up or permit any liquidation, or file any proposal or makes any assignment for the benefit of creditors;
+            </p>
+            <p>
+                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;(c) ceases to carry on the Business for any period of time; or
+            </p>
+            <p style="padding-left: 30px;">
+                (d) consolidates, amalgamates or merges the Business with any other person, company, firm or organization, enters into any corporate reorganization or other transaction intended to effect or otherwise permit a change in its existing constating documents without the prior written consent of the City;
+            </p>
+            <p>
+                &nbsp; &nbsp; &nbsp; &nbsp; Upon 15 days written notice to the Participant:
+            </p>
+            <p style="padding-left: 60px;">
+                (i)&nbsp; all obligations of the City to make Disbursements on account of the micro financing shall be immediately extinguished; and,
+            </p>
+            <p style="padding-left: 60px;">
+                (ii) the City may, terminate this Agreement and all disbursements made pursuant to this Agreement shall be immediately due and payable by the Participant together with interest at Prime plus 3% per annum as established &nbsp;by the Bank of Canada.
+            </p>
+            <p>
+                <strong>
+                    <u>
+                         Section 7 - General
+                    </u>
+                </strong>
+            </p>
+            <p>
+                7.01&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Audit
+                </u>
+            </p>
+            <p>
+                All contracts, papers, correspondence, copies, books, payrolls, records, accounts, invoices, statements, accounting records and other information and material of the Participant relating to the expenses incurred by the Participant pursuant to the Business and this Agreement shall be open to audit and examination by the City or its agent at all reasonable times during the Term of this Agreement and for a period of 7 years thereafter. The Participant agrees to maintain all such records for this period of time.
+            </p>
+            <p>
+                7.02&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Applicable Law
+                </u>
+            </p>
+            <p>
+                This Agreement is to be governed by and interpreted in all respects in accordance with the laws of the Province of Ontario and the laws of Canada.
+            </p>
+            <p>
+                7.03&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Entire Agreement
+                </u>
+            </p>
+            <p>
+                This Agreement, including the Application and Guidelines, and Business Plan forms the entire Agreement between the Participant and the City and supersedes all prior agreements and understandings.
+            </p>
+            <p>
+                7.04&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Time
+                </u>
+            </p>
+            <p>
+                Time is of the essence of this Agreement.
+            </p>
+            <p>
+                7.05&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Assignment
+                </u>
+            </p>
+            <p>
+                This Agreement may not be assigned by the Participant without the prior written consent of the City.
+            </p>
+            <p>
+                7.06&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Limitation of Liability
+                </u>
+            </p>
+            <p>
+                <u>
+                </u>
+                 The City shall not be responsible or liable for any direct, indirect, or consequential damages whatsoever sustained by the Participant or any of its employees, customers or any other third parties, in connection with this Agreement or the operation of the Participant's Business, howsoever caused and the Participant here by indemnifies and saves harmless the City, its elected and appointed officials, officers, employees and agents from any loss, liability, damages or costs that the City may incur&nbsp; in connection with this Agreement and the operation of the Participant's Business.
+            </p>
+            <p>
+                7.07&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Insurance
+                </u>
+            </p>
+            <p>
+                The Participant shall carry all necessary and appropriate insurance that a prudent person in the business of the Participant would maintain. No protection will be afforded to the Participant by the Government of Ontario or the City for any claims arising in connection with this Agreement or the Participants&rsquo; operation of the Business.
+            </p>
+            <p>
+                7.08&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Notices
+                </u>
+            </p>
+            <p>
+                Any notice, request, demand, consent, approval, correspondence, report or other communication required pursuant to or permitted under this Agreement must be in writing and must be given by personal delivery, or transmitted by email, fax or other electronic message system which provides a hard copy, or be sent by first class mail, postage or charges prepaid, and addressed to the party to whom it is intended at, in the case of the Participant, the address set out in the Application and in the case of the City, to the address set out below:&nbsp;
+            </p>
+            <br/>
+            <p>
+                <strong>
+                     CITY OF TORONTO
+                </strong>
+                <br />
+                <strong>
+                     Enterprise Toronto
+                </strong>
+                <br />
+                 150 Borough Drive
+                <br />
+                 Toronto, ON M1P 4N7
+                <br />
+                 Email:&nbsp;
+                <a href="mailto:vikas.jain@toronto.ca">
+                     vikas.jain@toronto.ca
+                </a>
+            </p>
+            <p>
+                Any such notice shall be deemed to be received, if personally delivered or sent by email, fax &nbsp;or other electronic message on the day it is sent and if such notice is sent by first class mail it shall be deemed to have been received on the date that is five days after the date of mailing.
+            </p>
+            <p>
+                7.09&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Non-Agent
+                </u>
+            </p>
+            <p>
+                Nothing in this Agreement shall be construed as creating a partnership, joint venture, agency or employment relationship between the Participant and the City.
+            </p>
+            <p>
+                7.10&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Conflict in Documents
+                </u>
+            </p>
+            <p>
+                In the event of any conflict or inconsistency in this Agreement, (a) the main body of the Agreement shall govern over the Appendices to the Agreement; (b) the Agreement (including its Appendices) shall govern over the Guidelines and the Application; and (c) the Guidelines shall govern over the Application.
+            </p>
+            <p>
+                7.11&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Conflict of Interest.
+                </u>
+            </p>
+            <p>
+                The Participant shall ensure that all persons associated with the Business, in any capacity, shall carry out the Business, in all its aspects, without a conflict of interest.&nbsp; For these purposes, a conflict of interest includes any circumstances &nbsp;where (a) the Participant; or (b) any person who has the capacity to influence the Participants&rsquo; decisions; has outside commitments, relationships or financial interests that could, or could be seen to, interfere with the Participant&rsquo;s objective, unbiased and impartial judgment relating to the Business and the use of the Grant.&nbsp; Nothing in this section shall prevent the Participant if it so chooses from reimbursing its volunteers for their reasonable out of pocket expenses incurred in connection with the Business.&nbsp; The Participant shall (a) disclose to the City, through the Manager, without delay any actual or potential situation that may be reasonably interpreted as either a conflict of interest or a potential conflict of interest; and (b) comply with any terms and conditions that the City may prescribe as a result of the disclosure.
+            </p>
+            <p>
+                7.12&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Amendments.
+                </u>
+                 &nbsp;This Agreement may not be amended, altered or modified except by a written agreement signed by both the City and the Participant.
+            </p>
+            <p>
+                7.13&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Waiver.
+                </u>
+                 &nbsp; The benefit of any provision of this Agreement may be waived in whole or in part by the party for whose benefit the provision operates and either party may waive any or all of its rights in the event of a breach of any provision of this Agreement by the other party.&nbsp; A waiver is binding on the waiving party only if it is in writing.&nbsp; A waiver may be absolute or may be limited in any way as to duration or scope.
+            </p>
+            <p>
+                7.14&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Further Assurances.
+                </u>
+                 &nbsp; The Participant agrees at any time and from time to time after the execution and delivery of this Agreement to execute and deliver such further acts and things as the City may reasonably request in order to fully effect the purpose of this Agreement.
+            </p>
+            <p>
+                7.15&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Municipal Freedom of Information and Protection of Privacy Act.
+                </u>
+                <em>
+                     &nbsp;
+                </em>
+                 The Participant acknowledges that the City is bound by the Municipal
+                <em>
+                     Freedom of Information and Protection of Privacy Act
+                </em>
+                 , R.S.O. 1990 c.M. 56as amended and that any information provided to the City in connection with the Business or otherwise in connection with this Agreement may be subject to disclosure under that
+                <em>
+                     Act
+                </em>
+                 .
+            </p>
+            <p>
+                7.16&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Force Majeure.
+                </u>
+                 Neither party shall be responsible for failures in performance resulting from matters beyond the control of the party, including acts of God, riots or other civil insurrection, war, strikes and lock-outs.
+            </p>
+            <p>
+                7.17&nbsp;&nbsp;&nbsp;&nbsp;
+                <u>
+                     Severability
+                </u>
+                 .&nbsp; The invalidity or unenforceability of any provision of this Agreement or any covenant in it will not affect the validity or enforceability of any other provision or covenant in it, and the invalid provision or covenant will be deemed to be severable.
+            </p>
+            <p>
+                &nbsp;
+            </p>
+            <p>
+                <strong>
+                     In Witness Whereof
+                </strong>
+                 the Participant and the City have executed this Agreement as of the date first set out above.
+            </p>
+            <p>
+                &nbsp;
+            </p>
+            <p style="padding-left: 510px; text-align: left;">
+                <strong>
+                     CITY OF TORONTO
+                </strong>
+            </p>
+            <p style="padding-left: 510px;">
+                _______________________
+                <br />
+                <strong>
+                    Paul Pirri
+                </strong>
+                <br />
+                <strong>
+                    Manager, Entrepreneurship Services
+                </strong>
+            </p>
+            <p>
+                &nbsp;
+            </p>
+            <p>
+                <strong>
+                     PARTICIPANT:
+                </strong>
+            </p>
+            <p>
+                <strong>
+                     {!relatedTo.Account__r.Name}
+                </strong>
+                <br />
+                <strong>
+                     {!relatedTo.Account__r.BillingStreet}, {!relatedTo.Account__r.BillingCity}, {!relatedTo.Account__r.BillingPostalCode}
+                </strong>
+                <br />
+                <strong>
+                     {!relatedTo.Account__r.Phone}&nbsp;
+                </strong>
+            </p>
+            <p>
+                ___________________________&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ________________________
+                <br />
+                <strong>
+                     &nbsp;
+                </strong>
+                <strong>
+                    Signature of Participant
+                </strong>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <strong>
+                    Print Name of Participant
+                </strong>
+            </p>
+            <p>
+                <strong>
+                     &nbsp;
+                </strong>
+            </p>
+            <p>
+                ___________________________&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ________________________
+                <br />
+                <strong>
+                     Witness: Signature of Witness
+                </strong>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                <strong>
+                    <strong>
+                        Witness: Print Name
+                    </strong>
+                </strong>
+            </p>
+            
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><p>&nbsp;</p>
+            <p><strong> Appendix A &ndash; Starter Company Retail Accelerator Milestones</strong></p>
+            <table style="width: 73.8537%; border: 1px solid black; border-collapse: collapse; height: 316px;" border="1px" cellspacing="0">
+                <tbody>
+                    <tr style="height: 47px;">
+                        <td style="width: 17%; height: 47px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Month </strong></p>
+                        </td>
+                        <td style="width: 22%; height: 47px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Milestone </strong></p>
+                        </td>
+                        <td style="width: 49.6774%; height: 47px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Description </strong></p>
+                        </td>
+                    </tr>
+                    <tr style="height: 35px;">
+                        <td style="width: 17%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 22%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 49.6774%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 35px;">
+                        <td style="width: 17%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 22%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 49.6774%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 35px;">
+                        <td style="width: 17%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 22%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 49.6774%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 35px;">
+                        <td style="width: 17%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 22%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 49.6774%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 35px;">
+                        <td style="width: 17%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 22%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 49.6774%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 35px;">
+                        <td style="width: 17%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 22%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 49.6774%; height: 35px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong> &nbsp; </strong></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><strong> &nbsp;Appendix B &ndash; Personal Investment 25% ($1,250) </strong> <strong> &nbsp; </strong></p>
+            <table style="width: 74.0488%; border: 1px solid black; border-collapse: collapse; height: 253px;" border="1" cellspacing="0">
+                <tbody>
+                    <tr style="height: 33px;">
+                        <td style="width: 21%; height: 33px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Item </strong></p>
+                        </td>
+                        <td style="width: 54%; height: 33px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Description </strong></p>
+                        </td>
+                        <td style="width: 12.3077%; height: 33px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Cost </strong></p>
+                        </td>
+                    </tr>
+                    <tr style="height: 39px;">
+                        <td style="width: 21%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 54%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 12.3077%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 39px;">
+                        <td style="width: 21%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 54%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 12.3077%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 39px;">
+                        <td style="width: 21%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 54%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 12.3077%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 39px;">
+                        <td style="width: 21%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 54%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 12.3077%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 39px;">
+                        <td style="width: 21%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 54%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 12.3077%; height: 39px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong> &nbsp; </strong></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><strong> Appendix C &ndash; Starter Company Micro Financing Allocation $5,000 </strong> <strong> &nbsp; </strong></p>
+            <table style="width: 74.3415%; border: 1px solid black; border-collapse: collapse; height: 301px;" border="1" cellspacing="0">
+                <tbody>
+                    <tr style="height: 14px;">
+                        <td style="width: 22%; height: 14px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Item </strong></p>
+                        </td>
+                        <td style="width: 64.1761%; height: 14px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Description </strong></p>
+                        </td>
+                        <td style="width: 16.8239%; height: 14px;">
+                            <p style="text-align: center;background-color:LightGray;"><strong> Cost </strong></p>
+                        </td>
+                    </tr>
+                    <tr style="height: 17px;">
+                        <td style="width: 22%; height: 17px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 64.1761%; height: 17px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 16.8239%; height: 17px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 20px;">
+                        <td style="width: 22%; height: 20px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 64.1761%; height: 20px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 16.8239%; height: 20px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 22px;">
+                        <td style="width: 22%; height: 22px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 64.1761%; height: 22px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 16.8239%; height: 22px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr style="height: 13px;">
+                        <td style="width: 22%; height: 13px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 64.1761%; height: 13px;">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td style="width: 16.8239%; height: 13px;">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p>
+        </body>
+    </html>
+    </messaging:attachment>
+</messaging:emailTemplate>

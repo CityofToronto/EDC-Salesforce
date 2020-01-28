@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Programs of Interest – R&amp;D --></label>
+    <name>Programs_of_Interest_R_D__c</name>
+    <picklistValues>
+        <masterLabel>FedDev Ontario</masterLabel>
+        <translation><!-- FedDev Ontario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IRAP</masterLabel>
+        <translation><!-- IRAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MRI</masterLabel>
+        <translation><!-- MRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mitacs</masterLabel>
+        <translation><!-- Mitacs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NSERC</masterLabel>
+        <translation><!-- NSERC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCE</masterLabel>
+        <translation><!-- OCE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OMAFRA</masterLabel>
+        <translation><!-- OMAFRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SR&amp;ED</masterLabel>
+        <translation><!-- SR&amp;ED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TVP</masterLabel>
+        <translation><!-- TVP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Use which sections? --></label>
+    <name>Use_which_sections__c</name>
+    <picklistValues>
+        <masterLabel>Provide your own information</masterLabel>
+        <translation><!-- Provide your own information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use the standard precedent</masterLabel>
+        <translation><!-- Use the standard precedent --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

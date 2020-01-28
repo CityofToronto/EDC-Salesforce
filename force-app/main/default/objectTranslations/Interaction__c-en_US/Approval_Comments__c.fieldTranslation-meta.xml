@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is used to capture any special instruction from Advisor on meeting confirmation. --></help>
+    <label><!-- Approval Comments --></label>
+    <name>Approval_Comments__c</name>
+</CustomFieldTranslation>

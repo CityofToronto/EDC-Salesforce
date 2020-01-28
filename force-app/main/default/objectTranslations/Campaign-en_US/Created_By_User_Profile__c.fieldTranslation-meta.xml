@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This formula field is used to capture profile of User who is creating new Initiative Record and this will be than used in Workflow rules not to trigger surveys for BIA Profiles --></help>
+    <label><!-- Created By User Profile --></label>
+    <name>Created_By_User_Profile__c</name>
+</CustomFieldTranslation>

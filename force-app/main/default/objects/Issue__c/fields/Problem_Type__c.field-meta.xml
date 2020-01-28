@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Problem Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accessibility (ramps, signage, etc.)</fullName>
+                <default>false</default>
+                <label>Accessibility (ramps, signage, etc.)</label>
+            </value>
+            <value>
+                <fullName>Business development (expanding networks, exporting and promotional opportunities)</fullName>
+                <default>false</default>
+                <label>Business development (expanding networks, exporting and promotional opportunities)</label>
+            </value>
+            <value>
+                <fullName>Development - Building Permit</fullName>
+                <default>false</default>
+                <label>Development - Building Permit</label>
+            </value>
+            <value>
+                <fullName>Development – Committee of Adjustment</fullName>
+                <default>false</default>
+                <label>Development – Committee of Adjustment</label>
+            </value>
+            <value>
+                <fullName>Development – Preliminary Project Review (PPR)</fullName>
+                <default>false</default>
+                <label>Development – Preliminary Project Review (PPR)</label>
+            </value>
+            <value>
+                <fullName>Development - Site Plan</fullName>
+                <default>false</default>
+                <label>Development - Site Plan</label>
+            </value>
+            <value>
+                <fullName>Development - Site Search</fullName>
+                <default>false</default>
+                <label>Development - Site Search</label>
+            </value>
+            <value>
+                <fullName>Development – Zoning / Official Plan</fullName>
+                <default>false</default>
+                <label>Development – Zoning / Official Plan</label>
+            </value>
+            <value>
+                <fullName>Encroachment by Sensitive Uses</fullName>
+                <default>false</default>
+                <label>Encroachment by Sensitive Uses</label>
+            </value>
+            <value>
+                <fullName>Funding - Lack of Access to Funding</fullName>
+                <default>false</default>
+                <label>Funding - Lack of Access to Funding</label>
+            </value>
+            <value>
+                <fullName>Government Procurement (selling something to the City)</fullName>
+                <default>false</default>
+                <label>Government Procurement (selling something to the City)</label>
+            </value>
+            <value>
+                <fullName>Municipal Notice of Violation</fullName>
+                <default>false</default>
+                <label>Municipal Notice of Violation</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Property Assessment</fullName>
+                <default>false</default>
+                <label>Property Assessment</label>
+            </value>
+            <value>
+                <fullName>Real Estate – Cost / Availability</fullName>
+                <default>false</default>
+                <label>Real Estate – Cost / Availability</label>
+            </value>
+            <value>
+                <fullName>Transportation – Congestion / Delay</fullName>
+                <default>false</default>
+                <label>Transportation – Congestion / Delay</label>
+            </value>
+            <value>
+                <fullName>Transportation – Parking</fullName>
+                <default>false</default>
+                <label>Transportation – Parking</label>
+            </value>
+            <value>
+                <fullName>Transportation – Public Transit</fullName>
+                <default>false</default>
+                <label>Transportation – Public Transit</label>
+            </value>
+            <value>
+                <fullName>Transportation – Road Surface / Right of Way / Sidewalk</fullName>
+                <default>false</default>
+                <label>Transportation – Road Surface / Right of Way / Sidewalk</label>
+            </value>
+            <value>
+                <fullName>Utilities – Broadband</fullName>
+                <default>false</default>
+                <label>Utilities – Broadband</label>
+            </value>
+            <value>
+                <fullName>Utilities – Electric</fullName>
+                <default>false</default>
+                <label>Utilities – Electric</label>
+            </value>
+            <value>
+                <fullName>Utilities – Natural Gas</fullName>
+                <default>false</default>
+                <label>Utilities – Natural Gas</label>
+            </value>
+            <value>
+                <fullName>Utilities – Water</fullName>
+                <default>false</default>
+                <label>Utilities – Water</label>
+            </value>
+            <value>
+                <fullName>Workforce – Amenities</fullName>
+                <default>false</default>
+                <label>Workforce – Amenities</label>
+            </value>
+            <value>
+                <fullName>Workforce – Supply &amp; Demand</fullName>
+                <default>false</default>
+                <label>Workforce – Supply &amp; Demand</label>
+            </value>
+            <value>
+                <fullName>Procurement (selling something to the City)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Procurement (selling something to the City)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SPER_Priority_Classification_Validation</fullName>
+    <active>true</active>
+    <description>This validation rule will not allow user  to modify the  value in this link except system admin</description>
+    <errorConditionFormula>AND(NOT($Profile.Name = &quot;System Administrator&quot;),ISCHANGED(SPER_Priority_Level_Classification__c))</errorConditionFormula>
+    <errorDisplayField>SPER_Priority_Level_Classification__c</errorDisplayField>
+    <errorMessage>URL value can not be modified</errorMessage>
+</ValidationRule>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Completed__c</fullName>
+    <externalId>false</externalId>
+    <label>Training Completed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Plan Training (In-Person)</fullName>
+                <default>false</default>
+                <label>Business Plan Training (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Marketing Workshop (In-Person)</fullName>
+                <default>false</default>
+                <label>Marketing Workshop (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Online Marketing (In-Person)</fullName>
+                <default>false</default>
+                <label>Online Marketing (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Getting Free Publicity (In-Person)</fullName>
+                <default>false</default>
+                <label>Getting Free Publicity (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Business Forum (2014 - In-Person)</fullName>
+                <default>false</default>
+                <label>Business Forum (2014 - In-Person)</label>
+            </value>
+            <value>
+                <fullName>Social Media Seminar (In-Person)</fullName>
+                <default>false</default>
+                <label>Social Media Seminar (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Marketing Seminar (In-Person)</fullName>
+                <default>false</default>
+                <label>Marketing Seminar (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Sales Seminar (In-Person)</fullName>
+                <default>false</default>
+                <label>Sales Seminar (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Networking Seminar (In-Person)</fullName>
+                <default>false</default>
+                <label>Networking Seminar (In-Person)</label>
+            </value>
+            <value>
+                <fullName>Cash Flow Seminar (In-Person)</fullName>
+                <default>false</default>
+                <label>Cash Flow Seminar (In-Person)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

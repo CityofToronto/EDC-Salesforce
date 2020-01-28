@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ES-StarterCompanyPromo-August</name>
+    <style>none</style>
+    <subject>Don&#39;t miss out! Starter Company Plus August cohort is filling up fast!</subject>
+    <textOnly>Good afternoon {!Contact.FirstName} – I hope you’re well and enjoying the summer.
+
+Our Starter Company Plus program is officially underway, with a packed house of main street businesses currently taking part in our first cohort at Camp Tech. Nearing the halfway point, many businesses are excited as they are that much closer to receiving their $2,500 grant to implement some digital tools and technologies within their business. 
+
+Me? I am extremely excited for these businesses, but also for the fact that our August cohort is fast approaching! Each class is limited to only 20 businesses – so do not hesitate and miss out on reserving your spot!
+Visit here to register today - https://www.eventbrite.com/e/starter-company-plus-digital-main-street-august-cohort-tickets-34961573006 
+
+You can find out more about the program, and the requirements in order to receive the $2,500 grant. The first step is taking our 8-course training program, designed to help you understand all things digital in relation to your business.
+
+http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=4f0bf256b9dda510VgnVCM10000071d60f89RCRD&amp;vgnextrefresh=1&amp;accordion=3 
+
+
+If you have any questions, please do not hesitate to reach out! I hope to see you at the first class on August 14th!
+
+-Darryl</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

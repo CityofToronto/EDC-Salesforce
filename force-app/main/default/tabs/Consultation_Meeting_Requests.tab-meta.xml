@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This visualforce tab allow users to check their upcoming consultation with client and take appropriate action on them and also allows users to mange their calendar availability.</description>
+    <label>Consultation Meeting Requests</label>
+    <motif>Custom7: Square</motif>
+    <page>UserConsultationScheduler</page>
+</CustomTab>

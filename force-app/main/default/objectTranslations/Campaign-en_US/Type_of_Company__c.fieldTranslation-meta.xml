@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is to identify if this is a new company or a retained company. --></help>
+    <label><!-- Type of Company --></label>
+    <name>Type_of_Company__c</name>
+    <picklistValues>
+        <masterLabel>Existing Company (Retained)</masterLabel>
+        <translation><!-- Existing Company (Retained) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Company</masterLabel>
+        <translation><!-- New Company --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

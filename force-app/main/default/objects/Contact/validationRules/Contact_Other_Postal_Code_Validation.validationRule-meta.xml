@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Other_Postal_Code_Validation</fullName>
+    <active>true</active>
+    <description>This Validation rule will check if Country is Canada than Postal code should be in correct format.</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;, 
+OtherCountry = &quot;Canada&quot;, 
+NOT(REGEX(OtherPostalCode, &quot;((?i)[ABCEGHJKLMNPRSTVXY]\\d[A-Z]?\\s?\\d[A-Z]\\d)?&quot;)),OR(ISNEW(),ISCHANGED(OtherPostalCode)) 
+)</errorConditionFormula>
+    <errorDisplayField>OtherPostalCode</errorDisplayField>
+    <errorMessage>Please Enter Valid Mailing Postal Code</errorMessage>
+</ValidationRule>

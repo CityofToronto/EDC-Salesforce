@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Interaction</fullName>
+    <availability>online</availability>
+    <description>This button will be used for Person Account Page layout to populate Account field on Interaction record while creating record from Person Account related list</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Interaction</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/setup/ui/recordtypeselect.jsp?ent=01I1N000001bXiVUAU&amp;retURL=%2F{!Account.Id}&amp;save_new_url=%2Fa07%2Fe%3FCF00N1N00000PW02r%3D{!Account.Name}%26CF00N1N00000PW02r_lkid%3D{!Account.Id}%26CF00N1N00000PW06D%3D{!Account.Name}%26CF00N1N00000PW06D_lkid%3D{!Account.PersonContactId__c}%26retURL%3D%252F{!Account.Id}</url>
+</WebLink>

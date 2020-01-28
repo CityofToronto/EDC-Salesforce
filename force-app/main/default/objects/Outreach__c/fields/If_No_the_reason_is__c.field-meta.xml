@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_No_the_reason_is__c</fullName>
+    <externalId>false</externalId>
+    <label>RPI-If No, the reason is:</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Short Notice</fullName>
+                <default>false</default>
+                <label>Short Notice</label>
+            </value>
+            <value>
+                <fullName>Not a target client group</fullName>
+                <default>false</default>
+                <label>Not a target client group</label>
+            </value>
+            <value>
+                <fullName>Expected attendance too small</fullName>
+                <default>false</default>
+                <label>Expected attendance too small</label>
+            </value>
+            <value>
+                <fullName>Attended in the past with poor results</fullName>
+                <default>false</default>
+                <label>Attended in the past with poor results</label>
+            </value>
+            <value>
+                <fullName>Staff unavailable</fullName>
+                <default>false</default>
+                <label>Staff unavailable</label>
+            </value>
+            <value>
+                <fullName>Event Cancelled by Organizer</fullName>
+                <default>false</default>
+                <label>Event Cancelled by Organizer</label>
+            </value>
+            <value>
+                <fullName>For Profit Business</fullName>
+                <default>false</default>
+                <label>For Profit Business</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

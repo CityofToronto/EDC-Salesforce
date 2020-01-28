@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>EDC_Manager_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule shares all FInancial records with manager</description>
+        <label>EDC Manager Sharing Rule</label>
+        <sharedTo>
+            <group>EDC_Manager_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Leadership Fund,Event Sponsorship Grant,BIA Innovation Fund,Business Incubation Grant,BIA Commercial - Industrial Facade and Property Improvement,IMIT,BIA Outside Mural and Street Art,BIA Streetscape Master Plan Funding</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EDC_Manger_Sharing_For_Sector_IMIT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule will share all sector and IMIT records with manager to edit and approve</description>
+        <label>EDC Manger Sharing For Sector/IMIT</label>
+        <sharedTo>
+            <group>EDC_Manager_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Incubation Grant,Event Sponsorship Grant,IMIT,Sector Grant</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Starter_Company_Grants_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule is applicable to Financial Incentives of Starter Company Grant record Type and share the record with individual defined in starter company related Public Group</description>
+        <label>Starter Company Grants Sharing Rule</label>
+        <sharedTo>
+            <group>Starter_Company_Grant_Review_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Starter Company Grant</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

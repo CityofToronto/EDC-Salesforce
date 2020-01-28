@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Actual Paid Amount for 1st Payment --></label>
+    <name>Actual_Paid_Amount_for_1st_Payment__c</name>
+</CustomFieldTranslation>

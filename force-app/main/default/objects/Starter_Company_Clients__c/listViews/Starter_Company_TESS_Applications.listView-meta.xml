@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Starter_Company_TESS_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Account__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Phase_1_Application_Approved__c</columns>
+    <columns>Application_Stream__c</columns>
+    <columns>TESS_Client__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Application_Stream__c</field>
+        <operation>equals</operation>
+        <value>StarterSpace @Crossways</value>
+    </filters>
+    <label>TESS (Original) - Applications</label>
+    <sharedTo>
+        <role>EDC_Admin</role>
+        <role>ES_Admin</role>
+        <role>ES_ET</role>
+    </sharedTo>
+</ListView>

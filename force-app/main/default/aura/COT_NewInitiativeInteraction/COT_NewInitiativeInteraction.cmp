@@ -1,0 +1,19 @@
+<!--
+    New Interation Action on Initiative object
+    - Populate Initiative when creating Interaction record
+-->
+<aura:component extends="c:COT_NewRecordAction">
+
+    <aura:set attribute="objcetApiName" value="Interaction__c"/>
+    <aura:set attribute="recordTypeName" value="Initiative Interactions"/>
+    <aura:set attribute="queryFields" value="['Id']"/>
+    <aura:set attribute="displayPageLayout" value="false"/>
+    <aura:set attribute="title" value="New Interaction"/>
+    
+
+    <aura:handler name="init" value="{!this}" action="{!c.loadRecordType}"/>
+
+    <aura:handler name="change" value="{!v.loadedRecord}" action="{!c.createRecord}"/>
+    
+
+</aura:component>

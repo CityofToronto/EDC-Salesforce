@@ -1,0 +1,14 @@
+Dear {!Interaction__c.Contact__c}, 
+
+Thank you for engaging the City of Toronto's business support team. It would be great to get your input on our team's recent interaction with you. 
+Could you please fill out this 30-second survey? 
+
+https://cityoftoronto.tfaforms.net/355941?tfa_17={!Interaction__c.Id} 
+
+Please click below link to Unsubscribe from any Future Emails. 
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!Interaction__c.ContactId__c}
+
+Otherwise, let us know if you have any questions. 
+
+Regards, 
+{!Interaction__c.OwnerFullName}

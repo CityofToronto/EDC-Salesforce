@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Engagement Type --></label>
+    <name>Engagement_Type__c</name>
+    <picklistValues>
+        <masterLabel>Business Expansion Event</masterLabel>
+        <translation><!-- Business Expansion Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Start Up Event</masterLabel>
+        <translation><!-- Business Start Up Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Company Intelligence Interaction</masterLabel>
+        <translation><!-- Company Intelligence Interaction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consultation Interaction</masterLabel>
+        <translation><!-- Consultation Interaction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Registration</masterLabel>
+        <translation><!-- Online Registration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Training</masterLabel>
+        <translation><!-- Online Training --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

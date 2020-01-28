@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Amount_Approved_Innov_OMS</fullName>
+    <active>true</active>
+    <description>This validation rule will check Amount Approved should be same or greater than sum for Payment 1 and 2</description>
+    <errorConditionFormula>AND(OR(RecordType.DeveloperName=&#39;BIA_Innovation_Fund&#39;,RecordType.DeveloperName=&#39;BIA_Outside_Mural_and_Street_Art_Grant&#39;),
+Actual_Paid_Amount_for_1st_Payment__c+Actual_Paid_Amount_for_2nd_Payment__c &gt; Amount_Approved__c)</errorConditionFormula>
+    <errorMessage>Amount Approved can&#39;t be less than sum of 1st and 2nd Actual Paid Amount</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Permit_Verification_Comments__c</fullName>
+    <description>Building Permit Verification Comments</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Building Permit Verification Comments</inlineHelpText>
+    <label>Building Permit Verification Comments</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

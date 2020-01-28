@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Development_Program_s_Currentl__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Dev. Prog. Used by Business</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City of Toronto Incentive Programs</fullName>
+                <default>false</default>
+                <label>City of Toronto Incentive Programs</label>
+            </value>
+            <value>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+                <label>Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Export</fullName>
+                <default>false</default>
+                <label>Export</label>
+            </value>
+            <value>
+                <fullName>Training, Hiring &amp; Wage Assistance</fullName>
+                <default>false</default>
+                <label>Training, Hiring &amp; Wage Assistance</label>
+            </value>
+            <value>
+                <fullName>Research Development</fullName>
+                <default>false</default>
+                <label>Research Development</label>
+            </value>
+            <value>
+                <fullName>Financial and Other</fullName>
+                <default>false</default>
+                <label>Financial and Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

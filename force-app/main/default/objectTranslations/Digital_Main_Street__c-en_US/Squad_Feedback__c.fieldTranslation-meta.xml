@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Squad Feedback --></label>
+    <name>Squad_Feedback__c</name>
+    <picklistValues>
+        <masterLabel>good</masterLabel>
+        <translation><!-- good --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>neutral</masterLabel>
+        <translation><!-- neutral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>not good</masterLabel>
+        <translation><!-- not good --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>very good</masterLabel>
+        <translation><!-- very good --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>very poor</masterLabel>
+        <translation><!-- very poor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

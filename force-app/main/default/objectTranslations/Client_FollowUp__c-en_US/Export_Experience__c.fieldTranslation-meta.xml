@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Export Experience --></label>
+    <name>Export_Experience__c</name>
+    <picklistValues>
+        <masterLabel>Market Expansion</masterLabel>
+        <translation><!-- Market Expansion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New-to-Export</masterLabel>
+        <translation><!-- New-to-Export --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

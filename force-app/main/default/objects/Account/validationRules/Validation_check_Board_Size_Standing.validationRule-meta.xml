@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_check_Board_Size_Standing</fullName>
+    <active>true</active>
+    <description>This validation rule will make sure &quot;Standing Members&quot; can not exceed &quot;Board Size&quot;</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(Board_Size__c)),NOT(ISBLANK(Standing_Members__c)), Standing_Members__c&gt;Board_Size__c)</errorConditionFormula>
+    <errorMessage>Standing Members can not exceed Board Size</errorMessage>
+</ValidationRule>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RPI-If No, the reason is: --></label>
+    <name>If_No_the_reason_is__c</name>
+    <picklistValues>
+        <masterLabel>Attended in the past with poor results</masterLabel>
+        <translation><!-- Attended in the past with poor results --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Event Cancelled by Organizer</masterLabel>
+        <translation><!-- Event Cancelled by Organizer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expected attendance too small</masterLabel>
+        <translation><!-- Expected attendance too small --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>For Profit Business</masterLabel>
+        <translation><!-- For Profit Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not a target client group</masterLabel>
+        <translation><!-- Not a target client group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Short Notice</masterLabel>
+        <translation><!-- Short Notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff unavailable</masterLabel>
+        <translation><!-- Staff unavailable --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

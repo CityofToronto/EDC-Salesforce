@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Stream__c</fullName>
+    <externalId>false</externalId>
+    <label>Application Stream</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Creative Arts</fullName>
+                <default>false</default>
+                <label>Creative Arts</label>
+            </value>
+            <value>
+                <fullName>DMS - Expansion</fullName>
+                <default>false</default>
+                <label>DMS - Expansion</label>
+            </value>
+            <value>
+                <fullName>DMS - New</fullName>
+                <default>false</default>
+                <label>DMS - New</label>
+            </value>
+            <value>
+                <fullName>Fashion Venture</fullName>
+                <default>false</default>
+                <label>Fashion Venture</label>
+            </value>
+            <value>
+                <fullName>Fashion Your Future</fullName>
+                <default>false</default>
+                <label>Fashion Your Future</label>
+            </value>
+            <value>
+                <fullName>Food Venture New</fullName>
+                <default>false</default>
+                <label>Food Venture - New</label>
+            </value>
+            <value>
+                <fullName>Food Venture - Original</fullName>
+                <default>false</default>
+                <label>Food Venture - Original</label>
+            </value>
+            <value>
+                <fullName>Ontario Works</fullName>
+                <default>false</default>
+                <label>Ontario Works</label>
+            </value>
+            <value>
+                <fullName>SC - Founder Institute</fullName>
+                <default>false</default>
+                <label>SC - Founder Institute</label>
+            </value>
+            <value>
+                <fullName>SC - Helix</fullName>
+                <default>false</default>
+                <label>SC - Helix</label>
+            </value>
+            <value>
+                <fullName>Starter Company - General</fullName>
+                <default>false</default>
+                <label>Starter Company - General</label>
+            </value>
+            <value>
+                <fullName>Starter Company - Original</fullName>
+                <default>false</default>
+                <label>Starter Company - Original</label>
+            </value>
+            <value>
+                <fullName>StarterSpace @Crossways</fullName>
+                <default>false</default>
+                <label>StarterSpace @Crossways</label>
+            </value>
+            <value>
+                <fullName>Summer Company</fullName>
+                <default>false</default>
+                <label>Summer Company</label>
+            </value>
+            <value>
+                <fullName>SC - Startup Boost</fullName>
+                <default>false</default>
+                <label>SC - Startup Boost</label>
+            </value>
+            <value>
+                <fullName>SC - TorontoStarts</fullName>
+                <default>false</default>
+                <label>SC - TorontoStarts</label>
+            </value>
+            <value>
+                <fullName>SC - Music</fullName>
+                <default>false</default>
+                <label>SC - Music</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

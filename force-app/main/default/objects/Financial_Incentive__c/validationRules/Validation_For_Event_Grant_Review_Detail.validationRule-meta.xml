@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Event_Grant_Review_Detail</fullName>
+    <active>true</active>
+    <description>This validation rule will validate if response for all 2 Event Sponsorship Review sections has been received or not for &#39;In Review&#39; Status</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;,RecordType.DeveloperName=&#39;Event_Sponsorship_Grant&#39;,TEXT(Status__c)=&#39;In Review&#39;,OR(ISBLANK(TEXT(Review_Organizational_Mandate_Alignment__c)),ISBLANK(TEXT(Review_Organizational_Capacity__c)),ISBLANK(TEXT(Review_Organization_Type_Fit_Requirement__c)),ISBLANK(TEXT(Review_Metrics_Capacity__c)),ISBLANK(TEXT(Review_Funding_Dedication__c)),ISBLANK(Grant_Reviewer_Comments__c),ISBLANK(TEXT(Review_Raise_Toronto_Brand_Awareness__c)),ISBLANK(TEXT(Review_Support_Strategic_Comm_of_Toronto__c))))</errorConditionFormula>
+    <errorMessage>For Status &#39;In Review&#39;  response to all questions in General Criteria and Event Sponsorship Review Sections is required.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Applicable to Internal Referral Type --></help>
+    <label><!-- Internal Unit --></label>
+    <name>Internal_unit__c</name>
+    <picklistValues>
+        <masterLabel>311 Toronto</masterLabel>
+        <translation><!-- 311 Toronto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Affordable Housing Office</masterLabel>
+        <translation><!-- Affordable Housing Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief Resilience Office</masterLabel>
+        <translation><!-- Chief Resilience Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City Planning</masterLabel>
+        <translation><!-- City Planning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civic Innovation Office</masterLabel>
+        <translation><!-- Civic Innovation Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Economic Development &amp; Culture</masterLabel>
+        <translation><!-- Economic Development &amp; Culture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employment &amp; Social Services</masterLabel>
+        <translation><!-- Employment &amp; Social Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Engineering &amp; Construction Services</masterLabel>
+        <translation><!-- Engineering &amp; Construction Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environment &amp; Energy</masterLabel>
+        <translation><!-- Environment &amp; Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facilities Management</masterLabel>
+        <translation><!-- Facilities Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire Services</masterLabel>
+        <translation><!-- Fire Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Municipal Licensing &amp; Standards</masterLabel>
+        <translation><!-- Municipal Licensing &amp; Standards --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parks, Forestry &amp; Recreation</masterLabel>
+        <translation><!-- Parks, Forestry &amp; Recreation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchasing &amp; Materials Management</masterLabel>
+        <translation><!-- Purchasing &amp; Materials Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate Services</masterLabel>
+        <translation><!-- Real Estate Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Development, Finance &amp; Administration</masterLabel>
+        <translation><!-- Social Development, Finance &amp; Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solid Waste Management Services</masterLabel>
+        <translation><!-- Solid Waste Management Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Building</masterLabel>
+        <translation><!-- Toronto Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Office of Partnerships</masterLabel>
+        <translation><!-- Toronto Office of Partnerships --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Paramedic Services</masterLabel>
+        <translation><!-- Toronto Paramedic Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Public Health</masterLabel>
+        <translation><!-- Toronto Public Health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Water</masterLabel>
+        <translation><!-- Toronto Water --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transformation Office</masterLabel>
+        <translation><!-- Transformation Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation Services</masterLabel>
+        <translation><!-- Transportation Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waterfront Secretariat</masterLabel>
+        <translation><!-- Waterfront Secretariat --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

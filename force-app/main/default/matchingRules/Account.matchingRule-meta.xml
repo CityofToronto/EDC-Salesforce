@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatchingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <matchingRules>
+        <fullName>Custom_Account_Matching_Fuzzy_Company_Name</fullName>
+        <description>This rule will be used to compare the Account Company Names to find any potential duplicate value based on Fuzzy Matching if record is created manually or through any integrated application like form assembly or workato.</description>
+        <label>Custom Account Matching Fuzzy Company Name</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>Name</fieldName>
+            <matchingMethod>CompanyName</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Active</ruleStatus>
+    </matchingRules>
+</MatchingRules>

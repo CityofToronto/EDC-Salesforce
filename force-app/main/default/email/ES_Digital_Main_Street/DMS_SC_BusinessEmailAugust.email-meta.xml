@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to businesses to let them know they can apply for DMS SC August cohort</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>DMS-SC-BusinessEmail(August)</name>
+    <style>none</style>
+    <subject>Digital Main Street - Grant Program for Main Street Businesses</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

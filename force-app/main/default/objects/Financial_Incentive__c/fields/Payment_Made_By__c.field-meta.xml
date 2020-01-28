@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Made_By__c</fullName>
+    <description>The officers that made the payment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The officers that made the payment</inlineHelpText>
+    <label>Payment Made By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Has_Grant_Amount_been_Paid__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>John Preece</fullName>
+                <default>false</default>
+                <label>John Preece</label>
+            </value>
+            <value>
+                <fullName>Chris Rickett</fullName>
+                <default>false</default>
+                <label>Chris Rickett</label>
+            </value>
+            <value>
+                <fullName>Nirvana Champion</fullName>
+                <default>false</default>
+                <label>Nirvana Champion</label>
+            </value>
+            <value>
+                <fullName>Nina Gesa</fullName>
+                <default>false</default>
+                <label>Nina Gesa</label>
+            </value>
+            <value>
+                <fullName>Karen Keskull</fullName>
+                <default>false</default>
+                <label>Karen Keskull</label>
+            </value>
+            <value>
+                <fullName>Leslie Fink</fullName>
+                <default>false</default>
+                <label>Leslie Fink</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>John Preece</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Chris Rickett</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Nirvana Champion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Nina Gesa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Karen Keskull</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Leslie Fink</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

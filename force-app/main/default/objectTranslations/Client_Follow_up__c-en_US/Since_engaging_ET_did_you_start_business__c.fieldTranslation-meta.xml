@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Since engaging ET did you start business --></label>
+    <name>Since_engaging_ET_did_you_start_business__c</name>
+    <picklistValues>
+        <masterLabel>No - I started my business before visiting Enterprise Toronto.</masterLabel>
+        <translation><!-- No - I started my business before visiting Enterprise Toronto. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - I started my business after visiting Enterprise Toronto.</masterLabel>
+        <translation><!-- Yes - I started my business after visiting Enterprise Toronto. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

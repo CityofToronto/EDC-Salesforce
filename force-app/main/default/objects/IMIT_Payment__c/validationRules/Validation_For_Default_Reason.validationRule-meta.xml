@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Default_Reason</fullName>
+    <active>true</active>
+    <description>This validation rule is to make sure user should provide value in Default Reason field if Is this currently in default? is Yes</description>
+    <errorConditionFormula>AND(ISBLANK(Default_Reason__c), TEXT(Is_this_currently_in_default__c)=&#39;Yes&#39;)</errorConditionFormula>
+    <errorDisplayField>Default_Reason__c</errorDisplayField>
+    <errorMessage>Default Reason should be provided.</errorMessage>
+</ValidationRule>

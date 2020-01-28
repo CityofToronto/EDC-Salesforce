@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to existing businesses to let them know about online insurance opportunity.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TruShield - Online Binding (April 2018)</name>
+    <style>none</style>
+    <subject>Attention - New Insurance Options for Small Businesses</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

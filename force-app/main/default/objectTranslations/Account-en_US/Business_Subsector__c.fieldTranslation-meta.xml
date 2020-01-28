@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is a breakdown of the sector into key sub-components of related types of goods or services. --></help>
+    <label><!-- Business Subsector --></label>
+    <name>Business_Subsector__c</name>
+    <picklistValues>
+        <masterLabel>Accommodation Services</masterLabel>
+        <translation><!-- Accommodation Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accounting, tax preparation, bookkeeping and payroll services</masterLabel>
+        <translation><!-- Accounting, tax preparation, bookkeeping and payroll services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Advertising, public relations, and related services</masterLabel>
+        <translation><!-- Advertising, public relations, and related services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Air transportation</masterLabel>
+        <translation><!-- Air transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amusement, gambling and recreational activities</masterLabel>
+        <translation><!-- Amusement, gambling and recreational activities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animal food</masterLabel>
+        <translation><!-- Animal food --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Architectural, engineering and related services</masterLabel>
+        <translation><!-- Architectural, engineering and related services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Architecture</masterLabel>
+        <translation><!-- Architecture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bakeries</masterLabel>
+        <translation><!-- Bakeries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Banking &amp; Deposit Taking Institutions</masterLabel>
+        <translation><!-- Banking &amp; Deposit Taking Institutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beverage manufacturing</masterLabel>
+        <translation><!-- Beverage manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bioproducts</masterLabel>
+        <translation><!-- Bioproducts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Building material and garden equipment and supplies dealers</masterLabel>
+        <translation><!-- Building material and garden equipment and supplies dealers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business schools and computer management training</masterLabel>
+        <translation><!-- Business schools and computer management training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Citizenship</masterLabel>
+        <translation><!-- Citizenship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clean Energy</masterLabel>
+        <translation><!-- Clean Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clothing and clothing accessories stores</masterLabel>
+        <translation><!-- Clothing and clothing accessories stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clothing manufacturing</masterLabel>
+        <translation><!-- Clothing manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communications equipment manufacturing</masterLabel>
+        <translation><!-- Communications equipment manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community colleges and CEGEP</masterLabel>
+        <translation><!-- Community colleges and CEGEP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer and electronic product manufacturing</masterLabel>
+        <translation><!-- Computer and electronic product manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer design (and related services)</masterLabel>
+        <translation><!-- Computer design (and related services) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Computer systems design and related services</masterLabel>
+        <translation><!-- Computer systems design and related services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction of buildings</masterLabel>
+        <translation><!-- Construction of buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Couriers and messengers</masterLabel>
+        <translation><!-- Couriers and messengers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dairy products</masterLabel>
+        <translation><!-- Dairy products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deodorants, personal, manufacturing</masterLabel>
+        <translation><!-- Deodorants, personal, manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dyes, hair, manufacturing</masterLabel>
+        <translation><!-- Dyes, hair, manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educational support services</masterLabel>
+        <translation><!-- Educational support services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronic equipment manufacturing</masterLabel>
+        <translation><!-- Electronic equipment manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronics and appliance stores</masterLabel>
+        <translation><!-- Electronics and appliance stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elementary and secondary schools</masterLabel>
+        <translation><!-- Elementary and secondary schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Energy</masterLabel>
+        <translation><!-- Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Face creams manufacturing</masterLabel>
+        <translation><!-- Face creams manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food and beverage stores</masterLabel>
+        <translation><!-- Food and beverage stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food services and drinking places</masterLabel>
+        <translation><!-- Food services and drinking places --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fruit, vegetables, and specialty food</masterLabel>
+        <translation><!-- Fruit, vegetables, and specialty food --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funds &amp; Other Financial Vehicles</masterLabel>
+        <translation><!-- Funds &amp; Other Financial Vehicles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furniture and home furnishings stores</masterLabel>
+        <translation><!-- Furniture and home furnishings stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gasoline stations</masterLabel>
+        <translation><!-- Gasoline stations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General merchandise stores</masterLabel>
+        <translation><!-- General merchandise stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Governance</masterLabel>
+        <translation><!-- Governance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Graphic Design</masterLabel>
+        <translation><!-- Graphic Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green Buildings</masterLabel>
+        <translation><!-- Green Buildings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hair preparations manufacturing</masterLabel>
+        <translation><!-- Hair preparations manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health and personal care stores</masterLabel>
+        <translation><!-- Health and personal care stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation><!-- Healthcare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heavy and civil engineering construction</masterLabel>
+        <translation><!-- Heavy and civil engineering construction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heritage Institutions</masterLabel>
+        <translation><!-- Heritage Institutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial Design</masterLabel>
+        <translation><!-- Industrial Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure</masterLabel>
+        <translation><!-- Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Carriers &amp; Related Activities</masterLabel>
+        <translation><!-- Insurance Carriers &amp; Related Activities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interior Design</masterLabel>
+        <translation><!-- Interior Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet and data service providers</masterLabel>
+        <translation><!-- Internet and data service providers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Landscape Architecture</masterLabel>
+        <translation><!-- Landscape Architecture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal services</masterLabel>
+        <translation><!-- Legal services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Make-up  manufacturing</masterLabel>
+        <translation><!-- Make-up  manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management, scientific and technical consulting services</masterLabel>
+        <translation><!-- Management, scientific and technical consulting services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meat products</masterLabel>
+        <translation><!-- Meat products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical and diagnostic laboratories</masterLabel>
+        <translation><!-- Medical and diagnostic laboratories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical equipment and supplies manufacturing</masterLabel>
+        <translation><!-- Medical equipment and supplies manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical instruments manufacturing</masterLabel>
+        <translation><!-- Medical instruments manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miscellaneous store retailers</masterLabel>
+        <translation><!-- Miscellaneous store retailers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobility</masterLabel>
+        <translation><!-- Mobility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motion picture and video industries</masterLabel>
+        <translation><!-- Motion picture and video industries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motor Vehicle Body and Trailer Manufacturing</masterLabel>
+        <translation><!-- Motor Vehicle Body and Trailer Manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motor Vehicle Manufacturing</masterLabel>
+        <translation><!-- Motor Vehicle Manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motor Vehicle Parts Manufacturing</masterLabel>
+        <translation><!-- Motor Vehicle Parts Manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motor vehicle and parts dealers</masterLabel>
+        <translation><!-- Motor vehicle and parts dealers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Navigation and control instruments</masterLabel>
+        <translation><!-- Navigation and control instruments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-store retailers</masterLabel>
+        <translation><!-- Non-store retailers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Aerospace Professional Services</masterLabel>
+        <translation><!-- Other Aerospace Professional Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Design Professional Services</masterLabel>
+        <translation><!-- Other Design Professional Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other fashion professional services</masterLabel>
+        <translation><!-- Other fashion professional services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other food &amp; beverage professional services</masterLabel>
+        <translation><!-- Other food &amp; beverage professional services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other green professional services</masterLabel>
+        <translation><!-- Other green professional services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other professional, scientific and technical services</masterLabel>
+        <translation><!-- Other professional, scientific and technical services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other schools and instruction</masterLabel>
+        <translation><!-- Other schools and instruction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pay and specialty television</masterLabel>
+        <translation><!-- Pay and specialty television --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performing arts, spectator sports and related industries</masterLabel>
+        <translation><!-- Performing arts, spectator sports and related industries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perfumes, manufacturing</masterLabel>
+        <translation><!-- Perfumes, manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmaceuticals and pharmacy whole sale</masterLabel>
+        <translation><!-- Pharmaceuticals and pharmacy whole sale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmaceuticals manufacturing</masterLabel>
+        <translation><!-- Pharmaceuticals manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pipeline transportation</masterLabel>
+        <translation><!-- Pipeline transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postal service</masterLabel>
+        <translation><!-- Postal service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product and parts manufacturing</masterLabel>
+        <translation><!-- Product and parts manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Radio and television broadcasting</masterLabel>
+        <translation><!-- Radio and television broadcasting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rail transportation</masterLabel>
+        <translation><!-- Rail transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research &amp; Development</masterLabel>
+        <translation><!-- Research &amp; Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resource Management</masterLabel>
+        <translation><!-- Resource Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail</masterLabel>
+        <translation><!-- Retail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scenic and sightseeing transportation</masterLabel>
+        <translation><!-- Scenic and sightseeing transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scientific research and development services</masterLabel>
+        <translation><!-- Scientific research and development services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seafood products</masterLabel>
+        <translation><!-- Seafood products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Securities &amp; Investments</masterLabel>
+        <translation><!-- Securities &amp; Investments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Security</masterLabel>
+        <translation><!-- Security --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shaving preparations manufacturing</masterLabel>
+        <translation><!-- Shaving preparations manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software Publisher</masterLabel>
+        <translation><!-- Software Publisher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sound recording industries</masterLabel>
+        <translation><!-- Sound recording industries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialized design services</masterLabel>
+        <translation><!-- Specialized design services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty trade contractors</masterLabel>
+        <translation><!-- Specialty trade contractors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sporting goods, hobby, book and mic stores</masterLabel>
+        <translation><!-- Sporting goods, hobby, book and mic stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sporting goods, hobby, book and music stores</masterLabel>
+        <translation><!-- Sporting goods, hobby, book and music stores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sugar products</masterLabel>
+        <translation><!-- Sugar products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sunscreen and suntan lotions and oils, manufacturing</masterLabel>
+        <translation><!-- Sunscreen and suntan lotions and oils, manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support activities for transportation</masterLabel>
+        <translation><!-- Support activities for transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sustainable Transportation</masterLabel>
+        <translation><!-- Sustainable Transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taxi &amp; limousine service</masterLabel>
+        <translation><!-- Taxi &amp; limousine service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical and trade schools</masterLabel>
+        <translation><!-- Technical and trade schools --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technology</masterLabel>
+        <translation><!-- Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telecommunications</masterLabel>
+        <translation><!-- Telecommunications --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Textile products</masterLabel>
+        <translation><!-- Textile products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transit and ground passenger transportation</masterLabel>
+        <translation><!-- Transit and ground passenger transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Truck transportation</masterLabel>
+        <translation><!-- Truck transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Universities</masterLabel>
+        <translation><!-- Universities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehousing and storage</masterLabel>
+        <translation><!-- Warehousing and storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water transportation</masterLabel>
+        <translation><!-- Water transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wholesalers</masterLabel>
+        <translation><!-- Wholesalers --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

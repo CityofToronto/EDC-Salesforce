@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automated_Account_Creation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This flag will be used to identify the Account that are created manually in salesforce or coming through some other integrated app and based on that duplicate rule will handle the records.</description>
+    <externalId>false</externalId>
+    <label>Automated Account Creation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

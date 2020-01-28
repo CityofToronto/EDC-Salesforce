@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advisor__c</fullName>
+    <externalId>false</externalId>
+    <label>Advisors</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vikas Jain</fullName>
+                <default>false</default>
+                <label>Vikas Jain</label>
+            </value>
+            <value>
+                <fullName>Sandi Koitsis-Zigomanis</fullName>
+                <default>false</default>
+                <label>Sandi Koitsis-Zigomanis</label>
+            </value>
+            <value>
+                <fullName>Jason Li</fullName>
+                <default>false</default>
+                <label>Jason Li</label>
+            </value>
+            <value>
+                <fullName>Karen Keskull</fullName>
+                <default>false</default>
+                <label>Karen Keskull</label>
+            </value>
+            <value>
+                <fullName>Chris Rickett</fullName>
+                <default>false</default>
+                <label>Chris Rickett</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

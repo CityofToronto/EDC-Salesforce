@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interested_in_Export_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &#39;Company_Intelligence&#39;, ISBLANK(TEXT(Are_you_interested_in_Export__c)),TEXT( Do_You_Export__c )=&#39;No&#39;)</errorConditionFormula>
+    <errorDisplayField>Are_you_interested_in_Export__c</errorDisplayField>
+    <errorMessage>Required Input</errorMessage>
+</ValidationRule>

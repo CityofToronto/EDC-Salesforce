@@ -1,0 +1,8 @@
+Dear {!Financial_Incentive__c.Contact__c},
+
+Your {!Financial_Incentive__c.Record_Type_Name_Formula__c} Grant extension request for {!Financial_Incentive__c.Account__c} has been Approved. The new deadline is {!Financial_Incentive__c.Application_Extension_Date__c}
+
+Should you have any questions, please contact {!Financial_Incentive__c.Record_Submitter_Email__c}
+
+{!Financial_Incentive__c.Record_Submitter_Manager__c}
+Manager, BIA Office

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Staff Contact --></label>
+    <name>Staff_Contact__c</name>
+    <picklistValues>
+        <masterLabel>Catherine Cieply</masterLabel>
+        <translation><!-- Catherine Cieply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Connie Fusillo</masterLabel>
+        <translation><!-- Connie Fusillo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elizabeth Di Vincenzo</masterLabel>
+        <translation><!-- Elizabeth Di Vincenzo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frank Bedard</masterLabel>
+        <translation><!-- Frank Bedard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>George Spezza</masterLabel>
+        <translation><!-- George Spezza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ian Brown</masterLabel>
+        <translation><!-- Ian Brown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jagdish Yadav</masterLabel>
+        <translation><!-- Jagdish Yadav --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joe Mazzei</masterLabel>
+        <translation><!-- Joe Mazzei --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>John Alderdice</masterLabel>
+        <translation><!-- John Alderdice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>John Preece</masterLabel>
+        <translation><!-- John Preece --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laurie Belzak</masterLabel>
+        <translation><!-- Laurie Belzak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leslie Fink</masterLabel>
+        <translation><!-- Leslie Fink --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Linda Fava</masterLabel>
+        <translation><!-- Linda Fava --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matthew Premru</masterLabel>
+        <translation><!-- Matthew Premru --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neil Farmer</masterLabel>
+        <translation><!-- Neil Farmer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peter Myall</masterLabel>
+        <translation><!-- Peter Myall --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rebecca Condon</masterLabel>
+        <translation><!-- Rebecca Condon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rob Krauss</masterLabel>
+        <translation><!-- Rob Krauss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rob McMonagle</masterLabel>
+        <translation><!-- Rob McMonagle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ron Wandel</masterLabel>
+        <translation><!-- Ron Wandel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Susan Veigas</masterLabel>
+        <translation><!-- Susan Veigas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Susana Vaz</masterLabel>
+        <translation><!-- Susana Vaz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ted Northcott</masterLabel>
+        <translation><!-- Ted Northcott --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas McGinty</masterLabel>
+        <translation><!-- Thomas McGinty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanna Petropoulos</masterLabel>
+        <translation><!-- Vanna Petropoulos --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

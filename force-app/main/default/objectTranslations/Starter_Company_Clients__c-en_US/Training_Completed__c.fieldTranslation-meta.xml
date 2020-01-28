@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Training Completed --></label>
+    <name>Training_Completed__c</name>
+    <picklistValues>
+        <masterLabel>Business Forum (2014 - In-Person)</masterLabel>
+        <translation><!-- Business Forum (2014 - In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Plan Training (In-Person)</masterLabel>
+        <translation><!-- Business Plan Training (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cash Flow Seminar (In-Person)</masterLabel>
+        <translation><!-- Cash Flow Seminar (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Getting Free Publicity (In-Person)</masterLabel>
+        <translation><!-- Getting Free Publicity (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Seminar (In-Person)</masterLabel>
+        <translation><!-- Marketing Seminar (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Workshop (In-Person)</masterLabel>
+        <translation><!-- Marketing Workshop (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Networking Seminar (In-Person)</masterLabel>
+        <translation><!-- Networking Seminar (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Marketing (In-Person)</masterLabel>
+        <translation><!-- Online Marketing (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Seminar (In-Person)</masterLabel>
+        <translation><!-- Sales Seminar (In-Person) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Media Seminar (In-Person)</masterLabel>
+        <translation><!-- Social Media Seminar (In-Person) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

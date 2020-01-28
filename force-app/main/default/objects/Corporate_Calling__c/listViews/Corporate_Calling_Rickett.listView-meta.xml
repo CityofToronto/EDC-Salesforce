@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corporate_Calling_Rickett</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Contact__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Corporate Calling - Rickett</label>
+    <sharedTo>
+        <roleAndSubordinates>BRE_Admin</roleAndSubordinates>
+        <roleAndSubordinates>BRE_EDO</roleAndSubordinates>
+        <roleAndSubordinates>BRE_Supervisor</roleAndSubordinates>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will refer the existing Starter Company record name --></help>
+    <label><!-- Starter Company Legacy Record Id --></label>
+    <name>Starter_Company_Legacy_Record_Id__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Applicable__c</fullName>
+    <description>This field auto calculate if survey is applicable or not for the Contact based on defined logic to check if Account is Business Client, Contact has not Opted out of Email and Initiative Type/Subtype</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+AND(Campaign.RecordType.DeveloperName =&#39;Events&#39;,TEXT(Campaign.Event_Type__c)=&#39;Networking Events&#39;,NOT(Contact.HasOptedOutOfEmail),TEXT(Member_Role__c)=&#39;Stakeholder - Attendee&#39;,Related_Contact_Account_Type__c=&#39;Business Client&#39;), 
+&#39;Client Satisfaction&#39;, 
+IF( 
+OR(AND(Campaign.RecordType.DeveloperName =&#39;Events&#39;,Text(Campaign.Event_Type__c)=&#39;Business Training&#39;,OR(TEXT(Campaign.Program_Sub_Type__c)=&#39;International Events&#39;,TEXT(Campaign.Program_Sub_Type__c)=&#39;Business Start Up&#39;,TEXT(Campaign.Program_Sub_Type__c)=&#39;Business Expansion&#39;,TEXT(Campaign.Program_Sub_Type__c)=&#39;Online Training&#39;),NOT(Contact.HasOptedOutOfEmail),TEXT(Member_Role__c)=&#39;Stakeholder - Attendee&#39;,Related_Contact_Account_Type__c=&#39;Business Client&#39;),AND(Campaign.RecordType.DeveloperName =&#39;Projects&#39;,TEXT(Campaign.Project_Type__c)=&#39;International Project&#39;,TEXT(Campaign.International_Project_Type__c)=&#39;Outbound Mission&#39;,NOT(Contact.HasOptedOutOfEmail),TEXT(Member_Role__c)=&#39;Stakeholder - Delegate (Outbound)&#39;,Related_Contact_Account_Type__c=&#39;Business Client&#39;)),&#39;Client Satisfaction and Business Outcome&#39;, 
+&#39;No Survey&#39;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field auto calculate if survey is applicable or not for the Contact based on defined logic to check if Account is Business Client, Contact has not Opted out of Email and Initiative Type/Subtype</inlineHelpText>
+    <label>Survey Applicable</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

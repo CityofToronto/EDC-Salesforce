@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Auth Req (Ont auth) --></label>
+    <name>Auth_Req_Ont_auth__c</name>
+    <picklistValues>
+        <masterLabel>Accept and proceed with filing</masterLabel>
+        <translation><!-- Accept and proceed with filing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

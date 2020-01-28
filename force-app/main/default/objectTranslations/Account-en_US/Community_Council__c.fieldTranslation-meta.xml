@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Community Council --></label>
+    <name>Community_Council__c</name>
+    <picklistValues>
+        <masterLabel>ECDC</masterLabel>
+        <translation><!-- ECDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EYCC</masterLabel>
+        <translation><!-- EYCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NYCC</masterLabel>
+        <translation><!-- NYCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SCC</masterLabel>
+        <translation><!-- SCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TEYCC</masterLabel>
+        <translation><!-- TEYCC --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

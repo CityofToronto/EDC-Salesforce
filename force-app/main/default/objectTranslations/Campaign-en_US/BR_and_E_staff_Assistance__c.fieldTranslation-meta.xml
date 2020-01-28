@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the type of service rendered to the external clients --></help>
+    <label><!-- BR and E staff Assistance --></label>
+    <name>BR_and_E_staff_Assistance__c</name>
+    <picklistValues>
+        <masterLabel>Building Permit</masterLabel>
+        <translation><!-- Building Permit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Connect Programs</masterLabel>
+        <translation><!-- Business Connect Programs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Committee of Adjustment</masterLabel>
+        <translation><!-- Committee of Adjustment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gold Star</masterLabel>
+        <translation><!-- Gold Star --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural Heritage</masterLabel>
+        <translation><!-- Natural Heritage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Official Plan</masterLabel>
+        <translation><!-- Official Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parks Forestry &amp; Recreation</masterLabel>
+        <translation><!-- Parks Forestry &amp; Recreation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-application Meeting</masterLabel>
+        <translation><!-- Pre-application Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preliminary Project Review (PPR)</masterLabel>
+        <translation><!-- Preliminary Project Review (PPR) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Property Taxes</masterLabel>
+        <translation><!-- Property Taxes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signature Sites</masterLabel>
+        <translation><!-- Signature Sites --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Plan Control</masterLabel>
+        <translation><!-- Site Plan Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site Selection</masterLabel>
+        <translation><!-- Site Selection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TRCA</masterLabel>
+        <translation><!-- TRCA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Services</masterLabel>
+        <translation><!-- Technical Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation Services</masterLabel>
+        <translation><!-- Transportation Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zoning</masterLabel>
+        <translation><!-- Zoning --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

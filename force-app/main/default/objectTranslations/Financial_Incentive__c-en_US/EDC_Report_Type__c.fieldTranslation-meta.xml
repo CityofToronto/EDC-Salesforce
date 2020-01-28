@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- EDC Report Type --></label>
+    <name>EDC_Report_Type__c</name>
+    <picklistValues>
+        <masterLabel>BIA Reports</masterLabel>
+        <translation><!-- BIA Reports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Council and Intergovernmental</masterLabel>
+        <translation><!-- Council and Intergovernmental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ED&amp;C Operations and Budgets</masterLabel>
+        <translation><!-- ED&amp;C Operations and Budgets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hot Issues and Advance Notice</masterLabel>
+        <translation><!-- Hot Issues and Advance Notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Trade and Investment</masterLabel>
+        <translation><!-- International Trade and Investment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Business Investment, Formation and Growth</masterLabel>
+        <translation><!-- Local Business Investment, Formation and Growth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector Competitiveness</masterLabel>
+        <translation><!-- Sector Competitiveness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workforce Development</masterLabel>
+        <translation><!-- Workforce Development --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,1926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>BIA_Application_CFI_Criteria_Met_Email_Notification</fullName>
+        <ccEmails>Joe.Magalhaes@toronto.ca,Hamid.Ahmad@toronto.ca,Jose.Avila@toronto.ca,Yasmina.Shamji@toronto.ca</ccEmails>
+        <description>BIA Application CFI Criteria Met Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>BIA_CFI_Notification_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/BIA_Application_CFI_Criteria_Met_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Application_Extension_Approval_Email_Notification</fullName>
+        <description>BIA Application Extension Approved Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/BIA_Application_Extension_Approved_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Application_Extension_Date_Expiry_Email_Notification</fullName>
+        <description>BIA Application Extension Date Expiry Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/BIA_Application_Extension_Date_Expiry_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Application_Initial_Expiry_Email_Notification</fullName>
+        <description>BIA Application Initial Expiry Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/BIA_Application_Initial_Expiry_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Application_Review_Email_Notification</fullName>
+        <description>BIA Application Review Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>mirella.martino@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/BIA_Application_Review_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_CFIP_Email_Template_Notification</fullName>
+        <description>BIA CFIP Email Template Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/BIA_CFIP_Email_Template_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Grant_Expiry_Notification_to_BIA_Officer</fullName>
+        <description>BIA Grant Expiry Notification to BIA Officer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>mirella.martino@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/BIA_Grant_Expiry_Notification_to_BIA_Officer</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Grant_Extension_Rejection_Email_Notification</fullName>
+        <description>BIA Grant Extension Rejection Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/BIA_Grant_Extension_Rejection_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Innovation_Fund_Email_Template_Notification</fullName>
+        <description>BIA Innovation Fund Email Template Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/BIA_Innovation_Fund_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Leadership_Fund_Email_Template_Notification</fullName>
+        <description>BIA Leadership Fund Email Template Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/BIA_Leadership_Fund_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Outside_Mural_Fund_Email_Template_Notification</fullName>
+        <description>BIA Outside Mural Fund Email Template Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/BIA_Outside_Mural_Fund_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>BIA_Streetscape_Fund_Email_Template_Notification</fullName>
+        <description>BIA Streetscape Fund Email Template Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/BIA_Streetscape_Fund_Email_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_BIC_Grant_Program_Outcome_Report_1_15th_Nov</fullName>
+        <ccEmails>ngesa@toronto.ca</ccEmails>
+        <description>ES BIC Grant Program Outcome Report #1 15th Nov</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_BIC_Grant_Program_Outcome_Report_1</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_BIC_Grant_Program_Outcome_Report_1_30_Days</fullName>
+        <ccEmails>ngesa@toronto.ca</ccEmails>
+        <description>ES BIC Grant Program Outcome Report #1 30 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_BIC_Grant_Program_Outcome_Report_1</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_BIC_Grant_Program_Outcome_Report_1_60_Days</fullName>
+        <ccEmails>ngesa@toronto.ca</ccEmails>
+        <description>ES BIC Grant Program Outcome Report #1 60 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_BIC_Grant_Program_Outcome_Report_1</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_BIC_Grant_Program_Outcome_Report_1_Manually_Triggered</fullName>
+        <description>ES BIC Grant Program Outcome Report #1 Manually Triggered</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_BIC_Grant_Program_Outcome_Report_1</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_Event_Grant_Report_Outcome_Survey_14_Day</fullName>
+        <ccEmails>ngesa@toronto.ca</ccEmails>
+        <description>ES Event Grant Report Outcome Survey - 14 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_Event_Grant_Report_Outcome_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_Event_Grant_Report_Outcome_Survey_1_Day</fullName>
+        <ccEmails>ngesa@toronto.ca</ccEmails>
+        <description>ES Event Grant Report Outcome Survey - 1 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_Event_Grant_Report_Outcome_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_Event_Grant_Report_Outcome_Survey_21_Day</fullName>
+        <ccEmails>ngesa@toronto.ca</ccEmails>
+        <description>ES Event Grant Report Outcome Survey - 21 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_Event_Grant_Report_Outcome_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_Event_Grant_Report_Outcome_Survey_7_Day</fullName>
+        <ccEmails>ngesa@toronto.ca</ccEmails>
+        <description>ES Event Grant Report Outcome Survey - 7 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_Event_Grant_Report_Outcome_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>ES_Event_Grant_Report_Outcome_Survey_Manually_Triggered</fullName>
+        <description>ES Event Grant Report Outcome Survey  Manually Triggered</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/ES_Event_Grant_Report_Outcome_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notification_BIA_Grant_Declined_to_BIA_Advisor</fullName>
+        <description>Email Notification BIA Grant Declined to BIA Advisor</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/Email_Notification_BIA_Grant_Declined_to_BIA_Advisor</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notification_BIA_Grant_Declined_to_Client</fullName>
+        <description>Email Notification BIA Grant Declined to Client</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>biaoffice@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/Email_Notification_BIA_Grant_Declined_to_Client</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notification_Financial_Incentive_BIC_Grant_Approved_to_Client</fullName>
+        <description>Email Notification Financial Incentive BIC-Grant - Approved to Client</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Templates/Email_Notification_Financial_Incentive_BIC_Grant_Approved_to_Client</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notification_to_IMIT_Queue</fullName>
+        <description>Email Notification to IMIT Queue</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/IMIT_Application_Review_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notification_to_Investment_Activity_Owner_for_IMIT_Application_Submission</fullName>
+        <description>Email Notification to Investment Activity Owner for IMIT Application Submission for Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Initiative_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/Email_Notification_to_Investment_Activity_Owner_for_IMIT_Application_Submission</template>
+    </alerts>
+    <alerts>
+        <fullName>Grant_Application_Approved_Email_Notification</fullName>
+        <description>Grant Application Approved Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/Grant_Application_Approved_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Grant_Application_Review_Email_Notification</fullName>
+        <description>Grant Application Review Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/Grant_Application_Review_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Grant_Rejection_Email_Notification</fullName>
+        <description>Grant Rejection Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/Grant_Rejection_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>IMIT_Application_GM_Approved_Email_Notification</fullName>
+        <description>IMIT Application GM Approved Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/IMIT_Application_GM_Approved_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>IMIT_Rejection_Email_Notification</fullName>
+        <description>IMIT Rejection Email Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Record_Submitter__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/IMIT_Rejection_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Application_Declined_After_Interview</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>mwenn@retailcouncil.org</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Application_Declined_After_Interview</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Declined_After_Interview</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Application_Eligibility_Not_Met</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Application_Eligibility_Not_Met</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Eligibility_Not_Met</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Application_Interview_Required</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Application_Interview_Required</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Interview_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Application_Received</fullName>
+        <ccEmails>Paul.Pirri@toronto.ca</ccEmails>
+        <description>Starter_Company_Application_Received</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Received</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Application_Training_Approved</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>mwenn@retailcouncil.org</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Application_Training_Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Training_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Application_Training_Declined</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Application_Training_Declined</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Training_Declined</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Business_Plan_Received</fullName>
+        <ccEmails>mwenn@retailcouncil.org</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Business_Plan_Received</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Starter_Company_Grant_Review_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Business_Plan_Received</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Business_Plan_Submission</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>mwenn@retailcouncil.org</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Business_Plan_Submission</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Business_Plan_Submission</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Client_Satisfaction_Business_Outcome_Survey</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Client_Satisfaction_Business_Outcome_Survey</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Client_Satisfaction_Business_Outcome_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Female_Founders_Program_Application_Declined_After_Interview</fullName>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>andrew@bizlaunch.com</ccEmails>
+        <description>Starter_Company_Female_Founders_Program_Application_Declined_After_Interview</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Declined_After_Interview</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Female_Founders_Program_Application_Training_Approved</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>andrew@bizlaunch.com</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Female_Founders_Program_Application_Training_Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Training_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Female_Founders_Program_Business_Plan_Received</fullName>
+        <ccEmails>andrew@bizlaunch.com</ccEmails>
+        <ccEmails>Vikas.Jain@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Female_Founders_Program_Business_Plan_Received</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Starter_Company_Grant_Review_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Female_Founders_Program_Business_Plan_Received</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Female_Founders_Program_Business_Plan_Submission</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>andrew@bizlaunch.com</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Female_Founders_Program_Business_Plan_Submission</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Female_Founder_Program_Business_Plan_Submission</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Female_Founders_Program_Client_Satisfaction_Business_Outcome_Sur</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Female_Founders_Program_Client_Satisfaction_Business_Outcome_Survey</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_FFP_Business_Outcome_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Female_Founders_Program_Grant_Approved</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Female_Founders_Program_Grant_Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_FFPrg_Grant_Approve</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Female_Founders_Program_Monthly_Reporting</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Female_Founders_Program_Monthly_Reporting</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Female_Founders_Program_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Grant_Approved</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Grant_Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Grant_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Grant_Declined</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Grant_Declined</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Grant_Declined</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Monthly_Reporting</fullName>
+        <ccEmails>jain@toronto.ca</ccEmails>
+        <ccEmails>paul.pirri@toronto.ca</ccEmails>
+        <description>Starter_Company_Monthly_Reporting</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Monthly_Reporting</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_Company_Signed_Grant_Document_Received</fullName>
+        <ccEmails>Paul.Pirri@toronto.ca</ccEmails>
+        <ccEmails>skoitsi@toronto.ca</ccEmails>
+        <ccEmails>david.zhu3@toronto.ca</ccEmails>
+        <description>Starter_Company_Signed_Grant_Document_Received</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>jain@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>edc_toronto@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Signed_Grant_Document_Received</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>BIA_Application_Status_Completed</fullName>
+        <field>Status__c</field>
+        <literalValue>Completed</literalValue>
+        <name>BIA Application Status Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_CFIP_Read_Only_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>BIA_Commercial_Industrial_Facade_and_Property_Improvement_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>BIA CFIP Read Only Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_Grant_Application_Status_Approved</fullName>
+        <field>Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>BIA Grant Application Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_Grant_Application_Status_Declined</fullName>
+        <field>Status__c</field>
+        <literalValue>Application Declined</literalValue>
+        <name>BIA Grant Application Status Declined</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_Grant_Status_Extension_Approved</fullName>
+        <description>This field update will update the BIA Application status to Extension Approved once Manager assign new Expiry Date and than approve the application</description>
+        <field>Status__c</field>
+        <literalValue>Extension Approved</literalValue>
+        <name>BIA Grant Status Extension Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_Grant_Status_Extension_Declined</fullName>
+        <description>This field update will update the status to Extension Declined once manager rejects the Extension request</description>
+        <field>Status__c</field>
+        <literalValue>Extension Declined</literalValue>
+        <name>BIA Grant Status Extension Declined</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_Innova_Read_Only_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>BIA_Innovation_Fund_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>BIA Innova Read Only Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_Leaders_Read_Only_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>BIA_Leadership_Fund_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>BIA Leaders Read Only Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_OutMura_Read_Only_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>BIA_Outside_Mural_and_Street_Art_Grant_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>BIA OutMura Read Only Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BIA_Streets_Read_Only_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>BIA_Streetscape_Master_Plan_Funding_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>BIA Streets Read Only Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BRE_IMIT_Gr_Read_Only_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>IMIT_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>BRE IMIT Gr Read Only Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_BIC_Grant_Read_Only_RecordType_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Business_Incubation_Grant_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>ES BIC Grant Read Only RecordType Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_BIC_Report_1_In_Queue_15th_Nov</fullName>
+        <description>This field update will update Business Outcome Survey Status for Report 1 to In Queue when status is completed and workflow rule is triggered</description>
+        <field>Report_1_Business_Outcome_Survey_Status__c</field>
+        <literalValue>In Queue - 15th Nov</literalValue>
+        <name>ES BIC Report 1 In Queue 15th Nov</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_BIC_Report_1_In_Queue_30_Days</fullName>
+        <description>This field update will update Business Outcome Survey Status for Report 1 to In Queue 30 Days after sending initial Email to client.</description>
+        <field>Report_1_Business_Outcome_Survey_Status__c</field>
+        <literalValue>In Queue - 30 Days</literalValue>
+        <name>ES BIC Report 1 In Queue 30 Days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_BIC_Report_1_In_Queue_60_Days</fullName>
+        <description>This field update will update Business Outcome Survey Status for Report 1 to In Queue 60 Days after sending first reminder Email to client.</description>
+        <field>Report_1_Business_Outcome_Survey_Status__c</field>
+        <literalValue>In Queue - 60 Days</literalValue>
+        <name>ES BIC Report 1 In Queue 60 Days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_BIC_Report_1_Sent_60_Days</fullName>
+        <description>This field update will update Business Outcome Survey Status for Report 1 to Sent 60 Days after sending Second reminder Email to client.</description>
+        <field>Report_1_Business_Outcome_Survey_Status__c</field>
+        <literalValue>Sent - 60 Days</literalValue>
+        <name>ES BIC Report 1 Sent 60 Days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_Event_Gr_Read_Only_Record_Type_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Event_Sponsorship_Grant_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>ES Event Gr Read Only Record Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_Event_Grant_Report_In_Queue_1_Day</fullName>
+        <description>This field update will update Event Business Outcome Survey Status to In Queue 1 Day when status is completed and workflow rule is triggered</description>
+        <field>Event_Business_Outcome_Survey_Status__c</field>
+        <literalValue>In Queue - 1 Day</literalValue>
+        <name>ES Event Grant Report In Queue 1 Day</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_Event_Grant_Report_In_Queue_1_Week</fullName>
+        <description>This field update will update Event Business Outcome Survey Status to In Queue 1 Week when status is completed and first Email has been sent</description>
+        <field>Event_Business_Outcome_Survey_Status__c</field>
+        <literalValue>In Queue - 1 Week</literalValue>
+        <name>ES Event Grant Report In Queue 1 Week</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_Event_Grant_Report_In_Queue_2_Week</fullName>
+        <description>This field update will update Event Business Outcome Survey Status to In Queue 2 Week when status is completed and first Reminder Email has been sent</description>
+        <field>Event_Business_Outcome_Survey_Status__c</field>
+        <literalValue>In Queue - 2 Week</literalValue>
+        <name>ES Event Grant Report In Queue 2 Week</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_Event_Grant_Report_In_Queue_3_Week</fullName>
+        <description>This field update will update Event Business Outcome Survey Status to In Queue 3 Week when status is completed and second reminder Email has been sent</description>
+        <field>Event_Business_Outcome_Survey_Status__c</field>
+        <literalValue>In Queue - 3 Week</literalValue>
+        <name>ES Event Grant Report In Queue 3 Week</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ES_Event_Grant_Report_Sent_3_Week</fullName>
+        <description>This field update will update Event Business Outcome Survey Status to Sent -3 Weeks when status is complete, third and last reminder Email has been sent</description>
+        <field>Event_Business_Outcome_Survey_Status__c</field>
+        <literalValue>Sent - 3 Week</literalValue>
+        <name>ES Event Grant Report Sent 3 Week</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sector_Grant_Read_Only_RecordType_Update</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Sector_Grant_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Sector Grant Read Only RecordType Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Approved_by_City_Council</fullName>
+        <field>Status__c</field>
+        <literalValue>Approved by City Council</literalValue>
+        <name>Status Update Approved by City Council</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Pending_Approval</fullName>
+        <description>This field update will assign Pending Approval Status when IMIT records is submitted for approval</description>
+        <field>Status__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Status Update Pending Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Pending_Extension</fullName>
+        <description>This field update will update the Status to Pending Extension once request submit for extension Approval</description>
+        <field>Status__c</field>
+        <literalValue>Pending Extension</literalValue>
+        <name>Status Update Pending Extension</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update_Withdrawn</fullName>
+        <field>Status__c</field>
+        <literalValue>Withdrawn/Inactive</literalValue>
+        <name>Status Update Withdrawn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_update_after_GM_Approval</fullName>
+        <field>Status__c</field>
+        <literalValue>Approved by GM</literalValue>
+        <name>Status update after GM Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Declined</fullName>
+        <field>Status__c</field>
+        <literalValue>Declined</literalValue>
+        <name>Update Status Declined</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_after_Expiry_Date</fullName>
+        <description>This field update will mark status as expired if application has not been completed until expiry date</description>
+        <field>Status__c</field>
+        <literalValue>Expired</literalValue>
+        <name>Update Status after Expiry Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_after_Extension_Date</fullName>
+        <field>Status__c</field>
+        <literalValue>Expired</literalValue>
+        <name>Update Status after Extension Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Unique_Initiative_Id</fullName>
+        <field>Initiative_Unique_Id__c</field>
+        <formula>Initiative__c</formula>
+        <name>Update Unique Initiative Id</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BIA CFIP Grant Application Approved Email Notification</fullName>
+        <actions>
+            <name>BIA_CFIP_Email_Template_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email alert to notify Contact once Grant has been approved</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA CFIP Read Only Record Type Update</fullName>
+        <actions>
+            <name>BIA_CFIP_Read_Only_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Innovation Fund Application Approved Email Notification</fullName>
+        <actions>
+            <name>BIA_Innovation_Fund_Email_Template_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Innovation Fund</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email alert to notify Contact once Grant has been approved</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Innovation Read Only Record Type Update</fullName>
+        <actions>
+            <name>BIA_Innova_Read_Only_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Innovation Fund</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Leadership Fund Application Approved Email Notification</fullName>
+        <actions>
+            <name>BIA_Leadership_Fund_Email_Template_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Leadership Fund</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email alert to notify Contact once Grant has been approved</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Leadership Read Only Record Type Update</fullName>
+        <actions>
+            <name>BIA_Leaders_Read_Only_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Leadership Fund</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Out Mural Read Only Record Type Update</fullName>
+        <actions>
+            <name>BIA_OutMura_Read_Only_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Outside Mural Grant Application Approved Email Notification</fullName>
+        <actions>
+            <name>BIA_Outside_Mural_Fund_Email_Template_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email alert to notify Contact once Grant has been approved</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Streetscape Fund Application Approved Email Notification</fullName>
+        <actions>
+            <name>BIA_Streetscape_Fund_Email_Template_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Streetscape Master Plan Funding</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email alert to notify Contact once Grant has been approved</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIA Streetscape Read Only Record Type Update</fullName>
+        <actions>
+            <name>BIA_Streets_Read_Only_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Streetscape Master Plan Funding</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BRE IMIT Grant Read Only Record Type Update</fullName>
+        <actions>
+            <name>BRE_IMIT_Gr_Read_Only_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>IMIT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Compliance/Payment Review,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Denied Email Notification to Contact for BIA Grants</fullName>
+        <actions>
+            <name>Email_Notification_BIA_Grant_Declined_to_Client</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Innovation Fund,BIA Leadership Fund,BIA Outside Mural and Street Art,BIA Streetscape Master Plan Funding</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This rule will trigger and email alert to Contact on Grant Rejection by Manager</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Denied More Information Required Email Notification to BIA Advisor for BIA Grants</fullName>
+        <actions>
+            <name>Email_Notification_BIA_Grant_Declined_to_BIA_Advisor</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Innovation Fund,BIA Leadership Fund,BIA Outside Mural and Street Art,BIA Streetscape Master Plan Funding</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Application Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>More Information Required</value>
+        </criteriaItems>
+        <description>This rule will trigger and email alert to BIA Advisor who submitted the application Grant application for approval and Rejected by Manager with more Information required.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES BIC Grant Program Outcome Report %231</fullName>
+        <actions>
+            <name>ES_BIC_Report_1_In_Queue_15th_Nov</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Incubation Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.BIC_Report_Trigger_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Report_1_Business_Outcome_Survey_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Responded</value>
+        </criteriaItems>
+        <description>Sends Email and reminder notification to applicants in order to get them to report on their program activities for Report 1.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ES_BIC_Grant_Program_Outcome_Report_1_30_Days</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ES_BIC_Report_1_In_Queue_60_Days</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.BIC_Report_Trigger_Date__c</offsetFromField>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ES_BIC_Grant_Program_Outcome_Report_1_60_Days</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ES_BIC_Report_1_Sent_60_Days</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.BIC_Report_Trigger_Date__c</offsetFromField>
+            <timeLength>60</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ES_BIC_Grant_Program_Outcome_Report_1_15th_Nov</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ES_BIC_Report_1_In_Queue_30_Days</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.BIC_Report_Trigger_Date__c</offsetFromField>
+            <timeLength>13</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>ES BIC Grant Program Outcome Report %231 Manually Trigger</fullName>
+        <actions>
+            <name>ES_BIC_Grant_Program_Outcome_Report_1_Manually_Triggered</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Incubation Grant,Business Incubation Grant Read Only</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Report_1_Business_Outcome_Survey_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Responded</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Manually_Trigger_Report_1_Email__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <description>Sends Email to applicants in order to get them to report on their program activities for Report 1 at any random time when User wants when Status is completed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES Business Incubation Grant Read Only Record Type Update</fullName>
+        <actions>
+            <name>ES_BIC_Grant_Read_Only_RecordType_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Incubation Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES Event Grant Program Outcome Survey</fullName>
+        <actions>
+            <name>ES_Event_Grant_Report_In_Queue_1_Day</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Sponsorship Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Event_Business_Outcome_Survey_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Responded</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Event_Report_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email and subsequent reminder to applicants in order to get them to report on their event activities once status is completed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ES_Event_Grant_Report_Outcome_Survey_14_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ES_Event_Grant_Report_In_Queue_3_Week</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Event_Report_Date__c</offsetFromField>
+            <timeLength>14</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ES_Event_Grant_Report_Outcome_Survey_1_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ES_Event_Grant_Report_In_Queue_1_Week</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Event_Report_Date__c</offsetFromField>
+            <timeLength>15</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ES_Event_Grant_Report_Outcome_Survey_7_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ES_Event_Grant_Report_In_Queue_2_Week</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Event_Report_Date__c</offsetFromField>
+            <timeLength>7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ES_Event_Grant_Report_Outcome_Survey_21_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>ES_Event_Grant_Report_Sent_3_Week</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Event_Report_Date__c</offsetFromField>
+            <timeLength>21</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>ES Event Grant Program Outcome Survey  Manually Trigger</fullName>
+        <actions>
+            <name>ES_Event_Grant_Report_Outcome_Survey_Manually_Triggered</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Sponsorship Grant,Event Sponsorship Grant Read Only</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Event_Business_Outcome_Survey_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Responded</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Manually_Trigger_Event_Report_Email__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <description>Manually Trigger and Sends email  to applicants in order to get them to report on their event activities once status is completed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ES Event Sponsorship Grant Read Only Record Type Update</fullName>
+        <actions>
+            <name>ES_Event_Gr_Read_Only_Record_Type_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Sponsorship Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Notification to BIA Group once Commercial Facade Improvement Grant Criteria Met</fullName>
+        <actions>
+            <name>BIA_Application_CFI_Criteria_Met_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This rule will trigger an email alert to BIA Group once Commercial Facade Improvement Grant Criteria Met</description>
+        <formula>IF(AND(RecordType.DeveloperName=&#39;BIA_Commercial_Industrial_Facade_and_Property_Improvement&#39;,TEXT(Has_CFI_Criteria_been_met__c)=&#39;Yes&#39;), TRUE, FALSE)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Notification to Investment Activity Owner for IMIT Application Submission for Approval</fullName>
+        <actions>
+            <name>Email_Notification_to_Investment_Activity_Owner_for_IMIT_Application_Submission</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule will send an email alert to notify the Investment Activity Owner once its linked IMT application has been submitted for approval</description>
+        <formula>IF(AND(RecordType.DeveloperName = &#39;IMIT&#39;,TEXT(Status__c)=&#39;Pending Approval&#39;,NOT(ISBLANK(Initiative__c)),NOT(ISBLANK(Initiative_Owner__c))), TRUE, FALSE)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Notification to Queue for BIA Grant Request from Client</fullName>
+        <actions>
+            <name>BIA_Application_Review_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This rule will trigger and email alert to appropriate BIA Queue when client submit BIA Grant Application online</description>
+        <formula>IF(AND(OR(RecordType.DeveloperName=&#39;BIA_Commercial_Industrial_Facade_and_Property_Improvement&#39;,RecordType.DeveloperName=&#39;BIA_Innovation_Fund&#39;,RecordType.DeveloperName=&#39;BIA_Leadership_Fund&#39;,RecordType.DeveloperName=&#39;BIA_Outside_Mural_and_Street_Art_Grant&#39;,RecordType.DeveloperName=&#39;BIA_Streetscape_Master_Plan_Funding&#39;),TEXT(Status__c)=&#39;Submitted&#39;, Created_by_Client__c), TRUE, FALSE)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Notification to Queue for ES Event%2FBIC Grant Request from Client</fullName>
+        <actions>
+            <name>Grant_Application_Review_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Event Sponsorship Grant,Business Incubation Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Created_by_Client__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email to ES Event/BIC Grant Review Queue whenever any new Grant application will be submitted by Client through online form</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Notification to Queue for IMIT Request from Client</fullName>
+        <actions>
+            <name>Email_Notification_to_IMIT_Queue</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule will send an email alert to notify the IMIT once any new IMIT request has been submitted through online form.</description>
+        <formula>IF(AND(RecordType.DeveloperName = &#39;IMIT&#39;, Created_by_Client__c,TEXT(Status__c)=&#39;Submitted&#39;), TRUE, FALSE)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify BIA Grant Application Owner before Application Expiry Date</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Innovation Fund,BIA Leadership Fund,BIA Streetscape Master Plan Funding,BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Application_Expiry_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email alert to Notify the BIA Application owner one month before Application Expiry Date</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>BIA_Application_Initial_Expiry_Email_Notification</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Application_Expiry_Date__c</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Notify BIA Grant Application Owner for Application Extension Date</fullName>
+        <actions>
+            <name>BIA_Application_Extension_Approval_Email_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Innovation Fund,BIA Leadership Fund,BIA Streetscape Master Plan Funding,BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Application_Extension_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Do_you_need_extension__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Extension Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will trigger an email alert to Notify the BIA Application owner one month before Application Extension Date and also notify Application about Extension Approval</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>BIA_Application_Extension_Date_Expiry_Email_Notification</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Application_Extension_Date__c</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Sector Grant Read Only Record Type Update</fullName>
+        <actions>
+            <name>Sector_Grant_Read_Only_RecordType_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sector Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Withdrawn/Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Rejection_Reason__c</field>
+            <operation>equals</operation>
+            <value>Declined</value>
+        </criteriaItems>
+        <description>This workflow will update the record type to read only once status has been completed, withdrawn or Declined that is it has reached its end state.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unique IMIT Initiative Realtionship</fullName>
+        <actions>
+            <name>Update_Unique_Initiative_Id</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule trigger a field update on Financial Incentive object to maintain one to one relation with Initiative</description>
+        <formula>AND(NOT(ISBLANK(Initiative__c)), RecordType.DeveloperName =&#39;IMIT&#39;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update BIA Grant Application Status Expired after Expiry Date</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Innovation Fund,BIA Leadership Fund,BIA Streetscape Master Plan Funding,BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Application_Expiry_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will update the status to expired once an application has been Approved but not completed will be marked as expired</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Update_Status_after_Expiry_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Application_Expiry_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>BIA_Grant_Expiry_Notification_to_BIA_Officer</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Application_Expiry_Date__c</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Update BIA Grant Application Status Expired after Extension Date</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Innovation Fund,BIA Leadership Fund,BIA Streetscape Master Plan Funding,BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Application_Extension_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Do_you_need_extension__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Extension Approved</value>
+        </criteriaItems>
+        <description>This workflow rule will update the status to expired once an application has been Approved but not completed will be marked as expired</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Update_Status_after_Extension_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Financial_Incentive__c.Application_Extension_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Update BIA%2FSector%2FBIC%2FEvent Grant Application Status Completed after Payment</fullName>
+        <actions>
+            <name>BIA_Application_Status_Completed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 AND 2 AND 3 AND 4) OR (5 AND 6) OR (7 AND 8  AND 9 AND 2 AND 3) OR (10 AND 11)</booleanFilter>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Commercial - Industrial Facade and Property Improvement,BIA Leadership Fund,BIA Streetscape Master Plan Funding</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Has_work_been_completed__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Has_signed_document_been_received__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Has_payment_been_made__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sector Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Has_Grant_Amount_been_Paid__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BIA Innovation Fund,BIA Outside Mural and Street Art</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Has_1st_Payment_been_made__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Has_2nd_Payment_been_made__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Incubation Grant,Event Sponsorship Grant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Financial_Incentive__c.Has_Grant_Amount_been_Processed__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <description>This workflow rule will update the status to completed once an application has been Approved and payment has been made for ES/BIA/Sector grants</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

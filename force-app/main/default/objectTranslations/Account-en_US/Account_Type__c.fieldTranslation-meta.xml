@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- It identifies if this account is a true client or if the account is a possible prospect that we have contacted but not established a firm relationship with. --></help>
+    <label><!-- Account Type --></label>
+    <name>Account_Type__c</name>
+    <picklistValues>
+        <masterLabel>Business Client</masterLabel>
+        <translation><!-- Business Client --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Prospect</masterLabel>
+        <translation><!-- Business Prospect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner</masterLabel>
+        <translation><!-- Partner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Provider</masterLabel>
+        <translation><!-- Service Provider --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

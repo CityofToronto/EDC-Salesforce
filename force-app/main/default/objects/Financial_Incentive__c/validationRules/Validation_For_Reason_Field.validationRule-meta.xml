@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Reason_Field</fullName>
+    <active>true</active>
+    <description>This validation rule will make Reason field required if the status is withdrawn or Inactive</description>
+    <errorConditionFormula>AND(ISBLANK(Reason__c), OR(TEXT(Status__c)=&#39;Inactive&#39;,TEXT(Status__c)=&#39;Withdrawn&#39;))</errorConditionFormula>
+    <errorDisplayField>Reason__c</errorDisplayField>
+    <errorMessage>Reason should be provided for Inactive and Withdrawn Status</errorMessage>
+</ValidationRule>

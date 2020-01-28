@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Interaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Interactions</value>
+    </caseValues>
+    <layouts>
+        <layout>Business Intelligence Interaction Layout</layout>
+        <sections>
+            <label><!-- Business Challanges --></label>
+            <section>Business Challanges</section>
+        </sections>
+        <sections>
+            <label><!-- Client Satisfaction Survey(Business Intelligence Follow up) --></label>
+            <section>Client Satisfaction Survey(Business Intelligence Follow up)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Employment Information --></label>
+            <section>Employment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Export Information --></label>
+            <section>Export Information</section>
+        </sections>
+        <sections>
+            <label><!-- Facility Information --></label>
+            <section>Facility Information</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Purpose of Interaction --></label>
+            <section>Purpose of Interaction</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Business Intelligence Person Account Layout</layout>
+        <sections>
+            <label><!-- Business Challanges --></label>
+            <section>Business Challanges</section>
+        </sections>
+        <sections>
+            <label><!-- Client Satisfaction Survey(Business Intelligence Follow up) --></label>
+            <section>Client Satisfaction Survey(Business Intelligence Follow up)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Employment Information --></label>
+            <section>Employment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Export Information --></label>
+            <section>Export Information</section>
+        </sections>
+        <sections>
+            <label><!-- Facility Information --></label>
+            <section>Facility Information</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Purpose of Interaction --></label>
+            <section>Purpose of Interaction</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consultation Interaction Layout</layout>
+        <sections>
+            <label><!-- Business Information --></label>
+            <section>Business Information</section>
+        </sections>
+        <sections>
+            <label><!-- Client Satisfaction Survey(Small Business Consultation Follow-Up) --></label>
+            <section>Client Satisfaction Survey(Small Business Consultation Follow-Up)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling Information --></label>
+            <section>Scheduling Information</section>
+        </sections>
+        <sections>
+            <label><!-- Services Information --></label>
+            <section>Services Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consultation Person Account Layout</layout>
+        <sections>
+            <label><!-- Business Information --></label>
+            <section>Business Information</section>
+        </sections>
+        <sections>
+            <label><!-- Client Satisfaction (Small Business Consultation Follow-Up) --></label>
+            <section>Client Satisfaction (Small Business Consultation Follow-Up)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling Information --></label>
+            <section>Scheduling Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Initiative Interaction Page Layout</layout>
+        <sections>
+            <label><!-- Business Challanges --></label>
+            <section>Business Challanges</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EDC Report --></label>
+            <section>EDC Report</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Purpose of Interaction --></label>
+            <section>Purpose of Interaction</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Issue --></label>
+        <name>New_Issue</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Interaction for tracking new Company Intelligence --></description>
+        <label><!-- Company Intelligence --></label>
+        <name>Company_Intelligence</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type will be assigned to any interaction associated with Person Account. --></description>
+        <label><!-- Company Intelligence Person Account --></label>
+        <name>Company_Intelligence_Person_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Interaction for providing new Business Consultation --></description>
+        <label><!-- Consultation --></label>
+        <name>Consultation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This will be assigned to Interaction of consultation type associated to Person Account --></description>
+        <label><!-- Consultation Person Account --></label>
+        <name>Consultation_Person_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record Type is only applicable to associate any Initiative with Interaction --></description>
+        <label><!-- Initiative Interactions --></label>
+        <name>Initiative_Interactions</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Add_Export_Countries_Regions_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact is required for Business Account --></errorMessage>
+        <name>Contact_Required_for_Business_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Export_Countries_Regions_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Export_as_Percent_of_Sales_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Interaction record can not be created for Inactive Account. --></errorMessage>
+        <name>Inactive_Related_Account_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Int_in_Strat_Bus_Trade_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Interaction Name can not start with any special character. --></errorMessage>
+        <name>Interaction_Name_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Interested_in_Export_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>Lease_Expiry_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required Input --></errorMessage>
+        <name>What_Strat_Bus_Trade_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Interaction --></label>
+        <name>New_Interaction</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Interaction_Initiative --></label>
+        <name>New_Interaction_Initiative</name>
+    </webLinks>
+</CustomObjectTranslation>

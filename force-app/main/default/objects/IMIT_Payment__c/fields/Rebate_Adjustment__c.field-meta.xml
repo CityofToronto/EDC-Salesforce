@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rebate_Adjustment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Grant amounts will be adjusted to reflect the amount of any rebate of municipal taxes paid to the property owner, including rebates to reflect vacancy, charitable status, heritage status, etc. Adjustments and final payments amounts should be provided by Revenue Services.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Grant amounts will be adjusted to reflect amount of any rebate of municipal taxes paid to the property owner, including rebates to reflect vacancy, charitable status, heritage status etc.Adjustments and final payments amounts  provided by Revenue Services</inlineHelpText>
+    <label>Rebate Adjustment</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

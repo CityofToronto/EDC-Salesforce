@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to incubators asking them to complete the Startup Genome survey.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Compass-Incubator-Email(1-2016)</name>
+    <style>none</style>
+    <subject>Urgent Reminder: 2016 Startup Genome Global Startup Ecosystem Survey</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

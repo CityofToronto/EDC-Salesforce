@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>BackgroundIMG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BackgroundIMG</shortDescription>
+        <value>https://cityoftoronto--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o0000000VcBf&amp;oid=00Do0000000bTwm&amp;lastMod=1445492339000</value>
+    </labels>
+    <labels>
+        <fullName>ForcecomSite</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ForcecomSite</shortDescription>
+        <value>http://cityoftoronto.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>FormTitleIMG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FormTitleIMG</shortDescription>
+        <value>https://cityoftoronto--c.na17.content.force.com/servlet/servlet.ImageServer?id=015o0000000VcBk&amp;oid=00Do0000000bTwm&amp;lastMod=1445487583000</value>
+    </labels>
+    <labels>
+        <fullName>Module_Training_Details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Module Training Details</shortDescription>
+        <value>Funny Bones Games/Cafe 3029 Lake Shore Blvd West
+Lake Shore BIA 
+10am – 1pm.
+Oct 16, 17, 18, 21, 23, 25</value>
+    </labels>
+    <labels>
+        <fullName>RunFinIncentiveTrigger</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RunFinIncentiveTrigger</shortDescription>
+        <value>true</value>
+    </labels>
+    <labels>
+        <fullName>RunInteractionTrigger</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RunInteractionTrigger</shortDescription>
+        <value>true</value>
+    </labels>
+    <labels>
+        <fullName>StarterCompanyReplyToAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StarterCompanyReplyToAddress</shortDescription>
+        <value>startercompanyretailprogram@2k5cdv18kb0upoviqojhtjjyd7hdqo95slr7mupiydcbkurbhu.o-btwmeae.na116.apex.salesforce.com</value>
+    </labels>
+</CustomLabels>

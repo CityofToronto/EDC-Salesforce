@@ -1,0 +1,18 @@
+{!Interaction__c.Advisor_Lookup__c}, 
+
+A client has requested a consultation with you. The following are the details: 
+
+Client Name: {!Interaction__c.Contact__c} 
+Client Business Name: {!Interaction__c.Account_Name__c} 
+Date: {!Interaction__c.Meeting_Date__c} 
+Time: {!Interaction__c.MeetingTime__c} 
+Location: {!Interaction__c.Location__c} 
+Consultant: {!Interaction__c.Advisor_Lookup__c} 
+Link to Business Plan: {!Interaction__c.Link}
+
+Please confirm this date with the client by clicking the following: 
+https://cityoftoronto--c.na78.visual.force.com/apex/UserConsultationScheduler
+
+Thanks, 
+
+City of Toronto

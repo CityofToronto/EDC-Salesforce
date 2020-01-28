@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purpose_of_the_Interaction__c</fullName>
+    <description>The reason for the Interaction.
+** Business Outcome Survey applicable for these Purpose of Interactions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The reason for the Interaction.
+** Business Outcome Survey applicable for these Purpose of Interactions</inlineHelpText>
+    <label>Purpose of the Interaction</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attraction - Investment Attraction (Foreign)**</fullName>
+                <default>false</default>
+                <label>Attraction - Investment Attraction (Foreign)**</label>
+            </value>
+            <value>
+                <fullName>Attraction - Investment Attraction (Local &amp; National)**</fullName>
+                <default>false</default>
+                <label>Attraction - Investment Attraction (Local &amp; National)**</label>
+            </value>
+            <value>
+                <fullName>Business Development - Business Introduction</fullName>
+                <default>false</default>
+                <label>Business Development - Business Introduction</label>
+            </value>
+            <value>
+                <fullName>Business Development - Cluster Development</fullName>
+                <default>false</default>
+                <label>Business Development - Cluster Development</label>
+            </value>
+            <value>
+                <fullName>Business Development - Delegation Assistance</fullName>
+                <default>false</default>
+                <label>Business Development - Delegation Assistance</label>
+            </value>
+            <value>
+                <fullName>Business Development - Event Assistance</fullName>
+                <default>false</default>
+                <label>Business Development - Event Assistance</label>
+            </value>
+            <value>
+                <fullName>Business Development - Expansion Assistance**</fullName>
+                <default>false</default>
+                <label>Business Development - Expansion Assistance**</label>
+            </value>
+            <value>
+                <fullName>Business Development - Export Assistance**</fullName>
+                <default>false</default>
+                <label>Business Development - Export Assistance**</label>
+            </value>
+            <value>
+                <fullName>Business Development - Import Assistance**</fullName>
+                <default>false</default>
+                <label>Business Development - Import Assistance**</label>
+            </value>
+            <value>
+                <fullName>Business Development - Intelligence Gathering</fullName>
+                <default>false</default>
+                <label>Business Development - Intelligence Gathering</label>
+            </value>
+            <value>
+                <fullName>Business Development - Location Assistance**</fullName>
+                <default>false</default>
+                <label>Business Development - Location Assistance**</label>
+            </value>
+            <value>
+                <fullName>Business Development - Market Development**</fullName>
+                <default>false</default>
+                <label>Business Development - Market Development**</label>
+            </value>
+            <value>
+                <fullName>Business Development - Partnership Development</fullName>
+                <default>false</default>
+                <label>Business Development - Partnership Development</label>
+            </value>
+            <value>
+                <fullName>Business Development - PR &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Business Development - PR &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Business Development - Startup Assistance**</fullName>
+                <default>false</default>
+                <label>Business Development - Startup Assistance**</label>
+            </value>
+            <value>
+                <fullName>Business Development - Workforce Development**</fullName>
+                <default>false</default>
+                <label>Business Development - Workforce Development**</label>
+            </value>
+            <value>
+                <fullName>City - Building Permit**</fullName>
+                <default>false</default>
+                <label>City - Building Permit**</label>
+            </value>
+            <value>
+                <fullName>City - IMIT</fullName>
+                <default>false</default>
+                <label>City - IMIT</label>
+            </value>
+            <value>
+                <fullName>City - Planning Issue (OP &amp; ZBL)**</fullName>
+                <default>false</default>
+                <label>City - Planning Issue (OP &amp; ZBL)**</label>
+            </value>
+            <value>
+                <fullName>City - Preliminary Project Review**</fullName>
+                <default>false</default>
+                <label>City - Preliminary Project Review**</label>
+            </value>
+            <value>
+                <fullName>City - Property Standards**</fullName>
+                <default>false</default>
+                <label>City - Property Standards**</label>
+            </value>
+            <value>
+                <fullName>City - Property Taxes**</fullName>
+                <default>false</default>
+                <label>City - Property Taxes**</label>
+            </value>
+            <value>
+                <fullName>City - Regulatory**</fullName>
+                <default>false</default>
+                <label>City - Regulatory**</label>
+            </value>
+            <value>
+                <fullName>Regulatory - Federal**</fullName>
+                <default>false</default>
+                <label>Regulatory - Federal**</label>
+            </value>
+            <value>
+                <fullName>Regulatory - Provincial**</fullName>
+                <default>false</default>
+                <label>Regulatory - Provincial**</label>
+            </value>
+            <value>
+                <fullName>Utilities – Broadband</fullName>
+                <default>false</default>
+                <label>Utilities – Broadband</label>
+            </value>
+            <value>
+                <fullName>Utility - Electric**</fullName>
+                <default>false</default>
+                <label>Utility - Electric**</label>
+            </value>
+            <value>
+                <fullName>Utility - Gas**</fullName>
+                <default>false</default>
+                <label>Utility - Gas**</label>
+            </value>
+            <value>
+                <fullName>Utility - Water**</fullName>
+                <default>false</default>
+                <label>Utility - Water**</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

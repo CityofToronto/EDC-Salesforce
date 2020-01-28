@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Annual compliance check conducted through an in-person site visit (by staff or contracted out to a third party) to ensure the subject property still contains the IMIT-eligible use and there has been no reduction in the Gross Floor Area for that use. --></help>
+    <label><!-- Continued Eligible Use  (attach memo) --></label>
+    <name>Continued_Eligible_Use_attach_memo__c</name>
+</CustomFieldTranslation>

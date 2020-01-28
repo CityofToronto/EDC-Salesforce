@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Why Not?(Point Of Sale) --></label>
+    <name>Why_Not_Point_Of_Sale__c</name>
+    <picklistValues>
+        <masterLabel>Concerned about expense</masterLabel>
+        <translation><!-- Concerned about expense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not applicable to my business</masterLabel>
+        <translation><!-- Not applicable to my business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planning to build one soon</masterLabel>
+        <translation><!-- Planning to build one soon --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

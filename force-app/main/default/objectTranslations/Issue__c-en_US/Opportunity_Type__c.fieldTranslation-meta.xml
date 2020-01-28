@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Opportunity Type --></label>
+    <name>Opportunity_Type__c</name>
+    <picklistValues>
+        <masterLabel>Advocacy (competitive policy, development, infrastructure)</masterLabel>
+        <translation><!-- Advocacy (competitive policy, development, infrastructure) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Associations / Conference / Networks / Roundtables</masterLabel>
+        <translation><!-- Associations / Conference / Networks / Roundtables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIA - Capacity Building</masterLabel>
+        <translation><!-- BIA - Capacity Building --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIA - Startup</masterLabel>
+        <translation><!-- BIA - Startup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development - Procurement</masterLabel>
+        <translation><!-- Business Development - Procurement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development – Business to Business</masterLabel>
+        <translation><!-- Business Development – Business to Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City Collaboration - City Sponsorship</masterLabel>
+        <translation><!-- City Collaboration - City Sponsorship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City Collaboration - Good News Story</masterLabel>
+        <translation><!-- City Collaboration - Good News Story --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City Collaboration - Joint Projects</masterLabel>
+        <translation><!-- City Collaboration - Joint Projects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City Collaboration - Roundtable Engagement</masterLabel>
+        <translation><!-- City Collaboration - Roundtable Engagement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financing</masterLabel>
+        <translation><!-- Financing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign Direct Investment (FDI)</masterLabel>
+        <translation><!-- Foreign Direct Investment (FDI) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funding - General Grants</masterLabel>
+        <translation><!-- Funding - General Grants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funding - IMIT</masterLabel>
+        <translation><!-- Funding - IMIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Funding - Research and Development</masterLabel>
+        <translation><!-- Funding - Research and Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International - Export Development</masterLabel>
+        <translation><!-- International - Export Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International - Trade Mission</masterLabel>
+        <translation><!-- International - Trade Mission --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support - Energy Efficiency</masterLabel>
+        <translation><!-- Support - Energy Efficiency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support - Waste Reduction</masterLabel>
+        <translation><!-- Support - Waste Reduction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support - Wastewater and Stormwater</masterLabel>
+        <translation><!-- Support - Wastewater and Stormwater --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support - Water Conservation</masterLabel>
+        <translation><!-- Support - Water Conservation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workforce Development - Training</masterLabel>
+        <translation><!-- Workforce Development - Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workforce Development - Wage Assistance</masterLabel>
+        <translation><!-- Workforce Development - Wage Assistance --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

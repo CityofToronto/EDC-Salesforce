@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the sum of the New Contruction/Addition value, the Capital Investment value and the Purchased/leased space value. --></help>
+    <label><!-- Total Investment  Value ($) --></label>
+    <name>Total_Investment_Value__c</name>
+</CustomFieldTranslation>

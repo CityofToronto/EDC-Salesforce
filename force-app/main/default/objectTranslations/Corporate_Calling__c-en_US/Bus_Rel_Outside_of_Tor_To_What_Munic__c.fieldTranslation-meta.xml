@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Business Relocated Outside of Toronto To What Municipality --></help>
+    <label><!-- Bus. Rel. Outside of Tor. To What Munic. --></label>
+    <name>Bus_Rel_Outside_of_Tor_To_What_Munic__c</name>
+</CustomFieldTranslation>

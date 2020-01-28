@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Business Support - Supporting external organizations and their events.
+Networking Events -Track attendees at networking events delivered by EDC.
+Business Training-Track attendees at training sessions delivered by EDC. --></help>
+    <label><!-- Event Type --></label>
+    <name>Event_Type__c</name>
+    <picklistValues>
+        <masterLabel>Business Training</masterLabel>
+        <translation><!-- Business Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Event Support</masterLabel>
+        <translation><!-- Event Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Networking Events</masterLabel>
+        <translation><!-- Networking Events --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

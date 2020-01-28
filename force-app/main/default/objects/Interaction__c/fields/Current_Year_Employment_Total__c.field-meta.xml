@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Year_Employment_Total__c</fullName>
+    <description>The total number of full time and part time employees. (Employment Full time  + Employment Part Time for Current year.</description>
+    <externalId>false</externalId>
+    <formula>Current_Year_Employment_Full_Time__c + Current_Year_Employment_Part_Time__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Year Employment - Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

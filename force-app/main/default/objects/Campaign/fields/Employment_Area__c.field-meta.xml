@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employment_Area__c</fullName>
+    <externalId>false</externalId>
+    <label>Employment Area</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Is_this_is_an_Employment_Area__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Airport Corporate Centre (Centennial)</fullName>
+                <default>false</default>
+                <label>Airport Corporate Centre (Centennial)</label>
+            </value>
+            <value>
+                <fullName>Don Valley Parkway Corridor (Bermondsey)</fullName>
+                <default>false</default>
+                <label>Don Valley Parkway Corridor (Bermondsey)</label>
+            </value>
+            <value>
+                <fullName>Don Valley Parkway Corridor (Consumers)</fullName>
+                <default>false</default>
+                <label>Don Valley Parkway Corridor (Consumers)</label>
+            </value>
+            <value>
+                <fullName>Don Valley Parkway Corridor (Don Mills)</fullName>
+                <default>false</default>
+                <label>Don Valley Parkway Corridor (Don Mills)</label>
+            </value>
+            <value>
+                <fullName>Don Valley Parkway Corridor (Leaside)</fullName>
+                <default>false</default>
+                <label>Don Valley Parkway Corridor (Leaside)</label>
+            </value>
+            <value>
+                <fullName>Don Valley Parkway Corridor (Steeles Tech)</fullName>
+                <default>false</default>
+                <label>Don Valley Parkway Corridor (Steeles Tech)</label>
+            </value>
+            <value>
+                <fullName>Don Valley Parkway Corridor (York Mills-Leslie)</fullName>
+                <default>false</default>
+                <label>Don Valley Parkway Corridor (York Mills-Leslie)</label>
+            </value>
+            <value>
+                <fullName>Downtown</fullName>
+                <default>false</default>
+                <label>Downtown</label>
+            </value>
+            <value>
+                <fullName>Dufferin Keele North (Dufferin-Finch)</fullName>
+                <default>false</default>
+                <label>Dufferin Keele North (Dufferin-Finch)</label>
+            </value>
+            <value>
+                <fullName>Dufferin Keele South (Downsview)</fullName>
+                <default>false</default>
+                <label>Dufferin Keele South (Downsview)</label>
+            </value>
+            <value>
+                <fullName>Dufferin Keele South (Lawrence-Keele)</fullName>
+                <default>false</default>
+                <label>Dufferin Keele South (Lawrence-Keele)</label>
+            </value>
+            <value>
+                <fullName>Dufferin Keele South (Orfus)</fullName>
+                <default>false</default>
+                <label>Dufferin Keele South (Orfus)</label>
+            </value>
+            <value>
+                <fullName>Etobicoke Centre*</fullName>
+                <default>false</default>
+                <label>Etobicoke Centre*</label>
+            </value>
+            <value>
+                <fullName>Highway 400 Corridor (400-401)</fullName>
+                <default>false</default>
+                <label>Highway 400 Corridor (400-401)</label>
+            </value>
+            <value>
+                <fullName>Highway 400 Corridor (400-Finch)</fullName>
+                <default>false</default>
+                <label>Highway 400 Corridor (400-Finch)</label>
+            </value>
+            <value>
+                <fullName>Liberty</fullName>
+                <default>false</default>
+                <label>Liberty</label>
+            </value>
+            <value>
+                <fullName>Milliken</fullName>
+                <default>false</default>
+                <label>Milliken</label>
+            </value>
+            <value>
+                <fullName>North West Etobicoke (Claireville)</fullName>
+                <default>false</default>
+                <label>North West Etobicoke (Claireville)</label>
+            </value>
+            <value>
+                <fullName>North York Centre*</fullName>
+                <default>false</default>
+                <label>North York Centre*</label>
+            </value>
+            <value>
+                <fullName>Rexdale</fullName>
+                <default>false</default>
+                <label>Rexdale</label>
+            </value>
+            <value>
+                <fullName>Scarborough Centre*</fullName>
+                <default>false</default>
+                <label>Scarborough Centre*</label>
+            </value>
+            <value>
+                <fullName>Scarborough Highway 401 Corridor (Milner)</fullName>
+                <default>false</default>
+                <label>Scarborough Highway 401 Corridor (Milner)</label>
+            </value>
+            <value>
+                <fullName>Scarborough Highway 401 Corridor (Progress)</fullName>
+                <default>false</default>
+                <label>Scarborough Highway 401 Corridor (Progress)</label>
+            </value>
+            <value>
+                <fullName>South East Scarborough (Coronation)</fullName>
+                <default>false</default>
+                <label>South East Scarborough (Coronation)</label>
+            </value>
+            <value>
+                <fullName>South Etobicoke (Central Etobicoke)</fullName>
+                <default>false</default>
+                <label>South Etobicoke (Central Etobicoke)</label>
+            </value>
+            <value>
+                <fullName>South Etobicoke (Lake Shore)</fullName>
+                <default>false</default>
+                <label>South Etobicoke (Lake Shore)</label>
+            </value>
+            <value>
+                <fullName>South Etobicoke (Park Lawn)</fullName>
+                <default>false</default>
+                <label>South Etobicoke (Park Lawn)</label>
+            </value>
+            <value>
+                <fullName>South West Scarborough (Golden Mile)</fullName>
+                <default>false</default>
+                <label>South West Scarborough (Golden Mile)</label>
+            </value>
+            <value>
+                <fullName>South West Scarborough (Wexford)</fullName>
+                <default>false</default>
+                <label>South West Scarborough (Wexford)</label>
+            </value>
+            <value>
+                <fullName>Tapscott</fullName>
+                <default>false</default>
+                <label>Tapscott</label>
+            </value>
+            <value>
+                <fullName>West Central Scarborough (Dorset)</fullName>
+                <default>false</default>
+                <label>West Central Scarborough (Dorset)</label>
+            </value>
+            <value>
+                <fullName>Weston Road/Junction (Weston)</fullName>
+                <default>false</default>
+                <label>Weston Road/Junction (Weston)</label>
+            </value>
+            <value>
+                <fullName>Yonge-Eglinton</fullName>
+                <default>false</default>
+                <label>Yonge-Eglinton</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Airport Corporate Centre (Centennial)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Don Valley Parkway Corridor (Bermondsey)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Don Valley Parkway Corridor (Consumers)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Don Valley Parkway Corridor (Don Mills)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Don Valley Parkway Corridor (Leaside)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Don Valley Parkway Corridor (Steeles Tech)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Don Valley Parkway Corridor (York Mills-Leslie)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Downtown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Dufferin Keele North (Dufferin-Finch)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Dufferin Keele South (Downsview)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Dufferin Keele South (Lawrence-Keele)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Dufferin Keele South (Orfus)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Etobicoke Centre*</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Highway 400 Corridor (400-401)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Highway 400 Corridor (400-Finch)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Liberty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Milliken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>North West Etobicoke (Claireville)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>North York Centre*</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Rexdale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Scarborough Centre*</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Scarborough Highway 401 Corridor (Milner)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Scarborough Highway 401 Corridor (Progress)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>South East Scarborough (Coronation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>South Etobicoke (Central Etobicoke)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>South Etobicoke (Lake Shore)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>South Etobicoke (Park Lawn)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>South West Scarborough (Golden Mile)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>South West Scarborough (Wexford)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Tapscott</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>West Central Scarborough (Dorset)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Weston Road/Junction (Weston)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Yonge-Eglinton</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An ET client rates their service as poor.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET Negative Service (Biz Reg)</name>
+    <style>none</style>
+    <subject>Assistance Request - Client Follow-Up Survey</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

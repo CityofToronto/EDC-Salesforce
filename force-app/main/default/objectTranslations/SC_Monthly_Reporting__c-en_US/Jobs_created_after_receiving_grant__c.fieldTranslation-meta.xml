@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Since receiving the grant, how many jobs have been created in the last month? --></help>
+    <label><!-- Jobs created after receiving grant --></label>
+    <name>Jobs_created_after_receiving_grant__c</name>
+</CustomFieldTranslation>

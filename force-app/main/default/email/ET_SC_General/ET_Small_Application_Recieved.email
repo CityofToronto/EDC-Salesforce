@@ -1,0 +1,7 @@
+A Starter Company Plus - Small Business application has been received from:
+
+Contact: {!Starter_Company_Clients__c.Contact__c}
+Email: {!Starter_Company_Clients__c.Contact_Email__c}
+Record #: {!Starter_Company_Clients__c.Name}
+
+Log into SalesForce to review the application.

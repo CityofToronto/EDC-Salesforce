@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Rule_For_Has_App_Submitted</fullName>
+    <active>true</active>
+    <description>This validation rule is to make sure user should specify value in Has Application submitted is created by user internally through salesforce UI</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName =&#39;IMIT&#39;,ISBLANK(TEXT(Has_Application_been_Submitted__c)),TEXT(Application_submitted_by__c)=&#39;Internal&#39;)</errorConditionFormula>
+    <errorDisplayField>Has_Application_been_Submitted__c</errorDisplayField>
+    <errorMessage>Required Field for Internal User</errorMessage>
+</ValidationRule>

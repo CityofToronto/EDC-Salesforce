@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to stakeholders with request to promote SUH cafe launch.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ES-SUH-CafeLaunch</name>
+    <style>none</style>
+    <subject>Please Share: StartUp HERE Toronto Cafe Launch</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

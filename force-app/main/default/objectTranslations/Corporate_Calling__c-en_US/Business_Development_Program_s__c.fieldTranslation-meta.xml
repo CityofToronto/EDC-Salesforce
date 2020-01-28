@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Development Program(s) --></label>
+    <name>Business_Development_Program_s__c</name>
+    <picklistValues>
+        <masterLabel>AIME Global Initiative – Yves Landry Foundation</masterLabel>
+        <translation><!-- AIME Global Initiative – Yves Landry Foundation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apprenticeship Training – Tax Credit</masterLabel>
+        <translation><!-- Apprenticeship Training – Tax Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Better Building Partnership – BBP</masterLabel>
+        <translation><!-- Better Building Partnership – BBP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Development Bank of Canada-BDC</masterLabel>
+        <translation><!-- Business Development Bank of Canada-BDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Incubation and Commercialization Program</masterLabel>
+        <translation><!-- Business Incubation and Commercialization Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CME SMART Advanced Technologies for Global Growth</masterLabel>
+        <translation><!-- CME SMART Advanced Technologies for Global Growth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada Business Network</masterLabel>
+        <translation><!-- Canada Business Network --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada Ontario Job Grant</masterLabel>
+        <translation><!-- Canada Ontario Job Grant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada Summer Jobs – Service Canada</masterLabel>
+        <translation><!-- Canada Summer Jobs – Service Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canadian Youth Business Foundation – CYBF</masterLabel>
+        <translation><!-- Canadian Youth Business Foundation – CYBF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>City of Toronto Export Assistance – Entrepreneurial Alliances</masterLabel>
+        <translation><!-- City of Toronto Export Assistance – Entrepreneurial Alliances --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EDC Culture Section</masterLabel>
+        <translation><!-- EDC Culture Section --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eco Reof Incentive</masterLabel>
+        <translation><!-- Eco Reof Incentive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enbridge Commerical Energy Solutions</masterLabel>
+        <translation><!-- Enbridge Commerical Energy Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Development Canada – EDC</masterLabel>
+        <translation><!-- Export Development Canada – EDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Export Market Access 0 DCC</masterLabel>
+        <translation><!-- Export Market Access 0 DCC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FedDev Ontario</masterLabel>
+        <translation><!-- FedDev Ontario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Federal Work Sharing</masterLabel>
+        <translation><!-- Federal Work Sharing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Commerce Support Program</masterLabel>
+        <translation><!-- Global Commerce Support Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gold Star</masterLabel>
+        <translation><!-- Gold Star --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imagination, manufacturing, Innovation, Technology Grants – IMIT</masterLabel>
+        <translation><!-- Imagination, manufacturing, Innovation, Technology Grants – IMIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial Research Assistance Program – IRAP</masterLabel>
+        <translation><!-- Industrial Research Assistance Program – IRAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innovation Insights – Technology Visits Program – TVP</masterLabel>
+        <translation><!-- Innovation Insights – Technology Visits Program – TVP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Trace Centres – ITC</masterLabel>
+        <translation><!-- International Trace Centres – ITC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invest in Ontario-MEDI</masterLabel>
+        <translation><!-- Invest in Ontario-MEDI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minister of Economic Development, Employment and Infrastructure – MEDES</masterLabel>
+        <translation><!-- Minister of Economic Development, Employment and Infrastructure – MEDES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ministry of Research and Innovation – MRI</masterLabel>
+        <translation><!-- Ministry of Research and Innovation – MRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mitacs</masterLabel>
+        <translation><!-- Mitacs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NRCan- ecoEnergy Retrofit Incentive for Industry</masterLabel>
+        <translation><!-- NRCan- ecoEnergy Retrofit Incentive for Industry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural Sciences and Engineering Research Council – NSERC</masterLabel>
+        <translation><!-- Natural Sciences and Engineering Research Council – NSERC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Exporters to Border States – NEBS</masterLabel>
+        <translation><!-- New Exporters to Border States – NEBS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NorthLeaf Venture Capital Fund</masterLabel>
+        <translation><!-- NorthLeaf Venture Capital Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ontario Centres of Excellence – OCE</masterLabel>
+        <translation><!-- Ontario Centres of Excellence – OCE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ontario Ministry of Agriculture, Food and Rural Affairs – OMAFRA</masterLabel>
+        <translation><!-- Ontario Ministry of Agriculture, Food and Rural Affairs – OMAFRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ontario Power Authority Feed-in Tariff (FIT) &amp; microFIT</masterLabel>
+        <translation><!-- Ontario Power Authority Feed-in Tariff (FIT) &amp; microFIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunities Ontario Provincial Nominee Program</masterLabel>
+        <translation><!-- Opportunities Ontario Provincial Nominee Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partners in Project Green Audit</masterLabel>
+        <translation><!-- Partners in Project Green Audit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partnership to Advance Youth Employment – PAYE</masterLabel>
+        <translation><!-- Partnership to Advance Youth Employment – PAYE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Services – Le Manpower, ADECCO etc</masterLabel>
+        <translation><!-- Private Services – Le Manpower, ADECCO etc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scientific Research &amp; Experimental Development – SR&amp;ED</masterLabel>
+        <translation><!-- Scientific Research &amp; Experimental Development – SR&amp;ED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Second Career – Employment Ontario</masterLabel>
+        <translation><!-- Second Career – Employment Ontario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summer Jobs Service – Employment Ontario</masterLabel>
+        <translation><!-- Summer Jobs Service – Employment Ontario --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sustainable Development Technology Canada</masterLabel>
+        <translation><!-- Sustainable Development Technology Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temporary Foreign Wokrers Program – TFWP</masterLabel>
+        <translation><!-- Temporary Foreign Wokrers Program – TFWP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Business Development Centre</masterLabel>
+        <translation><!-- Toronto Business Development Centre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Employment &amp; Social Sercices – TESS</masterLabel>
+        <translation><!-- Toronto Employment &amp; Social Sercices – TESS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Hydro SaveONEnergy Program</masterLabel>
+        <translation><!-- Toronto Hydro SaveONEnergy Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Water – Large Industrial Water Rate</masterLabel>
+        <translation><!-- Toronto Water – Large Industrial Water Rate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vacant Commercial &amp; Industrial Building Tax Rebate</masterLabel>
+        <translation><!-- Vacant Commercial &amp; Industrial Building Tax Rebate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth Employment Fund – YEF</masterLabel>
+        <translation><!-- Youth Employment Fund – YEF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth Employment Partnership – YEP</masterLabel>
+        <translation><!-- Youth Employment Partnership – YEP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth Employment Program – IRAP</masterLabel>
+        <translation><!-- Youth Employment Program – IRAP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

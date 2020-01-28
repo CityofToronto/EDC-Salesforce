@@ -1,0 +1,6 @@
+*** ACCOUNT TYPE CHANGE NOTIFICATION *** 
+
+The following Account Owned by you has been changed to Business Client from Prospect. 
+Account Name: {!Account.Name}
+
+Click on the link to access the Account directly: {!Account.Link}

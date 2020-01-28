@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- External Revenue Source --></label>
+    <name>External_Revenue_Source__c</name>
+    <picklistValues>
+        <masterLabel>Grants</masterLabel>
+        <translation><!-- Grants --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mix</masterLabel>
+        <translation><!-- Mix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revenue Generation</masterLabel>
+        <translation><!-- Revenue Generation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sponsorship</masterLabel>
+        <translation><!-- Sponsorship --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

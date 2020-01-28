@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Organization has a mandate aligned with the City’s objectives of accelerating business growth, supporting the development of key sectors, new company formation, company retention, job creation, innovation and commercialization of products, services etc. --></help>
+    <label><!-- Review-Organizational Mandate Alignment --></label>
+    <name>Review_Organizational_Mandate_Alignment__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation><!-- Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

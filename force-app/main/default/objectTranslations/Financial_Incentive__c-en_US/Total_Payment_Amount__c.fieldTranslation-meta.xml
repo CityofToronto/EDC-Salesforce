@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sum of all Brownfield and IMIT payments made to date --></help>
+    <label><!-- Total Payment Amount --></label>
+    <name>Total_Payment_Amount__c</name>
+</CustomFieldTranslation>

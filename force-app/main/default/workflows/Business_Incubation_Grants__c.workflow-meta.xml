@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>BICGrant_Denied_Email</fullName>
+        <ccEmails>cricket2@toronto.ca, ngesa@toronto.ca</ccEmails>
+        <description>Sends an email to the client to let them know their application has been denied.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_c__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Business_Incubation_Grant/Business_Incubation_Grant_Denied</template>
+    </alerts>
+    <alerts>
+        <fullName>BICGrant_EventReportNew</fullName>
+        <ccEmails>ngesa@toronto.ca, Paul.Pirri@toronto.ca</ccEmails>
+        <description>Sends an email to client to get them to report on their event.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_c__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Business_Incubation_Grant/Event_Reporting_BIG</template>
+    </alerts>
+    <alerts>
+        <fullName>BIC_Grant_Approved_Email</fullName>
+        <ccEmails>ngesa@toronto.ca, Paul.Pirri@toronto.ca</ccEmails>
+        <description>BIC-Grant - Approved Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_c__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Business_Incubation_Grant/Business_Incubation_Grant_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>BIC_Grant_ProgramReport1</fullName>
+        <ccEmails>Paul.Pirri@toronto.ca, ngesa@toronto.ca</ccEmails>
+        <description>BIC grant program report request #1.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_c__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Business_Incubation_Grant/BIC_Grant_Program_Follow_Up_Report_Request1</template>
+    </alerts>
+    <alerts>
+        <fullName>BIC_Grant_ProgramReport2</fullName>
+        <ccEmails>Paul.Pirri@toronto.ca, ngesa@toronto.ca</ccEmails>
+        <description>BIC Grant - Program reporting from client.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_c__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Business_Incubation_Grant/BIC_Grant_Program_Follow_Up_Report_Request1</template>
+    </alerts>
+    <alerts>
+        <fullName>BIC_Grant_Program_Request_Reminder_for_1st_Report</fullName>
+        <ccEmails>Paul.Pirri@toronto.ca, ngesa@toronto.ca</ccEmails>
+        <description>BIC - Grant Program Request (Reminder for 1st Report)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_c__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Business_Incubation_Grant/BIC_Grant_Program_Follow_Up_Report_Request_1_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>BIC_Grant_Submission_Email_Send</fullName>
+        <ccEmails>Paul.Pirri@toronto.ca, ngesa@toronto.ca</ccEmails>
+        <description>BIC-Grant - Submission Email Send</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_c__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ngesa@toronto.ca</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ES_Business_Incubation_Grant/BIC_Grant_Submission_Email</template>
+    </alerts>
+    <rules>
+        <fullName>BIC-Grant - Approved Email</fullName>
+        <actions>
+            <name>BIC_Grant_Approved_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Approved__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Don_t_send_confirmation_email__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Sends an email to applicant to let them know their grant has been approved.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIC-Grant - Denied Email</fullName>
+        <actions>
+            <name>BICGrant_Denied_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Approved__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Don_t_send_confirmation_email__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Sends an email to applicant to let them know their grant has been denied.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIC-Grant - Event Report Request</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Event_Report_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to applicants in order to get them to report on their event activities.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>BICGrant_EventReportNew</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Business_Incubation_Grants__c.Event_Report_Date__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>BIC-Grant - Program Report Request%281%29</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Date_1st_Report__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to applicants in order to get them to report on their program activities.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>BIC_Grant_ProgramReport1</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Business_Incubation_Grants__c.Date_1st_Report__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>BIC-Grant - Program Report Request%281%29 Reminder</fullName>
+        <actions>
+            <name>BIC_Grant_Program_Request_Reminder_for_1st_Report</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Report_Reminder__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <description>Sends email to applicants in order to get them to report on their program activities.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BIC-Grant - Program Report Request%282%29</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Date_2nd_Report__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to applicants in order to get them to report on their program activities.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>BIC_Grant_ProgramReport2</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Business_Incubation_Grants__c.Date_2nd_Report__c</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>BIC-Grant - Send Submission Email</fullName>
+        <actions>
+            <name>BIC_Grant_Submission_Email_Send</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.CreatedById</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Incubation_Grants__c.Don_t_send_confirmation_email__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Sends an email to the BIC Grant applicant to let them know their application has been recieved.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

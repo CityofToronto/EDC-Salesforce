@@ -1,0 +1,66 @@
+<apex:page tabStyle="International_Agreement__c" showHeader="true">
+    <h1><font size="4">SPER Priority Level Classification</font></h1>
+    <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+</style>    
+
+    <table id="t01" style="width:100%">
+  <tr>
+    <th>SPER Priorty Level</th>
+    <th>Detailed Description</th> 
+  </tr>
+  <tr>
+    <td>Level 1-Supporting official visits with IAP members</td>
+    <td>Recommend/lead arrangements for Mayor/designate meeting
+    Facilitate meetings with City divisions
+    EDC provided Visa letter
+    Welcome package
+    Reception hosting
+    SPER gifts
+    Program development with EDC
+    Support outbound missions
+    Support CMO priorities
+    </td>
+  </tr>
+  <tr>
+    <td>Level 2-Supporting non-official visits by IAP members or MOU cities or those with formalized inter-governmental (corporate) relationships</td>
+    <td>Non-official IAP member/MOU/CMO visits or reps id'd by Mayor's Office:
+
+Welcome package
+Connection to EDC/CMO
+Priority facilitation of requested information sharing/meetings with divisions
+TBD based on discussion with EDC and level of service identified
+</td>
+  </tr>
+  <tr>
+    <td>Level 3-Supporting visits and meetings by representatives of priority markets</td>
+    <td>Foreign visitors who contact SPER directly or id'd by Mayor's Office/EcDev/CMO from priority markets: study tours/courtesy calls/missions/special events
+
+Welcome package
+EDC/CMO connections
+Priority facilitation of requested info sharing/divisional meetings
+</td>
+  </tr>
+  <tr>
+    <td>Level 4-Supporting visits by representatives of non-priority countries or with no official relationship with the City</td>
+    <td>Support provided to requesters with no official relationship with the City and whose country of origin has not been identified as a priority market:
+    Promotional tools
+    Facilitation of requested information sharing/meetings with divisions and reps as available
+    
+    </td>
+    </tr>
+</table>
+</apex:page>

@@ -1,0 +1,9 @@
+Dear User,
+
+A Grant application for {!Financial_Incentive__c.Account__c} has been submitted for Review
+
+You can access the record using the link below-
+
+{!Financial_Incentive__c.Link}
+
+Thanks

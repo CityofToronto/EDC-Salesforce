@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is a read only field used to store unique Record Name with Auto-number based on Record Type --></help>
+    <label><!-- Unique Identifier Name --></label>
+    <name>Financial_Incentive_Name__c</name>
+</CustomFieldTranslation>

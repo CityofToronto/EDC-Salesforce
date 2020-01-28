@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sales/Revenue projections are realistic and reflect the growth and seasonality of the business --></help>
+    <label><!-- Sales/Revenue projections are realistic? --></label>
+    <name>Sales_Revenue_projections_are_realistic__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (3 pt)</masterLabel>
+        <translation><!-- Yes (3 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

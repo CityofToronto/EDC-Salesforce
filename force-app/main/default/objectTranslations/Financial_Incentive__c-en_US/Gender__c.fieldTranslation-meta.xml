@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- What best describes your gender? --></label>
+    <name>Gender__c</name>
+    <picklistValues>
+        <masterLabel>Female</masterLabel>
+        <translation><!-- Female --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender fluid, genderqueer, gender non-conforming, non-binary, trans</masterLabel>
+        <translation><!-- Gender fluid, genderqueer, gender non-conforming, non-binary, trans --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Male</masterLabel>
+        <translation><!-- Male --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Listed</masterLabel>
+        <translation><!-- Not Listed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prefer not to answer</masterLabel>
+        <translation><!-- Prefer not to answer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans female</masterLabel>
+        <translation><!-- Trans female --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trans male</masterLabel>
+        <translation><!-- Trans male --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

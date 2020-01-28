@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Interaction_Initiative</fullName>
+    <availability>online</availability>
+    <description>his button will be used for Initiative Page layout to create Interaction of only Initiative type</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Interaction</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/a07/e?CF00N1N00000QDhPA={!Campaign.Name}&amp;CF00N1N00000QDhPA_lkid={!Campaign.Id}&amp;retURL=%2F{!Campaign.Id}&amp;RecordType=0121N000001DwGq&amp;ent=01I1N000001bXiV</url>
+</WebLink>

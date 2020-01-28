@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Data_Required_for_Complete_Program</fullName>
+    <active>true</active>
+    <description>This validation rule is to make sure user should specify End Data before marking any program as completed</description>
+    <errorConditionFormula>AND(ISBLANK(EndDate), OR(TEXT(Program_Sub_Type__c) = &#39;International Events&#39;,TEXT(Program_Sub_Type__c) = &#39;Business Start Up&#39; ,TEXT(Program_Sub_Type__c) = &#39;Business Expansion&#39;, TEXT(Event_Type__c) = &#39;Networking Events&#39;, TEXT(International_Project_Type__c) = &#39;Outbound Mission&#39;, $RecordType.Name = &#39;Investment Activity&#39;), TEXT(Status) = &#39;Completed&#39;)</errorConditionFormula>
+    <errorDisplayField>EndDate</errorDisplayField>
+    <errorMessage>End date must be specified for completed program</errorMessage>
+</ValidationRule>

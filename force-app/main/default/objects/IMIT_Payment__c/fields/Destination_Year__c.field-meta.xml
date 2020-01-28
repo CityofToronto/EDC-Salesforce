@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Destination_Year__c</fullName>
+    <description>The first full taxation year following the completion and reassessment of the Eligible Development</description>
+    <externalId>false</externalId>
+    <formula>Financial_Incentive__r.Destination_Year__c</formula>
+    <inlineHelpText>The first full taxation year following the completion and reassessment of the Eligible Development</inlineHelpText>
+    <label>Destination Year</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

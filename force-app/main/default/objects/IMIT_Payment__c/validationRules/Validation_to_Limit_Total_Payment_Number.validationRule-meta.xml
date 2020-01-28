@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_to_Limit_Total_Payment_Number</fullName>
+    <active>true</active>
+    <description>This field value will compare the the count of total IMIT Payment against the value specified on IMIT Application</description>
+    <errorConditionFormula>Financial_Incentive__r.Total_Number_of_Payments__c &lt;  Financial_Incentive__r.Roll_Up_Number_of_IMIT_Payments__c</errorConditionFormula>
+    <errorMessage>The number of IMIT Payment records can&#39;t be more than Number of Payment specified on IMIT Application</errorMessage>
+</ValidationRule>

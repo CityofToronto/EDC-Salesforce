@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultation_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Consultation Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Downtown Toronto</fullName>
+                <default>false</default>
+                <label>Downtown Toronto</label>
+            </value>
+            <value>
+                <fullName>North York Civic Centre - 5100 Yonge Street - Main Floor</fullName>
+                <default>false</default>
+                <label>North York Civic Centre - 5100 Yonge Street - Main Floor</label>
+            </value>
+            <value>
+                <fullName>Scarborough Civic Centre - 150 Borough Drive - Main Floor</fullName>
+                <default>false</default>
+                <label>Scarborough Civic Centre - 150 Borough Drive - Main Floor</label>
+            </value>
+            <value>
+                <fullName>Parkdale Innovation Centre (1464 Queen Street West)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parkdale Innovation Centre (1464 Queen Street West)</label>
+            </value>
+            <value>
+                <fullName>WeWork, Downtown Toronto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WeWork, Downtown Toronto</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

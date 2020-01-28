@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Cash Flow projections are included indicating adequate funding is  in place to acquire all assets, fund other start-up costs and to provide operating funding until revenues can cover all operating costs --></help>
+    <label><!-- Cash Flow projections are included? --></label>
+    <name>Cash_Flow_projections_are_included__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (3 pt)</masterLabel>
+        <translation><!-- Yes (3 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is to track the various stages of Business Outcome surveys including reminder sent in interval of 30. 60 90  days or 6 Months. --></help>
+    <label><!-- Initial Survey Stage --></label>
+    <name>Initial_Survey_Stage__c</name>
+    <picklistValues>
+        <masterLabel>In Queue - 30 Days</masterLabel>
+        <translation><!-- In Queue - 30 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Queue - 60 Days</masterLabel>
+        <translation><!-- In Queue - 60 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Queue - 90 Days</masterLabel>
+        <translation><!-- In Queue - 90 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responded</masterLabel>
+        <translation><!-- Responded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent - 90 Days</masterLabel>
+        <translation><!-- Sent - 90 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresponsive</masterLabel>
+        <translation><!-- Unresponsive --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brownfield_Remediation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Confirmation the Record of Site Condition (RSC) has been filed and the testing and remediation invoices have been received.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Brownfield Remediation      
+• Record of Site Condition (RSC) filed 
+• testing and remediation invoices received</inlineHelpText>
+    <label>Brownfield Remediation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

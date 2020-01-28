@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Business Outcome Survey Sent at 30, 60 and 90 days for online training program.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Event - Online Training Notification Email 30/60/90 Days</name>
+    <style>none</style>
+    <subject>City of Toronto - How Is Your Business Doing?</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

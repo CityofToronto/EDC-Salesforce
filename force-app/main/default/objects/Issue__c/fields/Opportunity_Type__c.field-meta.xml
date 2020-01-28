@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Opportunity Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advocacy (competitive policy, development, infrastructure)</fullName>
+                <default>false</default>
+                <label>Advocacy (competitive policy, development, infrastructure)</label>
+            </value>
+            <value>
+                <fullName>Associations / Conference / Networks / Roundtables</fullName>
+                <default>false</default>
+                <label>Associations / Conference / Networks / Roundtables</label>
+            </value>
+            <value>
+                <fullName>BIA - Capacity Building</fullName>
+                <default>false</default>
+                <label>BIA - Capacity Building</label>
+            </value>
+            <value>
+                <fullName>BIA - Startup</fullName>
+                <default>false</default>
+                <label>BIA - Startup</label>
+            </value>
+            <value>
+                <fullName>Business Development – Business to Business</fullName>
+                <default>false</default>
+                <label>Business Development – Business to Business</label>
+            </value>
+            <value>
+                <fullName>Business Development - Procurement</fullName>
+                <default>false</default>
+                <label>Business Development - Procurement</label>
+            </value>
+            <value>
+                <fullName>City Collaboration - City Sponsorship</fullName>
+                <default>false</default>
+                <label>City Collaboration - City Sponsorship</label>
+            </value>
+            <value>
+                <fullName>City Collaboration - Good News Story</fullName>
+                <default>false</default>
+                <label>City Collaboration - Good News Story</label>
+            </value>
+            <value>
+                <fullName>City Collaboration - Joint Projects</fullName>
+                <default>false</default>
+                <label>City Collaboration - Joint Projects</label>
+            </value>
+            <value>
+                <fullName>City Collaboration - Roundtable Engagement</fullName>
+                <default>false</default>
+                <label>City Collaboration - Roundtable Engagement</label>
+            </value>
+            <value>
+                <fullName>Financing</fullName>
+                <default>false</default>
+                <label>Financing</label>
+            </value>
+            <value>
+                <fullName>Foreign Direct Investment (FDI)</fullName>
+                <default>false</default>
+                <label>Foreign Direct Investment (FDI)</label>
+            </value>
+            <value>
+                <fullName>Funding - General Grants</fullName>
+                <default>false</default>
+                <label>Funding - General Grants</label>
+            </value>
+            <value>
+                <fullName>Funding - IMIT</fullName>
+                <default>false</default>
+                <label>Funding - IMIT</label>
+            </value>
+            <value>
+                <fullName>Funding - Research and Development</fullName>
+                <default>false</default>
+                <label>Funding - Research and Development</label>
+            </value>
+            <value>
+                <fullName>International - Export Development</fullName>
+                <default>false</default>
+                <label>International - Export Development</label>
+            </value>
+            <value>
+                <fullName>International - Trade Mission</fullName>
+                <default>false</default>
+                <label>International - Trade Mission</label>
+            </value>
+            <value>
+                <fullName>Support - Energy Efficiency</fullName>
+                <default>false</default>
+                <label>Support - Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Support - Waste Reduction</fullName>
+                <default>false</default>
+                <label>Support - Waste Reduction</label>
+            </value>
+            <value>
+                <fullName>Support - Wastewater and Stormwater</fullName>
+                <default>false</default>
+                <label>Support - Wastewater and Stormwater</label>
+            </value>
+            <value>
+                <fullName>Support - Water Conservation</fullName>
+                <default>false</default>
+                <label>Support - Water Conservation</label>
+            </value>
+            <value>
+                <fullName>Workforce Development - Training</fullName>
+                <default>false</default>
+                <label>Workforce Development - Training</label>
+            </value>
+            <value>
+                <fullName>Workforce Development - Wage Assistance</fullName>
+                <default>false</default>
+                <label>Workforce Development - Wage Assistance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

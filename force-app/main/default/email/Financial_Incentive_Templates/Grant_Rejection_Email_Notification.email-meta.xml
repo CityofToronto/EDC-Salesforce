@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email will be sent to Contact and record submitter once Request has been declined by Manager</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Grant Rejection Email Notification</name>
+    <style>none</style>
+    <subject>Financial Incentive Application Declined for  {!Financial_Incentive__c.Account__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

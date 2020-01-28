@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Employment Information Source --></label>
+    <name>Employment_Information_Source__c</name>
+    <picklistValues>
+        <masterLabel>Direct from Client</masterLabel>
+        <translation><!-- Direct from Client --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Federal Government</masterLabel>
+        <translation><!-- Federal Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Board of Trade</masterLabel>
+        <translation><!-- Toronto Board of Trade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Employment Survey</masterLabel>
+        <translation><!-- Toronto Employment Survey --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

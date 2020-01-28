@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staff_Contact__c</fullName>
+    <externalId>false</externalId>
+    <label>Staff Contact</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>George Spezza</fullName>
+                <default>false</default>
+                <label>George Spezza</label>
+            </value>
+            <value>
+                <fullName>John Alderdice</fullName>
+                <default>false</default>
+                <label>John Alderdice</label>
+            </value>
+            <value>
+                <fullName>Ron Wandel</fullName>
+                <default>false</default>
+                <label>Ron Wandel</label>
+            </value>
+            <value>
+                <fullName>Rebecca Condon</fullName>
+                <default>false</default>
+                <label>Rebecca Condon</label>
+            </value>
+            <value>
+                <fullName>Neil Farmer</fullName>
+                <default>false</default>
+                <label>Neil Farmer</label>
+            </value>
+            <value>
+                <fullName>Catherine Cieply</fullName>
+                <default>false</default>
+                <label>Catherine Cieply</label>
+            </value>
+            <value>
+                <fullName>Linda Fava</fullName>
+                <default>false</default>
+                <label>Linda Fava</label>
+            </value>
+            <value>
+                <fullName>Thomas McGinty</fullName>
+                <default>false</default>
+                <label>Thomas McGinty</label>
+            </value>
+            <value>
+                <fullName>Rob Krauss</fullName>
+                <default>false</default>
+                <label>Rob Krauss</label>
+            </value>
+            <value>
+                <fullName>Ted Northcott</fullName>
+                <default>false</default>
+                <label>Ted Northcott</label>
+            </value>
+            <value>
+                <fullName>Ian Brown</fullName>
+                <default>false</default>
+                <label>Ian Brown</label>
+            </value>
+            <value>
+                <fullName>Susana Vaz</fullName>
+                <default>false</default>
+                <label>Susana Vaz</label>
+            </value>
+            <value>
+                <fullName>Matthew Premru</fullName>
+                <default>false</default>
+                <label>Matthew Premru</label>
+            </value>
+            <value>
+                <fullName>Elizabeth Di Vincenzo</fullName>
+                <default>false</default>
+                <label>Elizabeth Di Vincenzo</label>
+            </value>
+            <value>
+                <fullName>Connie Fusillo</fullName>
+                <default>false</default>
+                <label>Connie Fusillo</label>
+            </value>
+            <value>
+                <fullName>Peter Myall</fullName>
+                <default>false</default>
+                <label>Peter Myall</label>
+            </value>
+            <value>
+                <fullName>Vanna Petropoulos</fullName>
+                <default>false</default>
+                <label>Vanna Petropoulos</label>
+            </value>
+            <value>
+                <fullName>Leslie Fink</fullName>
+                <default>false</default>
+                <label>Leslie Fink</label>
+            </value>
+            <value>
+                <fullName>Frank Bedard</fullName>
+                <default>false</default>
+                <label>Frank Bedard</label>
+            </value>
+            <value>
+                <fullName>Laurie Belzak</fullName>
+                <default>false</default>
+                <label>Laurie Belzak</label>
+            </value>
+            <value>
+                <fullName>Joe Mazzei</fullName>
+                <default>false</default>
+                <label>Joe Mazzei</label>
+            </value>
+            <value>
+                <fullName>Rob McMonagle</fullName>
+                <default>false</default>
+                <label>Rob McMonagle</label>
+            </value>
+            <value>
+                <fullName>John Preece</fullName>
+                <default>false</default>
+                <label>John Preece</label>
+            </value>
+            <value>
+                <fullName>Susan Veigas</fullName>
+                <default>false</default>
+                <label>Susan Veigas</label>
+            </value>
+            <value>
+                <fullName>Jagdish Yadav</fullName>
+                <default>false</default>
+                <label>Jagdish Yadav</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

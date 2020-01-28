@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_of_Your_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>Status of Your Business?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+                <label>Not Started</label>
+            </value>
+            <value>
+                <fullName>New (operating less than 6 months)</fullName>
+                <default>false</default>
+                <label>New (operating less than 6 months)</label>
+            </value>
+            <value>
+                <fullName>Existing (operating longer than 6 months)</fullName>
+                <default>false</default>
+                <label>Existing (operating longer than 6 months)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

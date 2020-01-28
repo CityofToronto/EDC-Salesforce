@@ -1,0 +1,81 @@
+.info-icon {
+  margin-right: 8px;
+  margin-top: -3px;
+}
+
+.add-icon {
+  margin-top: -2px;
+  margin-right: 7px;
+}
+
+[id*=mcList], select {
+  background-color: #fff;
+  color: #16325c;
+  border: 1px solid #d8dde6;
+  border-radius: .25rem;
+  transition: border .1s linear,background-color .1s linear;
+  display: inline-block;
+  padding: 0 1rem 0 .75rem;
+  line-height: 1.875rem;
+  height: calc(1.875rem + (1px * 2));
+  width: 15rem;
+
+
+  background: #fff url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-128.png') no-repeat;
+  background-size: 16px;
+  background-position:  right 10px center;
+  font-family: 'Arial';
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+
+}
+
+select:active, select:focus {
+  outline: 0;
+  border-color: #1589ee;
+  background-color: #fff;
+  box-shadow: 0 0 3px #0070D2;
+}
+
+[id*=mcList] {
+  margin: 0 15px !important;
+}
+
+.slds-scope input[type=radio] {
+  margin-right: 10px;
+}
+
+.staticSegment, .interestGroup {
+  background-color: #fff;
+  color: #16325c;
+  border: 1px solid #d8dde6;
+  border-radius: .25rem;
+  width: 200px;
+  padding: 0 0 0 0.5rem;
+  margin-top: 0.5rem;
+  line-height: 1.875rem;
+  height: calc(1.875rem + (1px * 2));
+  display: flex;
+  align-items: center;
+}
+
+.interestGroup {
+  margin-left: 0.5rem;
+}
+
+.interestGrouping {
+  margin: 10px 0;
+  width: 300px;
+  display: inline-block;
+}
+
+.interestGroupSelect {
+  padding: 0.5rem;
+}
+
+.interestGroupSelect select {
+  width: 200px;
+}

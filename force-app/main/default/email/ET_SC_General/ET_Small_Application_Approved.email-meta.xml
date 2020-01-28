@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome email to Small clients accepted into the program.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-Small-Application Approved</name>
+    <style>none</style>
+    <subject>Starter Company Plus - Small Business Program - Approved</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

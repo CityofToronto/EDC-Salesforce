@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indigenous_to_Canada__c</fullName>
+    <externalId>false</externalId>
+    <label>Do you identify as Indigenous to Canada?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes - First Nations</fullName>
+                <default>false</default>
+                <label>Yes - First Nations</label>
+            </value>
+            <value>
+                <fullName>Yes - Inuit</fullName>
+                <default>false</default>
+                <label>Yes - Inuit</label>
+            </value>
+            <value>
+                <fullName>Yes - Métis</fullName>
+                <default>false</default>
+                <label>Yes - Métis</label>
+            </value>
+            <value>
+                <fullName>Yes - Indigenous ancestry</fullName>
+                <default>false</default>
+                <label>Yes - Indigenous ancestry</label>
+            </value>
+            <value>
+                <fullName>Yes - Not listed</fullName>
+                <default>false</default>
+                <label>Yes - Not listed</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Prefer not to answer</fullName>
+                <default>false</default>
+                <label>Prefer not to answer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

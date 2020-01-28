@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>planning_on_expanding_your_business__c</fullName>
+    <externalId>false</externalId>
+    <label>planning on expanding your business?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open a new location</fullName>
+                <default>false</default>
+                <label>Open a new location</label>
+            </value>
+            <value>
+                <fullName>Hire additional staff</fullName>
+                <default>false</default>
+                <label>Hire additional staff</label>
+            </value>
+            <value>
+                <fullName>Start selling products online</fullName>
+                <default>false</default>
+                <label>Start selling products online</label>
+            </value>
+            <value>
+                <fullName>Start a franchise</fullName>
+                <default>false</default>
+                <label>Start a franchise</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

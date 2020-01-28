@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FU_Please_rate_the_training_program__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>How would you rate the training program for Starter Company?</inlineHelpText>
+    <label>FU - Please rate the training program</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not at all helpful</fullName>
+                <default>false</default>
+                <label>Not at all helpful</label>
+            </value>
+            <value>
+                <fullName>Slightly helpful</fullName>
+                <default>false</default>
+                <label>Slightly helpful</label>
+            </value>
+            <value>
+                <fullName>Helpful</fullName>
+                <default>false</default>
+                <label>Helpful</label>
+            </value>
+            <value>
+                <fullName>Fairly helpful</fullName>
+                <default>false</default>
+                <label>Fairly helpful</label>
+            </value>
+            <value>
+                <fullName>Very helpful</fullName>
+                <default>false</default>
+                <label>Very helpful</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

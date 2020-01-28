@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will be used to capture the integration source whenever Financial Incentive record is created/updated from Form Assembly. --></help>
+    <label><!-- Financial Incentive Integration Source --></label>
+    <name>Financial_Incentive_Integration_Source__c</name>
+</CustomFieldTranslation>

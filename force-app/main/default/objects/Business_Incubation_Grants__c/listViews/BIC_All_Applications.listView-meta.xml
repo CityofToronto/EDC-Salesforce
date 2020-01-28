@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIC_All_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Contact_c__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Year_of_Application__c</field>
+        <operation>equals</operation>
+        <value>2019</value>
+    </filters>
+    <filters>
+        <field>Report_1_Start_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>BIC - All Applications</label>
+    <sharedTo>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_BIC</roleAndSubordinates>
+        <roleAndSubordinates>ES_ET</roleAndSubordinates>
+    </sharedTo>
+</ListView>

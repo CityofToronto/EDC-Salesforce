@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify to organization to provide the feedback on the event.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Organization Event Survey Notification</name>
+    <style>none</style>
+    <subject>Enterprise Toronto Follow-Up – Please Share Your Feedback</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

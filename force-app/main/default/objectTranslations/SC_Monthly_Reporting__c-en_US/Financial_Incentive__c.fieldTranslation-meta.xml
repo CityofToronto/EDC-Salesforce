@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Financial Incentive --></label>
+    <name>Financial_Incentive__c</name>
+    <relationshipLabel><!-- SC Monthly Reportings --></relationshipLabel>
+</CustomFieldTranslation>

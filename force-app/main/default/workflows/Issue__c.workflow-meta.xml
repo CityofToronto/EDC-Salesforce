@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Business_Intelligence_Follow_Up_Survey_Email_Issue_1_Day</fullName>
+        <description>Business Intelligence Follow-Up Survey Email - Issue - 1 Day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/Business_Intelligence_Follow_Up_Survey_Email_Issue_1_Day</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notification_to_Assigned_To_User_For</fullName>
+        <description>Email Notification to Assigned To User For Issue</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Assigned_To__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/Email_Notification_to_Assigned_To_User_For_Issue</template>
+    </alerts>
+    <alerts>
+        <fullName>Issue_CSS_Feedback_Follow_Up_Notification</fullName>
+        <description>Issue CSS Feedback Follow Up Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Assigned_To__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/Issue_CSS_Feedback_Follow_Up_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Issue_Client_Satisfaction_Survey_Feedback_Notification</fullName>
+        <description>Issue Client Satisfaction Survey Feedback Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Interaction_Feedback_Notification_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Financial_Incentive_Templates/Issue_Client_Satisfaction_Survey_Feedback_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Client_Satisfaction_Status_Update_1_Day</fullName>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>Client Satisfaction Status Update 1 Day</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Client_Satisfaction_Status_Issue</fullName>
+        <description>This field update will change the status to In Queue once rule has been triggered</description>
+        <field>Client_Satisfaction_Survey_Status__c</field>
+        <literalValue>In Queue</literalValue>
+        <name>Update Client Satisfaction Status Issue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Business Intelligence Follow-Up -  Issue</fullName>
+        <actions>
+            <name>Update_Client_Satisfaction_Status_Issue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Sends Small Business Intelligence Follow-Up survey 1 day after Issue has been Completed.</description>
+        <formula>AND( TEXT(Status__c)=&#39;Completed&#39;, RecordType.DeveloperName = &#39;Problem&#39;, NOT(ISBLANK(Date_Closed__c)),NOT(Contact__r.HasOptedOutOfEmail),ISBLANK(Initiative__c),ISBLANK(Interaction__c),ISBLANK(Financial_Incentive__c),ISBLANK(Agreement__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Business_Intelligence_Follow_Up_Survey_Email_Issue_1_Day</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Client_Satisfaction_Status_Update_1_Day</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Issue__c.Date_Closed__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Email Notification to Issue Assigned User for Further Assistance</fullName>
+        <actions>
+            <name>Issue_CSS_Feedback_Follow_Up_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Issue__c.Client_Satisfaction_Survey_Status__c</field>
+            <operation>equals</operation>
+            <value>Responded</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Issue__c.Describe_Request__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Issue__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Problem</value>
+        </criteriaItems>
+        <description>This email alert will send an email to Assigned to User based on client satisfaction survey response if further Assistance is required.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify User Group for Poor Issue Feedback Rating</fullName>
+        <actions>
+            <name>Issue_Client_Satisfaction_Survey_Feedback_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This rule is to notify a specific public global if poor service rating are received for any Issue Client Satisfaction Survey.</description>
+        <formula>OR(TEXT(Service_Rating__c)=&#39;Poor&#39;, TEXT(Service_Rating__c)= &#39;Ineffective&#39;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify User on new Issue Creation</fullName>
+        <actions>
+            <name>Email_Notification_to_Assigned_To_User_For</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule will send an email alert to Assigned to User whenver a new Issue record is created and value in Assigned To is different from Created by User</description>
+        <formula>OR(AND(ISNEW(),CreatedBy.Id  &lt;&gt; Assigned_To__r.Id), ISCHANGED(Assigned_To__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Business Plan identifies the Strengths, Weaknesses, Opportunities  and Threats to Success (SWOT) of the venture --></help>
+    <label><!-- Business Plan identify (SWOT) of venture --></label>
+    <name>Business_Plan_identify_SWOT_of_venture__c</name>
+    <picklistValues>
+        <masterLabel>No (0 pt)</masterLabel>
+        <translation><!-- No (0 pt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (3 pt)</masterLabel>
+        <translation><!-- Yes (3 pt) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

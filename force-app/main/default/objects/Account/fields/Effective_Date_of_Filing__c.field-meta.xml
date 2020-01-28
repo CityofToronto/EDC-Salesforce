@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Effective_Date_of_Filing__c</fullName>
+    <externalId>false</externalId>
+    <label>Effective Date of Filing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Today&#39;s Date or Next Available Business Date.</fullName>
+                <default>false</default>
+                <label>Today&#39;s Date or Next Available Business Date.</label>
+            </value>
+            <value>
+                <fullName>Future filing date (can be upto 30 days from today&#39;s date).</fullName>
+                <default>false</default>
+                <label>Future filing date (can be upto 30 days from today&#39;s date).</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

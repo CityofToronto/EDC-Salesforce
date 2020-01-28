@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Toronto Green Standard Verification Comments --></help>
+    <label><!-- Toronto Green Standard Comments --></label>
+    <name>Toronto_Green_Standard_Comments__c</name>
+</CustomFieldTranslation>

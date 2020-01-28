@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Training_Hours__c</fullName>
+    <externalId>false</externalId>
+    <formula>Lecture_1_Number_of_Hours_of_Training__c + Lecture_2_Number_of_Hours_of_Training__c + Lecture_3_Number_of_Hours_of_Training__c + Lecture_4_Number_of_Hours_of_Training__c +  Lecture_5_Number_of_Hours_of_Training__c + Lecture_6_Number_of_Hours_of_Training__c +  Lecture_7_Number_of_Hours_of_Training__c + Lecture_8_Number_of_Hours_of_Training__c +  Lecture_9_Number_of_Hours_of_Training__c + Lecture_10_Number_of_Hours_of_Training__c +  Lecture_11_Number_of_Hours_of_Training__c + Lecture_12_Number_of_Hours_of_Training__c + Lecture_13_Number_of_Hours_of_Training__c + Lecture_14_Number_of_Hours_of_Training__c + Lecture_15_Number_of_Hours_of_Training__c + SS_Hours_of_Training_Completed__c+Module_1_Number_of_Hours_of_Training__c+Module_2_Number_of_Hours_of_Training__c+Module_3_Number_of_Hours_of_Training__c+Module_4_Number_of_Hours_of_Training__c+Module_5_Number_of_Hours_of_Training__c+Module_6_Number_of_Hours_of_Training__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Training Hours Completed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

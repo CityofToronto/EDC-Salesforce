@@ -1,0 +1,11 @@
+The customer has provided poor feedback for recent Issue resolution survey with City of Toronto as details listed below-
+
+Issue Name - {!Issue__c.Name}
+Date Issue Raise - {!Issue__c.Date_Raised__c}
+Account - {!Issue__c.Account__c}
+Contact - {!Issue__c.Contact__c}
+Issue Assigned To -{!Issue__c.Assigned_To__c}
+
+Click on the link to access the Issue directly: {!Issue__c.Link}
+
+Thanks

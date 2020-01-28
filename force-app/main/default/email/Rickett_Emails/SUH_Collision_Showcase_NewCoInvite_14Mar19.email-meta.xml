@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First invite to potential NewCo hosts.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SUH-Collision-Showcase-NewCoInvite(14Mar19)</name>
+    <style>none</style>
+    <subject>Tell Your Story as Part of NewCo @ Collision on May 24th</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

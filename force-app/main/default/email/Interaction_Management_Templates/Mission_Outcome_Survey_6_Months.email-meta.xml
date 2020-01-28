@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mission Outcome Survey Sent After 6 Months</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mission Outcome Survey 6 - Months</name>
+    <style>none</style>
+    <subject>City of Toronto - Business Mission Impact Follow-Up</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

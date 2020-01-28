@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite to be part of the talent marketplace.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SUH-Collision-Showcase-MarketPlaceInvite(8Apr19)</name>
+    <style>none</style>
+    <subject>Please Share: Engage International Talent @ Collision This May</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

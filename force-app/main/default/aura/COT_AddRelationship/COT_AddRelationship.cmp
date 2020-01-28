@@ -1,0 +1,17 @@
+<!-- 
+    New Interation Contact Action on Contact object
+     - Allow user create a Related Interaction Contact record on a Contact Record
+-->
+
+<aura:component extends="c:COT_NewRecordAction">
+
+    <aura:set attribute="objcetApiName" value="Related_Interaction_Contact__c"/>
+    <aura:set attribute="queryFields" value="['Id']"/>
+    <aura:set attribute="displayPageLayout" value="false"/>
+    <aura:set attribute="title" value="New Related Interaction Contact"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <aura:handler name="change" value="{!v.loadedRecord}" action="{!c.createRecord}"/>
+    
+
+</aura:component>

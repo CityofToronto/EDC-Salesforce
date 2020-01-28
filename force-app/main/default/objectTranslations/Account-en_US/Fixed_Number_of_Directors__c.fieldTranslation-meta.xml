@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fixed Number of Directors --></label>
+    <name>Fixed_Number_of_Directors__c</name>
+</CustomFieldTranslation>

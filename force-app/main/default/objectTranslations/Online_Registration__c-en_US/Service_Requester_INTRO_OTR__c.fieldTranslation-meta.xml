@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Service Requested (INTRO OTR) --></label>
+    <name>Service_Requester_INTRO_OTR__c</name>
+    <picklistValues>
+        <masterLabel>Business Name Search or Corporate Profile Report</masterLabel>
+        <translation><!-- Business Name Search or Corporate Profile Report --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Certified Document Replica of a Business Name Registration</masterLabel>
+        <translation><!-- Certified Document Replica of a Business Name Registration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copies of Articles of Incorporation</masterLabel>
+        <translation><!-- Copies of Articles of Incorporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extra-Provincial Registration</masterLabel>
+        <translation><!-- Extra-Provincial Registration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Initial Return/Notice Change Filing</masterLabel>
+        <translation><!-- Initial Return/Notice Change Filing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Name Amendment or Cancellation</masterLabel>
+        <translation><!-- Name Amendment or Cancellation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Name Reservation Report (NUANS)</masterLabel>
+        <translation><!-- Name Reservation Report (NUANS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other (Please Specify)</masterLabel>
+        <translation><!-- Other (Please Specify) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provincial Articles of Amendment</masterLabel>
+        <translation><!-- Provincial Articles of Amendment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provincial Articles of Amendment with NUANS report</masterLabel>
+        <translation><!-- Provincial Articles of Amendment with NUANS report --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provincial Non-Profit Filing</masterLabel>
+        <translation><!-- Provincial Non-Profit Filing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provincial Non-Profit Filing with NUANS report</masterLabel>
+        <translation><!-- Provincial Non-Profit Filing with NUANS report --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

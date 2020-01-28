@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Payment_Status_Change</fullName>
+    <active>true</active>
+    <description>This validation rule will ensure user should not be allowed to change the specific value in Payment Status field and will route through appropriate Approval Process except system admin</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;,ISCHANGED(Payment_Status__c),OR(TEXT(Payment_Status__c)=&#39;Compliance Preparation&#39;,TEXT(Payment_Status__c)=&#39;Compliance Review&#39;,TEXT(Payment_Status__c)=&#39;Compliance Approved&#39;))</errorConditionFormula>
+    <errorDisplayField>Payment_Status__c</errorDisplayField>
+    <errorMessage>This Status value can only be assigned through Approval automatically</errorMessage>
+</ValidationRule>

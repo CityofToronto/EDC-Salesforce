@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RPI_Reviewer_is_required_if_Reviewed</fullName>
+    <active>true</active>
+    <description>RPI-Reviewer is required if Reviewed.</description>
+    <errorConditionFormula>AND( ISPICKVAL(Reviewed__c, &#39;Yes&#39;),   ISBLANK(RPI_Reviewed_By_User1__c))</errorConditionFormula>
+    <errorDisplayField>RPI_Staff_member_attending_user1__c</errorDisplayField>
+    <errorMessage>RPI-Reviewed By is required if it is reviewed.</errorMessage>
+</ValidationRule>

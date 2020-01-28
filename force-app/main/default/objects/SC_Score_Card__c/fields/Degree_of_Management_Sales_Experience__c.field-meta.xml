@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Degree_of_Management_Sales_Experience__c</fullName>
+    <description>Degree of Management experience in the Industry (including sales):</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Degree of Management experience in the Industry (including sales):</inlineHelpText>
+    <label>Degree of Management &amp; Sales Experience</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>5+ years (3 pts)</fullName>
+                <default>false</default>
+                <label>5+ years (3 pts)</label>
+            </value>
+            <value>
+                <fullName>3+ years (2 pts)</fullName>
+                <default>false</default>
+                <label>3+ years (2 pts)</label>
+            </value>
+            <value>
+                <fullName>Less than 3 years (1 pt)</fullName>
+                <default>false</default>
+                <label>Less than 3 years (1 pt)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

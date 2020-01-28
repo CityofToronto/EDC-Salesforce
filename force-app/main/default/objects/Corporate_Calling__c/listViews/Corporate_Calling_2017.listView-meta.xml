@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corporate_Calling_2017</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Contact__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Type_of_Client_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Corporate Calling - 2017</label>
+    <sharedTo>
+        <roleAndSubordinates>BRE_Admin</roleAndSubordinates>
+        <roleAndSubordinates>BRE_EDO</roleAndSubordinates>
+        <roleAndSubordinates>BRE_Supervisor</roleAndSubordinates>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+    </sharedTo>
+</ListView>

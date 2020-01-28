@@ -1,0 +1,14 @@
+Hi Darryl
+
+A new follow-up Task has been created for the following Digital Main Street(DMS) object.
+
+The details are as follows:
+
+Name-- {!Digital_Main_Street__c.Contact_FName__c} {!Digital_Main_Street__c.Contact_LName__c}
+Business Name-- {!Digital_Main_Street__c.Account_Name__c}
+Email-- {!Digital_Main_Street__c.Contact_Email__c}
+Phone--  {!Digital_Main_Street__c.Contact_Phone__c}
+Reason for Follow up-- {!Digital_Main_Street__c.Reason_for_follow_up__c}
+Describe Your Challenge-- {!Digital_Main_Street__c.Describe_your_Challenge__c}
+
+Thanks.

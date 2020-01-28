@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documents_sending_method_INFO__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>How would you like your document sent to you? Select one method.</inlineHelpText>
+    <label>Documents sending method (INFO)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Mail: Additional $3.00 fee applies</fullName>
+                <default>false</default>
+                <label>Mail: Additional $3.00 fee applies</label>
+            </value>
+            <value>
+                <fullName>In-Person pick up</fullName>
+                <default>false</default>
+                <label>In-Person pick up</label>
+            </value>
+            <value>
+                <fullName>Courier: Additional $16.00 fee applies</fullName>
+                <default>false</default>
+                <label>Courier: Additional $16.00 fee applies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

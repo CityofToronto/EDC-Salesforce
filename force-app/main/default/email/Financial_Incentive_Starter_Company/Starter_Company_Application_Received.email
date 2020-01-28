@@ -1,0 +1,8 @@
+A Starter Company -  Small Business application has been received from:
+
+Contact: {!Financial_Incentive__c.Contact__c}
+Account: {!Financial_Incentive__c.Account__c}
+Record #: {!Financial_Incentive__c.Financial_Incentive_Name__c}
+
+Log into SalesForce to review the application. 
+{!Financial_Incentive__c.Link}

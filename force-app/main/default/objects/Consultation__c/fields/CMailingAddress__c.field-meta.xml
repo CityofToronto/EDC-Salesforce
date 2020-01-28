@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMailingAddress__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(LEN(Contact_Consultation__r.MailingStreet)&gt;0, Contact_Consultation__r.MailingStreet&amp; &quot; &quot; , &quot;&quot; ) &amp; BR() &amp;
+if(LEN(Contact_Consultation__r.MailingCity)&gt;0, Contact_Consultation__r.MailingCity&amp; &quot;, &quot; , &quot;&quot; )&amp;
+if(LEN(Contact_Consultation__r.MailingState )&gt;0, Contact_Consultation__r.MailingState &amp; &quot; &quot; , &quot;&quot; )&amp;
+If(LEN( Contact_Consultation__r.MailingPostalCode) &gt;0, Contact_Consultation__r.MailingPostalCode,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Mailing Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

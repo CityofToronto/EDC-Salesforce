@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- No outstanding work orders and/or orders or requests to comply  from any municipal or provincial entity (attach confirmation)&quot; --></help>
+    <label><!-- No Assessment Appeals Made --></label>
+    <name>No_Assessment_Appeals_Made__c</name>
+</CustomFieldTranslation>

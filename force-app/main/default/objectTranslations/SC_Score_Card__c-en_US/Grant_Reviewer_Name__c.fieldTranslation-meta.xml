@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Grant Reviewer Name --></label>
+    <name>Grant_Reviewer_Name__c</name>
+    <picklistValues>
+        <masterLabel>Andrew Patricio</masterLabel>
+        <translation><!-- Andrew Patricio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marcie Wenn</masterLabel>
+        <translation><!-- Marcie Wenn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sandi Koitsis-Zigomanis</masterLabel>
+        <translation><!-- Sandi Koitsis-Zigomanis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vikas Jain</masterLabel>
+        <translation><!-- Vikas Jain --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

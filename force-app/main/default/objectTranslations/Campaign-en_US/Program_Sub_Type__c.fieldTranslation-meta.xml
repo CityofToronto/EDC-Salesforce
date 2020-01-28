@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Training Type --></label>
+    <name>Program_Sub_Type__c</name>
+    <picklistValues>
+        <masterLabel>Business Expansion</masterLabel>
+        <translation><!-- Business Expansion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Start Up</masterLabel>
+        <translation><!-- Business Start Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Events</masterLabel>
+        <translation><!-- International Events --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Training</masterLabel>
+        <translation><!-- Online Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

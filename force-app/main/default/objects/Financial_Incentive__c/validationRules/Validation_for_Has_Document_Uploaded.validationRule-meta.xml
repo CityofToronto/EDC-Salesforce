@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Has_Document_Uploaded</fullName>
+    <active>true</active>
+    <description>This validation rule will enforce user to upload document for Sector grant if its MOU or LOU related grant</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName=&#39;Sector_Grant&#39;,TEXT(Is_this_an_MOU_or_LOA__c)=&#39;Yes&#39;,ISBLANK(TEXT(Has_Documents_uploaded_in_Salesforce__c)))</errorConditionFormula>
+    <errorDisplayField>Has_Documents_uploaded_in_Salesforce__c</errorDisplayField>
+    <errorMessage>Documents are required before submitting Grant for Approval</errorMessage>
+</ValidationRule>

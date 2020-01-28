@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIC_Applications_Approved_CY</fullName>
+    <columns>NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Contact_c__c</columns>
+    <columns>Requested_Support__c</columns>
+    <columns>Amount_of_Requested_Support__c</columns>
+    <columns>Amount_Approved__c</columns>
+    <columns>Approved__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Approved__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Year_of_Application__c</field>
+        <operation>equals</operation>
+        <value>2016</value>
+    </filters>
+    <label>BIC - Applications Approved 2016</label>
+    <sharedTo>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_BIC</roleAndSubordinates>
+    </sharedTo>
+</ListView>

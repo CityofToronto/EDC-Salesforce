@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_ApplicationsToReview</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Account__c</columns>
+    <columns>Phase_1_Application_Approved__c</columns>
+    <columns>Phase_1_Start_Date__c</columns>
+    <columns>Phase_2_Business_Plan_Completed__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Application_Stream__c</field>
+        <operation>equals</operation>
+        <value>SC - Founder Institute</value>
+    </filters>
+    <filters>
+        <field>Phase_1_Application_Approved__c</field>
+        <operation>notEqual</operation>
+        <value>Yes,No</value>
+    </filters>
+    <label>Tech - Applications To Review</label>
+    <sharedTo>
+        <role>EDC_Admin</role>
+        <role>ES_Admin</role>
+        <role>ES_ET</role>
+    </sharedTo>
+</ListView>

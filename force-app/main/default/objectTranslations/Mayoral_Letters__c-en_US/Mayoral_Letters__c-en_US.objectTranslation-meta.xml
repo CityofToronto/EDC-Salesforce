@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mayoral Letter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mayoral Letters</value>
+    </caseValues>
+    <layouts>
+        <layout>Mayoral Letter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Timeline Details --></label>
+            <section>Timeline Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Lightning_Mayoral_Letter_History --></label>
+        <name>Lightning_Mayoral_Letter_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Status_History_Report --></label>
+        <name>Status_History_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

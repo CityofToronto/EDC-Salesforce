@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Application Stream --></label>
+    <name>Application_Stream__c</name>
+    <picklistValues>
+        <masterLabel>Creative Arts</masterLabel>
+        <translation><!-- Creative Arts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DMS - Expansion</masterLabel>
+        <translation><!-- DMS - Expansion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DMS - New</masterLabel>
+        <translation><!-- DMS - New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion Venture</masterLabel>
+        <translation><!-- Fashion Venture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fashion Your Future</masterLabel>
+        <translation><!-- Fashion Your Future --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Female Founders Program</masterLabel>
+        <translation><!-- Female Founders Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food Venture - New</masterLabel>
+        <translation><!-- Food Venture - New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food Venture - Original</masterLabel>
+        <translation><!-- Food Venture - Original --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ontario Works</masterLabel>
+        <translation><!-- Ontario Works --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC - Founder Institute</masterLabel>
+        <translation><!-- SC - Founder Institute --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC - Helix</masterLabel>
+        <translation><!-- SC - Helix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC - Music</masterLabel>
+        <translation><!-- SC - Music --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC - Startup Boost</masterLabel>
+        <translation><!-- SC - Startup Boost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC - TorontoStarts</masterLabel>
+        <translation><!-- SC - TorontoStarts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starter Company - General</masterLabel>
+        <translation><!-- Starter Company - General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starter Company - Original</masterLabel>
+        <translation><!-- Starter Company - Original --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starter Company Retail Accel Program</masterLabel>
+        <translation><!-- Starter Company Retail Accel Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>StarterSpace @Crossways</masterLabel>
+        <translation><!-- StarterSpace @Crossways --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summer Company</masterLabel>
+        <translation><!-- Summer Company --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

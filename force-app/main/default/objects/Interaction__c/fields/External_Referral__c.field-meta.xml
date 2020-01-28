@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Referral__c</fullName>
+    <description>This identifies the External Contact. This is the link to the Company(Account) and the Contact.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This identifies the External Contact. This is the link to the Company(Account) and the Contact.</inlineHelpText>
+    <label>External Referral</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Referral_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct from Business (External)</fullName>
+                <default>false</default>
+                <label>Direct from Business (External)</label>
+            </value>
+            <value>
+                <fullName>ICI Real Estate Rep (External)</fullName>
+                <default>false</default>
+                <label>ICI Real Estate Rep (External)</label>
+            </value>
+            <value>
+                <fullName>Invest in Canada</fullName>
+                <default>false</default>
+                <label>Invest in Canada</label>
+            </value>
+            <value>
+                <fullName>Ontario Investment Office</fullName>
+                <default>false</default>
+                <label>Ontario Investment Office</label>
+            </value>
+            <value>
+                <fullName>Planning Consultant (External)</fullName>
+                <default>false</default>
+                <label>Planning Consultant (External)</label>
+            </value>
+            <value>
+                <fullName>Real Estate Investment Corporation (External)</fullName>
+                <default>false</default>
+                <label>Real Estate Investment Corporation (External)</label>
+            </value>
+            <value>
+                <fullName>Toronto Global (External)</fullName>
+                <default>false</default>
+                <label>Toronto Global (External)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Direct from Business (External)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>ICI Real Estate Rep (External)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Invest in Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Ontario Investment Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Planning Consultant (External)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Real Estate Investment Corporation (External)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Toronto Global (External)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

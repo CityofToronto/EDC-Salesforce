@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>BizReg_ClientStoryNotification</fullName>
+        <description>Client indicates they would like a story done on their business.</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>abellanz@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>paul.pirri@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_Business_Registration/ET_Client_Story_BizReg</template>
+    </alerts>
+    <alerts>
+        <fullName>Business_Registration_Confirmation</fullName>
+        <ccEmails>enterprisetoronto@toronto.ca,</ccEmails>
+        <description>Business Registration Confirmation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_Business_Registration/Business_Registration_Confirmation_Unique_ID</template>
+    </alerts>
+    <alerts>
+        <fullName>ET_Biz_Registration_Client_Satisfaction_Survey</fullName>
+        <description>ET Biz Registration Client Satisfaction Survey</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_Business_Registration/Biz_Registration_Client_Satisfaction_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>Notifies_ET_manager_of_negative_service_rating</fullName>
+        <description>Notifies ET manager of negative service rating.</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>paul.pirri@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_Business_Registration/ET_Negative_Service_Biz_Reg</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_to_process_the_Business_Registration</fullName>
+        <ccEmails>Paul.Pirri@toronto.ca, enterprisetoronto@toronto.ca</ccEmails>
+        <description>Notify to process the Business Registration</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address_of_Service_Provider__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_Business_Registration/Enterprise_Toronto_Business_Registration_Received_Unique_ID</template>
+    </alerts>
+    <alerts>
+        <fullName>Update_Numbered_Corporation_Name</fullName>
+        <ccEmails>david.singh@eservicecorp.ca</ccEmails>
+        <description>Update Numbered Corporation Name</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>paul.pirri@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_Business_Registration/Update_Numbered_Corporation_Name_for_Unique_ID</template>
+    </alerts>
+    <rules>
+        <fullName>Business Registration Confirmation</fullName>
+        <actions>
+            <name>Business_Registration_Confirmation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Business Registration Confirmation</description>
+        <formula>true</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Business Registration Expiration %E2%80%93 Please Renew</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Online_Registration__c.Service_Requested_INTRO__c</field>
+            <operation>equals</operation>
+            <value>Business Name Registration,Business Name Registration with a Name Search,Business Name Renewal,Business Name Renewal with a Name Search</value>
+        </criteriaItems>
+        <description>Business Registration Expiration – Please Renew</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Online_Registration__c.CreatedDate</offsetFromField>
+            <timeLength>912</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>ET Biz Registration ClientSatisfaction Survey</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Online_Registration__c.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ET_Biz_Registration_Client_Satisfaction_Survey</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Online_Registration__c.CreatedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>ET Client Negative Service</fullName>
+        <actions>
+            <name>Notifies_ET_manager_of_negative_service_rating</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Online_Registration__c.Rating_on_Service__c</field>
+            <operation>equals</operation>
+            <value>Poor,Ineffective</value>
+        </criteriaItems>
+        <description>Client provides negative feedback rating on ET service.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ET_Consult_Client-Story</fullName>
+        <actions>
+            <name>BizReg_ClientStoryNotification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Online_Registration__c.ET_to_do_a_story_on_your_Busines__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Online_Registration__c.ET_to_do_a_story_on_your_Business__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <description>Sends an email to Chris Rickett and Angie Bellanza to indicate client is interested in a story being completed.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify to process the Business Registration</fullName>
+        <actions>
+            <name>Notify_to_process_the_Business_Registration</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Online_Registration__c.Email_Address_of_Service_Provider__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Notify David to process the Business Registration.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify to update the proper Numbered Corporation Name</fullName>
+        <actions>
+            <name>Update_Numbered_Corporation_Name</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Online_Registration__c.Service_Requested_INTRO__c</field>
+            <operation>equals</operation>
+            <value>Numbered Corporation</value>
+        </criteriaItems>
+        <description>Notify David to update the proper Numbered Corporation Name</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

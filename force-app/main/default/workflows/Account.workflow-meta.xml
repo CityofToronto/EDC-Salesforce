@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Notification_to_Account_Owner_on_conversion_to_Business_Client</fullName>
+        <description>Notification to Account Owner on conversion to Business Client</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Account_Contact_Notification_Templates/Email_Notification_For_Account_Type_Change</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>FirstNameUpdate_PerAcct</fullName>
+        <description>Updates firstname of Person Account.</description>
+        <field>FirstName</field>
+        <formula>UPPER(LEFT( FirstName , 1)) + LOWER(MID(FirstName, 2,80))</formula>
+        <name>FirstNameUpdate_PerAcct</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>LastNameUpdate_PerAcct</fullName>
+        <description>Updates last name of person account.</description>
+        <field>LastName</field>
+        <formula>UPPER(LEFT( LastName , 1)) + LOWER(MID(LastName, 2,80))</formula>
+        <name>LastNameUpdate_PerAcct</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Account_Type_to_Business_Client</fullName>
+        <description>This field update is used to change Account Type from Business Prospect to Business Client</description>
+        <field>Account_Type__c</field>
+        <literalValue>Business Client</literalValue>
+        <name>Update Account Type to Business Client</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Admin_Capitalizes_PerAcct_Name</fullName>
+        <actions>
+            <name>FirstNameUpdate_PerAcct</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>LastNameUpdate_PerAcct</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Capitalizes Person Account name entries.</description>
+        <formula>AND(RecordType.Name = &#39;Person Account&#39;, OR(ISNEW(), ISCHANGED(FirstName) , ISCHANGED(LastName)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Convert Account from Prospect to Client</fullName>
+        <actions>
+            <name>Update_Account_Type_to_Business_Client</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This Workflow rule will trigger the conversion of Account Type from Prospect to Client if it has any child records like Project and Interaction.</description>
+        <formula>AND(ISCHANGED(Related_Child_Interactions__c), ISPICKVAL(Account_Type__c,&#39;Business Prospect&#39;),NOT(ISPICKVAL(Account_Type__c,&#39;Business Client&#39;)),Related_Child_Interactions__c &gt;0)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notification to Account Owner on conversion to Business Client</fullName>
+        <actions>
+            <name>Notification_to_Account_Owner_on_conversion_to_Business_Client</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow rule with notify Account Owner on change of Business Type from Prospect to Client</description>
+        <formula>AND(NOT(ISNEW()), ISPICKVAL(Account_Type__c,&#39;Business Client&#39;), ISCHANGED(Account_Type__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

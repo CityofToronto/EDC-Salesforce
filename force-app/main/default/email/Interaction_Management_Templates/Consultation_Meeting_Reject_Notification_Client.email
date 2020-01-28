@@ -1,0 +1,16 @@
+Dear  {!Interaction__c.Contact__c}, 
+
+I have reviewed your business plan and it is not yet ready for a one-on-one review, as we require a completed draft business plan that includes financial projections.
+
+Advisor Comments - {!Interaction__c.Advisor_Comments__c}
+
+To assist you in completing your business plan, please refer to these resources:
+
+Business Plan Boot Camp – attend our monthly Business Plan Boot Camp session. View upcoming sessions - https://www.toronto.ca/business-economy/business-start-ups/training/seminars/ 
+
+Online Training Resources – use our online training resources to complete your business plan. View resources - https://www.toronto.ca/business-economy/business-start-ups/training/online-training/ 
+
+Business Plan Template – download a template business plan to help get you started - https://www.toronto.ca/wp-content/uploads/2017/08/94a6-infosheet_Business_Plan_Outline-FINAL-s.pdf 
+
+Regards, 
+{!Interaction__c.Advisor_Lookup__c}

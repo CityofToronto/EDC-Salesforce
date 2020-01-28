@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will be used to identify if any further follow emails should be sent or not based on user preference provided. --></help>
+    <label><!-- Unsubscribe from Follow Up Emails --></label>
+    <name>Unsubscribe_from_Follow_Up_Emails__c</name>
+</CustomFieldTranslation>

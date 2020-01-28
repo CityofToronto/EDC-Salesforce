@@ -1,0 +1,154 @@
+<messaging:emailTemplate recipientType="Contact" relatedToType="Financial_Incentive__c"  subject="{!RelatedTo.RecordType.Name} Grant application approved for {!RelatedTo.Account__r.Name}" replyTo="biaoffice@toronto.ca">
+    <messaging:htmlEmailBody >
+    Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},
+    <br /><br />
+    Your {!RelatedTo.RecordType.Name} Grant Approval Request for {!RelatedTo.Account__r.Name} has been Approved. 
+    <br /><br />
+    Please sign the attached Letter of Understanding and return to {!RelatedTo.Record_Submitter_Email__c}
+    <br /><br />
+    {!RelatedTo.Record_Submitter_Manager__c} 
+    <br />
+    Manager, BIA Office
+    </messaging:htmlEmailBody>
+    <messaging:attachment renderAs="PDF" filename="Letter of Understanding {!RelatedTo.Financial_Incentive_Name__c}.pdf">
+    <html>
+        <body>
+            <img src="https://cityoftoronto--c.na78.content.force.com/servlet/servlet.ImageServer?id=0151N000003Zcjk&oid=00Do0000000bTwm" width="700" height="160"/> <br/><br/>
+            <p>{!case(month(today()),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(TODAY())}, {!YEAR(TODAY())}</p>
+            <p>Re:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mural and Street Art Grant <br />&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; File No.: {!RelatedTo.Financial_Incentive_Name__c}</p>
+            <p>Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},</p>
+            <p>Your application for funding under the City of Toronto&rsquo;s Mural and Street Art Program has been approved in the amount of {!relatedTo.Amount_Approved_Formula__c} for the&nbsp;{!relatedTo.Account__r.Name} BIA mural project.&nbsp; This represents the total amount of the funding including any applicable taxes and disbursements.The funds must be used only for the mural located at {!relatedTo.Account__r.BillingStreet}, {!relatedTo.Account__r.BillingCity}, {!relatedTo.Account__r.BillingPostalCode}.</p>
+            <p>The funds will be payable in two installments as outlined in Section 4.0 of Appendix 1 to this letter.&nbsp;</p>
+            <p>The street art project must be completed no later than {!case(month(relatedTo.Application_Expiry_Date__c),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(relatedTo.Application_Expiry_Date__c)}, {!YEAR(relatedTo.Application_Expiry_Date__c)} unless the City&rsquo;s Manager, BIA Office has given written approval for an extension of this date.&nbsp; It is understood and agreed that in the event that any portion of the mural project is incomplete, as determined by the City, on this date or any extension thereof, the second installment will not be paid to the recipient and the recipient will upon request by the City, immediately re-pay the first installment amount, in whole or in part, plus interest.</p>
+            <p>Any proposed material changes to the activities for which the funds have been approved must receive the prior written consent of the City&rsquo;s Manager, BIA Office.&nbsp; Any unused portion of the funds remains the property of the City of Toronto and must be returned to the City.</p>
+            <p>It is understood and agreed that all persons working on the production and installation of the mural must use and wear appropriate safety equipment, and be covered by appropriate insurance.</p>
+            <p>It is understood and agreed that all youth working on the production and installation of the mural must be supervised by an adult.</p>
+            <p>It is understood and agreed that the applicant is responsible to obtain any City permits for the mural including for its installation.</p>
+            <p>The support of the City of Toronto (Mural and Street Art Program) must be acknowledged by the recipient on any materials, reports, events, signage or publicity associated with the mural project and the City of Toronto logo must appear on the mural.</p>
+            <p>If you breach any of the terms and conditions of the funding as set out in Appendix 1; if you cease operating, wind up, dissolve, merge or amalgamate with any other party; commence or have commenced against you any proceedings in bankruptcy, or are adjudged a bankrupt; knowingly provide false information in the grant application; use grant funds for purposes not approved; or breach any of the provisions of the Ontario Human Rights Code in your operation, the funds must, at the request of the City be repaid in whole or in part.</p>
+            <p>The recipient assumes full responsibility for sustaining and maintaining the mural project.&nbsp; The mural should be maintained for a five year period.&nbsp; The City will not be liable for any injury or damage to the mural project or any injury, damage or loss of use or profit of the recipient arising out of, or in any way related to, the recipient&rsquo;s operations.&nbsp; The recipient shall indemnify the City, its officers, employees and agents, against all costs, damages, and expenses incurred as a result of a claim or proceedings related to the mural project or to the recipient&rsquo;s operations, unless such costs, damages or expenses arise from the negligence or willful act of an officer, employee or agent of the City.</p>
+            <p>Please sign and return this Letter of Understanding to:</p>
+            <p>Michael Saunders<br />City of Toronto<br />Economic Development &amp; Culture Division<br />Business Growth Services - BIA Office<br />77 Elizabeth Street, 2nd Floor<br />Toronto, Ontario <br />M5G 1P4</p>
+            <p>When a signed copy of the Letter of Understanding is received by this office and you have completed all of the requirements of Section 4.0 listed in Appendix 1 to this letter to the satisfaction of the City&rsquo;s Manager, BIA Office, arrangements will be made for you to receive your first installment payment by direct deposit into the BIA's bank account.</p>
+            <p>Please make a photocopy of this Letter of Understanding and retain it for your files.&nbsp;</p>
+            <p>Yours truly,</p>
+            <p>Mike Major<br />Manager, BIA Office<br />Business Growth Services<br />Economic Development &amp; Culture Division<br />City of Toronto</p>
+            <p>&nbsp;</p>
+            <p>I/We have read, understand and agree to comply with the terms and conditions in this Letter of Understanding and in the attached Appendix 1:</p>
+            <p>&nbsp;</p>
+            <p>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Signature:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Date:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Signature:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>Date:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>I/We have the authority to bind the Corporation</p>
+            <p>______________________________________</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Appendix 1</strong></p>
+            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>Mural and Street Art Program</strong></p>
+            <p><em>Terms and Conditions of Funding:</em></p>
+            <p>By signing and submitting the mural program application, the applicant acknowledges and agrees to the following terms and conditions:</p>
+            <p><strong>1.0&nbsp; &nbsp;Use and Purpose of Funding</strong></p>
+            <ul>
+            <li>This funding must be used only for the purposes of the mural project as described on the application form.</li>
+            <li>Designs and artwork are subject to final endorsement by the City. This includes city logo placement location on the mural or plaque.</li>
+            <li>This program does not cover promotional murals for events.</li>
+            <li>The recipient (&ldquo;Recipient&rdquo;) must notify their Economic Partnership Advisor, BIA Office, Business Growth Services, Economic Development &amp; Culture of any proposed material changes to the mural project from what is contained in the application. The funds can be used for such changes only with the prior written consent of the Manager, BIA Office.</li>
+            <li>The Recipient must not transfer or assign the funding or any part of it to another individual or corporation, without the prior written consent of the Manager, BIA Office.&nbsp;</li>
+            </ul>
+            <p><strong>2.0&nbsp; &nbsp;Municipal Freedom of Information and Protection of Privacy Act</strong></p>
+            <p style="padding-left: 30px;">The information contained in the mural application is subject to the <em>Municipal Freedom of Information and Protection of Privacy Act.&nbsp;</em>All funding decisions are publicly available.</p>
+            <p><strong>3.0&nbsp; &nbsp;Anti-Racism, Access and Equity Guidelines</strong></p>
+            <p style="padding-left: 30px;">The Recipient must complete and file a Declaration of a Non-Discrimination Policy that indicates that the funding recipient has adopted and upholds a policy of access and non-discrimination based on the City&rsquo;s Human Rights Policy.&nbsp; The Recipient will work actively to integrate anti-racism, access and equity, throughout their operations, in accordance with the City&rsquo;s approved Anti-Racism, Access and Equity Policy as it relates to all funding recipients.</p>
+            <p><strong>4.0&nbsp; &nbsp;Payments &ndash; Mural and Street Art Projects</strong></p>
+            <p style="padding-left: 30px;">If funding is approved, the Recipient will be advised in writing as to the amount.</p>
+            <p style="padding-left: 30px;">For mural projects, the funding will be disbursed by direct bank deposit into the BIA bank account in two installments.&nbsp; Fifty percent (50%) of the funding will be disbursed upon receipt of the following by the Manager, BIA Office:&nbsp;</p>
+            <ul>
+            <li>a copy of the signed agreement or letter of understanding between the recipient and the mural artist selected for the project,</li>
+            <li>an illustration and detailed description of the finalized artwork for the mural,</li>
+            <li>confirmation of the mural location, and</li>
+            <li>a signed and dated copy of the City&rsquo;s Letter of Understanding.</li>
+            </ul>
+            <p style="padding-left: 30px;">The balance of the funds will be deposited into the BIA bank account upon completion of the mural project and receipt of the following to the satisfaction of the Manager, BIA Office:</p>
+            <ul>
+            <li>a summary of expenditures incurred as a result of the mural project, including copies of paid invoices, where appropriate, and</li>
+            <li>photos of the completed mural including the city logo.</li>
+            </ul>
+            <p><strong>5.0&nbsp; &nbsp;Acknowledgement of Funding</strong></p>
+            <p style="padding-left: 30px;">The Recipient will acknowledge the support of the City of Toronto on any materials, reports, events, publicity or signage which are paid for in whole or in part with the funding.</p>
+            <p>&nbsp;<strong>6.0&nbsp; &nbsp;Accounting</strong></p>
+            <ul>
+            <li>The Recipient must keep and maintain all records, invoices and other documents relating to the funding in a manner consistent with generally accepted accounting principles and clerical practices, and must maintain such records for a period of three (3) years from the date of receipt of the funding.</li>
+            <li>The Recipient authorizes the City and its agents at all reasonable times to inspect and copy any and all records, invoices and documents in the custody or control of the Recipient which relate to the funding.&nbsp; The right of inspection includes the right to perform a full or partial audit of the aforementioned records, as considered appropriate by the City.&nbsp;</li>
+            </ul>
+            <p><strong>7.0&nbsp; &nbsp; &nbsp;Project Completion Time</strong></p>
+            <ul>
+            <li>The mural project must be completed no later than Thursday October 25, 2018 unless the&nbsp; Manager, BIA Office has provided prior written approval of an extension.</li>
+            <li>In the event that any portion of the mural project is incomplete, as determined by the City, on the Final Completion Date, or the extension thereof in accordance with section 7.1, the second installment of the funding shall not be paid to the Recipient and the Recipient shall upon request by the City, immediately repay the first installment, in whole or in part, plus interest as determined by the City.</li>
+            </ul>
+            <p><strong>8.0&nbsp; &nbsp;Consultation</strong></p>
+            <ul>
+            <li>The City may involve individuals with appropriate expertise in the grant review process, which may include a peer/citizen review mechanism.</li>
+            <li>The City reserves the right to consult with other funding agencies to determine the eligibility of the applicant to receive funding.</li>
+            </ul>
+            <p><strong>9.0&nbsp; &nbsp;Limitation of Liability and Indemnification</strong></p>
+            <ul>
+            <li>The City will not be liable for any damages, injury or any loss of use or profit of the Recipient arising out of, or in any way related to the funding or to the Recipient&rsquo;s operations.</li>
+            <li>The Recipient shall indemnify the City, its officers, employees and agents, against all costs, damages and expenses incurred as a result of a claim or proceeding related to the funding or to the Recipient&rsquo;s operations, unless such costs, damages or expenses arise from the negligence or willful act of an officer, employee or agent of the City.</li>
+            </ul>
+            <p><strong>10.0&nbsp; &nbsp;Grant Repayment</strong></p>
+            <ul>
+            <li>In addition to the provision for repayment set out in section 7, at the request of the Manager, BIA Office, the Recipient shall repay to the City the whole or any portion of the funding, as determined by the City, if the Recipient:
+            <ul>
+            <li>ceases operating;</li>
+            <li>winds up or dissolves;</li>
+            <li>merges or amalgamates with any other party;</li>
+            <li>commences or has commenced against her, him, any proceedings in bankruptcy or is adjusted a bankrupt;</li>
+            <li>has knowingly provided false information in its grant application;</li>
+            <li>uses grant funds for purposes not approved;</li>
+            <li>breaches any of the terms or conditions of the grant; or</li>
+            <li>breaches any of the provisions of the Ontario Human Rights Code in its operations.</li>
+            </ul>
+            </li>
+            <li>The Recipient must immediately notify the Manager, BIA Office in writing of the occurrence of any of the events described in section 10.1.</li>
+            <li>The City may, in its sole discretion, require the Recipient to pay interest on any amount required to be repaid pursuant to this section, section 7.0 or section 11.0 at the prime rate of the Bank of Canada from the date for the request for repayment to the date of repayment.</li>
+            </ul>
+            <p><strong>11.0&nbsp; Unused Funds</strong></p>
+            <p style="padding-left: 30px;">Any unused portion of the funding remains the property of the City.&nbsp; If an unused portion of the grant has already been paid by the City to the Recipient, it must be repaid by the Recipient to the City.</p>
+            <p><strong>12.0&nbsp; Further Conditions</strong></p>
+            <p style="padding-left: 30px;">The City shall be entitled, at any time, to impose such additional terms and conditions on the use of the funding which, in its sole discretion, it deems appropriate.</p>
+            <p><strong>13.0&nbsp; Status of Applicant</strong></p>
+            <p style="padding-left: 30px;">The Recipient must be in good standing with the City of Toronto, having met the terms and conditions of any previous funding provided by the City.</p>
+            <p><strong>14.0&nbsp; Letter of Understanding</strong></p>
+            <p style="padding-left: 30px;">The Recipient must execute this Letter of Understanding and return it to the following address:</p>
+            <p>&nbsp; &nbsp; &nbsp; &nbsp; City of Toronto<br />&nbsp; &nbsp; &nbsp; &nbsp; Economic Development &amp; Culture <br />&nbsp; &nbsp; &nbsp; &nbsp; Business Growth Services - BIA Office<br />&nbsp; &nbsp; &nbsp; &nbsp; 77 Elizabeth Street, 2nd Floor<br />&nbsp; &nbsp; &nbsp; &nbsp; Toronto, Ontario<br />&nbsp; &nbsp; &nbsp; &nbsp; M5G 1P4</p>
+            <p>&nbsp; &nbsp; &nbsp; &nbsp; Attention: Michael Saunders</p>
+        </body>
+    </html>
+    </messaging:attachment>
+</messaging:emailTemplate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Education_Business_Start_Up__c</fullName>
+    <description>Level of Education related to Business Start-Up Field:</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Level of Education related to Business Start-Up Field:</inlineHelpText>
+    <label>Level of Education for Business Start-Up</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OSSD or equivilent (1pt)</fullName>
+                <default>false</default>
+                <label>OSSD or equivilent (1pt)</label>
+            </value>
+            <value>
+                <fullName>Post Secondary or Trade unrelated (2pts)</fullName>
+                <default>false</default>
+                <label>Post Secondary or Trade unrelated (2pts)</label>
+            </value>
+            <value>
+                <fullName>Post Secondary or Trade related (3pts)</fullName>
+                <default>false</default>
+                <label>Post Secondary or Trade related (3pts)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

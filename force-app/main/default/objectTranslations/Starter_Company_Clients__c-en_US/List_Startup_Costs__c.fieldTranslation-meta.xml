@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List your start up costs - eg. Software - $1,000, etc. --></help>
+    <label><!-- List Startup Costs --></label>
+    <name>List_Startup_Costs__c</name>
+</CustomFieldTranslation>

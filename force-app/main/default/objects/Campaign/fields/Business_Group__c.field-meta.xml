@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Group</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sector</fullName>
+                <default>false</default>
+                <label>Sector</label>
+            </value>
+            <value>
+                <fullName>BRE</fullName>
+                <default>false</default>
+                <label>BRE</label>
+            </value>
+            <value>
+                <fullName>ES</fullName>
+                <default>false</default>
+                <label>ES</label>
+            </value>
+            <value>
+                <fullName>International Alliance</fullName>
+                <default>false</default>
+                <label>International Alliance</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>BIA</fullName>
+                <default>false</default>
+                <label>BIA</label>
+            </value>
+            <value>
+                <fullName>GM&#39;s Office</fullName>
+                <default>false</default>
+                <label>GM&#39;s Office</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

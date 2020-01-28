@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Incentive_Integration_Source__c</fullName>
+    <defaultValue>&quot;Salesforce&quot;</defaultValue>
+    <description>This field will be used to capture the integration source whenever Financial Incentive record is created/updated from Form Assembly.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will be used to capture the integration source whenever Financial Incentive record is created/updated from Form Assembly.</inlineHelpText>
+    <label>Financial Incentive Integration Source</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

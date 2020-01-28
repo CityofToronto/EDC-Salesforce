@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Approver can select the list of received documents to approve after reviewing --></help>
+    <label><!-- Second Approver Reviewed Checklist --></label>
+    <name>Second_Approver_Reviewed_Checklist__c</name>
+    <picklistValues>
+        <masterLabel>Brownfield Remediation</masterLabel>
+        <translation><!-- Brownfield Remediation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continued Eligible Use (attach memo)</masterLabel>
+        <translation><!-- Continued Eligible Use (attach memo) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial Incentive Agreement Schedule F</masterLabel>
+        <translation><!-- Financial Incentive Agreement Schedule F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gross Floor Area (GFA)</masterLabel>
+        <translation><!-- Gross Floor Area (GFA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Assessment Appeals Made</masterLabel>
+        <translation><!-- No Assessment Appeals Made --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Outstanding Property Taxes</masterLabel>
+        <translation><!-- No Outstanding Property Taxes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Outstanding Work Orders</masterLabel>
+        <translation><!-- No Outstanding Work Orders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owners Statutory Declaration</masterLabel>
+        <translation><!-- Owners Statutory Declaration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rebate Adjustment</masterLabel>
+        <translation><!-- Rebate Adjustment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfactory Participation in Local Empl</masterLabel>
+        <translation><!-- Satisfactory Participation in Local Empl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signed FIA Amending Agreement Schedule F</masterLabel>
+        <translation><!-- Signed FIA Amending Agreement Schedule F --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

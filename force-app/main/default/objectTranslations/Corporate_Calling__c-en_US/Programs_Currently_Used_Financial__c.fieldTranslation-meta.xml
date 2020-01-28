@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Programs Currently Used – Financial --></label>
+    <name>Programs_Currently_Used_Financial__c</name>
+    <picklistValues>
+        <masterLabel>BDC</masterLabel>
+        <translation><!-- BDC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CBN</masterLabel>
+        <translation><!-- CBN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CME SMART</masterLabel>
+        <translation><!-- CME SMART --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Futurpreneur</masterLabel>
+        <translation><!-- Futurpreneur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Commerce Support Program</masterLabel>
+        <translation><!-- Global Commerce Support Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SDTC</masterLabel>
+        <translation><!-- SDTC --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

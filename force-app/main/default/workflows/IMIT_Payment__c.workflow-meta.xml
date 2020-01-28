@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>IMIT_Payment_Compliance_Approval_Notification</fullName>
+        <description>IMIT Payment Compliance Approval Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>IMIT_Payment_Approval_Notification_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/IMIT_Payment_Compliance_Approval_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>IMIT_Payment_Compliance_Approved_Notification</fullName>
+        <description>IMIT Payment Compliance Approved Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Financial_Incentive_Templates/IMIT_Payment_Compliance_Approved_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Payment_Status_Compliance_Apporve</fullName>
+        <field>Payment_Status__c</field>
+        <literalValue>Compliance Approved</literalValue>
+        <name>Update Payment Status Compliance Apporve</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Payment_Status_Compliance_Review</fullName>
+        <field>Payment_Status__c</field>
+        <literalValue>Compliance Review</literalValue>
+        <name>Update Payment Status Compliance Review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>IMIT Payment Compliance Approved</fullName>
+        <actions>
+            <name>IMIT_Payment_Compliance_Approved_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Update_Payment_Status_Compliance_Apporve</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This Rule will trigger the Payment Status Update  and notify submitter to notify the checklist has been approved by Apporver</description>
+        <formula>IF(OR(     AND(INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Financial Incentive Agreement Schedule F&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Signed FIA Amending Agreement Schedule F&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Gross Floor Area (GFA)&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Owners Statutory Declaration&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;No Outstanding Property Taxes&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;No Outstanding Work Orders&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;No Assessment Appeals Made&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Continued Eligible Use (attach memo)&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Rebate Adjustment&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Brownfield Remediation&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Satisfactory Participation in Local Empl&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Financial Incentive Agreement Schedule F&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Signed FIA Amending Agreement Schedule F&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Gross Floor Area (GFA)&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Owners Statutory Declaration&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;No Outstanding Property Taxes&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;No Outstanding Work Orders&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;No Assessment Appeals Made&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Continued Eligible Use (attach memo)&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Rebate Adjustment&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Brownfield Remediation&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Satisfactory Participation in Local Empl&#39;),TEXT(Financial_Incentive__r.Is_site_considered_a_Brownfield__c)= &#39;Yes&#39;), 	   AND(INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Financial Incentive Agreement Schedule F&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Signed FIA Amending Agreement Schedule F&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Gross Floor Area (GFA)&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Owners Statutory Declaration&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;No Outstanding Property Taxes&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;No Outstanding Work Orders&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;No Assessment Appeals Made&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Continued Eligible Use (attach memo)&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Rebate Adjustment&#39;),INCLUDES(First_Approver_Reviewed_Checklist__c,&#39;Satisfactory Participation in Local Empl&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Financial Incentive Agreement Schedule F&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Signed FIA Amending Agreement Schedule F&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Gross Floor Area (GFA)&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Owners Statutory Declaration&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;No Outstanding Property Taxes&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;No Outstanding Work Orders&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;No Assessment Appeals Made&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Continued Eligible Use (attach memo)&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Rebate Adjustment&#39;),INCLUDES(Second_Approver_Reviewed_Checklist__c,&#39;Satisfactory Participation in Local Empl&#39;),TEXT(Financial_Incentive__r.Is_site_considered_a_Brownfield__c)= &#39;No&#39;)     ),True,False )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>IMIT Payment Compliance Review</fullName>
+        <actions>
+            <name>IMIT_Payment_Compliance_Approval_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Update_Payment_Status_Compliance_Review</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This Rule will trigger the Payment Status Update and  notify approvers to review the checklist</description>
+        <formula>OR( 				AND(TEXT(Financial_Incentive__r.Is_site_considered_a_Brownfield__c)= &#39;No&#39;,Continued_Eligible_Use_attach_memo__c=True,Financial_Incentive_Agreement_Schedule_F__c=True,Gross_Floor_Area_GFA__c=True,No_Assessment_Appeals_Made__c=True,No_Outstanding_Property_Taxes__c=True,No_Outstanding_Work_Orders__c=True,Owners_Statutory_Declaration__c=True,Rebate_Adjustment__c=True,Satisfactory_Participation_in_Local_Empl__c=True,Signed_FIA_Amending_Agreement_Schedule_F__c=True),     AND(TEXT(Financial_Incentive__r.Is_site_considered_a_Brownfield__c)= &#39;Yes&#39;, Brownfield_Remediation__c=True,Continued_Eligible_Use_attach_memo__c=True,Financial_Incentive_Agreement_Schedule_F__c=True,Gross_Floor_Area_GFA__c=True,No_Assessment_Appeals_Made__c=True,No_Outstanding_Property_Taxes__c=True,No_Outstanding_Work_Orders__c=True,Owners_Statutory_Declaration__c=True,Rebate_Adjustment__c=True,Satisfactory_Participation_in_Local_Empl__c=True,Signed_FIA_Amending_Agreement_Schedule_F__c=True) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

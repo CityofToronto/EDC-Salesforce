@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant_Reviewer__c</fullName>
+    <externalId>false</externalId>
+    <label>Grant Reviewer(Name/Email)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abdullah Snobar (asnobar@ryerson.ca)</fullName>
+                <default>false</default>
+                <label>Abdullah Snobar (asnobar@ryerson.ca)</label>
+            </value>
+            <value>
+                <fullName>Andrew Patricio (andrew@bizlaunch.ca)</fullName>
+                <default>false</default>
+                <label>Andrew Patricio (andrew@bizlaunch.ca)</label>
+            </value>
+            <value>
+                <fullName>Dave Sora (dsora@sseontario.org)</fullName>
+                <default>false</default>
+                <label>Dave Sora (dsora@sseontario.org)</label>
+            </value>
+            <value>
+                <fullName>David Cohen (dcohen@smallbusinessbigideas.com)</fullName>
+                <default>false</default>
+                <label>David Cohen (dcohen@smallbusinessbigideas.com)</label>
+            </value>
+            <value>
+                <fullName>Marissa Maislin (marissa@theshoptoronto.ca)</fullName>
+                <default>false</default>
+                <label>Marissa Maislin (marissa@theshoptoronto.ca)</label>
+            </value>
+            <value>
+                <fullName>Marlene Latour (marlene.latour@gmail.com)</fullName>
+                <default>false</default>
+                <label>Marlene Latour (marlene.latour@gmail.com)</label>
+            </value>
+            <value>
+                <fullName>Sandi Koitsis-Zigomanis (skoitsi@toronto.ca)</fullName>
+                <default>false</default>
+                <label>Sandi Koitsis-Zigomanis (skoitsi@toronto.ca)</label>
+            </value>
+            <value>
+                <fullName>Vik Jain (jain@toronto.ca)</fullName>
+                <default>false</default>
+                <label>Vik Jain (jain@toronto.ca)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Condition_for_Application__c</fullName>
+    <description>This field applicable to specify any additional condition that needs to be included in approved application notification sent to Client</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field applicable to specify any additional condition that needs to be included in approved application notification sent to Client</inlineHelpText>
+    <label>Additional Condition for Application</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

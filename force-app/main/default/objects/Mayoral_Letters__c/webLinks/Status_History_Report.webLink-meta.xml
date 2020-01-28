@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_History_Report</fullName>
+    <availability>online</availability>
+    <description>Detail Page button for redirecting to reporting showing status history along assigned to details</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Status History Report</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.open(&quot;/00O1N000005ltLR?pv0={!Mayoral_Letters__c.Id}&quot;);</url>
+</WebLink>

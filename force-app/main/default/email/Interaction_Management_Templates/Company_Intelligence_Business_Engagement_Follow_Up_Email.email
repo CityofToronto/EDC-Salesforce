@@ -1,0 +1,15 @@
+Dear {!Client_FollowUp__c.Contact__c}, 
+
+Thank you for engaging the City of Toronto's Economic Development team. We are always looking to better understand the impact of our work. 
+ 
+Could you complete this confidential 30-second survey? Our hope is to better understand the value of our interactions. Click here to provide your input
+
+https://cityoftoronto.tfaforms.net/355943?ID={!Client_FollowUp__c.Id} 
+
+Otherwise, let us know if you have any questions. 
+
+Regards, 
+{!Client_FollowUp__c.OwnerFullName}
+
+If you would like to unsubscribe from future email communications then please follow this link: 
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!Client_FollowUp__c.ContactId__c}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Revenue_Source_Mnadatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Actual_External_Revenue__c &gt;0,ISBLANK(External_Revenue_Source__c))</errorConditionFormula>
+    <errorMessage>External Revenue Source field cannot be blank.</errorMessage>
+</ValidationRule>

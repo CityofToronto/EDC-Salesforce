@@ -1,0 +1,125 @@
+<messaging:emailTemplate recipientType="Contact" relatedToType="Financial_Incentive__c"  subject="{!RelatedTo.RecordType.Name} Grant application approved for {!RelatedTo.Account__r.Name}" replyTo="biaoffice@toronto.ca">
+    <messaging:htmlEmailBody >
+    Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},
+    <br /><br />
+    Your {!RelatedTo.RecordType.Name} Grant Approval Request for {!RelatedTo.Account__r.Name} has been Approved. 
+    <br /><br />
+    Please sign the attached Letter of Understanding and return to {!RelatedTo.Record_Submitter_Email__c}
+    <br /><br />
+    {!RelatedTo.Record_Submitter_Manager__c} 
+    <br />
+    Manager, BIA Office
+    </messaging:htmlEmailBody>
+    <messaging:attachment renderAs="PDF" filename="Letter of Understanding {!RelatedTo.Financial_Incentive_Name__c}.pdf">
+    <html>
+        <body>
+            <img src="https://cityoftoronto--c.na78.content.force.com/servlet/servlet.ImageServer?id=0151N000003Zcji&oid=00Do0000000bTwm" width="700" height="160" /> <br/><br/>            
+            <p>{!case(month(today()),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(TODAY())}, {!YEAR(TODAY())}</p>
+            <p>Re:&nbsp;&nbsp;&nbsp;&nbsp; BIA Innovation Fund<br />&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;{!relatedTo.Account__r.BillingStreet}, {!relatedTo.Account__r.BillingCity}, {!relatedTo.Account__r.BillingPostalCode}<br />&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;File No.: {!relatedTo.Financial_Incentive_Name__c}</p>
+            <p>Dear {!RelatedTo.Account__r.Name},</p>
+            <p>Your application for funding under the City of Toronto&rsquo;s BIA Innovation Fund has been approved in the amount of {!relatedTo.Amount_Approved_Formula__c} for the project described in your original application. This is the maximum amount you will receive under the grant, including any applicable taxes and disbursements. The grant is based on the BIA Innovation Fund Program Guidelines. If the final project expenses are less than the approved amount, the grant will be reduced accordingly. The funding must be used only for the project scope described in your original application. Any major changes to the project scope must be approved in writing by the Manager, Toronto BIA Office.</p>
+            <p>The funds will be payable in two installments. The first installment is upon receipt of this signed Letter of Understanding. The second installment is paid after completion and delivery of final project documentation. To obtain either of the installments, the Recipient must submit required documentation listed in the Terms and Conditions.</p>
+            <p>The Terms and Conditions of the grant are set out in this letter and Appendix 1 attached hereto which taken together form the agreement. If you breach any of the terms and conditions of this agreement, if you knowingly provided false information in the application, use funds for purposes not approved, or breach any of the provisions of the Ontario Human Rights Code in your operation, the funding must, at the request of the City be repaid in whole or in part.</p>
+            <p>Please make an additional copy of this Letter of Understanding for your files. Sign and return the original letter of understanding to the address below:</p>
+            <p>David Hessels<br />Economic Partnership Advisor<br />Economic Development &amp; Culture Division<br />City of Toronto<br />77 Elizabeth Street, 2nd Floor<br />Toronto, Ontario M5G 1P4</p>
+            <p>Your application will not be processed until a signed copy of this Letter of Understanding is received by this office. If you commence the Work described in your application prior to returning a signed copy of this letter, you will become ineligible for the Commercial Fa&ccedil;ade Improvement Program. Upon satisfactory completion of the fa&ccedil;ade improvements and all program requirements, arrangements will be made for you to receive your cheque.</p>
+            <p>Sincerely,</p>
+            <p>Mike Major<br />Manager, BIA Office<br />Business Growth Services<br />Economic Development &amp; Culture Division<br />City of Toronto</p>
+            <p>&nbsp;</p>
+            <p>I/We have read, understand and agree to comply with the terms and conditions in Appendix 1, attached and in this Letter of Understanding.</p>
+            <p>&nbsp;</p>
+            <p>Name:<br /><br />Title:<br /><br />Signature:<br /><br />Date:</p>
+            <p>&nbsp;</p>
+            <p>Name:<br /><br />Title:<br /><br />Signature:<br /><br />Date:</p>
+            <p>&nbsp;</p>
+            <p>I/We have authority to bind the Corporation</p>
+            <p>___________________________________</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>Appendix 1</strong></p>
+            <p><strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong><strong>BIA Innovation Fund</strong></p>
+            <p><em>Terms and Conditions:</em></p>
+            <p>By signing and submitting this application, the Recipient acknowledges and agrees to the following terms and conditions:</p>
+            <p><strong>1.0&nbsp; &nbsp;Use and Purpose of Funding</strong></p>
+            <ol>
+            <li>The BIA Innovation Fund is a grant that provides funding to BIAs to test innovative and creative solutions to local challenges and share their findings/results with other BIAs.</li>
+            <li>The grant funding is based on the Program Guidelines.</li>
+            <li>The grant recipient ("Recipient") must use the funding only for the project described in the Recipient's application.</li>
+            <li>The Recipient must notify their Economic Partnership Advisor, Business Growth Services &ndash; Toronto BIA Office, Economic Development and Culture Division of any proposed changes to the scope of the project from what is contained in the BIA's application. The funds can be used for such changes only with the prior written consent of the Manager, Toronto BIA Office.</li>
+            <li>If the cost of the final project is less than the amount stipulated in the application, the grant will be reduced accordingly.</li>
+            </ol>
+            <p><strong>2.0&nbsp; &nbsp;Municipal Freedom of Information and Protection of Privacy Act</strong></p>
+            <p style="padding-left: 30px;">The information contained in the BIA Innovation Fund application is subject to the <em>Municipal Freedom of Information and Protection of Privacy Act.</em>&nbsp; All funding decisions are publicly available.</p>
+            <p><strong>3.0&nbsp; &nbsp;</strong><strong>Anti-Racism, Access and Equity Guidelines</strong></p>
+            <p style="padding-left: 30px;">The Recipient must complete and file a Declaration of a Non-Discrimination Policy that indicates that the funding recipient has adopted and upholds a policy of access and non-discrimination based on the City&rsquo;s Human Rights Policy.&nbsp; The Recipient will work actively to integrate anti-racism, access and equity, throughout their operations, in accordance with the City&rsquo;s approved Anti-Racism, Access and Equity Policy as it relates to all funding recipients.</p>
+            <p><strong>4.0&nbsp; &nbsp;Review and Approval of Funding</strong></p>
+            <ol>
+            <li>Applications for the Innovation Fund will be reviewed by Toronto BIA Staff.</li>
+            <li>The City may involve individuals with appropriate expertise in the grant review process, which may include a peer/citizen review mechanism.</li>
+            <li>The City reserves the right to share applications under the BIA Innovation Fund with other funding providers to obtain feedback and evaluate potential partnership opportunities.</li>
+            <li>The General Manager, Economic Development and Culture will approve grant applications and release funds.</li>
+            </ol>
+            <p><strong>5.0&nbsp; &nbsp;Payments</strong></p>
+            <ol>
+            <li>If funding is approved, the Recipient will be advised in writing of the amount of the funding. Payments of 50% each are issued in two installments in the form of direct deposit or cheque.</li>
+            <li>The first installment is paid upon receipt of the signed Letter of Understanding.</li>
+            <li>The second installment is paid after completion and delivery of the Final Report Package which includes:
+            <ol style="list-style-type: lower-alpha;">
+            <li>One copy of the final project deliverable in both print and digital format;</li>
+            <li>Minutes of the Board meeting receiving the final project deliverable;</li>
+            <li>A one-page 'toolkit' document describing how to implement the project;</li>
+            <li>Copies of all invoices, receipts, and paid expenses for the project.</li>
+            </ol>
+            </li>
+            <li>The release of the first and second installment is contingent upon reasonable progress towards the expected results.</li>
+            </ol>
+            <p><strong>6.0&nbsp; &nbsp;Acknowledgment of Funding</strong></p>
+            <p style="padding-left: 30px;">The Recipient will acknowledge the support of the City of Toronto BIA Innovation Fund on any materials, reports, events, publicity, or signage paid for in whole or in part with the funding.</p>
+            <p><strong>7.0&nbsp; &nbsp;Accounting</strong></p>
+            <ol>
+            <li>The Recipient must keep and maintain all records, invoices, and other documents relating to the funding in a manner consistent with generally accepted accounting principles and clerical practices, and must maintain such records for a period of three (3) years from the date of approval of the funding.</li>
+            <li>The Recipient authorizes the City and agents of the City to, at all reasonable times, inspect and copy any and all records, invoices, and documents in the custody or control of the Recipient which relate to the funding. The right of inspection includes the right to perform a full or partial audit of the aforementioned records, as considered appropriate by the City.</li>
+            </ol>
+            <p><strong>8.0&nbsp; &nbsp;Project Completion Time</strong></p>
+            <ol>
+            <li>The Final Report Package must be delivered to and approved by an Economic Partnership Advisor in the Toronto BIA Office by Thursday, November 22, 2018.</li>
+            <li>Extensions may be granted on a case by case scenario.<strong>&nbsp;</strong></li>
+            </ol>
+            <p><strong>9.0&nbsp; &nbsp;Limitation of Liability, Indemnification, and Comprehensive General Liability Insurance</strong></p>
+            <ol>
+            <li>The City will not be liable for any damages, injury or any loss of use or profit of the Recipient arising out of, or in any way related to the approval of the funding or to the Recipient's operations.<strong><br /></strong></li>
+            <li>The Recipient shall indemnify the City, its officers, employees and agents, against all costs, damages, and expenses incurred as a result of a claim or proceeding related to the funding or to the Recipient's operations, unless such costs, damages, or expenses arise from the negligence or willful act of an officer, employee, or agent of the City.</li>
+            </ol>
+            <p><strong>10.0&nbsp; Repayment</strong></p>
+            <ol>
+            <li>The Recipient must, at the request of the Manager, Toronto BIA Office, repay to the City the whole or any portion of the funding, as determined by the City, if the Recipient:
+            <ol style="list-style-type: lower-alpha;">
+            <li>Has knowingly provided false information in their application;</li>
+            <li>Uses funds for purposes not approved;</li>
+            <li>Breaches any of the terms and conditions of the funding; or,</li>
+            <li>Breaches any of the provisions of the Ontario Human Rights Code in its operations</li>
+            </ol>
+            </li>
+            <li>The Recipient shall notify the City of the occurrence of any of the events referred to in clauses 10.1 a. through d.</li>
+            <li>The City may, in its sole discretion, require the Recipient to pay interest on any amount required to be repaid pursuant to this section at the prime rate of the Bank of Canada from the date of the request for repayment to the date of repayment.</li>
+            </ol>
+            <p>&nbsp;</p>
+            <p><strong>11.0&nbsp; Unused Funds</strong></p>
+            <p style="padding-left: 30px;">Any unused portion of the funds remains the property of the City. If an unused portion of the grant has already been paid by the City to the Recipient, it must be repaid by the Recipient to the City.</p>
+            <p><strong>12.0&nbsp; Status of Organization</strong></p>
+            <p style="padding-left: 30px;">The Recipient must be in good standing with the City of Toronto, having met the terms and conditions of any previous funding provided by the City.</p>
+            <p><strong>13.0&nbsp; Further Conditions</strong></p>
+            <p style="padding-left: 30px;">The City shall be entitled, at any time, to impose such additional terms and conditions on the use of the funding which, in its sole discretion, it deems appropriate.</p>
+            <p><strong>14.0&nbsp; Letter of Understanding</strong></p>
+            <p style="padding-left: 30px;">To obtain grant approval and commence work under the BIA Innovation Fund, the Recipient must execute and return to the Toronto BIA Office an executed copy of a Letter of Understanding. Work already begun or completed to this occurrence is ineligible.</p>
+            <p><strong>15.0&nbsp; Funding Commitment</strong></p>
+            <p style="padding-left: 30px;">Funding for the BIA Innovation Fund is supported by the City of Toronto's Operating Budget. The City's Operating Budget is approved year to year. The Toronto BIA Office cannot therefore make commitments to funding for the BIA Innovation Fund each year.</p>
+        </body>
+    </html>
+    </messaging:attachment>
+</messaging:emailTemplate>

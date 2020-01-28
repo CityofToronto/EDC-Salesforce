@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Training_Approved_Status</fullName>
+    <active>true</active>
+    <description>This rule is to make sure training details has been specified for training approved status.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName=&#39;Starter_Company_Grant&#39;, TEXT(Status__c)=&#39;Approved for Training&#39;,OR(ISBLANK(TEXT(Training_Group__c)),ISBLANK(TEXT(Training_Location__c)),ISBLANK(Training_Date__c),ISBLANK(Training_Date__c),ISBLANK(Training_Time__c),ISBLANK(Module_Training_Details__c)))</errorConditionFormula>
+    <errorMessage>For training approved status, please specify Training Location, Date, Time, Group, and Module Details.</errorMessage>
+</ValidationRule>

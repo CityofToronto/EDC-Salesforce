@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Sub_Contrct_w_2nd_lowest_bid__c</fullName>
+    <description>Name of Contractor/Sub Contractor with 2nd lowest bid</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of Contractor/Sub Contractor with 2nd lowest bid</inlineHelpText>
+    <label>Contractor/Sub Contrct w/ 2nd lowest bid</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIC_Applications_to_Review</fullName>
+    <columns>NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Contact_c__c</columns>
+    <columns>Requested_Support__c</columns>
+    <columns>Amount_of_Requested_Support__c</columns>
+    <columns>Approved__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Approved__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>BIC - Applications to Review</label>
+    <sharedTo>
+        <roleAndSubordinates>EDC_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_Admin</roleAndSubordinates>
+        <roleAndSubordinates>ES_BIC</roleAndSubordinates>
+    </sharedTo>
+</ListView>

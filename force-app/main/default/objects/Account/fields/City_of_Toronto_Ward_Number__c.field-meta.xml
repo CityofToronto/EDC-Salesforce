@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>City_of_Toronto_Ward_Number__c</fullName>
+    <description>This is the Ward that the Company is located.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the Ward that the Company is located.</inlineHelpText>
+    <label>City of Toronto Ward</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 Etobicoke North</fullName>
+                <default>false</default>
+                <label>1 Etobicoke North</label>
+            </value>
+            <value>
+                <fullName>2 Etobicoke Centre</fullName>
+                <default>false</default>
+                <label>2 Etobicoke Centre</label>
+            </value>
+            <value>
+                <fullName>3 Etobicoke-Lakeshore</fullName>
+                <default>false</default>
+                <label>3 Etobicoke-Lakeshore</label>
+            </value>
+            <value>
+                <fullName>4 Parkdale-High Park</fullName>
+                <default>false</default>
+                <label>4 Parkdale-High Park</label>
+            </value>
+            <value>
+                <fullName>5 York South-Weston</fullName>
+                <default>false</default>
+                <label>5 York South-Weston</label>
+            </value>
+            <value>
+                <fullName>6 York Centre</fullName>
+                <default>false</default>
+                <label>6 York Centre</label>
+            </value>
+            <value>
+                <fullName>7 Humber River-Black Creek</fullName>
+                <default>false</default>
+                <label>7 Humber River-Black Creek</label>
+            </value>
+            <value>
+                <fullName>8 Eglinton-Lawrence</fullName>
+                <default>false</default>
+                <label>8 Eglinton-Lawrence</label>
+            </value>
+            <value>
+                <fullName>9 Davenport</fullName>
+                <default>false</default>
+                <label>9 Davenport</label>
+            </value>
+            <value>
+                <fullName>10 Spadina-Fort York</fullName>
+                <default>false</default>
+                <label>10 Spadina-Fort York</label>
+            </value>
+            <value>
+                <fullName>11 University-Rosedale</fullName>
+                <default>false</default>
+                <label>11 University-Rosedale</label>
+            </value>
+            <value>
+                <fullName>12 Toronto-St. Paul’s</fullName>
+                <default>false</default>
+                <label>12 Toronto-St. Paul’s</label>
+            </value>
+            <value>
+                <fullName>13 Toronto Centre</fullName>
+                <default>false</default>
+                <label>13 Toronto Centre</label>
+            </value>
+            <value>
+                <fullName>14 Toronto-Danforth</fullName>
+                <default>false</default>
+                <label>14 Toronto-Danforth</label>
+            </value>
+            <value>
+                <fullName>15 Don Valley West</fullName>
+                <default>false</default>
+                <label>15 Don Valley West</label>
+            </value>
+            <value>
+                <fullName>16 Don Valley East</fullName>
+                <default>false</default>
+                <label>16 Don Valley East</label>
+            </value>
+            <value>
+                <fullName>17 Don Valley North</fullName>
+                <default>false</default>
+                <label>17 Don Valley North</label>
+            </value>
+            <value>
+                <fullName>18 Willowdale</fullName>
+                <default>false</default>
+                <label>18 Willowdale</label>
+            </value>
+            <value>
+                <fullName>19 Beaches-East York</fullName>
+                <default>false</default>
+                <label>19 Beaches-East York</label>
+            </value>
+            <value>
+                <fullName>20 Scarborough Southwest</fullName>
+                <default>false</default>
+                <label>20 Scarborough Southwest</label>
+            </value>
+            <value>
+                <fullName>21 Scarborough Centre</fullName>
+                <default>false</default>
+                <label>21 Scarborough Centre</label>
+            </value>
+            <value>
+                <fullName>22 Scarborough-Agincourt</fullName>
+                <default>false</default>
+                <label>22 Scarborough-Agincourt</label>
+            </value>
+            <value>
+                <fullName>23 Scarborough North</fullName>
+                <default>false</default>
+                <label>23 Scarborough North</label>
+            </value>
+            <value>
+                <fullName>24 Scarborough-Guildwood</fullName>
+                <default>false</default>
+                <label>24 Scarborough-Guildwood</label>
+            </value>
+            <value>
+                <fullName>25 Scarborough-Rouge Park</fullName>
+                <default>false</default>
+                <label>25 Scarborough-Rouge Park</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

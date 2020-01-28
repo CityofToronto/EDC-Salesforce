@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Rule_to_Check_Date_Raised</fullName>
+    <active>true</active>
+    <description>This validation rule will make sure Date Raised should not be less than Date Closed for any issue</description>
+    <errorConditionFormula>Date_Raised__c &gt; Date_Closed__c</errorConditionFormula>
+    <errorDisplayField>Date_Raised__c</errorDisplayField>
+    <errorMessage>Date Raised can not be greater than Date Closed</errorMessage>
+</ValidationRule>

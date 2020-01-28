@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reviewed_By__c</fullName>
+    <externalId>false</externalId>
+    <label>Reviewed By:</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chris Rickett</fullName>
+                <default>false</default>
+                <label>Chris Rickett</label>
+            </value>
+            <value>
+                <fullName>Nirvana Champion</fullName>
+                <default>false</default>
+                <label>Nirvana Champion</label>
+            </value>
+            <value>
+                <fullName>Nina Gesa</fullName>
+                <default>false</default>
+                <label>Nina Gesa</label>
+            </value>
+            <value>
+                <fullName>Karen Keskull</fullName>
+                <default>false</default>
+                <label>Karen Keskull</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

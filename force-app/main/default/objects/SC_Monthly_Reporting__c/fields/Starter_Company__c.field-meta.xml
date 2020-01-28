@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Starter_Company__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Master detail lookup of starter Company.
+Master- Starter Company
+Detail- SC Monthly Reporting</description>
+    <externalId>false</externalId>
+    <label>Starter Company</label>
+    <referenceTo>Starter_Company_Clients__c</referenceTo>
+    <relationshipLabel>SC Monthly Reportings</relationshipLabel>
+    <relationshipName>SC_Monthly_Reportings</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Referral__c</fullName>
+    <description>If Councillor&#39;s office is selected then the Councillor Requesting Councillor&#39;s ward becomes mandatory.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If Councillor&#39;s office is selected then the Councillor Requesting Councillor&#39;s ward becomes mandatory.</inlineHelpText>
+    <label>Internal Referral</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Referral_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mayor&#39;s office</fullName>
+                <default>false</default>
+                <label>Mayor&#39;s office</label>
+            </value>
+            <value>
+                <fullName>Councillor&#39;s office</fullName>
+                <default>false</default>
+                <label>Councillor&#39;s office</label>
+            </value>
+            <value>
+                <fullName>City Planning</fullName>
+                <default>false</default>
+                <label>City Planning</label>
+            </value>
+            <value>
+                <fullName>Toronto Building</fullName>
+                <default>false</default>
+                <label>Toronto Building</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>Mayor&#39;s office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>Councillor&#39;s office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>City Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Referral</controllingFieldValue>
+            <valueName>Toronto Building</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

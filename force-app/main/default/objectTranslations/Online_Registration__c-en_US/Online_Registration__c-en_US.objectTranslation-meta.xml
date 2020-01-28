@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Online Registration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Online Registrations</value>
+    </caseValues>
+    <layouts>
+        <layout>Online Registration Layout</layout>
+        <sections>
+            <label><!-- Authorization - Ontario Corporation --></label>
+            <section>Authorization - Ontario Corporation</section>
+        </sections>
+        <sections>
+            <label><!-- Client Follow Up Survey - Existing Business --></label>
+            <section>Client Follow Up Survey - Existing Business</section>
+        </sections>
+        <sections>
+            <label><!-- Client Follow Up Survey - New Business --></label>
+            <section>Client Follow Up Survey - New Business</section>
+        </sections>
+        <sections>
+            <label><!-- Client Follow Up Survey - Not Started --></label>
+            <section>Client Follow Up Survey - Not Started</section>
+        </sections>
+        <sections>
+            <label><!-- Client Follow-Up Survey --></label>
+            <section>Client Follow-Up Survey</section>
+        </sections>
+        <sections>
+            <label><!-- Client Satisfaction Survey --></label>
+            <section>Client Satisfaction Survey</section>
+        </sections>
+        <sections>
+            <label><!-- Corporation Information --></label>
+            <section>Corporation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Do you need help accepting debit and / or credit card payments? --></label>
+            <section>Do you need help accepting debit and / or credit card payments?</section>
+        </sections>
+        <sections>
+            <label><!-- Email Follow-up --></label>
+            <section>Email Follow-up</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- The Incorporator is a Corporation --></label>
+            <section>The Incorporator is a Corporation</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Service Requested (INTRO) --></label>
+    <name>Service_Requested_INTRO__c</name>
+    <picklistValues>
+        <masterLabel>Business Name Registration</masterLabel>
+        <translation><!-- Business Name Registration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Name Registration with a Name Search</masterLabel>
+        <translation><!-- Business Name Registration with a Name Search --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Name Renewal</masterLabel>
+        <translation><!-- Business Name Renewal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Name Renewal with a Name Search</masterLabel>
+        <translation><!-- Business Name Renewal with a Name Search --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Named Corporation</masterLabel>
+        <translation><!-- Named Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Numbered Corporation</masterLabel>
+        <translation><!-- Numbered Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

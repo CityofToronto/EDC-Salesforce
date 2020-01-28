@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CoT Staff Person Engaged If Inkind --></label>
+    <name>CoT_Staff_Person_Engaged_If_Inkind__c</name>
+</CustomFieldTranslation>

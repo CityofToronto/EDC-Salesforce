@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_Not_Blog__c</fullName>
+    <externalId>false</externalId>
+    <label>Why Not?(Blog)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not sure how to get mentioned</fullName>
+                <default>false</default>
+                <label>Not sure how to get mentioned</label>
+            </value>
+            <value>
+                <fullName>Not sure who to contact to get coverage</fullName>
+                <default>false</default>
+                <label>Not sure who to contact to get coverage</label>
+            </value>
+            <value>
+                <fullName>Not sure how to start</fullName>
+                <default>false</default>
+                <label>Not sure how to start</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

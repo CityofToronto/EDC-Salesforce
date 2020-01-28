@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How Much space sq ft will increase or decrease by --></help>
+    <label><!-- GFA Change in Next 12 Months --></label>
+    <name>GFA_Change_in_Next_12_Months__c</name>
+</CustomFieldTranslation>

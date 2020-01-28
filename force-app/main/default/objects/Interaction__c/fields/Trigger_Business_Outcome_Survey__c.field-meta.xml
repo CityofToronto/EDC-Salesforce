@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger_Business_Outcome_Survey__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will be used to trigger the Business Outcome Survey Workflow. The value in the will be populated through before trigger if no related events and online registration records are found.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will be used to trigger the Business Outcome Survey Workflow. The value in the will be populated through before trigger if no related events and online registration records are found.</inlineHelpText>
+    <label>Trigger Business Outcome Survey</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

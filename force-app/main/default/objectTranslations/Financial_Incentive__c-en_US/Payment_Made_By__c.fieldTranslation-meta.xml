@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The officers that made the payment --></help>
+    <label><!-- Payment Made By --></label>
+    <name>Payment_Made_By__c</name>
+    <picklistValues>
+        <masterLabel>Chris Rickett</masterLabel>
+        <translation><!-- Chris Rickett --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>John Preece</masterLabel>
+        <translation><!-- John Preece --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Karen Keskull</masterLabel>
+        <translation><!-- Karen Keskull --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leslie Fink</masterLabel>
+        <translation><!-- Leslie Fink --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nina Gesa</masterLabel>
+        <translation><!-- Nina Gesa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nirvana Champion</masterLabel>
+        <translation><!-- Nirvana Champion --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

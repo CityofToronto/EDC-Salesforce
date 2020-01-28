@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Company Intelligence survey Sent 1 Day After Issue Closed Date.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Business Intelligence Follow-Up Survey Email - Issue - 1 Day</name>
+    <style>none</style>
+    <subject>City of Toronto - Please Share Your Feedback</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

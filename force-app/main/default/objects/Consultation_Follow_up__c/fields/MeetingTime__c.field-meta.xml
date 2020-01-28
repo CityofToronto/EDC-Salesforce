@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MeetingTime__c</fullName>
+    <externalId>false</externalId>
+    <label>MeetingTime</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>08 AM - 09 AM</fullName>
+                <default>false</default>
+                <label>08 AM - 09 AM</label>
+            </value>
+            <value>
+                <fullName>09 AM - 10 AM</fullName>
+                <default>false</default>
+                <label>09 AM - 10 AM</label>
+            </value>
+            <value>
+                <fullName>10 AM - 11 AM</fullName>
+                <default>false</default>
+                <label>10 AM - 11 AM</label>
+            </value>
+            <value>
+                <fullName>11 AM - 12 PM</fullName>
+                <default>false</default>
+                <label>11 AM - 12 PM</label>
+            </value>
+            <value>
+                <fullName>12 PM - 01 PM</fullName>
+                <default>false</default>
+                <label>12 PM - 01 PM</label>
+            </value>
+            <value>
+                <fullName>01 PM - 02 PM</fullName>
+                <default>false</default>
+                <label>01 PM - 02 PM</label>
+            </value>
+            <value>
+                <fullName>02 PM - 03 PM</fullName>
+                <default>false</default>
+                <label>02 PM - 03 PM</label>
+            </value>
+            <value>
+                <fullName>03 PM - 04 PM</fullName>
+                <default>false</default>
+                <label>03 PM - 04 PM</label>
+            </value>
+            <value>
+                <fullName>04 PM - 05 PM</fullName>
+                <default>false</default>
+                <label>04 PM - 05 PM</label>
+            </value>
+            <value>
+                <fullName>05 PM - 06 PM</fullName>
+                <default>false</default>
+                <label>05 PM - 06 PM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

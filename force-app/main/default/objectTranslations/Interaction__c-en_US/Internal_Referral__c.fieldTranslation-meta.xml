@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If Councillor&apos;s office is selected then the Councillor Requesting Councillor&apos;s ward becomes mandatory. --></help>
+    <label><!-- Internal Referral --></label>
+    <name>Internal_Referral__c</name>
+    <picklistValues>
+        <masterLabel>Councillor&#39;s office</masterLabel>
+        <translation><!-- Councillor&apos;s office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal</masterLabel>
+        <translation><!-- Internal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mayor&#39;s office</masterLabel>
+        <translation><!-- Mayor&apos;s office --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

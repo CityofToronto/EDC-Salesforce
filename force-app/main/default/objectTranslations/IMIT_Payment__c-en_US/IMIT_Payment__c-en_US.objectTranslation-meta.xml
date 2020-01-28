@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IMIT Payment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IMIT Payments</value>
+    </caseValues>
+    <layouts>
+        <layout>IMIT Payment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- IMIT Good Standing Information --></label>
+            <section>IMIT Good Standing Information</section>
+        </sections>
+        <sections>
+            <label><!-- IMIT Payment Amortization Schedule --></label>
+            <section>IMIT Payment Amortization Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- IMIT Payment Checklist  Requirement Review --></label>
+            <section>IMIT Payment Checklist  Requirement Review</section>
+        </sections>
+        <sections>
+            <label><!-- IMIT Payment Checklist Information --></label>
+            <section>IMIT Payment Checklist Information</section>
+        </sections>
+        <sections>
+            <label><!-- IMIT Payment Checklist Requirements --></label>
+            <section>IMIT Payment Checklist Requirements</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Actual Paid amount can&apos;t be more than Scheduled Amount --></errorMessage>
+        <name>Compare_Actual_and_Schedule_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Default Reason should be provided. --></errorMessage>
+        <name>Validation_For_Default_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify the Reason as Scheduled and Paid Amount are different --></errorMessage>
+        <name>Validation_Rule_for_Adjustment_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Status should be Compliance Preparation for new record --></errorMessage>
+        <name>Validation_for_New_Record_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Status value can only be assigned through Approval automatically --></errorMessage>
+        <name>Validation_for_Payment_Status_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The number of IMIT Payment records can&apos;t be more than Number of Payment specified on IMIT Application --></errorMessage>
+        <name>Validation_to_Limit_Total_Payment_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The value in Total Grant Amount should not be less than payment made for all IMIT Payment records. --></errorMessage>
+        <name>Validation_to_compare_Total_Grant_Amount</name>
+    </validationRules>
+</CustomObjectTranslation>

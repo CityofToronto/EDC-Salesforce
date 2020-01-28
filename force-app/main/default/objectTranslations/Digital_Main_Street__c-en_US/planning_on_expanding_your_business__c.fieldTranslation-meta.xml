@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- planning on expanding your business? --></label>
+    <name>planning_on_expanding_your_business__c</name>
+    <picklistValues>
+        <masterLabel>Hire additional staff</masterLabel>
+        <translation><!-- Hire additional staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open a new location</masterLabel>
+        <translation><!-- Open a new location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start a franchise</masterLabel>
+        <translation><!-- Start a franchise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start selling products online</masterLabel>
+        <translation><!-- Start selling products online --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

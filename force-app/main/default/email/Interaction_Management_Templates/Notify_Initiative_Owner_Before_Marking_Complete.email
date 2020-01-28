@@ -1,0 +1,7 @@
+Dear {!Campaign.CreatedBy}, 
+
+Your Initiative will be marked as completed by end of today based on current Initiative End Date - {!Campaign.EndDate}. In case if your initiative is still in progress please update Initiative End date.
+
+Click on the below link to access the Initiative directly: {!Campaign.Link}
+
+Thanks

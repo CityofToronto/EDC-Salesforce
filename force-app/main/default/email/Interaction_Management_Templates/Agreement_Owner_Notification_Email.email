@@ -1,0 +1,8 @@
+Dear {!International_Agreement__c.Agreement_Owner__c}, 
+
+
+The  {!International_Agreement__c.Name} Agreement reaches its term in {!International_Agreement__c.Agreement_Expiry_Remaining_Days__c} days
+
+Click on the below link to access the Agreement directly: {!International_Agreement__c.Link} 
+
+Thanks

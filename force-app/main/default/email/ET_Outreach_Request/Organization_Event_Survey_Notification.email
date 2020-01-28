@@ -1,0 +1,11 @@
+Dear {!Outreach__c.Contact__c},
+
+Thanks again for engaging the City of Toronto and the Enterprise Toronto team in your recent event.
+
+Please let us know how we did by completing the following 1-minute survey - http://cityoftoronto.tfaforms.net/355748?ID={!Outreach__c.Id}
+
+Otherwise, thanks again and feel free to engage us again.
+
+Regards,
+
+{!Outreach__c.CreatedBy}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programs_of_Interest_City_of_Toronto__c</fullName>
+    <externalId>false</externalId>
+    <label>Programs of Interest – City of Toronto</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BIC Program</fullName>
+                <default>false</default>
+                <label>BIC Program</label>
+            </value>
+            <value>
+                <fullName>EDC Culture</fullName>
+                <default>false</default>
+                <label>EDC Culture</label>
+            </value>
+            <value>
+                <fullName>Gold Star</fullName>
+                <default>false</default>
+                <label>Gold Star</label>
+            </value>
+            <value>
+                <fullName>IMIT</fullName>
+                <default>false</default>
+                <label>IMIT</label>
+            </value>
+            <value>
+                <fullName>Vacant Tax Rebate</fullName>
+                <default>false</default>
+                <label>Vacant Tax Rebate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

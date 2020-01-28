@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ET_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>ET Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City Hall</fullName>
+                <default>false</default>
+                <label>City Hall</label>
+            </value>
+            <value>
+                <fullName>North York</fullName>
+                <default>false</default>
+                <label>North York</label>
+            </value>
+            <value>
+                <fullName>Scarborough</fullName>
+                <default>false</default>
+                <label>Scarborough</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jurisdiction_2_Service__c</fullName>
+    <externalId>false</externalId>
+    <label>Jurisdiction 2 (Service)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ontario</fullName>
+                <default>false</default>
+                <label>Ontario</label>
+            </value>
+            <value>
+                <fullName>Federal</fullName>
+                <default>false</default>
+                <label>Federal</label>
+            </value>
+            <value>
+                <fullName>Both Federal and Provincial</fullName>
+                <default>false</default>
+                <label>Both Federal and Provincial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

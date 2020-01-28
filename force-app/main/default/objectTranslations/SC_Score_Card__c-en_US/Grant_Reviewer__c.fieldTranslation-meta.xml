@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Grant Reviewer(Name/Email) --></label>
+    <name>Grant_Reviewer__c</name>
+    <picklistValues>
+        <masterLabel>Abdullah Snobar (asnobar@ryerson.ca)</masterLabel>
+        <translation><!-- Abdullah Snobar (asnobar@ryerson.ca) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andrew Patricio (andrew@bizlaunch.ca)</masterLabel>
+        <translation><!-- Andrew Patricio (andrew@bizlaunch.ca) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dave Sora (dsora@sseontario.org)</masterLabel>
+        <translation><!-- Dave Sora (dsora@sseontario.org) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David Cohen (dcohen@smallbusinessbigideas.com)</masterLabel>
+        <translation><!-- David Cohen (dcohen@smallbusinessbigideas.com) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marissa Maislin (marissa@theshoptoronto.ca)</masterLabel>
+        <translation><!-- Marissa Maislin (marissa@theshoptoronto.ca) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marlene Latour (marlene.latour@gmail.com)</masterLabel>
+        <translation><!-- Marlene Latour (marlene.latour@gmail.com) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sandi Koitsis-Zigomanis (skoitsi@toronto.ca)</masterLabel>
+        <translation><!-- Sandi Koitsis-Zigomanis (skoitsi@toronto.ca) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vik Jain (jain@toronto.ca)</masterLabel>
+        <translation><!-- Vik Jain (jain@toronto.ca) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

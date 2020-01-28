@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Square_footage_of_each_Building_A__c</fullName>
+    <description>Square footage of each existing building</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Square footage of each existing building</inlineHelpText>
+    <label>Square footage of each Building (A)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

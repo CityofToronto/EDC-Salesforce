@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Export Countries/Regions --></label>
+    <name>Export_Countries_Regions_m__c</name>
+    <picklistValues>
+        <masterLabel>Africa</masterLabel>
+        <translation><!-- Africa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>China</masterLabel>
+        <translation><!-- China --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Europe</masterLabel>
+        <translation><!-- Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Latin America</masterLabel>
+        <translation><!-- Latin America --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Middle East</masterLabel>
+        <translation><!-- Middle East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oceania</masterLabel>
+        <translation><!-- Oceania --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rest of Asia</masterLabel>
+        <translation><!-- Rest of Asia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USA</masterLabel>
+        <translation><!-- USA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

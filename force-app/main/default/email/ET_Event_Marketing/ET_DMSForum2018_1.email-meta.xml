@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to past forum attendees to invite to 2018.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-DMSForum2018(1)</name>
+    <style>none</style>
+    <subject>2018 Digital Main Street Forum - Early Bird Tickets</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

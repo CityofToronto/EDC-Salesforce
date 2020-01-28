@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Square_footage__c</fullName>
+    <description>Total of Building A,B and C Square Footage</description>
+    <externalId>false</externalId>
+    <formula>Square_footage_of_each_Building_A__c+Square_footage_of_each_Building_B__c+Square_footage_of_each_Building_C__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total of Building A,B and C Square Footage</inlineHelpText>
+    <label>Total Square footage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Economic Partnership Advisor --></label>
+    <name>Economic_Partnership_Advisor__c</name>
+    <picklistValues>
+        <masterLabel>Angela Varone</masterLabel>
+        <translation><!-- Angela Varone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antonella Nicaso</masterLabel>
+        <translation><!-- Antonella Nicaso --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David Hessels</masterLabel>
+        <translation><!-- David Hessels --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evelyn D&#39;Souza</masterLabel>
+        <translation><!-- Evelyn D&apos;Souza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marianne Szczuryk</masterLabel>
+        <translation><!-- Marianne Szczuryk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michael Saunders</masterLabel>
+        <translation><!-- Michael Saunders --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mike Kari</masterLabel>
+        <translation><!-- Mike Kari --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mike Major</masterLabel>
+        <translation><!-- Mike Major --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mirella Martino</masterLabel>
+        <translation><!-- Mirella Martino --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ned Sabev</masterLabel>
+        <translation><!-- Ned Sabev --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rajashree Kumar</masterLabel>
+        <translation><!-- Rajashree Kumar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robert Patterson</masterLabel>
+        <translation><!-- Robert Patterson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ron Nash</masterLabel>
+        <translation><!-- Ron Nash --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

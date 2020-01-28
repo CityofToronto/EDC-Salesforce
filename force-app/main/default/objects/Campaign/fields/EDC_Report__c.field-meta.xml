@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDC_Report__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is an indicator if the interaction should be included in the report that is sent to the Councillor.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is an indicator if the interaction should be included in the report that is sent to the Councillor.</inlineHelpText>
+    <label>EDC Report</label>
+    <type>Checkbox</type>
+</CustomField>

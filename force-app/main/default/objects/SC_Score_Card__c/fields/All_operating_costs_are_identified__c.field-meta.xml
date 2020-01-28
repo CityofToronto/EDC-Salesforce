@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_operating_costs_are_identified__c</fullName>
+    <description>All operating costs including grant, loan payments, salaries, utilities have been identified and are included in the disbursements</description>
+    <externalId>false</externalId>
+    <inlineHelpText>All operating costs including grant, loan payments, salaries, utilities have been identified and are included in the disbursements</inlineHelpText>
+    <label>All operating costs are identified?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes (1 pt)</fullName>
+                <default>false</default>
+                <label>Yes (1 pt)</label>
+            </value>
+            <value>
+                <fullName>No (0 pt)</fullName>
+                <default>false</default>
+                <label>No (0 pt)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

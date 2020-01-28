@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to partners to test the BOT.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ET-BOT-PartnerTestAsk</name>
+    <style>none</style>
+    <subject>Assistance Request: Test our Biz BOT?</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

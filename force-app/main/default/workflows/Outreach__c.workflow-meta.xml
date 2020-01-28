@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Internal_Event_Survey_Notification</fullName>
+        <description>Internal Event Survey Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>RPI_Staff_member_attending_user1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>support@enterprisetoronto.desk-mail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ET_Outreach_Request/Internal_Event_Survey_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Orgnization_if_request_get_Approved</fullName>
+        <ccEmails>kkeskul@toronto.ca</ccEmails>
+        <ccEmails>Paul.Pirri@toronto.ca</ccEmails>
+        <description>Notify Orgnization if request get Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>RPI_Staff_member_attending_user1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ET_Outreach_Request/Notify_Organization_if_request_get_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Orgnization_if_request_get_Rejected</fullName>
+        <ccEmails>kkeskul@toronto.ca</ccEmails>
+        <ccEmails>Paul.Pirri@toronto.ca</ccEmails>
+        <description>Notify Orgnization if request get Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ET_Outreach_Request/Notify_Organization_if_request_get_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_staff_person_to_attend_the_approved_event</fullName>
+        <ccEmails>kkeskul@toronto.ca</ccEmails>
+        <description>Notify staff person to attend the approved event</description>
+        <protected>false</protected>
+        <recipients>
+            <field>RPI_Staff_member_attending_user1__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ET_Outreach_Request/Notify_staff_person_to_attend_the_approved_event</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_to_Event_Approver_to_review_the_requested_Event</fullName>
+        <description>Notify to Event Approver to review the requested Event</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>kkeskul@toronto.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ET_Outreach_Request/Notify_to_Event_Approver_for_Review</template>
+    </alerts>
+    <alerts>
+        <fullName>Organization_Event_Survey_Notification</fullName>
+        <description>Organization Event Survey Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ET_Outreach_Request/Organization_Event_Survey_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>kkeskul@toronto.ca</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Owner as &quot;Karen Keskull&quot;</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Internal Event Survey Notification</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Outreach__c.Date_of_Event__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Outreach__c.ET_to_Attend_Event__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <description>Internal Event Survey Notification</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Internal_Event_Survey_Notification</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Outreach__c.Date_of_Event__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Notify Event Approver to review the requested Event</fullName>
+        <actions>
+            <name>Notify_to_Event_Approver_to_review_the_requested_Event</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Outreach__c.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Notify Event Approver to review the requested Event</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify Organization if request get Approved</fullName>
+        <actions>
+            <name>Notify_Orgnization_if_request_get_Approved</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Outreach__c.ET_to_Attend_Event__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Outreach__c.Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Notify Organization if request get Approved</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify Organization if request get Rejected</fullName>
+        <actions>
+            <name>Notify_Orgnization_if_request_get_Rejected</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Outreach__c.ET_to_Attend_Event__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Outreach__c.Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Notify Organization if request get Rejected</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify assigned Staff Person to attend the Event</fullName>
+        <actions>
+            <name>Notify_staff_person_to_attend_the_approved_event</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Outreach__c.ET_to_Attend_Event__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Outreach__c.RPI_Staff_member_attending_user1__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Notify assigned Staff Person to attend the Event</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Organization Event Survey Notification</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Outreach__c.Date_of_Event__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Outreach__c.ET_to_Attend_Event__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </criteriaItems>
+        <description>Organization Event Survey Notification</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Organization_Event_Survey_Notification</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Outreach__c.Date_of_Event__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Update Karen Keskull as Default Event Approver</fullName>
+        <actions>
+            <name>Update_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update &quot;Karen Keskull&quot; as Default Event Approver</description>
+        <formula>true</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

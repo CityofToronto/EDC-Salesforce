@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDC_Theme_Addressed__c</fullName>
+    <externalId>false</externalId>
+    <label>EDC Theme Addressed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inclusion and Equity</fullName>
+                <default>false</default>
+                <label>Inclusion and Equity</label>
+            </value>
+            <value>
+                <fullName>Space and Access</fullName>
+                <default>false</default>
+                <label>Space and Access</label>
+            </value>
+            <value>
+                <fullName>Talent and Innovation</fullName>
+                <default>false</default>
+                <label>Talent and Innovation</label>
+            </value>
+            <value>
+                <fullName>Excellence</fullName>
+                <default>false</default>
+                <label>Excellence</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

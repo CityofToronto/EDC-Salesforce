@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FV_Client_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>FV Client Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FV (30&lt;)</fullName>
+                <default>false</default>
+                <label>FV (30&lt;)</label>
+            </value>
+            <value>
+                <fullName>SC (29&gt;)</fullName>
+                <default>false</default>
+                <label>SC (29&gt;)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

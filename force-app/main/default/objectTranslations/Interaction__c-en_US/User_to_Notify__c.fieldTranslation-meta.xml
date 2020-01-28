@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field field will be populated using trigger to send an email notification based on Client Satisfaction survey and will be hidden from page layout --></help>
+    <label><!-- User to Notify --></label>
+    <name>User_to_Notify__c</name>
+    <relationshipLabel><!-- Interactions (User to Notify) --></relationshipLabel>
+</CustomFieldTranslation>

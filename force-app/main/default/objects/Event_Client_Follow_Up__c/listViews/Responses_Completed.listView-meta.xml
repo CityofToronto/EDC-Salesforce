@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responses_Completed</fullName>
+    <booleanFilter>1 or 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>ContactID__c</columns>
+    <columns>CampaignID__c</columns>
+    <columns>Workshop_Attendance_Before__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Workshop_Attendance_Before__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Workshop_Attendance_Before__c</field>
+        <operation>equals</operation>
+        <value>No</value>
+    </filters>
+    <label>Responses - Completed</label>
+    <sharedTo>
+        <role>EDC_Admin</role>
+        <role>ES_Admin</role>
+        <role>ES_BIC</role>
+        <role>ES_ET</role>
+    </sharedTo>
+</ListView>

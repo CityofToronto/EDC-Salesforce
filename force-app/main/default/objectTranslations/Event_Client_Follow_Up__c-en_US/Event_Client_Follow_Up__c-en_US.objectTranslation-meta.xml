@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Event Client Follow Up</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Event Client Follow Ups</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You Cannot change the value --></errorMessage>
+        <name>Event_Client_Follow_Up_DONOT_UPDATE</name>
+    </validationRules>
+</CustomObjectTranslation>

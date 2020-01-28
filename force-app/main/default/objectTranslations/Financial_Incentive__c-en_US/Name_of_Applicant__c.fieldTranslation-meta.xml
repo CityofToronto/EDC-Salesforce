@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Registered Property Owner or their authorized agent that has the legal authority to bind the Owner --></help>
+    <label><!-- Name of Applicant --></label>
+    <name>Name_of_Applicant__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to BIAs wishing Happy Holiday and Starter Company Discount</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Holiday Email to BIAs</name>
+    <style>none</style>
+    <subject>Happy Holidays from DMS (plus a present for your members)!</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+Just wanted to a take a quick second to wish you an extremely happy holiday! It has been a great year at Digital Main Street and we could not have done it without the help of the BIAs across the city – so THANK YOU!
+
+As we get ready for 2018, we have a lot of exciting stuff coming down the pipeline and I will be sure to share it with you as it comes.
+
+As an early present to your members – we have launched the next cohort of our Starter Company Plus program in conjunction with Camp Tech that will be taking place every Wednesday in February and March from 1-4pm. Any businesses that register before December 31st at 11pm can do so for 25% off  using the promo code “dmsholidays”.
+
+All eligible participants can receive a grant of $2,500 towards a digital transformation plan. More details about the cohort can be found here: https://goo.gl/Jwa5Ge.
+
+If you have any questions, please don’t hesitate to reach out to me directly – but other than that I look forward to working with all of you moving forward.
+
+Happy Holidays!
+
+-Darryl</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,7 @@
+Vik - 
+
+The following link is for {!Starter_Company_Clients__c.Name_of_Applicant__c}  and their application for a grant. Please forward this to the grant reviewer.
+
+http://cityoftoronto.tfaforms.net/355751?SCID={!Starter_Company_Clients__c.Id}
+
+Paul

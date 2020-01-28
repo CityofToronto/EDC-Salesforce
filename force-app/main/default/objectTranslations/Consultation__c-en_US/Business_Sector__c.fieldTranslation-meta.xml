@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Sector --></label>
+    <name>Business_Sector__c</name>
+    <picklistValues>
+        <masterLabel>11 - Agriculture, forestry, fishing and hunting</masterLabel>
+        <translation><!-- 11 - Agriculture, forestry, fishing and hunting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>21 - Mining, quarrying, and oil and gas extraction</masterLabel>
+        <translation><!-- 21 - Mining, quarrying, and oil and gas extraction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>22 - Utilities</masterLabel>
+        <translation><!-- 22 - Utilities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>23 - Construction</masterLabel>
+        <translation><!-- 23 - Construction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31-33 - Manufacturing</masterLabel>
+        <translation><!-- 31-33 - Manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>41 - Wholesale Trade</masterLabel>
+        <translation><!-- 41 - Wholesale Trade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>44-45 - Retail Trade</masterLabel>
+        <translation><!-- 44-45 - Retail Trade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>48-49 - Transportation and Wharehousing</masterLabel>
+        <translation><!-- 48-49 - Transportation and Wharehousing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>51 - Information and Cultural Industries</masterLabel>
+        <translation><!-- 51 - Information and Cultural Industries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>52 - Finance and Insurance</masterLabel>
+        <translation><!-- 52 - Finance and Insurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>53 - Real Estate and Rental and Leasing</masterLabel>
+        <translation><!-- 53 - Real Estate and Rental and Leasing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>54 - Professional, Scientific and Technical Services</masterLabel>
+        <translation><!-- 54 - Professional, Scientific and Technical Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>55 - Management of companies and enterprises</masterLabel>
+        <translation><!-- 55 - Management of companies and enterprises --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>56 - Administrative and Support, Waste Management and Remediation Services</masterLabel>
+        <translation><!-- 56 - Administrative and Support, Waste Management and Remediation Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>61 - Educational Services</masterLabel>
+        <translation><!-- 61 - Educational Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>62 - Health Care and Social Assistance</masterLabel>
+        <translation><!-- 62 - Health Care and Social Assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>71 - Arts, Entertainment and Recreation</masterLabel>
+        <translation><!-- 71 - Arts, Entertainment and Recreation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>72 - Accomodation and Food Services</masterLabel>
+        <translation><!-- 72 - Accomodation and Food Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>81 - Other Services (Except Public Administration)</masterLabel>
+        <translation><!-- 81 - Other Services (Except Public Administration) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>91 - Public Administration</masterLabel>
+        <translation><!-- 91 - Public Administration --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

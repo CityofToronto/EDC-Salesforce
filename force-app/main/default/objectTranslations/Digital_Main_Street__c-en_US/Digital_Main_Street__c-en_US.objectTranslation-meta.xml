@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Digital Main Street</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Digital Main Streets</value>
+    </caseValues>
+    <layouts>
+        <layout>Digital Main Street Layout</layout>
+        <sections>
+            <label><!-- Accounting --></label>
+            <section>Accounting</section>
+        </sections>
+        <sections>
+            <label><!-- Analytics --></label>
+            <section>Analytics</section>
+        </sections>
+        <sections>
+            <label><!-- Basic Business Information --></label>
+            <section>Basic Business Information</section>
+        </sections>
+        <sections>
+            <label><!-- Blog - Content Creation --></label>
+            <section>Blog - Content Creation</section>
+        </sections>
+        <sections>
+            <label><!-- Business Growth --></label>
+            <section>Business Growth</section>
+        </sections>
+        <sections>
+            <label><!-- CRM System --></label>
+            <section>CRM System</section>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <section>Campaigns</section>
+        </sections>
+        <sections>
+            <label><!-- Client Satisfaction Survey --></label>
+            <section>Client Satisfaction Survey</section>
+        </sections>
+        <sections>
+            <label><!-- Community - Beacons --></label>
+            <section>Community - Beacons</section>
+        </sections>
+        <sections>
+            <label><!-- Community - Engagement --></label>
+            <section>Community - Engagement</section>
+        </sections>
+        <sections>
+            <label><!-- Community - Infrastructure (i.e. community wifi) --></label>
+            <section>Community - Infrastructure (i.e. community wifi)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Digital Service Squad Field Notes --></label>
+            <section>Digital Service Squad Field Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Ecommerce --></label>
+            <section>Ecommerce</section>
+        </sections>
+        <sections>
+            <label><!-- Email Marketing --></label>
+            <section>Email Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Email Status --></label>
+            <section>Email Status</section>
+        </sections>
+        <sections>
+            <label><!-- Facebook --></label>
+            <section>Facebook</section>
+        </sections>
+        <sections>
+            <label><!-- Google --></label>
+            <section>Google</section>
+        </sections>
+        <sections>
+            <label><!-- Instagram --></label>
+            <section>Instagram</section>
+        </sections>
+        <sections>
+            <label><!-- Internet &amp; Wifi --></label>
+            <section>Internet &amp; Wifi</section>
+        </sections>
+        <sections>
+            <label><!-- Inventory Management --></label>
+            <section>Inventory Management</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Generation --></label>
+            <section>Lead Generation</section>
+        </sections>
+        <sections>
+            <label><!-- Local Initiatives --></label>
+            <section>Local Initiatives</section>
+        </sections>
+        <sections>
+            <label><!-- Loyalty Programs --></label>
+            <section>Loyalty Programs</section>
+        </sections>
+        <sections>
+            <label><!-- Partner Opt-In --></label>
+            <section>Partner Opt-In</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Systems --></label>
+            <section>Payment Systems</section>
+        </sections>
+        <sections>
+            <label><!-- Pinterest --></label>
+            <section>Pinterest</section>
+        </sections>
+        <sections>
+            <label><!-- Productivity Software --></label>
+            <section>Productivity Software</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant - Online Reservations &amp; Ordering --></label>
+            <section>Restaurant - Online Reservations &amp; Ordering</section>
+        </sections>
+        <sections>
+            <label><!-- Search --></label>
+            <section>Search</section>
+        </sections>
+        <sections>
+            <label><!-- Security --></label>
+            <section>Security</section>
+        </sections>
+        <sections>
+            <label><!-- Services - Reservations --></label>
+            <section>Services - Reservations</section>
+        </sections>
+        <sections>
+            <label><!-- Social Media --></label>
+            <section>Social Media</section>
+        </sections>
+        <sections>
+            <label><!-- To Delete --></label>
+            <section>To Delete</section>
+        </sections>
+        <sections>
+            <label><!-- Twitter --></label>
+            <section>Twitter</section>
+        </sections>
+        <sections>
+            <label><!-- Website --></label>
+            <section>Website</section>
+        </sections>
+        <sections>
+            <label><!-- Yellow Pages --></label>
+            <section>Yellow Pages</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+</CustomObjectTranslation>

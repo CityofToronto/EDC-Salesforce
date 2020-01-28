@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Person_Account_Name_Validation_Rule</fullName>
+    <active>true</active>
+    <description>This rule will avoid creating Person Account records that starts with special character.</description>
+    <errorConditionFormula>AND(IsPersonAccount, OR(AND(NOT(ISBLANK(FirstName)),NOT(REGEX((LEFT( FirstName , 1)), &quot;[a-zA-Z0-9]&quot;))), NOT(REGEX((LEFT( LastName , 1)), &quot;[a-zA-Z0-9]&quot;))))</errorConditionFormula>
+    <errorMessage>Person Account First or Last Name can not start with any special character.</errorMessage>
+</ValidationRule>

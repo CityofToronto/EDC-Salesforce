@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Specify the other Response Communication Channel that is  not listed in the Request Communication Channel drop down field --></help>
+    <label><!-- Other Response Communication Channel --></label>
+    <name>Other_Response_Communication_Channel__c</name>
+</CustomFieldTranslation>

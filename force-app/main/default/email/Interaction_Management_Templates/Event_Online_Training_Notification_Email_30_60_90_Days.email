@@ -1,0 +1,33 @@
+Dear {!Client_FollowUp__c.Contact__c}, 
+
+Thanks again for signing up to use the City of Toronto's online training resources for small businesses - we hope things are going well.
+
+We would appreciate an update on your business and how things are coming along. If you could please take a moment to complete this 30 second survey it would be greatly appreciated:
+
+https://cityoftoronto.tfaforms.net/355952?ID={!Client_FollowUp__c.Id} 
+
+A reminder that if you’re looking for further assistance with your business, visit us at www.toronto.ca/enterprisetoronto 
+
+In the meantime, if you need some help with specific business needs, our partners have several resources: 
+
+• Vistaprint – can help you with all your printing needs. Check out offers here - www.vistaprint.ca/enttoronto 
+
+• TruShield – need insurance for your business? Purchase it online with TruShield here - https://www.trushieldinsurance.ca/online-business-insurance-quote/?utm_source=enterprise 
+
+• Microsoft – see how Microsoft 365 can bring together all of your small business needs here - https://resources.office.com/en-us-landing-DemoIntroducingMicrosoft365Business.html?wt.mc_id=AID631081_QSG_220242 
+
+• TD – ready to take the next step with your business? Visit TD Small Business Banking here - https://www.tdcanadatrust.com/products-services/small-business/smallbusiness-index.jsp 
+
+If you would like to unsubscribe from future email communications then please follow this link:
+https://cityoftoronto.tfaforms.net/356009?tfa_66={!Client_FollowUp__c.ContactId__c}
+
+
+Otherwise, let us know if you have any questions. 
+
+Regards, 
+
+Paul Pirri, 
+Acting Manager, Entrepreneurship Services
+City of Toronto 
+
+Visit Enterprise Toronto @ www.toronto.ca/enterprisetoronto

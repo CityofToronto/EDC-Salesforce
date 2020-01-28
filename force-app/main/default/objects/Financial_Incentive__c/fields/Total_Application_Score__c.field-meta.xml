@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Application_Score__c</fullName>
+    <description>This value will be calculated from related child Score Card records</description>
+    <externalId>false</externalId>
+    <label>Total Application Score</label>
+    <summarizedField>SC_Score_Card__c.TOTAL_POINTS__c</summarizedField>
+    <summaryForeignKey>SC_Score_Card__c.Financial_Incentive_Starter_Company__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

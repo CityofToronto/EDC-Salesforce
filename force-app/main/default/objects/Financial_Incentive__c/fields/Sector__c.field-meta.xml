@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <externalId>false</externalId>
+    <label>Sector</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>11 - Agriculture, forestry, fishing and hunting</fullName>
+                <default>false</default>
+                <label>11 - Agriculture, forestry, fishing and hunting</label>
+            </value>
+            <value>
+                <fullName>21 - Mining, quarrying, and oil and gas extraction</fullName>
+                <default>false</default>
+                <label>21 - Mining, quarrying, and oil and gas extraction</label>
+            </value>
+            <value>
+                <fullName>22 - Utilities</fullName>
+                <default>false</default>
+                <label>22 - Utilities</label>
+            </value>
+            <value>
+                <fullName>23 - Construction</fullName>
+                <default>false</default>
+                <label>23 - Construction</label>
+            </value>
+            <value>
+                <fullName>31-33 - Manufacturing</fullName>
+                <default>false</default>
+                <label>31-33 - Manufacturing</label>
+            </value>
+            <value>
+                <fullName>41 - Wholesale Trade</fullName>
+                <default>false</default>
+                <label>41 - Wholesale Trade</label>
+            </value>
+            <value>
+                <fullName>44-45 - Retail Trade</fullName>
+                <default>false</default>
+                <label>44-45 - Retail Trade</label>
+            </value>
+            <value>
+                <fullName>48-49 - Transportation and Warehousing</fullName>
+                <default>false</default>
+                <label>48-49 - Transportation and Warehousing</label>
+            </value>
+            <value>
+                <fullName>51 - Information and Cultural Industries</fullName>
+                <default>false</default>
+                <label>51 - Information and Cultural Industries</label>
+            </value>
+            <value>
+                <fullName>52 - Finance and Insurance</fullName>
+                <default>false</default>
+                <label>52 - Finance and Insurance</label>
+            </value>
+            <value>
+                <fullName>53 - Real Estate and Rental and Leasing</fullName>
+                <default>false</default>
+                <label>53 - Real Estate and Rental and Leasing</label>
+            </value>
+            <value>
+                <fullName>54 - Professional, Scientific and Technical Services</fullName>
+                <default>false</default>
+                <label>54 - Professional, Scientific and Technical Services</label>
+            </value>
+            <value>
+                <fullName>55 - Management of companies and enterprises</fullName>
+                <default>false</default>
+                <label>55 - Management of companies and enterprises</label>
+            </value>
+            <value>
+                <fullName>56 - Administrative and Support, Waste Management and Remediation Services</fullName>
+                <default>false</default>
+                <label>56 - Administrative and Support, Waste Management and Remediation Services</label>
+            </value>
+            <value>
+                <fullName>61 - Educational Services</fullName>
+                <default>false</default>
+                <label>61 - Educational Services</label>
+            </value>
+            <value>
+                <fullName>62 - Health Care and Social Assistance</fullName>
+                <default>false</default>
+                <label>62 - Health Care and Social Assistance</label>
+            </value>
+            <value>
+                <fullName>71 - Arts, Entertainment and Recreation</fullName>
+                <default>false</default>
+                <label>71 - Arts, Entertainment and Recreation</label>
+            </value>
+            <value>
+                <fullName>72 - Accommodation and Food Services</fullName>
+                <default>false</default>
+                <label>72 - Accommodation and Food Services</label>
+            </value>
+            <value>
+                <fullName>81 - Other Services (Except Public Administration)</fullName>
+                <default>false</default>
+                <label>81 - Other Services (Except Public Administration)</label>
+            </value>
+            <value>
+                <fullName>91 - Public Administration</fullName>
+                <default>false</default>
+                <label>91 - Public Administration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

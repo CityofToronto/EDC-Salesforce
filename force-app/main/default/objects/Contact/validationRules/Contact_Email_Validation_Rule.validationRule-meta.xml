@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Email_Validation_Rule</fullName>
+    <active>true</active>
+    <description>This rule will avoid creating Contact without specifying any value in Email field</description>
+    <errorConditionFormula>ISBLANK(Email)</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>Email can not be null for any Contact.</errorMessage>
+</ValidationRule>

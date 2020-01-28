@@ -1,0 +1,7 @@
+Dear User,
+
+A new IMIT Payment Approval Request has been assigned to you. Please refer below link to complete the the Approver checklist.
+
+{!IMIT_Payment__c.Link}
+
+Thanks

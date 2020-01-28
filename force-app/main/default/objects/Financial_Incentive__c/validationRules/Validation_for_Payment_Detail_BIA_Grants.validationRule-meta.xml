@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Payment_Detail_BIA_Grants</fullName>
+    <active>true</active>
+    <description>This rule will make sure any payment detail must be provided for all BIA grant once Status is in Payment except Innovation and Outside Mural</description>
+    <errorConditionFormula>AND(OR(RecordType.DeveloperName=&#39;BIA_Commercial_Industrial_Facade_and_Property_Improvement&#39;,RecordType.DeveloperName=&#39;BIA_Leadership_Fund&#39;,RecordType.DeveloperName=&#39;BIA_Streetscape_Master_Plan_Funding&#39;),TEXT(Has_payment_been_made__c)=&#39;Yes&#39;,OR(ISBLANK(Actual_Paid_Amount__c),ISBLANK(EDC_Invoice__c),ISBLANK(Final_Invoice_Received_Date__c),ISBLANK(WBS_Account__c),ISBLANK(Amount_Approved__c)))</errorConditionFormula>
+    <errorMessage>All details should be provided in Payment Detail section for Payment Status</errorMessage>
+</ValidationRule>

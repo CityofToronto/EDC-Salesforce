@@ -1,0 +1,125 @@
+<messaging:emailTemplate recipientType="Contact" relatedToType="Financial_Incentive__c"  subject="{!RelatedTo.RecordType.Name} Grant application approved for {!relatedTo.Property_Street__c}, {!relatedTo.Property_City__c}, {!relatedTo.Property_Postal_Code__c}" replyTo="biaoffice@toronto.ca">
+    <messaging:htmlEmailBody >
+    Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},
+    <br /><br />
+    Your {!RelatedTo.RecordType.Name} Grant Approval Request for {!relatedTo.Property_Street__c}, {!relatedTo.Property_City__c}, {!relatedTo.Property_Postal_Code__c} has been Approved. 
+    <br /><br />
+    Please sign the attached Letter of Understanding and return to {!RelatedTo.Record_Submitter_Email__c}
+    <br /><br />
+    {!RelatedTo.Record_Submitter_Manager__c} 
+    <br />
+    Manager, BIA Office
+    </messaging:htmlEmailBody>
+    <messaging:attachment renderAs="PDF" filename="Letter of Understanding {!RelatedTo.Financial_Incentive_Name__c}.pdf">
+    <html>
+        <body>
+            <img src="https://cityoftoronto--c.na78.content.force.com/servlet/servlet.ImageServer?id=0151N000003Zcjh&oid=00Do0000000bTwm" width="720" height="180"/> <br/><br/>        
+            <p>{!case(month(today()),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(TODAY())}, {!YEAR(TODAY())}<br />{!relatedTo.Contact__r.MailingStreet}, {!relatedTo.Contact__r.MailingCity}, {!relatedTo.Contact__r.MailingPostalCode}<br />Dear {!RelatedTo.Contact__r.FirstName} {!RelatedTo.Contact__r.LastName},</p>
+            <p>Re:&nbsp; &nbsp; &nbsp;Commercial Fa&ccedil;ade Improvement Program<br />&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{!relatedTo.Property_Street__c}, {!relatedTo.Property_City__c}, {!relatedTo.Property_Postal_Code__c} <br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; File No.: {!RelatedTo.Financial_Incentive_Name__c}</p>
+            <p>Dear:</p>
+            <p>Your application for funding under the City of Toronto&rsquo;s Commercial Fa&ccedil;ade Improvement Program (Program) has been approved in the amount of&nbsp;{!relatedTo.Amount_Approved_Formula__c} for fa&ccedil;ade improvements at {!relatedTo.Property_Street__c}, {!relatedTo.Property_City__c}, {!relatedTo.Property_Postal_Code__c}. This is the maximum grant under the Program, including any applicable taxes and disbursements. The grant is based on the Program guidelines stipulating that the City grant is equal to one-half the cost of approved improvements to a maximum of {!relatedTo.Amount_Approved_Formula__c}. If the fa&ccedil;ade improvements are less than {!relatedTo.Twice_Amount_Approved_Formula__c} the grant will be reduced accordingly. The funding must be used only for the fa&ccedil;ade improvements to the property at {!relatedTo.Property_Street__c}, {!relatedTo.Property_City__c}, {!relatedTo.Property_Postal_Code__c}.</p>
+            <p>The funds will be payable in one installment upon completion of the work, submission of required documentation, and inspection of the fa&ccedil;ade improvements to the satisfaction of the City. The fa&ccedil;ade improvements must be completed no later than {!case(month(relatedTo.Application_Expiry_Date__c),1,'January',2,'February',3,'March',4,'April',5,'May',6,'June',7,'July',8,'August',9,'September',10,'October',11,'November','December')} {!Day(relatedTo.Application_Expiry_Date__c)}, {!YEAR(relatedTo.Application_Expiry_Date__c)}.</p>
+            <p>The terms and conditions of the grant are set out in this letter and Appendix 1 attached hereto which taken together form the agreement. If you breach any of the terms and conditions of this agreement, if you knowingly provided false information in the application, use funds for purposes not approved, or breach any of the provisions of the Ontario Human Rights Code in your operation, the funding must, at the request of the City be repaid in whole or in part.</p>
+            <p>Please make an additional copy of this Letter of Understanding for your files.&nbsp; Sign and return the original letter of understanding to the address below:</p>
+            <p>Michael Saunders<br />Economic Partnership Advisor<br />Economic Development &amp; Culture Division<br />City of Toronto<br />77 Elizabeth Street, 2nd Floor<br />Toronto, Ontario&nbsp; &nbsp;M5G 1P4</p>
+            <p>{!relatedTo.Additional_Condition_for_Application__c}</p>
+            <p>Your application will not be processed until a signed copy of this Letter of Understanding is received by this office. If you commence the Work described in your application prior to returning a signed copy of this letter, you will become ineligible for the Commercial Fa&ccedil;ade Improvement Program. Upon satisfactory completion of the fa&ccedil;ade improvements and all program requirements, arrangements will be made for you to receive your cheque.</p>
+            <p>Sincerely,</p>
+            <p>Mike Major<br />Manager, BIA Office<br />Business Growth Services<br />Economic Development &amp; Culture Division<br />City of Toronto</p>
+            <p>I/We have read, understand and agree to comply with the terms and conditions in Appendix 1, attached and in this Letter of Understanding.</p>
+            <p>&nbsp;</p>
+            <p>Name:</p>
+            <p>Title:</p>
+            <p>Signature:</p>
+            <p>Date:</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Name:</p>
+            <p>Title:</p>
+            <p>Signature:</p>
+            <p>Date:</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>I/We have authority to bind the Corporation</p>
+            <p>___________________________________</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>&nbsp; &nbsp; &nbsp;&nbsp;Appendix 1</strong><br /><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Commercial Fa&ccedil;ade Improvement Program (the &ldquo;Program&rdquo;)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></p>
+            <p><em>Terms and Conditions:</em></p>
+            <p>By signing and submitting this application, the Owner/Recipient acknowledges and agrees to the following terms and conditions:</p>
+            <p><strong>1.0&nbsp; Use and Purpose of Funding</strong></p>
+            <ul>
+            <li>The grant is based on the Program guidelines which stipulate that the funding the City provides is equal to one-half of the cost of the approved improvements to a maximum of {!relatedTo.Twice_Amount_Approved_Formula__c}. If the fa&ccedil;ade improvements are less than {!relatedTo.Amount_Approved_Formula__c} your grant will be reduced accordingly.</li>
+            <li>This funding must be used only for the purposes of the commercial fa&ccedil;ade improvements as described on the application.</li>
+            <li>The recipient (&ldquo;Recipient&rdquo;) must notify their Economic Partnership Advisor, Business Growth Services, Economic Development &amp; Culture of any proposed material changes to the fa&ccedil;ade improvements and scope of work from those described in the application. The funding can be used for such changes only with the prior written consent of the Manager, BIA Office.</li>
+            <li>The Recipient must not transfer or assign the funding or any part of it to another individual or corporation, without the prior written consent of the Manager, BIA Office</li>
+            </ul>
+            <p><strong>2.0&nbsp; &nbsp;Municipal Freedom of Information and Protection of Privacy Act</strong></p>
+            <p style="padding-left: 30px;">The information contained in this application is subject to the <em>Municipal Freedom of Information and Protection of Privacy Act.</em>&nbsp; All decisions are publicly available.</p>
+            <p><strong>3.0&nbsp; Anti-Racism, Access and Equity Guidelines</strong></p>
+            <p style="padding-left: 30px;">The Recipient must complete and file a Declaration of a Non-Discrimination Policy that indicates that the Recipient has adopted and upholds a policy of access and non discrimination based on the City&rsquo;s Human Rights Policy.&nbsp; The Recipient will work actively to integrate anti-racism, access and equity, throughout their operations, in accordance with the City&rsquo;s approved Anti-Racism, Access and Equity Policy as it relates to this program.</p>
+            <p><strong>4.0&nbsp; Payments</strong></p>
+            <p style="padding-left: 30px;">If funding is approved, the Recipient will be advised in writing of the amount of the funding. The funding will be disbursed by cheque following:</p>
+            <ul>
+            <li>completion of the fa&ccedil;ade improvements to the satisfaction of the Manager, BIA Office;</li>
+            <li>receipt of proof of payment of all invoices relating to the fa&ccedil;ade improvements by the Manager, BIA Office;</li>
+            <li>the performance of the work described in the approved application (the "Work") by an independent, competent contractor licensed and qualified to carry out the Work;</li>
+            <li>confirmation to the City that the contractor has the required Workers&rsquo; Safety Insurance Board coverage and the insurance coverage;</li>
+            <li>confirmation by the City that there are no outstanding work orders, taxes, water rates, or other sums owed to the City with respect to the property; and,</li>
+            <li>submission of <u>digital</u> photographs of the building fa&ccedil;ade after the fa&ccedil;ade improvements have been completed</li>
+            </ul>
+            <p><strong>5.0&nbsp; Acknowledgement of Funding</strong></p>
+            <p style="padding-left: 30px;">The Recipient will acknowledge the support of the City of Toronto Facade Improvement Program on any materials, reports, events, publicity or signage paid for in whole or in part with the funding.</p>
+            <p><strong>6.0&nbsp; Accounting</strong></p>
+            <ul>
+            <li>The Recipient must keep and maintain all records, invoices and other documents relating to the funding in a manner consistent with generally accepted accounting principles and clerical practices, and must maintain such records for a period of three (3) years from the date of approval of the funding.</li>
+            <li>The Recipient authorizes the City and agents of the City to, at all reasonable times, inspect and copy any and all records, invoices and documents in the custody or control of the Recipient which relate to the funding. The right of inspection includes the right to perform a full or partial audit of the aforementioned records, as considered appropriate by the City.</li>
+            </ul>
+            <p><strong>7.0&nbsp; Building Permits &amp; Building Code Compliance</strong></p>
+            <p style="padding-left: 30px;">The Recipient is responsible to obtain all required permits, to ensure that the Work complies with all applicable building codes, and to obtain prior approval and required permits from the City in the event that any of the Work takes place in the City&rsquo;s Right of Way, which includes the sidewalk.</p>
+            <p><strong>8.0&nbsp; </strong><strong>Project Completion Time</strong></p>
+            <ul>
+            <li><strong>&nbsp;</strong>The fa&ccedil;ade improvements must be completed no later than <strong>Thursday October 25, 2018</strong> unless the Manager, BIA Office has provided prior written approval of an extension.</li>
+            <li>In the event that any portion of the facade improvements remain incomplete, as determined by the City, on the final completion date, neither the funding nor any portion thereof shall be payable by the City and the City shall not be liable for any loss, costs or damages arising as a result of the Recipient&rsquo;s failure to obtain funding due to the failure to complete the fa&ccedil;ade improvements within the project completion time frame.</li>
+            </ul>
+            <p><strong>9.0&nbsp;</strong> &nbsp;<strong>Consultation</strong></p>
+            <ul>
+            <li>The City may involve individuals with appropriate expertise in the review process, which may include a peer/citizen review mechanism.</li>
+            <li>The City reserves the right to consult with other funding agencies to determine the eligibility of the applicant to receive funding.</li>
+            </ul>
+            <p><strong>10.0&nbsp; Limitation of Liability, Indemnification &amp; Comprehensive General Liability Insurance</strong></p>
+            <ul>
+            <li><strong>&nbsp;</strong>The City will not be liable for any damages, injury or any loss of use or profit of the Recipient arising out of, or in any way related to the approval of the funding or to the performance of the Work by the Recipient, its officers, employees, contractor or agents.</li>
+            <li>The City will not be liable for any damages or injury or any loss of use or profit of the Recipient arising out of, or in any way related to, the approval of the funding or to the performance of the Work by the Recipient, its officers, employees, contractor or agents. The Recipient shall indemnify the City, its officers, employees and agents, against all costs (including legal costs), damages and expenses incurred as a result of a claim or proceedings related to the approval of the funding or to the performance of the Work by the Recipient, its officers, employees, contractor or agents, unless such costs, damages or expenses arise from the negligence or willful act of an officer, employee or agent of the City.</li>
+            <li>The Recipient (or its contractor) shall, at its own expense, take out and keep in force prior to and for the period of the performance of the Work, a comprehensive Commercial General Liability insurance policy, which shall include coverage for personal injury, contractual liability, property damage, employer&rsquo;s/and contingent employer&rsquo;s liability, products and completed operations, non-owned automobile liability, owner&rsquo;s and contractor&rsquo;s protective liability, bodily injury, death and property damage, all on a per occurrence basis with respect to the Work with coverage for any one occurrence or claim of not less than $2,000,000.00.</li>
+            <li>Upon request by the City, the Recipient (or the Recipient's contractor) shall furnish to the City a certificate of the policy of insurance prior to the commencement of the Work, prior to and during any performance of the Work.</li>
+            <li>Failure for any reason to furnish the proof required or to maintain this insurance for the period of the performance of the Work shall be a breach of the terms of the approval of the funding.</li>
+            </ul>
+            <p><strong>11.0&nbsp; Repayment</strong></p>
+            <ul>
+            <li><strong>&nbsp;</strong>The Recipient must, at the request of the Manager, BIA Office, repay to the City the whole or any portion of the funding, as determined by the City, if the Recipient:
+            <ul>
+            <li>has knowingly provided false information in his/her application;</li>
+            <li>uses funds for purposes not approved;</li>
+            <li>breaches any of the terms or conditions of the funding; or,</li>
+            <li>breaches any of the provisions of the Ontario Human Rights Code in its operations.</li>
+            </ul>
+            </li>
+            <li>The City may, in its sole discretion, require the Recipient to pay interest on any amount required to be repaid pursuant to this section at the prime rate of the Bank of Canada from the date for the request for repayment to the date of repayment.</li>
+            </ul>
+            <p><strong>12.0&nbsp; Unused Funds</strong></p>
+            <p style="padding-left: 30px;">Any unused portion of the funds remains the property of the City.</p>
+            <p><strong>13.0&nbsp; Further Conditions</strong></p>
+            <p style="padding-left: 30px;">The City shall be entitled, at any time, to impose such additional terms and conditions on the use of the funds which, in its sole discretion, it deems appropriate.</p>
+            <p><strong>14.0</strong>&nbsp;&nbsp;<strong>Report</strong></p>
+            <p style="padding-left: 30px;">The Recipient will provide to the Manager, BIA Office photographs of the building fa&ccedil;ade after the improvements to it have been completed and inspected.</p>
+            <p><strong>15.0&nbsp; Status of Applicant</strong></p>
+            <p style="padding-left: 30px;">The Recipient must be in good standing with the City of Toronto, having met the terms and conditions of any previous funding provided by the City.</p>
+            <p><strong>16.0&nbsp; Letter of Understanding</strong></p>
+            <p style="padding-left: 30px;">The Recipient must execute and return to the City's BIA Office an executed copy of a Letter of Understanding.</p>
+        </body>
+    </html>
+    </messaging:attachment>
+</messaging:emailTemplate>

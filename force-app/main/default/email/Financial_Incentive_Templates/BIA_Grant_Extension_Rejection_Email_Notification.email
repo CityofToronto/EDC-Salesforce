@@ -1,0 +1,8 @@
+Dear {!Financial_Incentive__c.Contact__c},
+
+Your BIA Grant Extension request for {!Financial_Incentive__c.Account__c} has not been approved by the City's BIA Office. 
+
+Should you have any questions, please contact me
+
+{!Financial_Incentive__c.Record_Submitter_Manager__c}
+Manager, BIA Office

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Why Not?(Blog) --></label>
+    <name>Why_Not_Blog__c</name>
+    <picklistValues>
+        <masterLabel>Not sure how to get mentioned</masterLabel>
+        <translation><!-- Not sure how to get mentioned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not sure how to start</masterLabel>
+        <translation><!-- Not sure how to start --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not sure who to contact to get coverage</masterLabel>
+        <translation><!-- Not sure who to contact to get coverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

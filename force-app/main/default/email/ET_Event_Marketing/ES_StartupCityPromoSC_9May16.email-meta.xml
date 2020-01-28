@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to SC clients about May 9th event.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ES-StartupCityPromoSC(9May16)</name>
+    <style>none</style>
+    <subject>Invite: Startup City: Embracing Startup Culture to Make Positive Change in Cities</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

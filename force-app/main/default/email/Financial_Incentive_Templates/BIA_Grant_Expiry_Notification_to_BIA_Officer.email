@@ -1,0 +1,8 @@
+Dear {!Financial_Incentive__c.OwnerFullName},
+
+The  {!Financial_Incentive__c.Account__c} {!Financial_Incentive__c.Record_Type_Name_Formula__c} grant application reaches its term in 30 days on {!Financial_Incentive__c.Application_Expiry_Date__c}.
+
+You can access the record using the link below
+{!Financial_Incentive__c.Link}
+
+Thanks

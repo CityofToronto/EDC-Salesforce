@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_before_Trigger_Event_Report</fullName>
+    <active>true</active>
+    <description>This validation rule is to make sure Advisor can manually request Event Report from Client only if has not been already responded.</description>
+    <errorConditionFormula>AND($User.ProfileId&lt;&gt;&#39;00eo0000000wf4I&#39;,RecordType.DeveloperName=&#39;Event_Sponsorship_Grant&#39;,TEXT(Manually_Trigger_Event_Report_Email__c)=&#39;Yes&#39;,TEXT(Event_Business_Outcome_Survey_Status__c)=&#39;Responded&#39;)</errorConditionFormula>
+    <errorDisplayField>Manually_Trigger_Event_Report_Email__c</errorDisplayField>
+    <errorMessage>Report can be triggered manually only if  Event Outcome Survey has not been responded yet.</errorMessage>
+</ValidationRule>

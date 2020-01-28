@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Why Business has no Facebook posting? --></label>
+    <name>Why_Business_has_no_Facebook_posting__c</name>
+    <picklistValues>
+        <masterLabel>Not enough time</masterLabel>
+        <translation><!-- Not enough time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not sure of the value</masterLabel>
+        <translation><!-- Not sure of the value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

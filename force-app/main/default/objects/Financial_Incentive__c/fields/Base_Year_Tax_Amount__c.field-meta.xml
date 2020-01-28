@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Base_Year_Tax_Amount__c</fullName>
+    <description>The amount calculated by multiplying the Current Value Assessment(s) applicable for the taxation year in which a Financial Incentive Agreement is signed for the Property upon which the Eligible Development is to be constructed, by the municipal tax rate(s) applicable for the Property, for that taxation year. The Base Municipal CVA Taxes shall be fixed in this manner for the purposes of determining the Municipal Tax Increment for the Eligible Development, subject to any adjustment arising from assessment appeals or changes to CVA made by the Municipal Property Assessment Corporation (&quot;MPAC&quot;) through requests for reconsideration, equity changes or gross error, and shall remain unchanged for the duration of the term of the payment of Development Grants for the Eligible Development.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The amount calculated by multiplying the Current Value Assessment(s) applicable for the taxation year in which a Financial Incentive Agreement is signed for the Property upon which the Eligible Development is to be constructed</inlineHelpText>
+    <label>Base Year Tax Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

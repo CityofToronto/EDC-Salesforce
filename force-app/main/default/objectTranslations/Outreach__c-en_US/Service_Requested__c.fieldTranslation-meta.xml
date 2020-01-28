@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BPQ-Service Requested --></label>
+    <name>Service_Requested__c</name>
+    <picklistValues>
+        <masterLabel>Enterprise Toronto Booth</masterLabel>
+        <translation><!-- Enterprise Toronto Booth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One-on-One Business Consultations</masterLabel>
+        <translation><!-- One-on-One Business Consultations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation on How to Start a Business</masterLabel>
+        <translation><!-- Presentation on How to Start a Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation on Services the City offers</masterLabel>
+        <translation><!-- Presentation on Services the City offers --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
