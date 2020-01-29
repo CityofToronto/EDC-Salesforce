@@ -31,3 +31,6 @@ ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 
+# Ant
+build.properties
+build.xml
