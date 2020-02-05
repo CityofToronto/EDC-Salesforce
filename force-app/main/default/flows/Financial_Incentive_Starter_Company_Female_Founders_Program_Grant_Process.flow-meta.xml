@@ -8,7 +8,7 @@
             </value>
         </processMetadataValues>
         <name>myRule_11_A1</name>
-        <label>Starter_Company_Application_Training_Approved</label>
+        <label>Starter Company Female Founder Program Approved for Training</label>
         <locationX>1100</locationX>
         <locationY>200</locationY>
         <actionName>Financial_Incentive__c.Starter_Company_Female_Founders_Program_Application_Training_Approved</actionName>
@@ -5672,7 +5672,7 @@
         </rules>
     </decisions>
     <description>Process for Starter Company Female Founder program</description>
-    <interviewLabel>Financial_Incentive_Starter_Company_Female_Founders_Program_Grant_Process-2_InterviewLabel</interviewLabel>
+    <interviewLabel>Financial_Incentive_Starter_Company_Female_Founders_Program_Grant_Process-3_InterviewLabel</interviewLabel>
     <label>Financial Incentive Starter Company Female Founders Program Grant Process</label>
     <processMetadataValues>
         <name>ObjectType</name>
