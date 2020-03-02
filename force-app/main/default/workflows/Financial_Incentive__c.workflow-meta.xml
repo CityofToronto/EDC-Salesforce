@@ -568,7 +568,7 @@
         </recipients>
         <senderAddress>edc_toronto@toronto.ca</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Financial_Incentive_Starter_Company/Starter_Company_Application_Training_Approved</template>
+        <template>Financial_Incentive_Starter_Company/Starter_Company_Female_Founders_Program_Application_Training_Approved</template>
     </alerts>
     <alerts>
         <fullName>Starter_Company_Female_Founders_Program_Business_Plan_Received</fullName>
@@ -1437,11 +1437,6 @@
             <value>Business Incubation Grant,Business Incubation Grant Read Only</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Financial_Incentive__c.Report_1_Business_Outcome_Survey_Status__c</field>
-            <operation>notEqual</operation>
-            <value>Responded</value>
-        </criteriaItems>
-        <criteriaItems>
             <field>Financial_Incentive__c.Manually_Trigger_Report_1_Email__c</field>
             <operation>equals</operation>
             <value>Yes</value>
@@ -1567,11 +1562,6 @@
             <field>Financial_Incentive__c.RecordTypeId</field>
             <operation>equals</operation>
             <value>Event Sponsorship Grant,Event Sponsorship Grant Read Only</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Financial_Incentive__c.Event_Business_Outcome_Survey_Status__c</field>
-            <operation>notEqual</operation>
-            <value>Responded</value>
         </criteriaItems>
         <criteriaItems>
             <field>Financial_Incentive__c.Manually_Trigger_Event_Report_Email__c</field>
