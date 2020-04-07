@@ -132,6 +132,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>COVID-19</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Development %E2%80%93 Committee of Adjustment</fullName>
             <default>false</default>
         </values>
