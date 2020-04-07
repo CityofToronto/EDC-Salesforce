@@ -22,6 +22,11 @@
                 <label>Business development (expanding networks, exporting and promotional opportunities)</label>
             </value>
             <value>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+                <label>COVID-19</label>
+            </value>
+            <value>
                 <fullName>Development - Building Permit</fullName>
                 <default>false</default>
                 <label>Development - Building Permit</label>
