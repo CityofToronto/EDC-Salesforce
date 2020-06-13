@@ -32,6 +32,11 @@
                 <label>Cost of living</label>
             </value>
             <value>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+                <label>COVID-19</label>
+            </value>
+            <value>
                 <fullName>Declining Market</fullName>
                 <default>false</default>
                 <label>Declining Market</label>
