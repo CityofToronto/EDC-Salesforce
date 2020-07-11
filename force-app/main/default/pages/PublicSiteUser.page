@@ -1,0 +1,151 @@
+<apex:page controller="COT_PublicSiteUserController" showHeader="false" sidebar="false"  cache="true"  action="{!Init}">
+    <style type="text/css">
+        .headercolor { background-color: rgb(22,87,136); }
+    </style>
+
+    <head>
+        <apex:slds />
+    </head>
+
+
+
+    <body class="slds-scope">
+
+        <div id="header" class="slds-size_1-of-1 headercolor">
+            <apex:image value="{!URLFOR($Resource.SiteImage,'logo.png')}"/>
+        </div>
+
+        <apex:form id="formId">
+
+            <apex:actionStatus id="spinner">
+                <apex:facet name="start">
+                <div style="height:6rem; ">
+                    <div class="slds-spinner_container">
+                      <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                      </div>
+                    </div>
+                </div>
+                </apex:facet>
+            </apex:actionStatus>
+            <br/><br/><br/> <br/><br/>
+
+            <div class="slds-grid slds-gutters slds-wrap">
+
+                <div class="slds-col slds-size_1-of-1 slds-text-color_destructive slds-align_absolute-center">
+                    <apex:messages />
+                </div>
+
+
+                <div class="slds-col slds-size_2-of-12"/>
+
+                <div class="slds-col slds-size_8-of-12 slds-align_absolute-center">
+
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label slds-text-title_bold" for="text-input-id-1">
+                          <abbr class="slds-required" title="required">* </abbr>Email</label>
+                        <div class="slds-form-element__control">
+                            <apex:inputText value="{!email}" styleClass="slds-m-right_x-small" size="30"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_2-of-12"/>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isForgetPassword,'none','')}"/>
+
+                <div class="slds-col slds-size_8-of-12 slds-align_absolute-center slds-m-top_xx-small" style="display:{!if(isForgetPassword,'none','')}">
+
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label slds-text-title_bold" for="text-input-id-1">
+                          <abbr class="slds-required" title="required">* </abbr>{!if(isResetPassword,'Old Password','Password')}</label>
+                        <div class="slds-form-element__control">
+                            <apex:inputSecret value="{!password}" styleClass="slds-m-right_x-small" size="30" onkeypress="return EnterKeyPressed(event)"/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isForgetPassword,'none','')}"/>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isResetPassword,'','none')}"/>
+
+                <div class="slds-col slds-size_8-of-12 slds-align_absolute-center slds-m-top_xx-small" style="display:{!if(isResetPassword,'','none')}">
+
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label slds-text-title_bold" for="text-input-id-1">
+                          <abbr class="slds-required" title="required">* </abbr>New Password</label>
+                        <div class="slds-form-element__control">
+                            <apex:inputSecret value="{!newPassword1}" styleClass="slds-m-right_x-small"  size="30"/> <br/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isResetPassword,'','none')}"/>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isResetPassword,'','none')}"/>
+
+                <div class="slds-col slds-size_8-of-12 slds-align_absolute-center" style="display:{!if(isResetPassword,'','none')}">
+
+                    <apex:outputText styleClass="slds-text-color_destructive" escape="false" value='New password must be between 6 and 14 characters; <br/>A combination of uppercase and lowercase letter and number are required.'/>
+
+                </div>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isResetPassword,'','none')}"/>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isResetPassword,'','none')}"/>
+
+                <div class="slds-col slds-size_8-of-12 slds-align_absolute-center slds-m-top_xx-small" style="display:{!if(isResetPassword,'','none')}">
+
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label slds-text-title_bold" for="text-input-id-1">
+                          <abbr class="slds-required" title="required">* </abbr>Re-type New Password</label>
+                        <div class="slds-form-element__control">
+                            <apex:inputSecret value="{!newPassword2}" styleClass="slds-m-right_x-small"  size="30"/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="slds-col slds-size_2-of-12" style="display:{!if(isResetPassword,'','none')}"/>
+
+                <div class="slds-col slds-size_2-of-12"/>
+
+                <div class="slds-col slds-size_8-of-12 slds-align_absolute-center slds-m-top_medium">
+                    <apex:commandButton action="{!Cancel}" value="Cancel" reRender="formId" styleClass="slds-m-right_xx-small"/>
+                    <apex:commandButton action="{!sendResetPassword}" value="Continue" reRender="formId" rendered="{!isForgetPassword}"/>
+                    <apex:commandButton action="{!Login}" value="{!if(isResetPassword,'Reset Password and Login','Login')}" reRender="formId" rendered="{!!isForgetPassword}" status="spinner" id="loginButtonId"/>
+                </div>
+
+                <div class="slds-col slds-size_2-of-12"/>
+
+                <div class="slds-col slds-size_1-of-1 slds-align_absolute-center  slds-m-top_medium">
+                    <apex:commandLink action="{!forgetPassword}" value="Forget Your Password?" rendered="{!AND(!isForgetPassword,!isResetPassword)}" rerender="formId" status="spinner" styleClass="slds-m-right_medium"/>
+                    <apex:commandLink action="{!changePassword}" value="Change Your Password" rendered="{!AND(!isForgetPassword,!isResetPassword)}" rerender="formId" status="spinner"/>
+                </div>
+            </div>
+
+        </apex:form>
+    </body>
+
+    <script type="text/javascript">
+        function EnterKeyPressed(e){
+            if(window.event){
+                key = window.event.keyCode;     //IE
+            }
+            else{
+                key = e.which;     //firefox
+            }
+            if(key == 13) {
+                var ele=document.getElementById('{!$Component.formId.loginButtonId}');
+                ele.click();
+                return false;
+            } else{
+                return true;
+            }
+        }
+    </script>
+</apex:page>

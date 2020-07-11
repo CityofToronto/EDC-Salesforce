@@ -172,6 +172,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>COVID-19</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Cost of commercial space</fullName>
             <default>false</default>
         </values>

@@ -1,0 +1,382 @@
+<apex:page controller="COT_ContactController" showHeader="false" sidebar="false"  cache="true"  action="{!Init}">
+    <style type="text/css">
+        .headercolor { background-color: rgb(22,87,136); }
+
+        .ui-autocomplete {
+                max-height: 80%;
+                overflow-y: auto;
+                overflow-x: hidden;
+                min-width: 250px;
+            }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/>
+
+    <head>
+        <apex:slds />
+    </head>
+
+
+    <body class="slds-scope">
+        <apex:form id="formId">
+
+            <apex:actionFunction name="refreshAutocomplete" id="refreshAutocomplete" rerender="autocompletePanel"/>
+
+            <div class="slds-grid slds-wrap ">
+                <div id="header" class="slds-col slds-grid slds-size_1-of-1 headercolor">
+                    <div id="header" class="slds-col slds-size_10-of-12 ">
+                        <apex:image value="{!URLFOR($Resource.SiteImage,'logo.png')}"/>
+                    </div>
+                    <div class="slds-col slds-size_2-of-12 slds-p-top_xx-large slds-text-heading_small slds-text-color_inverse">
+                        {!UserName} <apex:commandLink action="{!Logout}" value="Logout" styleClass="slds-p-left_x-large slds-text-color_inverse-weak"/>
+                    </div>
+                </div>
+
+                <apex:actionStatus id="spinner">
+                    <apex:facet name="start">
+                    <div style="height:6rem; ">
+                        <div class="slds-spinner_container">
+                          <div role="status" class="slds-spinner slds-spinner_medium slds-spinner_brand">
+                            <span class="slds-assistive-text">Loading</span>
+                            <div class="slds-spinner__dot-a"></div>
+                            <div class="slds-spinner__dot-b"></div>
+                          </div>
+                        </div>
+                    </div>
+                    </apex:facet>
+                </apex:actionStatus>
+
+
+                <div class="slds-col slds-grid slds-wrap slds-size_1-of-1 slds-m-bottom_medium  slds-p-left_medium slds-p-right_medium"  style="align-items:top;" >
+
+                        <div class="slds-col slds-size_3-of-12 slds-m-top_medium">
+                            <div class="slds-p-left_medium">
+                                <legend class="slds-form-element__legend slds-form-element__label">View</legend>
+                                <apex:selectList value="{!selectedView}" size="1" id="viewId" >
+                                    <apex:selectOptions value="{!availableViews}" />
+                                    <apex:actionSupport event="onchange" action="{!viewChanged}" reRender="formId,charListPanel,contactPanel,searchPanel" status="spinner"/>
+                                </apex:selectList>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-size_3-of-12 slds-m-top_medium">
+
+                            <apex:outputPanel id="searchPanel">
+                                <legend class="slds-form-element__legend slds-form-element__label ">Search</legend>
+                                <apex:inputText value="{!searchString}" styleClass="slds-m-right_x-small contact_search" onkeypress="return EnterKeyPressed(event)">
+                                    <apex:actionSupport event="onchange" rerender="refreshAutocomplete"/>
+                                </apex:inputText>
+                                <apex:commandButton action="{!search}" value="Search" reRender="charListPanel,contactPanel,returnPanel" status="spinner"  id="searchButtonId" />
+                            </apex:outputPanel>
+                        </div>
+
+                        <div class="slds-col slds-size_1-of-12 slds-m-top_medium">
+                            <apex:outputPanel id="returnPanel" >
+                                <apex:outputPanel rendered="{!OR(isSearch,isContactDisplayed)}">
+                                    <apex:commandLink action="{!returnToList}" value="Return"  reRender="searchPanel,contactPanel,returnPanel,charListPanel" status="spinner"/>
+                                </apex:outputPanel>
+                            </apex:outputPanel>
+                        </div>
+
+                        <div class="slds-col slds-size_5-of-12 slds-m-top_medium">
+
+                            <apex:outputPanel id="charListPanel" >
+                                <apex:outputPanel rendered="{!AND(!isSearch,!isContactDisplayed)}">
+
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="A" styleClass="{!if(selectedSearchChar=='A','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel"  status="spinner">
+                                        <apex:param value="A" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="B" styleClass="{!if(selectedSearchChar=='B','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="B" name="column" assignTo="{!selectedSearchChar}"></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="C" styleClass="{!if(selectedSearchChar=='C','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="C" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="D" styleClass="{!if(selectedSearchChar=='D','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="D" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="E" styleClass="{!if(selectedSearchChar=='E','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="E" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="F" styleClass="{!if(selectedSearchChar=='F','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="F" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="G" styleClass="{!if(selectedSearchChar=='G','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="G" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="H" styleClass="{!if(selectedSearchChar=='H','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="H" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="I" styleClass="{!if(selectedSearchChar=='I','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="I" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="J" styleClass="{!if(selectedSearchChar=='J','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="J" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="K" styleClass="{!if(selectedSearchChar=='K','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="K" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="L" styleClass="{!if(selectedSearchChar=='L','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="L" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="M" styleClass="{!if(selectedSearchChar=='M','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="M" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="N" styleClass="{!if(selectedSearchChar=='N','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="N" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="O" styleClass="{!if(selectedSearchChar=='O','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="O" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="P" styleClass="{!if(selectedSearchChar=='P','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="P" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="Q" styleClass="{!if(selectedSearchChar=='Q','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="Q" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="R" styleClass="{!if(selectedSearchChar=='R','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="R" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="S" styleClass="{!if(selectedSearchChar=='S','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="S" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="T" styleClass="{!if(selectedSearchChar=='T','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="T" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="U" styleClass="{!if(selectedSearchChar=='U','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="U" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="V" styleClass="{!if(selectedSearchChar=='V','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="V" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="W" styleClass="{!if(selectedSearchChar=='W','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="W" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="X" styleClass="{!if(selectedSearchChar=='X','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="X" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="Y" styleClass="{!if(selectedSearchChar=='Y','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="Y" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="Z" styleClass="{!if(selectedSearchChar=='Z','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="Z" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="Other" styleClass="{!if(selectedSearchChar=='Other','slds-text-color_error slds-text-title_bold slds-p-right_xx-small','slds-p-right_xx-small')}" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="Other" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                    <apex:commandLink action="{!queryContactsByFirstLetter}" value="All" styleClass="slds-p-right_xx-small" reRender="contactPanel,charListPanel" status="spinner">
+                                        <apex:param value="All" name="column" assignTo="{!selectedSearchChar}" ></apex:param>
+                                    </apex:commandLink>
+                                </apex:outputPanel>
+                            </apex:outputPanel>
+                        </div>
+
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-m-bottom_medium slds-p-left_small slds-p-right_small"  style="align-items:top;" >
+
+                    <apex:outputPanel id="contactPanel">
+                        <apex:outputPanel id="contactListId" rendered="{!!isContactDisplayed}">
+                            <div class="slds-grid">
+                                <div class="slds-col slds-size_1-of-1">
+                                    <apex:pageBlock title="Contact List">
+                                        <apex:pageBlockButtons >
+                                            <div style="text-align:middle">
+                                                <div class="slds-m-right_xx-large" style="display:inline;">Total Records Found: {!totalRecords}</div>
+                                                    <apex:image url="/img/search_prevarrow_disabled.gif" styleClass="prevArrow slds-m-right_small" rendered="{!NOT(HasPrevious)}"/>
+                                                    <apex:image url="/img/search_prevarrow.gif" title="Previous Page" styleClass="prevArrow slds-m-right_small" rendered="{!HasPrevious}"/>
+                                                    <apex:commandLink action="{!Previous}" title="Previous Page" value="Previous Page" rendered="{!HasPrevious}" styleClass="slds-m-right_small" reRender="contactPanel" status="spinner"/>
+                                                    <apex:outputPanel styleClass="pShowLess noLink slds-m-right_small" style="color:grey" rendered="{!NOT(HasPrevious)}">Previous Page</apex:outputPanel>
+                                                    <apex:outputPanel styleClass="pShowLess noLink slds-m-right_small" style="color:grey" rendered="{!NOT(HasNext)}">Next Page</apex:outputPanel>
+                                                    <apex:commandLink title="Next Page" value="Next Page" rendered="{!HasNext}" action="{!Next}" styleClass="slds-m-right_small" reRender="contactPanel" status="spinner"/>&nbsp;
+                                                    <apex:image url="/img/search_nextarrow.gif" title="Next Page" styleClass="nextArrow slds-m-right_small" rendered="{!HasNext}"/>
+                                                    <apex:image url="/img/search_nextarrow_disabled.gif" rendered="{!NOT(HasNext)}"/>
+                                                    <img src="/s.gif" title="Last Page" alt="Last Page" class="last"/>
+                                                    <apex:outputText styleClass="slds-m-left_large" value="Page {!pageNumber} of {!totalPageNumbers}"/>
+                                            </div>
+                                        </apex:pageBlockButtons>
+
+
+                                        <apex:pageBlockTable value="{!contactList}" var="item">
+                                            <apex:column >
+                                                <apex:facet name="header">Name</apex:facet>
+                                                <apex:commandLink action="{!viewContactDetail}" value="{!item.Name}" reRender="charListPanel,contactPanel,returnPanel" status="spinner">
+                                                    <apex:param name="recordId" value="{!item.Id}" assignTo="{!recordId}"/>
+                                                </apex:commandLink>
+
+                                            </apex:column>
+                                            <apex:column value="{!item.firstName}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="First Name" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="First Name{!IF(AND(NOT(isSearch),sortExpression=='FirstName'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortFirstName" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="FirstName" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+                                            <apex:column value="{!item.lastName}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="Last Name" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="Last Name{!IF(AND(NOT(isSearch),sortExpression=='LastName'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortLastName" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="LastName" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+                                            <apex:column value="{!item.account.Name}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="Account Name" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="Account Name{!IF(AND(NOT(isSearch),sortExpression=='Account.Name'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortAccountName" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="Account.Name" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+                                            <apex:column value="{!item.email}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="Email" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="Email{!IF(AND(NOT(isSearch),sortExpression=='Email'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortEmail" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="Email" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+                                            <apex:column value="{!item.phone}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="Phone" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="Phone{!IF(AND(NOT(isSearch),sortExpression=='Phone'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortPhone" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="Phone" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+                                            <apex:column value="{!item.mobilePhone}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="Mobile Phone" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="Mobile Phone{!IF(AND(NOT(isSearch),sortExpression=='MobilePhone'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortMobilePhone" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="MobilePhone" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+                                            <apex:column value="{!item.homePhone}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="Home Phone" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="Home Phone{!IF(AND(NOT(isSearch),sortExpression=='HomePhone'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortHomePhone" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="HomePhone" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+                                            <apex:column value="{!item.HasOptedOutOfEmail}">
+                                                <apex:facet name="header">
+                                                    <apex:outputPanel >
+                                                        <apex:outputText value="Opt Out of Email" rendered="{!isSearch}"/>
+                                                        <apex:commandLink rendered="{!!isSearch}" action="{!queryContactsByFirstLetter}" value="Opt Out of Email{!IF(AND(NOT(isSearch),sortExpression=='HasOptedOutOfEmail'),IF(sortDirection='ASC','▼','▲'),'')}" id="sortOptOutEmail" reRender="contactPanel" status="spinner">
+                                                            <apex:param value="HasOptedOutOfEmail" name="column" assignTo="{!sortExpression}" ></apex:param>
+                                                        </apex:commandLink>
+                                                    </apex:outputPanel>
+                                                </apex:facet>
+                                            </apex:column>
+
+                                        </apex:pageBlockTable>
+
+                                    </apex:pageBlock>
+                                </div>
+                            </div>
+
+                        </apex:outputPanel>
+
+
+                        <apex:outputPanel id="contactDetailId" rendered="{!isContactDisplayed}">
+                            <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-size_1-of-1">
+                                    <apex:detail subject="{!recordId}" relatedList="false" title="true"/>
+                                </div>
+                            </div>
+                        </apex:outputPanel>
+                    </apex:outputPanel>
+                </div>
+
+            </div>
+
+        </apex:form>
+    </body>
+
+    <apex:outputPanel id="autocompletePanel">
+        <script type="text/javascript">
+
+            $(function() {
+                try {
+                    var ac = $( "[class*='contact_search']" ).autocomplete({
+                        minLength: 2,
+                        source: function(request, callback){
+                            var term = request.term;
+                            queryContactCallback(term, callback);
+                        },
+                        select: function( event, ui ) {
+                            $( "input[class*='contact_search']" ).val(ui.item.label);
+                            return false;
+                        }
+                    }).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+                        return $( "<li>" )
+                        .append( "<a class='slds-text-title'>"+ item.label + "</a>" )
+                        .appendTo( ul );
+                    };
+                } catch(e) {
+                    console.log('error:' + e);
+                 }
+            });
+
+            function queryContactCallback(query, callback)
+            {
+                var data = [];
+
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.COT_ContactController.getAutoCompleteContact}',
+                    query,
+                    function(lstresult, event){
+                        for (var n=0; n<lstresult.length; n++){
+                            var result = {
+                                value: lstresult[n],
+                                label: lstresult[n]
+                            };
+                            data.push(result);
+                        }
+                        callback(data);
+                    }
+                );
+
+            }
+
+        </script>
+    </apex:outputPanel>
+
+    <script type="text/javascript">
+        function EnterKeyPressed(e){
+            if(window.event){
+                key = window.event.keyCode;     //IE
+            }
+            else{
+                key = e.which;     //firefox
+            }
+            if(key == 13) {
+                var ele=document.getElementById('{!$Component.formId.searchButtonId}');
+                ele.click();
+                return false;
+            } else{
+                return true;
+            }
+        }
+    </script>
+
+
+</apex:page>

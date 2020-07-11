@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingGuestRules>
-        <fullName>Account_Sharing_Rule_to_COT_Site_Users</fullName>
+        <fullName>Public_Site_User_Sharing_Rule_to_COT_Site_Users</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Account Sharing Rule to COT Site Users</label>
+        <label>Public Site User Sharing Rule to COT Site Users</label>
         <sharedTo>
             <guestUser>Contact_Request</guestUser>
         </sharedTo>
         <criteriaItems>
-            <field>RecordTypeId</field>
+            <field>Active__c</field>
             <operation>equals</operation>
-            <value>Person Account,Business Account</value>
+            <value>True</value>
         </criteriaItems>
     </sharingGuestRules>
 </SharingRules>
