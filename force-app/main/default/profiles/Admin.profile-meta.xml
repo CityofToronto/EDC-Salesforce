@@ -495,6 +495,21 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>COT_ContactController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>COT_ContactControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>COT_PublicSiteUserController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>COT_PublicSiteUserControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>    <classAccesses>
         <apexClass>DeleteBlankOutcomeSurveyRecords</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -13843,6 +13858,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Public_Site_User__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Public_Site_User__c.Login_Expiry_Date_Time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Public_Site_User__c.Password__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Public_Site_User__c.Reset__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Public_Site_User__c.Session__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Related_Agreement_Contact__c.Agreement__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -16996,6 +17036,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Public_Site_User__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Related_Agreement_Contact__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -17160,6 +17209,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>CloudingoAgent__Cloudingo</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Contacts</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -17452,6 +17505,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>OnlineConsultationMeetingScheduler</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>PublicSiteUser</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
